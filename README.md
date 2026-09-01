@@ -1,12 +1,18 @@
-# The watchlist
+# toolprint-watch
 
-A fixed set of public MCP servers, checked daily against an approved baseline.
+A fixed set of 27 public MCP servers, checked daily against an approved
+baseline, to answer a question the product depends on: **how often do MCP tool
+definitions actually change without anyone reviewing them?**
+
+Collected with [toolprint](https://github.com/dit4e/toolprint). Split out of
+that repository so a year of daily observation commits does not bury the tool's
+own history.
 
 **The git history of `baseline.json` is the dataset.** Every commit that touches
 it is a definition change, with a timestamp and a diff:
 
 ```bash
-git log -p --follow watchlist/baseline.json
+git log -p --follow baseline.json
 ```
 
 `observations.csv` carries the denominator — how many server-days produced no
@@ -60,10 +66,10 @@ eras, twenty months apart.
 ## Running it by hand
 
 ```bash
-toolprint baseline --connect --yes --config watchlist/servers.json \
-                   --baseline watchlist/baseline.json
-toolprint check    --connect --yes --config watchlist/servers.json \
-                   --baseline watchlist/baseline.json
+toolprint baseline --connect --yes --config servers.json \
+                   --baseline baseline.json
+toolprint check    --connect --yes --config servers.json \
+                   --baseline baseline.json
 ```
 
 ## Caveats
@@ -75,3 +81,20 @@ toolprint check    --connect --yes --config watchlist/servers.json \
   without its definitions changing — the postmark-mcp case — is invisible to
   this, and to the tool generally.
 - No credentials are used, so servers that gate `tools/list` are absent.
+
+## Layout
+
+| Path | What it is |
+|---|---|
+| `servers.json` | The watchlist, in MCP client config format |
+| `baseline.json` | The approved state. **Its git history is the dataset.** |
+| `observations.csv` | One row per run: the denominator |
+| `observations/` | Per-run drift detail, written only on days with changes |
+| `analyse.py` | Reads the history and reports a rate |
+| `.github/workflows/watch.yml` | Daily collector |
+
+## Licence
+
+Apache-2.0 for the code. The observations are factual records about publicly
+published packages and endpoints; use them freely, and cite the limitations
+above if you do.
