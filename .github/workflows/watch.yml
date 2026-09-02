@@ -91,8 +91,11 @@ jobs:
           exit 0
 
       - name: Record the denominator
+        env:
+          OBS_DATE: ${{ steps.observe.outputs.date }}
+          OBS_DRIFT: ${{ steps.observe.outputs.drift }}
         run: |
-          python - "${{ steps.observe.outputs.date }}" "${{ steps.observe.outputs.drift }}" <<'PY'
+          python - "$OBS_DATE" "$OBS_DRIFT" <<'PY'
           import csv, json, os, sys
           date, drift = sys.argv[1], sys.argv[2]
           base = json.load(open("baseline.json"))
@@ -108,6 +111,10 @@ jobs:
           PY
 
       - name: Commit
+        env:
+          OBS_DATE: ${{ steps.observe.outputs.date }}
+          OBS_DRIFT: ${{ steps.observe.outputs.drift }}
+          OBS_NEW: ${{ steps.observe.outputs.new }}
         run: |
           git config user.name "toolprint watch"
           git config user.email "noreply@github.com"
@@ -116,9 +123,9 @@ jobs:
             echo "nothing to record"
             exit 0
           fi
-          DRIFT="${{ steps.observe.outputs.drift }}"
-          DATE="${{ steps.observe.outputs.date }}"
-          NEW="${{ steps.observe.outputs.new }}"
+          DRIFT="$OBS_DRIFT"
+          DATE="$OBS_DATE"
+          NEW="$OBS_NEW"
           SUFFIX=""
           if [ "${NEW:-0}" != "0" ]; then SUFFIX=", $NEW newly watched"; fi
           if [ "$DRIFT" = "0" ]; then
