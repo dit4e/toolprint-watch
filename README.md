@@ -72,6 +72,29 @@ toolprint check    --connect --yes --config servers.json \
                    --baseline baseline.json
 ```
 
+## Servers that ask for an API key
+
+Most of them do not actually need one. **MCP servers check credentials at
+`tools/call`, not at `tools/list`** — the gate is whether the environment
+variable is *set*, not whether it is valid. Ten servers that refused to start
+without a key were tested with the literal string
+`not-a-real-key-0000000000`, and all ten served their full tool definitions.
+
+So nine of them are on this list with `${WATCH_PLACEHOLDER}`, a value the
+workflow sets in plain sight. There is no credential here to protect, and
+nothing in this repository is a secret.
+
+Two limits on that:
+
+- **Remote HTTP endpoints are different.** Linear, Notion, Stripe, Vercel,
+  Sentry and Hugging Face all reject a placeholder bearer token with 401 or 403,
+  because their auth happens at the transport layer rather than inside the
+  server. Watching those needs a real token.
+- **A placeholder may not see everything.** A server could return a different
+  tool set to an authenticated caller — tools gated by plan or scope. What is
+  recorded here is the unauthenticated view, which may be a subset. Treat a
+  no-drift result as "the public surface did not change".
+
 ## Adding servers as it runs
 
 Yes — the list is meant to grow. Edit `servers.json` and commit; the next daily

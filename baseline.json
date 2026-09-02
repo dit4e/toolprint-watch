@@ -3,7 +3,7 @@
   "generator": "toolprint/0.1.0",
   "heuristics_version": 1,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-09-01T21:36:54Z",
+  "approved_at": "2026-09-02T01:21:47Z",
   "approved_by": "keith",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -12381,6 +12381,3028 @@
         }
       },
       "first_observed": "2026-09-01T21:36:54Z"
+    },
+    "brave-search-new@stdio:npx": {
+      "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
+      "toolset_hash": "ab96a2848e636bf4e52043e40dac86909866f7282adbb05983f9d8cbb0194442",
+      "transport": "stdio",
+      "auth_method": "env_var",
+      "tools": {
+        "brave_image_search": {
+          "annotations_hash": "d54696f5b697f07d31d94cd9f9238f65fcc6ca551f8f7cb4670bbc084ca409b3",
+          "composite_hash": "0029b5941fb392314288078b33fd6e096270a6ab8fd50d2e03647ff952969fc2",
+          "description_hash": "8ef238f7318a5baa50b62358354c596e82dda40f96616fd885b400e264e5253b",
+          "schema_hash": "a6960b124f6b9ca98db8d39556742c9b998ae016f97e5959316e549b22eb342e",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "query"
+            ],
+            "properties": {
+              "count": [
+                "integer"
+              ],
+              "country": [
+                "string"
+              ],
+              "query": [
+                "string"
+              ],
+              "safesearch": [],
+              "search_lang": [
+                "string"
+              ],
+              "spellcheck": [
+                "boolean"
+              ]
+            }
+          }
+        },
+        "brave_llm_context": {
+          "annotations_hash": "3deeced636d5644f16927c46ac5de20ffbc4fb5a3154ebab0e46c92fafb0418e",
+          "composite_hash": "6042631bbfa51c12f4e4a1665592b5174eb7c214a1ca89bc3146b5b83d52314f",
+          "description_hash": "caa7a99ee7e8743c29993ef9a25db43d60b043e0a8701f71fd0f988177f8040f",
+          "schema_hash": "1e9dbd2144bdb326988580d2d021c476cc41b1343ceb4dced5b42d25d9e923f9",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "query"
+            ],
+            "properties": {
+              "accept": [
+                "string"
+              ],
+              "api-version": [
+                "string"
+              ],
+              "cache-control": [
+                "string"
+              ],
+              "context_threshold_mode": [
+                "string"
+              ],
+              "count": [
+                "integer"
+              ],
+              "country": [
+                "string"
+              ],
+              "enable_local": [
+                "boolean"
+              ],
+              "enable_source_metadata": [
+                "boolean"
+              ],
+              "freshness": [],
+              "goggles": [],
+              "maximum_number_of_snippets": [
+                "integer"
+              ],
+              "maximum_number_of_snippets_per_url": [
+                "integer"
+              ],
+              "maximum_number_of_tokens": [
+                "integer"
+              ],
+              "maximum_number_of_tokens_per_url": [
+                "integer"
+              ],
+              "maximum_number_of_urls": [
+                "integer"
+              ],
+              "query": [
+                "string"
+              ],
+              "search_lang": [
+                "string"
+              ],
+              "spellcheck": [
+                "boolean"
+              ],
+              "user-agent": [
+                "string"
+              ],
+              "x-loc-city": [
+                "string"
+              ],
+              "x-loc-country": [
+                "string"
+              ],
+              "x-loc-lat": [
+                "number"
+              ],
+              "x-loc-long": [
+                "number"
+              ],
+              "x-loc-postal-code": [
+                "string"
+              ],
+              "x-loc-state": [
+                "string"
+              ],
+              "x-loc-state-name": [
+                "string"
+              ]
+            }
+          }
+        },
+        "brave_local_search": {
+          "annotations_hash": "6169def1d9fb6ca8b195e50f883e3349d22af323ce70bc06dbac1fea5ee47939",
+          "composite_hash": "13d6bb81dd8aa6540de3c312da2e81e1c0ee830e2695dfd8e5a004797f1ea710",
+          "description_hash": "cb5a3706c9074e59d45a337d92311ca4cf7f78f3aa95efa95b833a7ae4cf71da",
+          "schema_hash": "9a6056766dd8e26edf5e285afb45731d747ae906b3592207e168a4de39ee3643",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "query"
+            ],
+            "properties": {
+              "count": [
+                "integer"
+              ],
+              "country": [
+                "string"
+              ],
+              "extra_snippets": [
+                "boolean"
+              ],
+              "freshness": [],
+              "goggles": [],
+              "offset": [
+                "integer"
+              ],
+              "query": [
+                "string"
+              ],
+              "result_filter": [
+                "array"
+              ],
+              "safesearch": [
+                "string"
+              ],
+              "search_lang": [
+                "string"
+              ],
+              "spellcheck": [
+                "boolean"
+              ],
+              "summary": [
+                "boolean"
+              ],
+              "text_decorations": [
+                "boolean"
+              ],
+              "ui_lang": [
+                "string"
+              ],
+              "units": []
+            }
+          }
+        },
+        "brave_news_search": {
+          "annotations_hash": "81c80701d2fdab82215e03c4f30b99c01857e0ad7a373e4b44d03bddaaf1300d",
+          "composite_hash": "898b8804cf7e07d06aec005de0edc0ec865e53204268ce00b4a2e8c67a1523d8",
+          "description_hash": "feda16019e52719bd59f6b65b3c9cf40e0022fe4401783b8923193601d000223",
+          "schema_hash": "f88aa9edd4e383fac62888cc371abd5b5504a0fea26ca30bf373620966b5fbd5",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "query"
+            ],
+            "properties": {
+              "count": [
+                "integer"
+              ],
+              "country": [
+                "string"
+              ],
+              "extra_snippets": [
+                "boolean"
+              ],
+              "freshness": [],
+              "goggles": [],
+              "offset": [
+                "integer"
+              ],
+              "query": [
+                "string"
+              ],
+              "safesearch": [],
+              "search_lang": [
+                "string"
+              ],
+              "spellcheck": [
+                "boolean"
+              ],
+              "ui_lang": [
+                "string"
+              ]
+            }
+          }
+        },
+        "brave_place_search": {
+          "annotations_hash": "0a1c38730ff5ba6367ad1fef62c9951100be6d7695afb8dbec76ee95a7c221d9",
+          "composite_hash": "758bdd342821b0b25f883cff9191069f0657fe6bc7261272906f9108b7c872dc",
+          "description_hash": "625bbe0b1d2b27fd9c3a75f701a4c280ee63b2bffe7dc22e278b2ed979df2d99",
+          "schema_hash": "4b788046dfde81a00a2738f564a322fcb275e4ed1784f82665c4fa1a00e1bc4c",
+          "schema_resolution": "too_deep",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [],
+            "properties": {
+              "accept": [
+                "string"
+              ],
+              "api-version": [
+                "string"
+              ],
+              "cache-control": [
+                "string"
+              ],
+              "count": [
+                "integer"
+              ],
+              "country": [
+                "string"
+              ],
+              "geoloc": [
+                "string"
+              ],
+              "latitude": [
+                "number"
+              ],
+              "location": [
+                "string"
+              ],
+              "longitude": [
+                "number"
+              ],
+              "query": [
+                "string"
+              ],
+              "radius": [
+                "number"
+              ],
+              "safesearch": [
+                "string"
+              ],
+              "search_lang": [
+                "string"
+              ],
+              "spellcheck": [
+                "boolean"
+              ],
+              "ui_lang": [
+                "string"
+              ],
+              "units": [
+                "string"
+              ],
+              "user-agent": [
+                "string"
+              ]
+            }
+          }
+        },
+        "brave_summarizer": {
+          "annotations_hash": "21942789e237beb1d5b0fc2b363d53f207b3a56cc73b2edff335d8aca2b6811e",
+          "composite_hash": "ac48c7b313bfaaf20a6cb9a0d5abb0241fb44f9c727f73fa659bfbdf1a022560",
+          "description_hash": "d77a0219ff8899539b33bf48b0e92b92ec986830b0964b249a37c6f4e4e5e06a",
+          "schema_hash": "671ab881956d8019c12495281046ec3d07cea6761131f3f69dab963fecd50c86",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "key"
+            ],
+            "properties": {
+              "entity_info": [
+                "boolean"
+              ],
+              "inline_references": [
+                "boolean"
+              ],
+              "key": [
+                "string"
+              ]
+            }
+          }
+        },
+        "brave_video_search": {
+          "annotations_hash": "72d82b8202f5f10dc6af54976c70661001a2022e05a83542ffc190258c362916",
+          "composite_hash": "78d26590860a8fd170dad6960cca15db035dbfa2638d910eb60caa81e818e6cc",
+          "description_hash": "20be567dbd9dc53da830b407aa2895e8fada9688c70d2ed60b2f8137f8fa83cd",
+          "schema_hash": "a99bc1a82746fbbf3333c5756776d5984fbaf1e89cb3882046253aea3fce8f7f",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "query"
+            ],
+            "properties": {
+              "count": [
+                "integer"
+              ],
+              "country": [
+                "string"
+              ],
+              "freshness": [],
+              "offset": [
+                "integer"
+              ],
+              "query": [
+                "string"
+              ],
+              "safesearch": [],
+              "search_lang": [
+                "string"
+              ],
+              "spellcheck": [
+                "boolean"
+              ],
+              "ui_lang": [
+                "string"
+              ]
+            }
+          }
+        },
+        "brave_web_search": {
+          "annotations_hash": "c5fd4a239bb393096f0a86fde5a9fcb1d60f81ae07e8a05ac626ea3b0d8df954",
+          "composite_hash": "7889455f81af305c4bf881f92b2d7e57a7f4116a126696c35613b70963f569f0",
+          "description_hash": "8c7cb53d5d3e2387f0b99d6331661de91df4801e9994ebe09177121504e83dde",
+          "schema_hash": "9a6056766dd8e26edf5e285afb45731d747ae906b3592207e168a4de39ee3643",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "query"
+            ],
+            "properties": {
+              "count": [
+                "integer"
+              ],
+              "country": [
+                "string"
+              ],
+              "extra_snippets": [
+                "boolean"
+              ],
+              "freshness": [],
+              "goggles": [],
+              "offset": [
+                "integer"
+              ],
+              "query": [
+                "string"
+              ],
+              "result_filter": [
+                "array"
+              ],
+              "safesearch": [
+                "string"
+              ],
+              "search_lang": [
+                "string"
+              ],
+              "spellcheck": [
+                "boolean"
+              ],
+              "summary": [
+                "boolean"
+              ],
+              "text_decorations": [
+                "boolean"
+              ],
+              "ui_lang": [
+                "string"
+              ],
+              "units": []
+            }
+          }
+        }
+      },
+      "first_observed": "2026-09-02T01:21:47Z"
+    },
+    "brave-search-old@stdio:npx": {
+      "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
+      "toolset_hash": "9c72c703e24af61f15bf432674b66a9a1c336009da44ed72a667338cd43825c6",
+      "transport": "stdio",
+      "auth_method": "env_var",
+      "tools": {
+        "brave_local_search": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "83f2e156f5d2ee2a964212a9cc7e8e2db21b83194672a6783995ba23597b52b0",
+          "description_hash": "3bcdf9a9e109418420c1cced156b152819f5d186f97e0fb0d19354481e53628a",
+          "schema_hash": "c84b401f52ec8efee9a5b317b636b99a77ade0dc879452f6100a91f2a3a6c2a6",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "query"
+            ],
+            "properties": {
+              "count": [
+                "number"
+              ],
+              "query": [
+                "string"
+              ]
+            }
+          }
+        },
+        "brave_web_search": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "28118a427142f3d8c97f9010c6aef9209f577fdede34b427ffb483303886cab7",
+          "description_hash": "fe1871385405be844a14ed21a0ddedfd9c040e55b5faefbd0761f0362f9ac0cb",
+          "schema_hash": "2b0f8e6f1978ee77418a447e17371c1c4c422853162f4f8d47755c3f7957d0a3",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "query"
+            ],
+            "properties": {
+              "count": [
+                "number"
+              ],
+              "offset": [
+                "number"
+              ],
+              "query": [
+                "string"
+              ]
+            }
+          }
+        }
+      },
+      "first_observed": "2026-09-02T01:21:47Z"
+    },
+    "exa@stdio:npx": {
+      "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
+      "toolset_hash": "415ffd648307e6399ab3dd8964d292477120eb2b86f238ccc11f8af71c8a755d",
+      "transport": "stdio",
+      "auth_method": "env_var",
+      "tools": {
+        "web_fetch_exa": {
+          "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
+          "composite_hash": "3bf62866d030c00a7f9afda16665d4a0f2199ea6467f5743336e9ed25f169280",
+          "description_hash": "108357433df3c202289c3608ebbea1afbb809d0c52071d09c54246fed131001b",
+          "schema_hash": "641b453bf873f8f3d0dae8fe31ff5f5abf4e653e7303b4cae68b780a0354fba0",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "idempotentHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "urls"
+            ],
+            "properties": {
+              "maxCharacters": [
+                "number"
+              ],
+              "urls": [
+                "array"
+              ]
+            }
+          }
+        },
+        "web_search_exa": {
+          "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
+          "composite_hash": "6d9843ec3ad1585af0764e7ae0e1be88ea41d9812a038e2f8151fb09760422fa",
+          "description_hash": "62aadef2f622283ef7e063775230a962784dd55c718e1e7f96ac26977537ad0c",
+          "schema_hash": "1bf9b9bdfbb39ca5b95e5bd19539b14a7c16b990078846ffb6ad642967dce90a",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "idempotentHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "query"
+            ],
+            "properties": {
+              "numResults": [
+                "number"
+              ],
+              "query": [
+                "string"
+              ]
+            }
+          }
+        }
+      },
+      "first_observed": "2026-09-02T01:21:47Z"
+    },
+    "firecrawl@stdio:npx": {
+      "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
+      "toolset_hash": "6965cf53d331852bb0642dde9cdae9fbfc75ff81e9344c7389a13574b4fce86b",
+      "transport": "stdio",
+      "auth_method": "env_var",
+      "tools": {
+        "firecrawl_agent": {
+          "annotations_hash": "0823fb8baadeca6d3d17a8186cfac272e8d2a38877e65783dc1cb295a83311db",
+          "composite_hash": "f03c01a14be983afc12206954f81f8ec93917683b0751e3a0f30566f3bbf6864",
+          "description_hash": "2a1dc403958c00a46608d029f23ab7acccc793e82f21cc58330fa7d74a971dff",
+          "schema_hash": "e8d62001d8a8a98049d37bb1c6a78a71f150cfd85794a91f56dd26f804a8ec58",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": "external",
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "prompt"
+            ],
+            "properties": {
+              "prompt": [
+                "string"
+              ],
+              "schema": [
+                "object"
+              ],
+              "urls": [
+                "array"
+              ]
+            }
+          }
+        },
+        "firecrawl_agent_status": {
+          "annotations_hash": "c7c2e1471c400f6085587ec97231e7f2140ba5b4312fc00786d43f4879c41331",
+          "composite_hash": "297231cba02e2e666e17215add6c0b8debfbaa64f5cc90beca86cc253e5f8958",
+          "description_hash": "fff4c6d2495eae56b9bd96c706587495580d2107ea03593283f2384a3f34e19d",
+          "schema_hash": "17728ee289538bc8e07a2b47fd494527da3efcf358ce8ba90990a7760a56f68b",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": false
+          },
+          "schema_shape": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": [
+                "string"
+              ]
+            }
+          }
+        },
+        "firecrawl_check_crawl_status": {
+          "annotations_hash": "2606c25ea06728f9b91f521260492eca0c2e92483b78d2ee1544bb5d77f2e0e2",
+          "composite_hash": "2d9542e78bd6fa9247b848ba2379488be2cdce069da1ba37a6ba4610deb6e29d",
+          "description_hash": "dde70d86ddc850cf80a11274d05597e189cfe2c36365ec18969a9ae02c185b9f",
+          "schema_hash": "17728ee289538bc8e07a2b47fd494527da3efcf358ce8ba90990a7760a56f68b",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": false
+          },
+          "schema_shape": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": [
+                "string"
+              ]
+            }
+          }
+        },
+        "firecrawl_crawl": {
+          "annotations_hash": "3986f370698ca1481739fd7fa6fc052e14b786777aab008a4d60631460f41531",
+          "composite_hash": "62f8d1b01fc8c7280ee74e6b2eb242c5333bda6535e9ca0c0579b44ed1713fd8",
+          "description_hash": "b6f2c17519138f5650d50e8468dc3df113b8a3502a40ab6183cea626dc8e5542",
+          "schema_hash": "7a47c2d0837deebd623c2ba9e89aab9f24fc9cb91cd29317ad47d438c9ac820f",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": "external",
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "url"
+            ],
+            "properties": {
+              "allowExternalLinks": [
+                "boolean"
+              ],
+              "allowSubdomains": [
+                "boolean"
+              ],
+              "crawlEntireDomain": [
+                "boolean"
+              ],
+              "deduplicateSimilarURLs": [
+                "boolean"
+              ],
+              "delay": [
+                "number"
+              ],
+              "excludePaths": [
+                "array"
+              ],
+              "ignoreQueryParameters": [
+                "boolean"
+              ],
+              "includePaths": [
+                "array"
+              ],
+              "limit": [
+                "number"
+              ],
+              "maxConcurrency": [
+                "number"
+              ],
+              "maxDiscoveryDepth": [
+                "number"
+              ],
+              "prompt": [
+                "string"
+              ],
+              "scrapeOptions": [
+                "object"
+              ],
+              "sitemap": [
+                "string"
+              ],
+              "url": [
+                "string"
+              ],
+              "webhook": [
+                "string"
+              ],
+              "webhookHeaders": [
+                "object"
+              ]
+            }
+          }
+        },
+        "firecrawl_extract": {
+          "annotations_hash": "e2daae26693874dada8ca7a6127384378c7ff6347bbf8690ecec70911ba8f711",
+          "composite_hash": "c0321da86dee8dd7deb25898837e80010d0f09112cf1451f55b33a7395ba35b7",
+          "description_hash": "2bc9e35508e4b35de4720eb93906d0ce8b8b9d17b7ecfbaf7904cd52b17464b0",
+          "schema_hash": "bcc84594d621438d3244fa82b1f01dcaafb4b6c05b40314fe017394e1c8c2f18",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "urls"
+            ],
+            "properties": {
+              "allowExternalLinks": [
+                "boolean"
+              ],
+              "enableWebSearch": [
+                "boolean"
+              ],
+              "includeSubdomains": [
+                "boolean"
+              ],
+              "prompt": [
+                "string"
+              ],
+              "schema": [
+                "object"
+              ],
+              "urls": [
+                "array"
+              ]
+            }
+          }
+        },
+        "firecrawl_feedback": {
+          "annotations_hash": "1e6c732fa14f5dc67b29965bc2eaa6a1032eaaee34d3fc453070437cc94b38ab",
+          "composite_hash": "1292be23777b52499e48e4f136a447a3961cb88007eebb64ff9db606cbf7640c",
+          "description_hash": "d6486f4f35729614e22f8ce8ee7e3d128d004f08f19e6a3d1be28252965ff915",
+          "schema_hash": "38aac01f430f8f2024a2cec00dbc3cde08a4e7557cb4cdd9919aa90ca501f5f3",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": "external",
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "endpoint",
+              "jobId",
+              "rating"
+            ],
+            "properties": {
+              "endpoint": [
+                "string"
+              ],
+              "issues": [
+                "array"
+              ],
+              "jobId": [
+                "string"
+              ],
+              "metadata": [
+                "object"
+              ],
+              "missingContent": [
+                "array"
+              ],
+              "note": [
+                "string"
+              ],
+              "pageNumbers": [
+                "array"
+              ],
+              "querySuggestions": [
+                "string"
+              ],
+              "rating": [
+                "string"
+              ],
+              "tags": [
+                "array"
+              ],
+              "url": [
+                "string"
+              ],
+              "valuableSources": [
+                "array"
+              ]
+            }
+          }
+        },
+        "firecrawl_interact": {
+          "annotations_hash": "0fa4bd92d887e43657a937eaaf65dc82a3f1ee66cf29ef19da7cf052e8df87a2",
+          "composite_hash": "d36aa63f28e348556516d0f00d397128b2752936e5a49339e206f7a1e0815a28",
+          "description_hash": "6444894e1ce19211d256bb00506835a7d2b5e3300170df230288891df838542a",
+          "schema_hash": "438038edf91f8c9adb82ba08fa00e5e79a35b6a9b080b21c74371a86109808c9",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": "external",
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [],
+            "properties": {
+              "code": [
+                "string"
+              ],
+              "language": [
+                "string"
+              ],
+              "prompt": [
+                "string"
+              ],
+              "scrapeId": [
+                "string"
+              ],
+              "scrapeOptions": [
+                "object"
+              ],
+              "timeout": [
+                "number"
+              ],
+              "url": [
+                "string"
+              ]
+            }
+          }
+        },
+        "firecrawl_interact_stop": {
+          "annotations_hash": "b51a859f28e61f16dcb1fe286e8fe069e2c1018fde821fe5fd4ff6a364c50aed",
+          "composite_hash": "367a2438039c9b1e99509d16669d735243de5b5e20923d3f9c8e77984900e1b1",
+          "description_hash": "2ab90f0cbda1fc9f85f9469b442bb3ffed307c6c3e99c488c550f2a55b378e6c",
+          "schema_hash": "7255424663349824db19a0d47a21dcf8270b26ff0f80409dd995082cbe69a7f6",
+          "schema_resolution": "resolved",
+          "effect": "irreversible",
+          "declared_ceiling": null,
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": true,
+            "openWorldHint": false
+          },
+          "schema_shape": {
+            "required": [
+              "scrapeId"
+            ],
+            "properties": {
+              "scrapeId": [
+                "string"
+              ]
+            }
+          }
+        },
+        "firecrawl_map": {
+          "annotations_hash": "4be55e5a4b06f8e94dba8955721b94caaea83027df759c92cc3ad3086e11456a",
+          "composite_hash": "24d6adae0aa8b9d005ee605e69b0a67333a67284e515280f2414b5b3074dfdd6",
+          "description_hash": "5c26dec12a94c5437e017eb52e997fbaeb813fa9f40d93c4998abc0a0aedfaae",
+          "schema_hash": "1c81d0016904c0a550787002a0facbd32cb13547e645ce930164df028d7a00cf",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "url"
+            ],
+            "properties": {
+              "ignoreQueryParameters": [
+                "boolean"
+              ],
+              "includeSubdomains": [
+                "boolean"
+              ],
+              "limit": [
+                "number"
+              ],
+              "search": [
+                "string"
+              ],
+              "sitemap": [
+                "string"
+              ],
+              "url": [
+                "string"
+              ]
+            }
+          }
+        },
+        "firecrawl_monitor_check": {
+          "annotations_hash": "3c72eea4614f01fd24dfcf4a109897063123d3c381267dbe9a754c8966ec0c78",
+          "composite_hash": "f27b1e974c40e1498355a7f23011867b05749267ff92b8073b3097f5b2562eed",
+          "description_hash": "1cf5535e7239dee4275e91f4244f4b2801f92aae5067cfe24e9630745cb76040",
+          "schema_hash": "af69c6d15b63abe695213549563c81a08d1845da79f9dad2f8213f48d46ca012",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": false
+          },
+          "schema_shape": {
+            "required": [
+              "checkId",
+              "id"
+            ],
+            "properties": {
+              "checkId": [
+                "string"
+              ],
+              "id": [
+                "string"
+              ],
+              "limit": [
+                "integer"
+              ],
+              "pageStatus": [
+                "string"
+              ],
+              "skip": [
+                "integer"
+              ]
+            }
+          }
+        },
+        "firecrawl_monitor_checks": {
+          "annotations_hash": "7a87f836efff7293a7eb7ccf4a4e6a22ac6538e640348d5a279ff6c01bc4c4de",
+          "composite_hash": "8c48b3f417e2314b13ff69bbc94d676968e529e19e1725f467733631c6de77da",
+          "description_hash": "d37e07038b951c40bba4e89d678e2575e4b13bc6572c4c50b661aed6c45aba08",
+          "schema_hash": "990024550390d3693ecc1977bfa043dfa035f3ec8b4732dbfad9a6e8c94f18e3",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": false
+          },
+          "schema_shape": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": [
+                "string"
+              ],
+              "limit": [
+                "integer"
+              ],
+              "offset": [
+                "integer"
+              ],
+              "status": [
+                "string"
+              ]
+            }
+          }
+        },
+        "firecrawl_monitor_create": {
+          "annotations_hash": "a47ea5ba665534b96994ae63681fbfc9b9b83140129fb41afcfd6ae1c9df9912",
+          "composite_hash": "2d60c9b6e591a4c0861ef379e22934d0d46eac740af4b0f77a1ed84af5e2d1fe",
+          "description_hash": "f231f4777a48dcf01ecffd097e68be097a39545ee381fc0ba8fab400bdb212f9",
+          "schema_hash": "2855fa6993180933d5a77721439d4ec9a1e8509095750fed692e853a40b0b55b",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": "external",
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [],
+            "properties": {
+              "body": [
+                "object"
+              ],
+              "email": [
+                "string"
+              ],
+              "excludeDomains": [
+                "array"
+              ],
+              "goal": [
+                "string"
+              ],
+              "includeDiffs": [
+                "boolean"
+              ],
+              "includeDomains": [
+                "array"
+              ],
+              "maxResults": [
+                "integer"
+              ],
+              "name": [
+                "string"
+              ],
+              "page": [
+                "string"
+              ],
+              "pages": [
+                "array"
+              ],
+              "queries": [
+                "array"
+              ],
+              "scheduleText": [
+                "string"
+              ],
+              "searchWindow": [
+                "string"
+              ],
+              "timezone": [
+                "string"
+              ],
+              "webhookUrl": [
+                "string"
+              ]
+            }
+          }
+        },
+        "firecrawl_monitor_delete": {
+          "annotations_hash": "6f993f33cf664888c08613a7cb9e72f5af43a27fa830ff9a1f58002a88835502",
+          "composite_hash": "68833baa0b4c25001a8964953d5ec6f82479d588f21228d4583ab915aa78cacf",
+          "description_hash": "f78d3f75155e0ae01a32f05534e10c8f175313391023dd1f08d1a009ad6065fb",
+          "schema_hash": "17728ee289538bc8e07a2b47fd494527da3efcf358ce8ba90990a7760a56f68b",
+          "schema_resolution": "resolved",
+          "effect": "irreversible",
+          "declared_ceiling": null,
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": [
+                "string"
+              ]
+            }
+          }
+        },
+        "firecrawl_monitor_get": {
+          "annotations_hash": "e26a119fad7b1d0cb4d9c2d7e158802de40bb9fdd67cfeec8029369d04b7dd06",
+          "composite_hash": "24003e37ec7720aec0c76767ddaaa76167383e8d9d58b1a424ca9c9443b564b7",
+          "description_hash": "d1ceca199c7d9b71afd38f09100a16c7df9533866e8e1e782c390f2bebad429a",
+          "schema_hash": "17728ee289538bc8e07a2b47fd494527da3efcf358ce8ba90990a7760a56f68b",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": false
+          },
+          "schema_shape": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": [
+                "string"
+              ]
+            }
+          }
+        },
+        "firecrawl_monitor_list": {
+          "annotations_hash": "0ef5f9614ae03ff0666ef9f565de36427f5f593f47ad821cddccc3ca01d45d1d",
+          "composite_hash": "eb91bd395137e94796226a97c2907e09ded7cc9d1222e2ea1dad07955f8ed599",
+          "description_hash": "418ca2139db9787de386c3df2bceb517e13f0b12fb774aa7af0c4f2b75a6f021",
+          "schema_hash": "7c2ac10629672a179598fc35b7004cddd6537916b17cafde2428b3fb82f1caeb",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": false
+          },
+          "schema_shape": {
+            "required": [],
+            "properties": {
+              "limit": [
+                "integer"
+              ],
+              "offset": [
+                "integer"
+              ]
+            }
+          }
+        },
+        "firecrawl_monitor_run": {
+          "annotations_hash": "f59edcacc05e49d16fbb3aff0b680b9ff882614d8ee6d56ba8cdf61c8412b4fb",
+          "composite_hash": "6144bfc857058b192002d26959f542b8584513d927efb4d02bf802931e3d9818",
+          "description_hash": "8c41db71b248eb77b9ad1fde5915d4f7d110b330f5eb157d1170c4b4d4f6676d",
+          "schema_hash": "17728ee289538bc8e07a2b47fd494527da3efcf358ce8ba90990a7760a56f68b",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": "external",
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": [
+                "string"
+              ]
+            }
+          }
+        },
+        "firecrawl_monitor_update": {
+          "annotations_hash": "1905f87ddf9d330a58fbc11e4c4738693b20c4f9be220cfce878ecf794e5ac61",
+          "composite_hash": "7e96d8de53891f058db627195bb35ec22985059ab567a27b181d33846cca24b5",
+          "description_hash": "d9754f5e80d7787358fa95a3a24d759d9d37cea03d06d5cd0b26d6b70dc31244",
+          "schema_hash": "2c2b0d3fb5b78df1cc1a6288fb3906111ca181f23fd235e1558e5d68056b3f22",
+          "schema_resolution": "resolved",
+          "effect": "irreversible",
+          "declared_ceiling": null,
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "body",
+              "id"
+            ],
+            "properties": {
+              "body": [
+                "object"
+              ],
+              "id": [
+                "string"
+              ]
+            }
+          }
+        },
+        "firecrawl_parse": {
+          "annotations_hash": "0ded18dc4f7fe9e2086556b6b1ded67948598f04daaaaa29f4a2d9c2dbdc6496",
+          "composite_hash": "bcc12667a42a57cef1e903f6fa842ab0af7418e38ab29da756a2a6cb348ce89e",
+          "description_hash": "cb3d24880d4ceacbd5575b8d2f0ec739a642dbd5b7990f8dddf80064b4547a00",
+          "schema_hash": "ee2fa84f5850919117ee1945e038f16f2586beaa2b53fada21c64ffc5cc96d89",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": false
+          },
+          "schema_shape": {
+            "required": [
+              "filePath"
+            ],
+            "properties": {
+              "contentType": [
+                "string"
+              ],
+              "excludeTags": [
+                "array"
+              ],
+              "filePath": [
+                "string"
+              ],
+              "formats": [
+                "array"
+              ],
+              "includeTags": [
+                "array"
+              ],
+              "jsonOptions": [
+                "object"
+              ],
+              "maxAge": [
+                "number"
+              ],
+              "onlyMainContent": [
+                "boolean"
+              ],
+              "parsers": [
+                "array"
+              ],
+              "pdfOptions": [
+                "object"
+              ],
+              "proxy": [
+                "string"
+              ],
+              "queryOptions": [
+                "object"
+              ],
+              "redactPII": [
+                "boolean"
+              ],
+              "removeBase64Images": [
+                "boolean"
+              ],
+              "skipTlsVerification": [
+                "boolean"
+              ],
+              "storeInCache": [
+                "boolean"
+              ],
+              "zeroDataRetention": [
+                "boolean"
+              ]
+            }
+          }
+        },
+        "firecrawl_research_inspect_paper": {
+          "annotations_hash": "15752b83c16e487b442f1b1d6c3cdcb53be46f54276118bfbf32f1ec9482f77d",
+          "composite_hash": "ce3495e4ef6fdbd0f4121848d9b9e35047a58fc362ccd3d063693895b6fd7fae",
+          "description_hash": "716e279ae45bd50e3aba3277c527eba926d1f6f09b31cd1b12d7c54e3bc0f1db",
+          "schema_hash": "7e338c18344e3aed3cef444da9de0197aa86eb0417b4cfd5d556825ee182e137",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "paperId"
+            ],
+            "properties": {
+              "paperId": [
+                "string"
+              ]
+            }
+          }
+        },
+        "firecrawl_research_read_paper": {
+          "annotations_hash": "a2e1750df5a204274a385e57fb0eb9990967ff1794f00715affe3075fffce129",
+          "composite_hash": "30d68832f487399d33651a0a3f95daa969dbda98bcf9e8c8f622a5baa078ed1e",
+          "description_hash": "bea78fba473efefb021085bbbcb9b493ac9f7d5c04a5f441d078cd3fabc61b5d",
+          "schema_hash": "8bd6efa2e4593cb5f817d6d882621f7a0b82b35719e64c2f5aed5253dd9f4fda",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "paperId",
+              "question"
+            ],
+            "properties": {
+              "k": [
+                "integer"
+              ],
+              "paperId": [
+                "string"
+              ],
+              "question": [
+                "string"
+              ]
+            }
+          }
+        },
+        "firecrawl_research_related_papers": {
+          "annotations_hash": "4e7cfc20a8d1eb8f9dd96e50fef5df9accf50f86caabb48606bd78198a50d5df",
+          "composite_hash": "b166e7eeb2a88f068ad21aeac4abaad5b43066b1d8cc2daf3632c9a03bff5484",
+          "description_hash": "a9bbf9f4172b32fca18bab8b9aee04a973027a6efde15a6565ca650b4e4920c1",
+          "schema_hash": "5ff3627802f0fc6a958ed11e1e17b84cfdb8b8bd7ff0b525ca3aff969cc80219",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "intent",
+              "seed_ids"
+            ],
+            "properties": {
+              "intent": [
+                "string"
+              ],
+              "k": [
+                "integer"
+              ],
+              "mode": [
+                "string"
+              ],
+              "rerank": [
+                "boolean"
+              ],
+              "seed_ids": [
+                "array"
+              ]
+            }
+          }
+        },
+        "firecrawl_research_search_github": {
+          "annotations_hash": "882e2492770c8836fc4e1ef667aa6a7519438025f7eaedf4f9f3556b22e66164",
+          "composite_hash": "33df9e4d1c71e250011e4b3d687a0ebee37eff829745b5afcc5c579370c3dd32",
+          "description_hash": "7fc99e3a652379a5e57a6ddfa90fb94717b8d55c4479250cbeb92a949aae8687",
+          "schema_hash": "c9e8be8d96f2ba764992ce50128976823894f637ade55d8f6d7ad73211a73b64",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "query"
+            ],
+            "properties": {
+              "k": [
+                "integer"
+              ],
+              "query": [
+                "string"
+              ]
+            }
+          }
+        },
+        "firecrawl_research_search_papers": {
+          "annotations_hash": "004716016b6cde417b56407ef7f8d41bc090cf11338fa2a2106c3f2864e3bbf4",
+          "composite_hash": "ade9f0963708f3b45513129f17839c5460c90ef98d359328a7c9e6efb4034493",
+          "description_hash": "079ae040707f384c5febf980bd52d221665d251fff4a9eca7c0da4df11f72310",
+          "schema_hash": "ae60ae7ce0cf574e6c371f7753eb7c3d6b5734cc068cf2f25e42bf94042ed8ee",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "query"
+            ],
+            "properties": {
+              "authors": [
+                "array"
+              ],
+              "categories": [
+                "array"
+              ],
+              "from": [
+                "string"
+              ],
+              "k": [
+                "integer"
+              ],
+              "query": [
+                "string"
+              ],
+              "to": [
+                "string"
+              ]
+            }
+          }
+        },
+        "firecrawl_scrape": {
+          "annotations_hash": "2d1f7941795c7f523f7e19bfb35b22f44120d5d7fc1085d551318f3c1966aa48",
+          "composite_hash": "2415c19d0f8c46f7514d74e4927965139340a73901bbf815cb9e6ff94a2b450e",
+          "description_hash": "b4d6fa718d5d8aa746d26528227213d4ec389e46a43a84972490e3299e4887f2",
+          "schema_hash": "40dfaf3cc2d9293e3350875c0a9b3e2a3c9a5662f1f4a1decc480ab49c20f802",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": "external",
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "url"
+            ],
+            "properties": {
+              "actions": [
+                "array"
+              ],
+              "excludeTags": [
+                "array"
+              ],
+              "formats": [
+                "array"
+              ],
+              "includeTags": [
+                "array"
+              ],
+              "jsonOptions": [
+                "object"
+              ],
+              "location": [
+                "object"
+              ],
+              "lockdown": [
+                "boolean"
+              ],
+              "maxAge": [
+                "number"
+              ],
+              "mobile": [
+                "boolean"
+              ],
+              "onlyMainContent": [
+                "boolean"
+              ],
+              "parsers": [
+                "array"
+              ],
+              "pdfOptions": [
+                "object"
+              ],
+              "profile": [
+                "object"
+              ],
+              "proxy": [
+                "string"
+              ],
+              "queryOptions": [
+                "object"
+              ],
+              "redactPII": [
+                "boolean"
+              ],
+              "removeBase64Images": [
+                "boolean"
+              ],
+              "screenshotOptions": [
+                "object"
+              ],
+              "skipTlsVerification": [
+                "boolean"
+              ],
+              "storeInCache": [
+                "boolean"
+              ],
+              "url": [
+                "string"
+              ],
+              "waitFor": [
+                "number"
+              ],
+              "zeroDataRetention": [
+                "boolean"
+              ]
+            }
+          }
+        },
+        "firecrawl_search": {
+          "annotations_hash": "b272165768a7762a2ff0a44c57e7c859e8b18c5c8bb36115148fa0a2c10c4828",
+          "composite_hash": "941550fe87f008984348c10e8ad4d7068696f2814511f2c7143badb8554a5273",
+          "description_hash": "7d992e683fe1d239ba3f1fa07288cf75bdcd60fd8fdfb45a40050eb96ed4f334",
+          "schema_hash": "bcac2a89c51bd836d1ef97c499b0fb682edd5c5bb2acb9ee8c6f5858bc5958fc",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "query"
+            ],
+            "properties": {
+              "enterprise": [
+                "array"
+              ],
+              "excludeDomains": [
+                "array"
+              ],
+              "filter": [
+                "string"
+              ],
+              "includeDomains": [
+                "array"
+              ],
+              "limit": [
+                "number"
+              ],
+              "location": [
+                "string"
+              ],
+              "query": [
+                "string"
+              ],
+              "scrapeOptions": [
+                "object"
+              ],
+              "sources": [
+                "array"
+              ],
+              "tbs": [
+                "string"
+              ]
+            }
+          }
+        },
+        "firecrawl_search_feedback": {
+          "annotations_hash": "c649b40a1b8ecbabec83310b06db8d0374db13111eb154212e0b784d603a17bb",
+          "composite_hash": "69cc1a8935432c0e7a765ee530189194bbed1fc6a94757f41027366c9add5fa6",
+          "description_hash": "52f8a0c20f44f68091dba6ef0ea0f8725ac4beb246d4e2828ed6b34c3018389b",
+          "schema_hash": "c6a3c367e6157137329067a63bade937b4978ab6bfc6f4691b7f7d71409d8e76",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": "external",
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "rating",
+              "searchId"
+            ],
+            "properties": {
+              "missingContent": [
+                "array"
+              ],
+              "querySuggestions": [
+                "string"
+              ],
+              "rating": [
+                "string"
+              ],
+              "searchId": [
+                "string"
+              ],
+              "valuableSources": [
+                "array"
+              ]
+            }
+          }
+        }
+      },
+      "first_observed": "2026-09-02T01:21:47Z"
+    },
+    "gitlab@stdio:npx": {
+      "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
+      "toolset_hash": "dbe3b29a201701e9a3cd188fb5a9450b5ff10f7c493cded2e2d7562c1b2cd361",
+      "transport": "stdio",
+      "auth_method": "env_var",
+      "tools": {
+        "create_branch": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "6d71214806cfaed724adbc7a726b7012ff18078d510d20a4ca5ee4efb1bbd7b9",
+          "description_hash": "c037588b298b759702304bf09ed6f1e7610e17342c856973d861941a9ec555ea",
+          "schema_hash": "f2029be5f91e58a56b17a4c27fd8f3045ac212d01ccb2ba0027441041ade5584",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "create_issue": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "6aed712f3ad72e53054b4ee1899a52fa60400765e34c4e90037f64cdbfc343cd",
+          "description_hash": "0bc940fba6f510fd88844c22e7114123ee8fb4e64dbf75c0f26f79ec16a315c1",
+          "schema_hash": "f2029be5f91e58a56b17a4c27fd8f3045ac212d01ccb2ba0027441041ade5584",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "create_merge_request": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "d33b6cb1e184a9521b0d67f6b6187244742b50aabeb15f4ff712f26ddc7040e2",
+          "description_hash": "4a05914e3fda6d32ce72e07030284a161c1fc8c1399fcc362899adfdf13b8f7e",
+          "schema_hash": "f2029be5f91e58a56b17a4c27fd8f3045ac212d01ccb2ba0027441041ade5584",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "create_or_update_file": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "d19a3250215c9170521650c9604dbe83b6e6e017ffd885336a5179eac125a4dc",
+          "description_hash": "50cf01345784a9e6b983d29cc213e48d046bcbed330a76d554b31e6db740db49",
+          "schema_hash": "f2029be5f91e58a56b17a4c27fd8f3045ac212d01ccb2ba0027441041ade5584",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "create_repository": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "40a9abb454ba125a8eb9fb247cc78fb452ce615b6372ef3a59768127e4f1b76f",
+          "description_hash": "dcf022c03af89d0d6812de7fc8611511724481bbb243a9d4edab115568819f58",
+          "schema_hash": "f2029be5f91e58a56b17a4c27fd8f3045ac212d01ccb2ba0027441041ade5584",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "fork_repository": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "e9bdec1e8abfb6b59110fc37aecf460b671e090430fa5e4c94611e2fe58f7da2",
+          "description_hash": "029bc5c57f74c0a62a251bddf8bb2edc019a28e932a241987ba2302c39f3f9f4",
+          "schema_hash": "f2029be5f91e58a56b17a4c27fd8f3045ac212d01ccb2ba0027441041ade5584",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "get_file_contents": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "e1edc6e0dfa5bc7833436e7b94fbe649e53d1cf2f55f08115fbb155d418d2ff0",
+          "description_hash": "dc7abefde85d9fbab57ff3e39061290d92c861bea280419d69e5bcd9f78add34",
+          "schema_hash": "f2029be5f91e58a56b17a4c27fd8f3045ac212d01ccb2ba0027441041ade5584",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "push_files": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "718c012e795d2a1816485efcfd412c4a87316894afcb6b01865a4cc14ba08b75",
+          "description_hash": "ae795a2e88b739400077c4153cdb8c15b03869488eeaa73791492deab1120f3f",
+          "schema_hash": "f2029be5f91e58a56b17a4c27fd8f3045ac212d01ccb2ba0027441041ade5584",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "search_repositories": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "0f7ca81e39ddbdcffa16a44abe4c9ba0b8e9645c8fb4557e24f8bae7f8b94ab6",
+          "description_hash": "c29abd5ad81cd54a664656762f4d6b722cb0545e230c35b1c8e555a2a4c1470b",
+          "schema_hash": "f2029be5f91e58a56b17a4c27fd8f3045ac212d01ccb2ba0027441041ade5584",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "first_observed": "2026-09-02T01:21:47Z"
+    },
+    "google-maps@stdio:npx": {
+      "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
+      "toolset_hash": "489737f130f3087632481f135644fb5519a9e7ec5def42b9ac6c294ecf37a9b8",
+      "transport": "stdio",
+      "auth_method": "env_var",
+      "tools": {
+        "maps_directions": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "7219c373db7c36da50530a0240216a0d34a470315f4a56ab37b1053fe9b0363b",
+          "description_hash": "eded3ba3e6fb111889884128bc90c8128de6f40edbe1788d6fbc84700f1bf928",
+          "schema_hash": "9e91a520f4f7d7a1998dc7328cbd1967daa87d15bc72c9493208353f67f025b4",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "destination",
+              "origin"
+            ],
+            "properties": {
+              "destination": [
+                "string"
+              ],
+              "mode": [
+                "string"
+              ],
+              "origin": [
+                "string"
+              ]
+            }
+          }
+        },
+        "maps_distance_matrix": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "6dfcb53db119174e087e55f28a2ea7eb26c3283d9d84eadfc1523455aa7cc511",
+          "description_hash": "985910fa25032b8fa3981795c5194da49016f91fb9baa15b1c74997001012d10",
+          "schema_hash": "b2818d198e235133f019867923794dd6bf55f79dd44806d76267200112dc5267",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "destinations",
+              "origins"
+            ],
+            "properties": {
+              "destinations": [
+                "array"
+              ],
+              "mode": [
+                "string"
+              ],
+              "origins": [
+                "array"
+              ]
+            }
+          }
+        },
+        "maps_elevation": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "63dcf627b07fc31a8e55cafaff4c7fad59be002c2042e91a0a7af82ccff381a4",
+          "description_hash": "6cb5d11929738a4e0204b3aed6189b317fcec14a8b7b59b17e7fc42df37aa150",
+          "schema_hash": "8ca91680ff98b9caa5a5141de69e119995214775d88b77aeae6b8a9ec175890b",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "locations"
+            ],
+            "properties": {
+              "locations": [
+                "array"
+              ]
+            }
+          }
+        },
+        "maps_geocode": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "15fe0c202bda54f8f6ce9124c37d943e3294f433379d2b020d268f7f29e1796e",
+          "description_hash": "dc27d5108e7aa14b306ee151d953b66ad8f52b0f4b1c0991c900b6189b1b38e3",
+          "schema_hash": "7a42b8d1a06fc0ab16ac21927b8f95c1188e728c6c54102fcafd3d7e78066cd0",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "address"
+            ],
+            "properties": {
+              "address": [
+                "string"
+              ]
+            }
+          }
+        },
+        "maps_place_details": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "7ce441e7def43998cc78a2f11e4c2421a0d5196aebb8fdfd123211af21e07705",
+          "description_hash": "8234c2789cfb4490706a7d55eecf0d6c313efb76c47067066bc8667aefbd11da",
+          "schema_hash": "9be2a2bda9c3a34db9fc75976eb02e7ccdf9deebe858d10d658b8752798ba259",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "place_id"
+            ],
+            "properties": {
+              "place_id": [
+                "string"
+              ]
+            }
+          }
+        },
+        "maps_reverse_geocode": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "207185da9f701e1e9789c22e3618f6432dfab1b062c5a9d1ffa94f0cb7eef000",
+          "description_hash": "29292320253d8e21c0171c793a9d958bf190266756a7a13806452bd7363e0f2d",
+          "schema_hash": "8b380467e52d2f69ef9a95f3b0b6fd1ef68a5a282c22a0bed75942da45677f63",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "latitude",
+              "longitude"
+            ],
+            "properties": {
+              "latitude": [
+                "number"
+              ],
+              "longitude": [
+                "number"
+              ]
+            }
+          }
+        },
+        "maps_search_places": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "c84230a782a0a25ec08ee1ef4c05da4896f1e3c16f7154fcb2c4be593ba6f6b6",
+          "description_hash": "239ce01e2d783c19045ca30da9e8a038edfd7ce14522a419a103f024e69f2344",
+          "schema_hash": "65e7624f80551228a3c01bf62e50a19cfe985842dd6d2fb193be0af967bde0d2",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "query"
+            ],
+            "properties": {
+              "location": [
+                "object"
+              ],
+              "query": [
+                "string"
+              ],
+              "radius": [
+                "number"
+              ]
+            }
+          }
+        }
+      },
+      "first_observed": "2026-09-02T01:21:47Z"
+    },
+    "sentry@stdio:npx": {
+      "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
+      "toolset_hash": "f4ca8c1c9bd411a7b6c48f3771228a4704287d2dd23555bc7de7ca5d9c1e08c6",
+      "transport": "stdio",
+      "auth_method": "none",
+      "tools": {
+        "analyze_issue_with_seer": {
+          "annotations_hash": "03ffb2ef4c389ccaf873d172d017eb2ac96da921462c5037d62b6732647714b6",
+          "composite_hash": "2fe8c832e61d92b0e227c3b111883dc1d5c1d5145de585fdc891edac43b47349",
+          "description_hash": "aee9def9af313b536de28cded107e5dfdd6f88e89d5a1f6b9761a9a396d718a1",
+          "schema_hash": "f55e855e8e5c971285b027a476b7f10ff2d5da2228528c7a995b15955a8f7530",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": "external",
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [],
+            "properties": {
+              "instruction": [
+                "string"
+              ],
+              "issueId": [
+                "string"
+              ],
+              "issueUrl": [
+                "string"
+              ],
+              "organizationSlug": [
+                "string"
+              ],
+              "regionUrl": []
+            }
+          }
+        },
+        "create_dsn": {
+          "annotations_hash": "03ffb2ef4c389ccaf873d172d017eb2ac96da921462c5037d62b6732647714b6",
+          "composite_hash": "b8cf4c3fc033deb390e52c9ce36b8086862bdfd3867f2a2fb43e2f38598582a0",
+          "description_hash": "43844369afae591ab81ead32f8dacee5d49946a5c1c15312c540cf1a55a13628",
+          "schema_hash": "4e31493802c9d1ad44ae25ca87be7c0492bb5c1207c2d1b6dd5a7a9f2caff4b9",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": "external",
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "name",
+              "organizationSlug",
+              "projectSlug"
+            ],
+            "properties": {
+              "name": [
+                "string"
+              ],
+              "organizationSlug": [
+                "string"
+              ],
+              "projectSlug": [
+                "string"
+              ],
+              "regionUrl": []
+            }
+          }
+        },
+        "create_project": {
+          "annotations_hash": "03ffb2ef4c389ccaf873d172d017eb2ac96da921462c5037d62b6732647714b6",
+          "composite_hash": "6d465f0d9df394ec3a2f7e66fb9e1529efa0b4d8efbfb3a9712ced7551e62642",
+          "description_hash": "81c82e462abfbeba9f33ba4b93d29716ac87715cf6918605b5a8e7d0a417a633",
+          "schema_hash": "933bfd0dfdfd30f15f2bf174ca77ea7f432c6685fd1d218146ecc7ddf7ec1587",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": "external",
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "name",
+              "organizationSlug",
+              "teamSlug"
+            ],
+            "properties": {
+              "name": [
+                "string"
+              ],
+              "organizationSlug": [
+                "string"
+              ],
+              "platform": [],
+              "regionUrl": [],
+              "repository": [],
+              "teamSlug": [
+                "string"
+              ]
+            }
+          }
+        },
+        "create_team": {
+          "annotations_hash": "03ffb2ef4c389ccaf873d172d017eb2ac96da921462c5037d62b6732647714b6",
+          "composite_hash": "cce8619fc8c6ed3c5f70f978aab54566861b3b450fd9234149fc5c1b1042315b",
+          "description_hash": "47856749bf6edbfe9ead8ab01a1e1e7a4c85b36c65ee58c06f718a66dbd314de",
+          "schema_hash": "cf7edff911ab0a2ff1528cf8a7b8709c987896a39775f32b72702410eb209436",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": "external",
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "name",
+              "organizationSlug"
+            ],
+            "properties": {
+              "name": [
+                "string"
+              ],
+              "organizationSlug": [
+                "string"
+              ],
+              "regionUrl": []
+            }
+          }
+        },
+        "find_dsns": {
+          "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
+          "composite_hash": "810af1d40e894ad0f7d5df05573e04d7098f87223f8cdbc1349f64856e302c8b",
+          "description_hash": "c8e4aaaf8f3221bda277ea461487bffc4701cadbcea93d81e9d9a3eef149bdc5",
+          "schema_hash": "953bc18a2c58f6dd0c40f5d707749152178dced526a9e4b47430db2be260e099",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "organizationSlug",
+              "projectSlug"
+            ],
+            "properties": {
+              "organizationSlug": [
+                "string"
+              ],
+              "projectSlug": [
+                "string"
+              ],
+              "regionUrl": []
+            }
+          }
+        },
+        "find_organizations": {
+          "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
+          "composite_hash": "b7e7e2c05e7626abea6e54077ecec94d512ec57f70b6e1a59db79886a96cc4ab",
+          "description_hash": "6f431309549b310638524f016b103a50ab6e48501b23bb2d8c5bb3575f40ca4a",
+          "schema_hash": "2aa60b1e7da1384ce46320e98862ed98be64ed91ee7a8ef1e61a0f02b49d11bc",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [],
+            "properties": {
+              "query": []
+            }
+          }
+        },
+        "find_projects": {
+          "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
+          "composite_hash": "385336bf0ab6e4bc277a96b766bc708a53a5ebf2c5e2c7f02b47e97d49066827",
+          "description_hash": "edb7dae84ca2e944f48fb098f31ad4eca38cc35895b02f5f0dafea8f77d050d2",
+          "schema_hash": "cb3edea423a440a3f3a96deda805ea9c3cbc13d4e52fce6bc55ec48363e5dc0e",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "organizationSlug"
+            ],
+            "properties": {
+              "organizationSlug": [
+                "string"
+              ],
+              "query": [],
+              "regionUrl": []
+            }
+          }
+        },
+        "find_releases": {
+          "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
+          "composite_hash": "fde2aec8f1d3eec2b97f3ed7552e9aa0ad4118b5e5408e2086109a29274a9c65",
+          "description_hash": "b9ff2cad69e8bd7cf4289b0d9410a3f5cb5237f86f4864919f77fa28f99ed898",
+          "schema_hash": "035ed8cfc5f3bcc2d4634fd2b828bdd839688a30d5d640bdf4de315471532183",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "organizationSlug"
+            ],
+            "properties": {
+              "organizationSlug": [
+                "string"
+              ],
+              "projectSlug": [],
+              "query": [],
+              "regionUrl": []
+            }
+          }
+        },
+        "find_teams": {
+          "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
+          "composite_hash": "39e02968f78f834c7b132ae13b2d92187aaec3990a5bd38c437de29c4b3a66e3",
+          "description_hash": "b03ce987383e8568d2098fa9c1a8ddae159d0fe9cfb6e152dfed86891f8c0f92",
+          "schema_hash": "cb3edea423a440a3f3a96deda805ea9c3cbc13d4e52fce6bc55ec48363e5dc0e",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "organizationSlug"
+            ],
+            "properties": {
+              "organizationSlug": [
+                "string"
+              ],
+              "query": [],
+              "regionUrl": []
+            }
+          }
+        },
+        "get_doc": {
+          "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
+          "composite_hash": "a1b08fd9b247fbc966eef43510de6e25d2d1bd249aef929bb48dd02a47be2bc5",
+          "description_hash": "303bd44dc4a1028c9af5c1005b1228bfb0f388491de5842df4e738e4670d596a",
+          "schema_hash": "53cfc37a13951be9be1fdcbc6dc215e39234565b5d527238ede0642c2885d44d",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "path"
+            ],
+            "properties": {
+              "path": [
+                "string"
+              ]
+            }
+          }
+        },
+        "get_event_attachment": {
+          "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
+          "composite_hash": "1dfb176fa65cbb7b98fe7f4de28e2ba1cec06c8bdd14f29946ce10f4b322c781",
+          "description_hash": "2e502b2cbd3c0a80840a3f740e3702a30594151e5af7ca74a66aa0a6fd9eb7b6",
+          "schema_hash": "633e5392b595956376a7b0a6abd5ee61030a4d6cfa0c1ddcab79781a20d9e35e",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "eventId",
+              "organizationSlug",
+              "projectSlug"
+            ],
+            "properties": {
+              "attachmentId": [],
+              "eventId": [
+                "string"
+              ],
+              "organizationSlug": [
+                "string"
+              ],
+              "projectSlug": [
+                "string"
+              ],
+              "regionUrl": []
+            }
+          }
+        },
+        "get_issue_tag_values": {
+          "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
+          "composite_hash": "c9e7efc7c85e536d556c8b69a8f7007989ebbc1e414b62984e75aff86faba735",
+          "description_hash": "1b2cb0e7e19d946ef2c0d3cca1d53997316d2ace5336ec17cf70ff4796bc9515",
+          "schema_hash": "ec8f558015b022dd5642fc970883158df412db4db2a5a71ca8474a753ec43a60",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "tagKey"
+            ],
+            "properties": {
+              "issueId": [
+                "string"
+              ],
+              "issueUrl": [
+                "string"
+              ],
+              "organizationSlug": [
+                "string"
+              ],
+              "regionUrl": [],
+              "tagKey": [
+                "string"
+              ]
+            }
+          }
+        },
+        "get_profile_details": {
+          "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
+          "composite_hash": "4af9472a44dedb3dc610be6a9e82255bfbd661b6fd40dea31be719f9e048edf3",
+          "description_hash": "ac60b2dd70178cf58c0670a9737ddd8078607091c8a007141fe73d4e927d9eae",
+          "schema_hash": "35c99063897b7a2ce3233ef74e9e083911c643a3f4fd9d61ba129723b1693bc4",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [],
+            "properties": {
+              "end": [
+                "string"
+              ],
+              "focusOnUserCode": [
+                "boolean"
+              ],
+              "organizationSlug": [
+                "string"
+              ],
+              "profileId": [
+                "string"
+              ],
+              "profileUrl": [
+                "string"
+              ],
+              "profilerId": [
+                "string"
+              ],
+              "projectSlugOrId": [
+                "number",
+                "string"
+              ],
+              "regionUrl": [],
+              "start": [
+                "string"
+              ]
+            }
+          }
+        },
+        "get_replay_details": {
+          "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
+          "composite_hash": "5ee6ad17f227ba423a41f014d99c74c7ae9b13bc38f895b06f406dafb030ddf7",
+          "description_hash": "9701b0bb6a8e606fd6524064f9e2e1d2ebc09ed9355d7982cd0eefddc4ae72f1",
+          "schema_hash": "eddb6300658616484520bb96d8c26cb0ab6514229a0e4ddda594494f856ac9dc",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [],
+            "properties": {
+              "organizationSlug": [
+                "string"
+              ],
+              "regionUrl": [],
+              "replayId": [
+                "string"
+              ],
+              "replayUrl": [
+                "string"
+              ]
+            }
+          }
+        },
+        "get_sentry_resource": {
+          "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
+          "composite_hash": "90732fd7d1960a2e79ba4226fb14e6c6472864205ac0f436413ce0b1a934147d",
+          "description_hash": "d02ed5940bb2c1e5d34a226908cecf3a3cdbe91bf5443d9c7bffeb9cec78f936",
+          "schema_hash": "a366baffa120b8c75690a7db7c9e8d64a981d7190040f64d5930bd65cbc216a3",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [],
+            "properties": {
+              "organizationSlug": [
+                "string"
+              ],
+              "resourceId": [
+                "string"
+              ],
+              "resourceType": [
+                "string"
+              ],
+              "url": [
+                "string"
+              ]
+            }
+          }
+        },
+        "search_docs": {
+          "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
+          "composite_hash": "c377e571ed0f10104e3f63ad13ab0ea6aaeca9f22244e0aed2250c6ef0e7d37c",
+          "description_hash": "1d597f4bfd86f7f218bca2930823250d38e92b2303aee24d58cacb5f0d01785a",
+          "schema_hash": "9dac1318503e2ee51b402bbe3e9f4f4f66dc816be507183494dc283a89ca415f",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "query"
+            ],
+            "properties": {
+              "guide": [],
+              "maxResults": [
+                "integer"
+              ],
+              "query": [
+                "string"
+              ]
+            }
+          }
+        },
+        "search_events": {
+          "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
+          "composite_hash": "8eb5e3c4fb9f77cdb8ee77bd20e6de11f13d75533114f0e3e1db57e42d605e16",
+          "description_hash": "6de3c04d0feedf625fd684ff8dd1dadc60567880b9605fd2786673e9d420e609",
+          "schema_hash": "e1d11104b91777eabd9f3790ab74d84b57fe206ee42615c03654de484075ecd6",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "organizationSlug"
+            ],
+            "properties": {
+              "dataset": [
+                "string"
+              ],
+              "environment": [],
+              "fields": [],
+              "includeExplanation": [
+                "boolean"
+              ],
+              "limit": [
+                "number"
+              ],
+              "organizationSlug": [
+                "string"
+              ],
+              "projectSlug": [],
+              "query": [
+                "string"
+              ],
+              "regionUrl": [],
+              "sort": [],
+              "statsPeriod": [
+                "string"
+              ]
+            }
+          }
+        },
+        "search_issue_events": {
+          "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
+          "composite_hash": "45bf2ae5172d322f3e51c3022b4443efa8bf004e594cdfceca61e7930685ad5e",
+          "description_hash": "4bae7b28a8f07ffcb1aa6245085d11d26a893e8a675ba5301402b86905c3abf3",
+          "schema_hash": "0ab290a6449cd3a93c2c4221c6dac3a00fbfdd9bb9a69914f608241a04533e97",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [],
+            "properties": {
+              "includeExplanation": [
+                "boolean"
+              ],
+              "issueId": [
+                "string"
+              ],
+              "issueUrl": [
+                "string"
+              ],
+              "limit": [
+                "number"
+              ],
+              "organizationSlug": [],
+              "projectSlug": [],
+              "query": [
+                "string"
+              ],
+              "regionUrl": [],
+              "sort": [
+                "string"
+              ],
+              "statsPeriod": [
+                "string"
+              ]
+            }
+          }
+        },
+        "search_issues": {
+          "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
+          "composite_hash": "8f3c5e1b85bfa64f5bef958bb3d733d6c7fb5830ce7bc7bb169454d0cd6c12b6",
+          "description_hash": "f86b50ce5942f5d7d4cd974981710f5866f12aa6459c2eadb731ae0c84208edc",
+          "schema_hash": "271bb903f22a90d0037ba7d6b9450fe33c8227476e4c391bf164eea92cdf7e85",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "organizationSlug"
+            ],
+            "properties": {
+              "includeExplanation": [
+                "boolean"
+              ],
+              "limit": [
+                "number"
+              ],
+              "organizationSlug": [
+                "string"
+              ],
+              "projectSlugOrId": [],
+              "query": [
+                "string"
+              ],
+              "regionUrl": [],
+              "sort": [
+                "string"
+              ]
+            }
+          }
+        },
+        "update_issue": {
+          "annotations_hash": "08672e7cb09cb2dac1072523e520dcbd6ebcc5d036db1b88713086e1dde05169",
+          "composite_hash": "d79f8e65437b26784df1aa231324f32b19e72638c189384a1d8a88f4b7139a10",
+          "description_hash": "f4a95fa6d7fc86fe9cd6c046ad1373fb2d906893d3fa69ab7f4db9f2f6d91d9e",
+          "schema_hash": "32c2a4a0c74db31df1ee98b2c9f3ab2598f36963a9886157261e4c26f68fa87b",
+          "schema_resolution": "resolved",
+          "effect": "irreversible",
+          "declared_ceiling": null,
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": true,
+            "idempotentHint": false,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [],
+            "properties": {
+              "assignedTo": [
+                "string"
+              ],
+              "ignoreCount": [
+                "integer"
+              ],
+              "ignoreDurationMinutes": [
+                "integer"
+              ],
+              "ignoreMode": [
+                "string"
+              ],
+              "ignoreUserCount": [
+                "integer"
+              ],
+              "ignoreUserWindowMinutes": [
+                "integer"
+              ],
+              "ignoreWindowMinutes": [
+                "integer"
+              ],
+              "issueId": [
+                "string"
+              ],
+              "issueUrl": [
+                "string"
+              ],
+              "organizationSlug": [
+                "string"
+              ],
+              "reason": [
+                "string"
+              ],
+              "regionUrl": [],
+              "status": [
+                "string"
+              ]
+            }
+          }
+        },
+        "update_project": {
+          "annotations_hash": "6d72c8d2d5e37035b83346b51a4af3fa217110c0eb1c0eccd182ea94213e766b",
+          "composite_hash": "0ca1f8c082451e6dfc475ec4b7ea97489f77e55cdb77b0bb5930d02fc06b62a6",
+          "description_hash": "860bc173e559e4f7d5771c0613d228860c7f687ee0150844d8443294dbe11e2e",
+          "schema_hash": "6e31467778bbcd8ea1bc28113d8f872936900cf74aca6982d498d41779fe70f0",
+          "schema_resolution": "resolved",
+          "effect": "irreversible",
+          "declared_ceiling": null,
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": true,
+            "idempotentHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [
+              "organizationSlug",
+              "projectSlug"
+            ],
+            "properties": {
+              "name": [],
+              "organizationSlug": [
+                "string"
+              ],
+              "platform": [],
+              "projectSlug": [
+                "string"
+              ],
+              "regionUrl": [],
+              "slug": [],
+              "teamSlug": []
+            }
+          }
+        },
+        "whoami": {
+          "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
+          "composite_hash": "8bd9e59ad688126d25b591552e5e17b9ea15046067ba61642ca99420711361f4",
+          "description_hash": "140a48a9d2308bbaf55ee96d19f5925684fe5bd6472707301051c407b686afaf",
+          "schema_hash": "fa76ec3510efafc07896fe7fbd9aeca03ebdf3c276427393b9a29ab53d72c893",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "openWorldHint": true
+          },
+          "schema_shape": {
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "first_observed": "2026-09-02T01:21:47Z"
+    },
+    "slack@stdio:npx": {
+      "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
+      "toolset_hash": "3d3a42890d38b394d34909760bf1e38116be80288b668e83c95123f782c40412",
+      "transport": "stdio",
+      "auth_method": "literal_secret",
+      "tools": {
+        "slack_add_reaction": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "5d8e64e3958c17708b3f18483d46b5f90244ffdef5d46aaa7a73634a1cc0c378",
+          "description_hash": "7307bc41710772a7a82dd031fc996ee2393f8be401ae0baf358449c25f34cefe",
+          "schema_hash": "dce5b20969276331e7a1ac0e49fc914633123c4ec4e35823868453431fd75bb6",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "channel_id",
+              "reaction",
+              "timestamp"
+            ],
+            "properties": {
+              "channel_id": [
+                "string"
+              ],
+              "reaction": [
+                "string"
+              ],
+              "timestamp": [
+                "string"
+              ]
+            }
+          }
+        },
+        "slack_get_channel_history": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "9429846f991ccdf2ca17e5c7dd90c8943fba046ee4371b643d320f8a115b0512",
+          "description_hash": "71f62f0cd68723e757c2b99e2cd3f045f342b3d1c69cdf8d73ddf87d82d995cb",
+          "schema_hash": "3379b98c3612a51d9c3b6ccd9d7b26e863bfd8ba4ab514aff238b8fdf8bdfdd1",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "channel_id"
+            ],
+            "properties": {
+              "channel_id": [
+                "string"
+              ],
+              "limit": [
+                "number"
+              ]
+            }
+          }
+        },
+        "slack_get_thread_replies": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "a7c90a4133f4a89e50cc90905367d95f4a64a2033986a344390a50f872705c1c",
+          "description_hash": "5d70208d1623ee205518f8df5e8dba733b8ca572faedb2b5bcd2d008ce72478a",
+          "schema_hash": "7b14b1f649f85ce6a7aa309c6f0c446b912011d80e94b612f0e947ab18c87c4c",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "channel_id",
+              "thread_ts"
+            ],
+            "properties": {
+              "channel_id": [
+                "string"
+              ],
+              "thread_ts": [
+                "string"
+              ]
+            }
+          }
+        },
+        "slack_get_user_profile": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "cb947f95e40deff7896bba824872cad6cda9dcfaed9c3499d368d03017bb436e",
+          "description_hash": "bdc55cd2f2790e0f4bcbf5d620fceb47c25478839c35be04797262691b347fae",
+          "schema_hash": "1ce99d8a2987e14d1defa6c29ddcee545069fdfd21f7ec0fbd1df99c0a1ad0e5",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "user_id"
+            ],
+            "properties": {
+              "user_id": [
+                "string"
+              ]
+            }
+          }
+        },
+        "slack_get_users": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "e12cd37ebe058d9a004991588e84cf659030d42c3d5267b1bf505011b48f8568",
+          "description_hash": "ffe492e2258668500cca2fc14391061148a3bb6c8945c1cc50f7427e5a73bafa",
+          "schema_hash": "6fa7f33c62a0ac5a5f29f724f37a1789360beaa718fae5ba5f5fbcfbc5c9cc10",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [],
+            "properties": {
+              "cursor": [
+                "string"
+              ],
+              "limit": [
+                "number"
+              ]
+            }
+          }
+        },
+        "slack_list_channels": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "61353fb6479ed2ad3b25fe4ab0ed8da9eac248bd49f8b7f9c737bc8539c836c3",
+          "description_hash": "bc61c196112a29e2de2f3b747b018e94a1588fe89e34d149520ad4f001e98eb8",
+          "schema_hash": "72631ea8aaef30128fdb749024f75dab71dfbbabe716b60832a08327f3037bda",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [],
+            "properties": {
+              "cursor": [
+                "string"
+              ],
+              "limit": [
+                "number"
+              ]
+            }
+          }
+        },
+        "slack_post_message": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "ece6c96bee6db4fd2565c079d9ec7f681fa145ea9bae469e42aed950afee19c6",
+          "description_hash": "9d53a7974da94a49d054206dacedb0145b9997bb34097f6812d0f75e3c7f3663",
+          "schema_hash": "4608e44ecca5310e215409da1a9fd14b634140cc803b27f8931a4f229366d2b9",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "channel_id",
+              "text"
+            ],
+            "properties": {
+              "channel_id": [
+                "string"
+              ],
+              "text": [
+                "string"
+              ]
+            }
+          }
+        },
+        "slack_reply_to_thread": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "f54291549c1b1b37073968f762d3ae4e85cdb9a7191d97f64821e6459afd1169",
+          "description_hash": "e172b8d069d9c3ed2f32423646057aaa857c41b5b253ea9962f97f5fe69ca108",
+          "schema_hash": "ab654c1240634868e607a87a8c3e81f1b641babe8e0fd160bc7dbc9bf6006377",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "channel_id",
+              "text",
+              "thread_ts"
+            ],
+            "properties": {
+              "channel_id": [
+                "string"
+              ],
+              "text": [
+                "string"
+              ],
+              "thread_ts": [
+                "string"
+              ]
+            }
+          }
+        }
+      },
+      "first_observed": "2026-09-02T01:21:47Z"
+    },
+    "tavily@stdio:npx": {
+      "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
+      "toolset_hash": "f36c69eff005b14b17f76b5bcacedb9ffad12d6d98b78e9a42e16d7416a4aeab",
+      "transport": "stdio",
+      "auth_method": "env_var",
+      "tools": {
+        "tavily_crawl": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "95c801b2c3e127db7fb79e3e46896d30cb0af860e6de92f1e761f879abc77fa6",
+          "description_hash": "9dbd5617049b75ea4437173abf402d6ea3d57a7b523a753cfdcc3175980d147a",
+          "schema_hash": "24e08bf0c8006c0b0f1c46da0ef4a125838c8ca08a819e1aff3b7ff48e108850",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "url"
+            ],
+            "properties": {
+              "allow_external": [
+                "boolean"
+              ],
+              "extract_depth": [
+                "string"
+              ],
+              "format": [
+                "string"
+              ],
+              "include_favicon": [
+                "boolean"
+              ],
+              "instructions": [
+                "string"
+              ],
+              "limit": [
+                "integer"
+              ],
+              "max_breadth": [
+                "integer"
+              ],
+              "max_depth": [
+                "integer"
+              ],
+              "select_domains": [
+                "array"
+              ],
+              "select_paths": [
+                "array"
+              ],
+              "url": [
+                "string"
+              ]
+            }
+          }
+        },
+        "tavily_extract": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "9fca981c01784650bc862e657ef3d0c7d644053873885521b8b30213227ed3da",
+          "description_hash": "b4f50ccc9a8e15eddb2dd75566313eb0aa158b9b6373b68d996474f60b2f3f0a",
+          "schema_hash": "e98eead7b9da33b03eea8f88b8804cc853729fbc1dbe3db5ba8b3c5ef98d5c02",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "urls"
+            ],
+            "properties": {
+              "extract_depth": [
+                "string"
+              ],
+              "format": [
+                "string"
+              ],
+              "include_favicon": [
+                "boolean"
+              ],
+              "include_images": [
+                "boolean"
+              ],
+              "query": [
+                "string"
+              ],
+              "urls": [
+                "array"
+              ]
+            }
+          }
+        },
+        "tavily_map": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "ef8c333893e0a55edf6d2b3c0b36b2820a93a6aec0d4d071b8f2dcab52da0007",
+          "description_hash": "86d16d24ae7cdac7b4035d4379dc79acbd17649949af0c380aaed7499bdc50fe",
+          "schema_hash": "2b8105827d6c701e4613b7dcdba833edb4c2b0dd9cb10e3acb9b0c2b66adec5a",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "url"
+            ],
+            "properties": {
+              "allow_external": [
+                "boolean"
+              ],
+              "instructions": [
+                "string"
+              ],
+              "limit": [
+                "integer"
+              ],
+              "max_breadth": [
+                "integer"
+              ],
+              "max_depth": [
+                "integer"
+              ],
+              "select_domains": [
+                "array"
+              ],
+              "select_paths": [
+                "array"
+              ],
+              "url": [
+                "string"
+              ]
+            }
+          }
+        },
+        "tavily_research": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "9e5abd372e465970c8eebf6d181f4842a9ba51b21b5ebb8b090a46f1258b9dd1",
+          "description_hash": "175cfeaaa6f33aa793e331cced2426f180c1f4f2d77c06087701c906b637d197",
+          "schema_hash": "c1f1f40c7f6adc934dc8a8f273d1a277aa5dd175e939d572d0ee357682f0a932",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "input"
+            ],
+            "properties": {
+              "input": [
+                "string"
+              ],
+              "model": [
+                "string"
+              ]
+            }
+          }
+        },
+        "tavily_search": {
+          "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "composite_hash": "63fc94178e87ad844e3ce4b53648a666d6a18e3be2ecfbd3ee68c1e2cbaf6470",
+          "description_hash": "17fb09cc2a27e2706990a6ad006bde593c2ac2cd387898c702bfbc5ac6fe32ce",
+          "schema_hash": "caacbbd0d4ba42da67b5ae1479760806e1fb681882987ce6823ca7dc3bfff802",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "query"
+            ],
+            "properties": {
+              "country": [
+                "string"
+              ],
+              "end_date": [
+                "string"
+              ],
+              "exact_match": [
+                "boolean"
+              ],
+              "exclude_domains": [
+                "array"
+              ],
+              "include_domains": [
+                "array"
+              ],
+              "include_favicon": [
+                "boolean"
+              ],
+              "include_image_descriptions": [
+                "boolean"
+              ],
+              "include_images": [
+                "boolean"
+              ],
+              "include_raw_content": [
+                "boolean"
+              ],
+              "max_results": [
+                "number"
+              ],
+              "query": [
+                "string"
+              ],
+              "search_depth": [
+                "string"
+              ],
+              "start_date": [
+                "string"
+              ],
+              "time_range": [
+                "string"
+              ],
+              "topic": [
+                "string"
+              ]
+            }
+          }
+        }
+      },
+      "first_observed": "2026-09-02T01:21:47Z"
     }
   }
 }

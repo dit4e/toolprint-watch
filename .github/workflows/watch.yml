@@ -23,6 +23,12 @@ concurrency:
   cancel-in-progress: false
 
 env:
+  # Not a secret, and deliberately visible. Several MCP servers gate tools/list
+  # on an environment variable being SET, not on it being valid - they check the
+  # credential at tools/call. So they can be watched with a placeholder and no
+  # real API key, which removes the whole question of protecting one.
+  WATCH_PLACEHOLDER: "not-a-real-key-0000000000"
+
   # Until toolprint is published to PyPI, install it from source. Switch this to
   # "toolprint[tokens]" once the package exists.
   TOOLPRINT_SPEC: "toolprint[tokens] @ git+https://github.com/dit4e/toolprint@main"
