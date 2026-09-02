@@ -104,16 +104,23 @@ def main(argv=None):
     observed(events)
 
     if args.by_server:
-        print("\nBy server:")
+        latest = at(history[-1][0]) or {}
+        watched = windows(latest, history[-1][1])
         totals = Counter()
         for counter in (changed, appeared, removed):
             totals.update(counter)
-        if not totals:
-            print("  no server has changed yet")
-        for identity, count in totals.most_common():
-            print("  {:<46} {:>3}  (mod {}, new {}, gone {})".format(
-                identity[:46], count, changed[identity],
-                appeared[identity], removed[identity]))
+        print("\nBy server (window = days since first observed):")
+        print("  {:<44} {:>5} {:>7} {:>9}".format("server", "days", "changes", "per day"))
+        order = sorted(watched, key=lambda i: (-totals[i], i))
+        for identity in order:
+            days = watched[identity]
+            count = totals[identity]
+            print("  {:<44} {:>5} {:>7} {:>9}".format(
+                identity[:44], days, count,
+                "{:.3f}".format(count / days) if days else "-"))
+        unwatched = sorted(set(totals) - set(watched))
+        for identity in unwatched:
+            print("  {:<44} {:>5} {:>7} {:>9}".format(identity[:44], "?", totals[identity], "-"))
     return 0
 
 
@@ -129,6 +136,30 @@ def observed(events):
     print("Observation days   : {} ({} server-days)".format(len(rows), server_days))
     if server_days:
         print("Change rate        : {:.3f} per server-day".format(events / server_days))
+
+
+def windows(document, latest_date):
+    """Days each server has actually been watched.
+
+    The watchlist grows, so servers have different observation windows. Dividing
+    by a flat server-day total would credit a server added last week with the
+    whole run's quiet time - an error in the direction that flatters the result,
+    which is the worst direction for it to be wrong in.
+    """
+    import datetime
+
+    out = {}
+    for identity, record in (document.get("servers") or {}).items():
+        first = (record.get("first_observed") or "")[:10]
+        if not first:
+            continue
+        try:
+            start = datetime.date.fromisoformat(first)
+            end = datetime.date.fromisoformat(latest_date[:10])
+        except ValueError:
+            continue
+        out[identity] = max((end - start).days, 0) + 1
+    return out
 
 
 if __name__ == "__main__":

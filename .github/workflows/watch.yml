@@ -62,14 +62,18 @@ jobs:
             --config servers.json --baseline baseline.json \
             --format json --out "observations/$DATE.json"
           DRIFT=$(python -c "import json;print(len(json.load(open('observations/$DATE.json'))['changes']))")
+          NEW=$(python -c "import json;print(len(json.load(open('observations/$DATE.json'))['new_servers']))")
           echo "drift=$DRIFT" >> "$GITHUB_OUTPUT"
-          # Accept the new state so tomorrow compares against today, rather than
-          # re-reporting the same change every day until someone intervenes.
-          if [ "$DRIFT" != "0" ]; then
-            toolprint approve --yes --timeout 60 \
-              --config servers.json --baseline baseline.json \
-              --by "watch workflow" --note "observed $DATE"
-          fi
+          echo "new=$NEW" >> "$GITHUB_OUTPUT"
+          # Always approve, not only on drift. Two jobs: accept the new state so
+          # tomorrow compares against today rather than re-reporting the same
+          # change forever, and adopt any server added to servers.json since the
+          # last run. A newly watched server produces no drift, so gating this on
+          # drift left additions permanently unbaselined - watched, counted in
+          # the denominator, and compared against nothing.
+          toolprint approve --yes --timeout 60 \
+            --config servers.json --baseline baseline.json \
+            --by "watch workflow" --note "observed $DATE"
           exit 0
 
       - name: Record the denominator
@@ -100,9 +104,12 @@ jobs:
           fi
           DRIFT="${{ steps.observe.outputs.drift }}"
           DATE="${{ steps.observe.outputs.date }}"
+          NEW="${{ steps.observe.outputs.new }}"
+          SUFFIX=""
+          if [ "${NEW:-0}" != "0" ]; then SUFFIX=", $NEW newly watched"; fi
           if [ "$DRIFT" = "0" ]; then
-            git commit -m "watch $DATE: no drift"
+            git commit -m "watch $DATE: no drift$SUFFIX"
           else
-            git commit -m "watch $DATE: $DRIFT change(s) observed"
+            git commit -m "watch $DATE: $DRIFT change(s) observed$SUFFIX"
           fi
           git push

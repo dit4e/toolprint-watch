@@ -72,6 +72,42 @@ toolprint check    --connect --yes --config servers.json \
                    --baseline baseline.json
 ```
 
+## Adding servers as it runs
+
+Yes — the list is meant to grow. Edit `servers.json` and commit; the next daily
+run picks it up.
+
+```bash
+# add an entry to servers.json, then either wait for the schedule or:
+toolprint check   --yes --config servers.json --baseline baseline.json
+toolprint approve --yes --config servers.json --baseline baseline.json --by "$USER"
+```
+
+A newly watched server produces **no drift**, which is correct — nothing moved.
+`check` reports it separately as *newly watched, not yet in the baseline*, and
+`approve` adopts it, stamping `first_observed` with that date. The scheduled
+workflow runs `approve` every day for exactly this reason, so additions are
+adopted without anyone intervening.
+
+**`first_observed` is what keeps the arithmetic honest.** Servers joined at
+different times, so they have different observation windows. `analyse.py
+--by-server` divides each server's changes by its own window; a flat
+server-day total would credit a server added last week with the whole run's
+quiet time, which is an error in the direction that flatters the result.
+
+Removing a server is the same idea in reverse: drop it from `servers.json` and
+it stops being observed, but its baseline entry and its history stay. Deleting
+those would erase the record of what it looked like. `check` lists servers it
+expected and did not see, which also catches a server that has simply broken.
+
+Good candidates are servers that (a) exist on npm or PyPI, and (b) actually
+serve `tools/list` with no credentials. Check the second before adding — roughly
+a third of the ones tried failed on a missing API key:
+
+```bash
+toolprint scan --connect --config /tmp/candidate.json
+```
+
 ## Caveats
 
 - Runs on a GitHub-hosted runner, so `npx -y pkg` resolves the latest published

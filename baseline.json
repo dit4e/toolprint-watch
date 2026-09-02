@@ -1080,7 +1080,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "arxiv@stdio:uvx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -1624,7 +1625,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "azure@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -3504,7 +3506,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "browser-tools@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -3708,7 +3711,8 @@
             "properties": {}
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "chrome-devtools@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -4605,7 +4609,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "code-runner@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -4637,7 +4642,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "context7-remote@http:mcp.context7.com": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -4703,7 +4709,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "context7@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -4769,7 +4776,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "deepwiki-remote@http:mcp.deepwiki.com": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -4839,7 +4847,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "desktop-commander@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -5568,7 +5577,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "git-cyanheads@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -6585,7 +6595,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "k8s@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -7480,7 +7491,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "mcp-everything@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -7803,7 +7815,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "mcp-fetch@stdio:uvx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -7840,7 +7853,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "mcp-filesystem@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -8212,7 +8226,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "mcp-git@stdio:uvx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -8565,7 +8580,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "mcp-github-arch@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -9453,7 +9469,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "mcp-memory@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -9680,7 +9697,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "mcp-postgres@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -9706,7 +9724,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "mcp-puppeteer@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -9880,7 +9899,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "mcp-seqthinking@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -9934,7 +9954,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "mcp-time@stdio:uvx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -10000,7 +10021,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "notion@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -10641,7 +10663,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "playwright-ea@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -11449,7 +11472,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "playwright@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -12141,7 +12165,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "qdrant@stdio:uvx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -12198,7 +12223,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     },
     "searxng@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
@@ -12353,7 +12379,8 @@
             }
           }
         }
-      }
+      },
+      "first_observed": "2026-09-01T21:36:54Z"
     }
   }
 }
