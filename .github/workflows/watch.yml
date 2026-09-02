@@ -50,6 +50,14 @@ jobs:
       - name: Install toolprint
         run: pip install --quiet "$TOOLPRINT_SPEC"
 
+      - name: The watchlist must stay credential-free
+        # Enforced rather than remembered. toolprint audits its own watchlist:
+        # a literal credential pasted into servers.json is HYG-002, which exits
+        # 1 and fails the job before anything is contacted or committed. A
+        # "${VAR}" reference - including a prefixed one like "xoxb-${VAR}" -
+        # passes.
+        run: toolprint scan --config servers.json --fail-on high
+
       - name: Observe
         id: observe
         run: |

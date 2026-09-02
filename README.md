@@ -72,6 +72,18 @@ toolprint check    --connect --yes --config servers.json \
                    --baseline baseline.json
 ```
 
+## No credentials, by decision
+
+Nothing in this repository is a secret, and nothing here needs one. That is a
+deliberate position, not an accident of what was easy, and it is enforced in CI:
+every run first points toolprint at its own watchlist and fails the job if
+`servers.json` contains a literal credential rather than a `${VAR}` reference.
+
+The reasoning is below. The short version: watching a server means running it,
+and running it with a real token means handing that token to a package you are
+watching *because you suspect packages can change*. A placeholder gets the same
+data with none of that.
+
 ## Servers that ask for an API key
 
 Most of them do not actually need one. **MCP servers check credentials at
