@@ -159,7 +159,7 @@ toolprint scan --connect --config /tmp/candidate.json
 |---|---|
 | `servers.json` | The watchlist, in MCP client config format |
 | `baseline.json` | The approved state. **Its git history is the dataset.** |
-| `observations.csv` | One row per run: the denominator |
+| `observations.csv` | One row per run: servers watched, how many were actually **reachable**, tools seen, changes found |
 | `observations/` | Per-run drift detail, written only on days with changes |
 | `analyse.py` | Reads the history and reports a rate |
 | `.github/workflows/watch.yml` | Daily collector |
