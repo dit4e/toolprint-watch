@@ -155,4 +155,23 @@ jobs:
           else
             git commit -m "watch $DATE: $DRIFT change(s) observed$SUFFIX"
           fi
-          git push
+          # The observation takes about ten minutes and commits at the end, so
+          # anything pushed to this repository meanwhile leaves this checkout
+          # behind and the push is rejected - losing the day's observation, and
+          # failing quietly unless someone goes looking. Rebase onto whatever
+          # arrived and retry; the commits are additive.
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push rejected, rebasing onto origin/main (attempt $attempt)"
+            git fetch -q origin main
+            git rebase origin/main || {
+              echo "::error::rebase conflict - the observation was not recorded"
+              git rebase --abort || true
+              exit 1
+            }
+          done
+          echo "::error::could not push after 3 attempts"
+          exit 1
