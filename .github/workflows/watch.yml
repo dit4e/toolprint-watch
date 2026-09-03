@@ -31,9 +31,10 @@ env:
   # real API key, which removes the whole question of protecting one.
   WATCH_PLACEHOLDER: "not-a-real-key-0000000000"
 
-  # Until toolprint is published to PyPI, install it from source. Switch this to
-  # "toolprint[tokens]" once the package exists.
-  TOOLPRINT_SPEC: "toolprint[tokens] @ git+https://github.com/dit4e/toolprint@main"
+  # Pinned rather than floating: the collector's job is to detect when tool
+  # definitions change, so the measuring instrument must not change underneath
+  # the measurement. Bump deliberately, and treat a bump as a re-baseline event.
+  TOOLPRINT_SPEC: "toolprint[tokens]==0.1.0"
 
 jobs:
   observe:
