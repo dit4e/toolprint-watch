@@ -15,8 +15,10 @@ on:
     - cron: "17 6 * * *"   # daily, off the hour to avoid the thundering herd
   workflow_dispatch:
 
+# The GITHUB_TOKEN needs nothing beyond read: the commit is pushed with a
+# deploy key scoped to this repository alone.
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: watch
@@ -123,12 +125,20 @@ jobs:
           OBS_DATE: ${{ steps.observe.outputs.date }}
           OBS_DRIFT: ${{ steps.observe.outputs.drift }}
           OBS_NEW: ${{ steps.observe.outputs.new }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEPLOY_KEY: ${{ secrets.WATCH_DEPLOY_KEY }}
         run: |
+          # A deploy key rather than GITHUB_TOKEN: it can write to this one
+          # repository and nothing else in the organisation, and the org's
+          # default workflow permissions stay read-only for every other repo.
+          # It is loaded here, at the last step, so it is never present while
+          # the watched packages are executing.
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -t ed25519 github.com >> ~/.ssh/known_hosts 2>/dev/null
           git config user.name "toolprint watch"
           git config user.email "noreply@github.com"
-          git remote set-url origin \
-            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git remote set-url origin "git@github.com:${GITHUB_REPOSITORY}.git"
           git add -A
           if git diff --cached --quiet; then
             echo "nothing to record"
