@@ -77,7 +77,7 @@ jobs:
           DATE=$(date -u +%Y-%m-%d)
           echo "date=$DATE" >> "$GITHUB_OUTPUT"
           if [ ! -f baseline.json ]; then
-            toolprint baseline --yes --timeout 60 \
+            toolprint baseline --yes --timeout 120 \
               --config servers.json --baseline baseline.json \
               --by "watch workflow" --note "first observation"
             echo "drift=0" >> "$GITHUB_OUTPUT"
@@ -87,7 +87,7 @@ jobs:
           # the denominator row records how many servers actually answered, and
           # a shortfall raises a workflow warning. A research collector should
           # record a degraded day, not refuse to.
-          toolprint check --yes --timeout 60 --fail-on none --min-coverage 0 \
+          toolprint check --yes --timeout 120 --fail-on none --min-coverage 0 \
             --config servers.json --baseline baseline.json \
             --format json --out "observations/$DATE.json" \
             --findings "$RUNNER_TEMP/findings.json"
@@ -95,16 +95,37 @@ jobs:
           NEW=$(python -c "import json;print(len(json.load(open('observations/$DATE.json'))['new_servers']))")
           echo "drift=$DRIFT" >> "$GITHUB_OUTPUT"
           echo "new=$NEW" >> "$GITHUB_OUTPUT"
-          # Always approve, not only on drift. Two jobs: accept the new state so
-          # tomorrow compares against today rather than re-reporting the same
-          # change forever, and adopt any server added to servers.json since the
-          # last run. A newly watched server produces no drift, so gating this on
-          # drift left additions permanently unbaselined - watched, counted in
-          # the denominator, and compared against nothing.
-          toolprint approve --yes --timeout 60 \
-            --config servers.json --baseline baseline.json \
-            --by "watch workflow" --note "observed $DATE"
+          # approve re-contacts every server, so running it unconditionally meant
+          # 72 cold package fetches a day rather than 36 - on most days to
+          # approve nothing at all. Gated on there being something to accept:
+          # drift to record, or a server added to servers.json since the last
+          # run. Both jobs still happen, just not for free every night.
+          if [ "$DRIFT" != "0" ] || [ "$NEW" != "0" ]; then
+            toolprint approve --yes --timeout 120 \
+              --config servers.json --baseline baseline.json \
+              --by "watch workflow" --note "observed $DATE"
+          else
+            echo "nothing to approve; not re-contacting the servers"
+          fi
           exit 0
+
+      - name: Explain any unreachable servers
+        run: |
+          python - "$RUNNER_TEMP/findings.json" <<'PY'
+          import json, os, sys
+          path = sys.argv[1]
+          if not os.path.exists(path):
+              sys.exit(0)
+          bad = [s for s in json.load(open(path))["servers"]
+                 if s["fetch_status"] not in ("ok", "not_attempted")]
+          if not bad:
+              print("every server answered")
+              sys.exit(0)
+          print("{} server(s) did not answer:".format(len(bad)))
+          for s in sorted(bad, key=lambda s: s["name"]):
+              print("  {:<24} {:<14} {}".format(
+                  s["name"], s["fetch_status"], (s["fetch_detail"] or "")[:90]))
+          PY
 
       - name: Record the denominator
         env:
