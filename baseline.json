@@ -1,9 +1,9 @@
 {
   "baseline_version": 1,
-  "generator": "toolprint/0.1.0",
+  "generator": "toolprint/0.2.2",
   "heuristics_version": 1,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-09-03T03:00:09Z",
+  "approved_at": "2026-09-04T20:09:08Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -13,6 +13,8 @@
       "toolset_hash": "dc02ee6712ff23e985196867bd11412e40447f5cdaf6c8228258d150b21f860c",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "0.8.x",
+      "version_pinned": false,
       "tools": {
         "generate_area_chart": {
           "annotations_hash": "b4305f3cb53dca60d2034062bd31135618d821a719913a1cb63cac33e70f9878",
@@ -1080,14 +1082,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "arxiv@stdio:uvx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "5c55f200bc8f3a2428d03ffe5b633207e7e542f5bce70fc26636f5d202103791",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "0.7.2",
+      "version_pinned": false,
       "tools": {
         "check_alerts": {
           "annotations_hash": "08fee34755e661502a62e6097494d6cf5cb427b72e2b663bafd11abd4ad4a73c",
@@ -1625,14 +1628,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "azure@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "14f9f14593df8df5ab4fcd28470d94153d9b93d7d26c971cc8169415e46d1259",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "3.0.0-beta.41",
+      "version_pinned": false,
       "tools": {
         "acr": {
           "annotations_hash": "2a1f0fa5e0ee322c30a65636c33a2f6009203ae158ba823c4d5753f3d9f60f74",
@@ -1661,10 +1665,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "advisor": {
           "annotations_hash": "082e01dbae6aadfae1614089d163758190c8f92937a0ccb8f1ac77c59080573f",
@@ -1693,10 +1694,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "aks": {
           "annotations_hash": "bd2f3825c48a81344220321f506527fa8306ed0007be1b622bcf8839f66914bd",
@@ -1725,10 +1723,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "appconfig": {
           "annotations_hash": "19f5d19a75af0b168fd29fa23bb05a1cf6db6a2f1dd70bd02638d2733bce8f4b",
@@ -1757,10 +1752,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "applens": {
           "annotations_hash": "307e2f72165b2b6465552fedcb0ad7fcff0f4fc263b941aa37429336389cb29a",
@@ -1789,10 +1781,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "applicationinsights": {
           "annotations_hash": "3c12a52fd169dc70d888f0a8490c5c9b346f53f8c3c1ab5741ee63c23f507ece",
@@ -1821,10 +1810,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "appservice": {
           "annotations_hash": "cea3a3269ca1e49556ef9a2c6437106c069e589d604e90f2d1e1a60b247a5106",
@@ -1853,10 +1839,36 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
+        },
+        "arm": {
+          "annotations_hash": "3c2d91b707ae16ebc741b24d77b30a0e446f2e9117359db920f03d5fedb778e3",
+          "composite_hash": "51d905f1655e1eefe0b7b45d0f4ae89999e5739194f6ac9c80284bc60834ca15",
+          "description_hash": "3eba6b1be7eb2f6bbdd7e262e89b3ad0e62ae2177914c59032ad9a9769c2590d",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
         },
         "azd": {
           "annotations_hash": "d385771fd8b0b0b6a273c72c50327003c7c0b471c8c5437928094d2064d7995c",
@@ -1885,10 +1897,36 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
+        },
+        "azurebackup": {
+          "annotations_hash": "6324947654cd8d900c369048f505ad3c04c1b96bd82c8f48c9f6a89619b945ec",
+          "composite_hash": "c491b90dac454521cf2b636d01b912c4d69cddf1185cae1455fdf4819434f07c",
+          "description_hash": "35b3e0b4c0a65b16624ef433e48cbda9b4331f299af2ce203f0c60a1dd8b8ab6",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
         },
         "azuremigrate": {
           "annotations_hash": "ee27c0de5cb2955b8bb39049961acdf8e3ad8ce5ae72d86158cff50220994428",
@@ -1917,10 +1955,36 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
+        },
+        "azureterraform": {
+          "annotations_hash": "af2a72face02dc7fc13b6b4a9e9dfd6485afbd25952fc14305009b9aa41f1a67",
+          "composite_hash": "7a0760b428cb85cdb3630824727f9e44091b16393edd58c07b19f7b2a32fdcc4",
+          "description_hash": "fab59a26a07407310076c0070bf280ac4a57c034e6bc16e1f3142277b67ea35b",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
         },
         "azureterraformbestpractices": {
           "annotations_hash": "a4e0b7f9893a9bcacd4a4d3600a92a078f68e7a64674e2ce30805ef6f84eec86",
@@ -1949,10 +2013,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "bicepschema": {
           "annotations_hash": "9028f2ed3a1919151b082dc483e7e041b01f338fc4967822e3d2f1f256abb1bc",
@@ -1981,10 +2042,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "cloudarchitect": {
           "annotations_hash": "cb4237db454fb69b054f4921d4fabd6a34a3ce6ed5ee807c3a4a798c299b36d2",
@@ -2013,10 +2071,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "communication": {
           "annotations_hash": "1f9ca9c440bcc4f85c6e27eca126c30d5e58a2e2a07ecb0c8bdb708033896c4d",
@@ -2045,10 +2100,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "compute": {
           "annotations_hash": "258e51c3002cd1e0cc4281d0d02b370cd9769a735d793eb6d531312beea489d0",
@@ -2077,10 +2129,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "confidentialledger": {
           "annotations_hash": "1a410f832eebf7f20ad6987ab56507860ec4a75c73a4bb90bdecc5ccee583036",
@@ -2109,10 +2158,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "containerapps": {
           "annotations_hash": "536c893ad9ead6ac49de464153b1e6ca1f7de92f7056fa70f1cf9966af3ca2de",
@@ -2141,10 +2187,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "cosmos": {
           "annotations_hash": "668c3029cd9122f7f6acc7232ae27908797eb2781217aed63202f03a0d2126dc",
@@ -2173,10 +2216,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "datadog": {
           "annotations_hash": "754192f30a1904f0cc20f760a1731ba741a3d7a007ab5946c5c261938e838bcd",
@@ -2205,10 +2245,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "deploy": {
           "annotations_hash": "8457b5a00bdeff5ea77f80f074d307408ab2203e8b69d1a71e1f17c2d6eac5b1",
@@ -2237,10 +2274,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "deviceregistry": {
           "annotations_hash": "73efe9ac65206b743205d349ac715dc113265da898a2a0136c5351312c4b54f2",
@@ -2269,10 +2303,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "documentation": {
           "annotations_hash": "39795d15b7c8091f09db5012b1db8e1635a492cbbc7903d152b5c083fbcde186",
@@ -2301,10 +2332,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "eventgrid": {
           "annotations_hash": "1e627c9d1dc8d7c4e921100245f8bde3a8833c53980744676e0cfe47a376b4bd",
@@ -2333,10 +2361,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "eventhubs": {
           "annotations_hash": "90c1fed2c31498f136bc1755c7b2b0f4799450daa989ba70dfda8cdedb2e0faf",
@@ -2365,10 +2390,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "extension_azqr": {
           "annotations_hash": "e3b08279c07f7042551582c19269035ac593a1ae72ad72887d2bac230bb6a34b",
@@ -2397,10 +2419,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "extension_cli_generate": {
           "annotations_hash": "ce39c752be551cb5234dee1feaf2060d13b82fef9a32a2493f8ac12a5c7f1be3",
@@ -2429,10 +2448,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "extension_cli_install": {
           "annotations_hash": "1f9e4864a94ba7200146ec5b55924ce00f4430d7c425f6fdb0b45e693ddaa7ed",
@@ -2457,10 +2473,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "fileshares": {
           "annotations_hash": "903fe502fe2e19a1b01c93ebc31ec82b6300aa35e8ffa227205d84e0ddc708e9",
@@ -2489,10 +2502,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "foundry": {
           "annotations_hash": "374eddb0aa5cb81ec42d6f8728a70c70defe0f19ac0cc9c7523415964362068c",
@@ -2521,10 +2531,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "foundryextensions": {
           "annotations_hash": "d6bc932f0241bb237dbbbddef0c954aeb4e43adc6fa411aac171d431a4e53b2d",
@@ -2553,10 +2560,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "functionapp": {
           "annotations_hash": "f96018c71ed88d079f7209fcdd8323b09d4063b1964597983cb63d9df2b942e6",
@@ -2585,10 +2589,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "functions": {
           "annotations_hash": "f96018c71ed88d079f7209fcdd8323b09d4063b1964597983cb63d9df2b942e6",
@@ -2617,10 +2618,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "get_azure_bestpractices": {
           "annotations_hash": "ecc1af3357fe4a9849d73cbd90bedb30c73f7c943a4436043a2b9d73e944aca4",
@@ -2649,10 +2647,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "grafana": {
           "annotations_hash": "44022cd3bff4cab0d118349fe822a379201721360d210fa354e058d9ef97d5f4",
@@ -2681,10 +2676,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "group_list": {
           "annotations_hash": "3029f12b61565153d9895da0e9086c85b60eb5ab64078a1e05bf466bbad5fff2",
@@ -2710,10 +2702,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "group_resource_list": {
           "annotations_hash": "b021122530416197fa833d137edbfa194ddf230691ad15a0a3cf391ec2e8db6f",
@@ -2744,932 +2733,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "keyvault": {
-          "annotations_hash": "0be2eb5489fc68ab99788ddcc4f0b61898b530b834a30405fc0f746d43851367",
-          "composite_hash": "e0cdffa805e7460e9e7edf082cb7bd750c82a8872bfb09d10e52be7c8a36c4ab",
-          "description_hash": "5991b805397b07dfbe678ada3dc08ec7e6027bf6bab60d9c8ecd8d239d1c8957",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "kusto": {
-          "annotations_hash": "8abcf034d2966f76fd524a82cc05f7f1a3346c23537b8b10a9350076f5beebbe",
-          "composite_hash": "f4aef36545e34488be14298cc19a270bec55cfd4cf3f33dd5906bb92e9004629",
-          "description_hash": "2147d4b7af1c1e1a323940cd7e645a34c921f731f90d2f280859c217d03be93b",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "loadtesting": {
-          "annotations_hash": "8c6b90e5edf076e2600e9329fcc4e7656305d210268ace5ad4b7995c5aea3bea",
-          "composite_hash": "34d0f63ed69c52f1ee2f0873d254cf9aa66540865fac5bf4c54b9fe6c34ab363",
-          "description_hash": "0556c54e63c83afd53604371844f96a42eabae6c1e18f85e768211559c8329dd",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "managedlustre": {
-          "annotations_hash": "1eb6eeff3dc73d39be7d53f7bf2716efe3620239c7b395cd7c8cf13b5ef891ff",
-          "composite_hash": "6e3a8c4c3d1eea01a63c386c8147646dc6afa2c0924887c140887720de3ff765",
-          "description_hash": "bb72714134027b54358b03647cf97e2ebf7c5882e9c43241f3400933b375b458",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "marketplace": {
-          "annotations_hash": "748f3042c1e8571db433fa8c1e83e3d1aeedcc47c98f9b8444abfe2e39c55198",
-          "composite_hash": "bc178882d9196992951443b28e70ac37854950364c2cf0b71dcd31806d35f65a",
-          "description_hash": "a15385ab1d39363a57512ecc5d6cc515af4ce7b7f2176d0a2b9b3b089c02ff5b",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "monitor": {
-          "annotations_hash": "fbe7a5c3d2a47cea848f9a4eaa988f7e1f5b386ad374f54b93629db69ca763ad",
-          "composite_hash": "e555d4b1d849b6adf2c168b421c1fd613534cb3f8230ce597d8a4db3c76ac092",
-          "description_hash": "c327078caf7f1bc2619bfddb2d2cef3d0b89055e1efc6a40b8548c15fc7ddc5f",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "mysql": {
-          "annotations_hash": "11e4a9387f3e0ddd5ce67e5f170d1250e0e9c56df510330e20b529e523184ace",
-          "composite_hash": "49f8525c120c063a7b315cf3a05c015bf28bfd50475110b6e3636f2ca2e31ef3",
-          "description_hash": "aef809e4f9076d2b5b937259c9366f9aaaadafdcf2b5754762c03538c4c09ec2",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "policy": {
-          "annotations_hash": "586f0d6cd4d7dd3d5f1704e6bf975261ff49e1e9a6a4881d0d486d9ff7e4996c",
-          "composite_hash": "130322fd2d8db1df2a71d30660fecc1829d57fbd54d50682be2d952a3aee3f86",
-          "description_hash": "5795fed1a1fdd3f12c193973442d550566f81c6ab4c7978e59669c9d2f191cf4",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "postgres": {
-          "annotations_hash": "5c28d0950efab2c2f3df3b748a6ef2ce6dcfb7058769d0daa7cbdc55cd1c6c3a",
-          "composite_hash": "ae2416d4c84e3aad5a56cf70578f44540289f74a296bc88f5b38fd40cd581487",
-          "description_hash": "5158fcb69696ca789ff37bb88a4cabd5b5537dada5a5c9aaf6a4db4c2fdf2949",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "pricing": {
-          "annotations_hash": "3bc16b0b6474197fbb8683fbbcced907a566d22c50b1532463c618b18ad6ba6e",
-          "composite_hash": "fcb4887612f043b6a6386cd2bf5bcbdfcf7073d81fec5d6b4d78cde53d1043d5",
-          "description_hash": "02bf9abd262838e3845aa0e5b303a57c93988c8327dff2c14e583b418e3b8f00",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "quota": {
-          "annotations_hash": "5928f74cac84ebb0c0d0a488b71e373bb9c62f1f76ae452caab1e2b564538e74",
-          "composite_hash": "518af5feb576043d2774168784937281fbb94720faf638ef6fca2ec8a82a37e9",
-          "description_hash": "44a367e720cf69f52bbd9a1b8f3a24ab8e6e29c172061ee567dc460c33d51db9",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "redis": {
-          "annotations_hash": "d172a479cde18e0a2d285eda71011ee07d9e759cfd0276571139c8bdc3b1b16d",
-          "composite_hash": "46232d677ae947d798b80006f0cb03fe95fe79a8f86f32f51c352e172cf539b0",
-          "description_hash": "2333ee339b4c65ae884d9bd3e7fc6818a73b1508a3ec7943a2bd38f179aa474b",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "resourcehealth": {
-          "annotations_hash": "15074a4bf7c67aa964f88116186ff191d6bc569f94c2163b9ebeefb90a331219",
-          "composite_hash": "ae5e5c263796c4b23c2d8db96b4c0b2200712f839f3a5f07a13f99cec88b53aa",
-          "description_hash": "eae297c00a5602030a5d00d884a1095c884bd27834cca7682b3035ef15d9ab39",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "role": {
-          "annotations_hash": "f3396b8c2fd4c2a78de777f22425df2b750fed79ab6dde4b8566fd8b4f13e7ec",
-          "composite_hash": "87c1766b55999724ff314a9855b2e18f4c6b5778d3b076615899b2853aded427",
-          "description_hash": "ff5b869333a366f460b73c2ae1ec1533aa4d7e81df3e7c1a9f7c29a29195bdab",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "search": {
-          "annotations_hash": "c4012917cc4eddf8c9d80598779d9607f2233b7ca46cd49c25a84f62744b9cfb",
-          "composite_hash": "9218ffd93a97b7c4f76266d7c7a9458a098e465022332fa7dfad6e5a1b9b7e65",
-          "description_hash": "c5fe4a231a9410d0f1f40c4236bf3d27e542fdbaf7b01e7b486442beadfd91ca",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "servicebus": {
-          "annotations_hash": "c5227d3d559853c4690c5480168c1af9d40afb839b6982f297d81a3f7592374b",
-          "composite_hash": "b722eece2a9e698eaf90b7957259205d3804c250709b59703fb25458c37c18e6",
-          "description_hash": "616f9b2b05903d15e8404d5e7b7efb9923951a579c6ead37510025a2b2dd83b6",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "servicefabric": {
-          "annotations_hash": "cd7320777947f310639141cf950f5793f68a3597774372a6a1fa2eccdb839ecc",
-          "composite_hash": "601508e98c093036035845de62cb33fa5f226310c4e10b5a5879f26aa8436841",
-          "description_hash": "bf9544490abe6a6e2649ddd82361b9f1a9fd9feb90f0b434b0cb913c04a969cd",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "signalr": {
-          "annotations_hash": "23445d5955de98467ffdd20bddb43d89c5406af418558ab8dc9b544cc72185cb",
-          "composite_hash": "89c980896370f06cb2b4a9dc9f292c8244e9f22c4307c8606e5e6e5c13fcf9d9",
-          "description_hash": "85b59f6fd86ceafcbad07d16c1895d11aade7a9faba35ef6e2135e6889a2545e",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "speech": {
-          "annotations_hash": "68fff2b1b0a33015eb4e5d4d2e85bc555502d5f9b3863bd20c5bfcec500ff972",
-          "composite_hash": "06b30d41fb21554c5c9602e00e057f81870224f22c1aed1402a6c39a10c5869b",
-          "description_hash": "d066d39e24d6603c82d55e178db9ab70466fccb111d4d176368aca4d027eb53f",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "sql": {
-          "annotations_hash": "f5bd3c9d0c00f9ca1bb33a6a2d517ad36e5c89c087ec666af1a98b93a179be32",
-          "composite_hash": "6afc16cf6e5d2c07e2da6800071a0aa51d894639cdaf11a0fa912175ec0b3772",
-          "description_hash": "67c277e1b95ce260f65b44fcb93270aae8189f9781f96016c68a4bd49964c586",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "storage": {
-          "annotations_hash": "4b46b547118d86a12f86d920a5edd2ab307b0c1e390f15017e5ab13d436cc1ec",
-          "composite_hash": "be45d4ee84d72cb31c6890333a07f2e77cf94a8b57480480c4c6a6084d15d12f",
-          "description_hash": "77f748aa2656290aca742f3e319f38163426985215a6d132be6fdd18c60197bb",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "storagesync": {
-          "annotations_hash": "e4a0fadbc17c4bc11e2de2becc2170401bc9ac05cfa32e6696e749b384933a66",
-          "composite_hash": "be59f42331395bff32634606bc74a9d965168ad28a35e1899b25a1ed383fefd0",
-          "description_hash": "09ae3e24d61cf8a934cd95854c7834c0f1c8f6a8ce49c6b70afca6438eb72150",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "subscription_list": {
-          "annotations_hash": "b21122a0d25c01a38f6778300b29d0adddf69afddb6474988000c8c60c1084e1",
-          "composite_hash": "d0a3bbf2b98e218d7164385bda896f7a9a8f5cf9faec205b19c3d1622db418ed",
-          "description_hash": "af10454bbc21fe97665b33209ef1f4b30572e1e3a6742015fd8f9b01321c9ab7",
-          "schema_hash": "ea1bef228f2b29d81aa12a98816b54212f4fc852944b57a13029f3f8c13191d0",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": "read",
-          "annotations": {
-            "readOnlyHint": true,
-            "destructiveHint": false,
-            "idempotentHint": true,
-            "openWorldHint": false
-          },
-          "schema_shape": {
-            "required": [],
-            "properties": {
-              "tenant": [
-                "string"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "virtualdesktop": {
-          "annotations_hash": "f6a15bb848a56acf55b646ecb1fc0ec3a59f1e64d7f828d9dece71559667314c",
-          "composite_hash": "21c82259449d990faa7ad733eb0ea6bf1a81ae6b0c0cee0fc95cf08fab3ca2d4",
-          "description_hash": "50a651b3485a7848cd09a828ad3a1f4d18bd0d2a4eae175db791ea6969df641c",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "wellarchitectedframework": {
-          "annotations_hash": "9ddfc544142c244ce75331a00438193c7a1b603a446d30169317904c97921cfa",
-          "composite_hash": "f7a4626d533eb51b9da2db33d989ba735eb69cb62f97da56a3581e936c13ac0d",
-          "description_hash": "b725a25f2d9afa10bad9ee5c09c8c1733e537375f2965b05620a844b71cb5248",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "workbooks": {
-          "annotations_hash": "c19f2d1d8890e61f6a585da7cffdb54247ebb90e3d3254c0def190fe7bbcefbe",
-          "composite_hash": "08c2e9a3beee13574548e28a02afe1cd3ca7853a43b6d0134d7a821abc12b96c",
-          "description_hash": "012db7479abc5fd12d311a8dc42c75b0f359da749d806298a4bb5bb2046f0bd1",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "arm": {
-          "annotations_hash": "3c2d91b707ae16ebc741b24d77b30a0e446f2e9117359db920f03d5fedb778e3",
-          "composite_hash": "51d905f1655e1eefe0b7b45d0f4ae89999e5739194f6ac9c80284bc60834ca15",
-          "description_hash": "3eba6b1be7eb2f6bbdd7e262e89b3ad0e62ae2177914c59032ad9a9769c2590d",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "azurebackup": {
-          "annotations_hash": "6324947654cd8d900c369048f505ad3c04c1b96bd82c8f48c9f6a89619b945ec",
-          "composite_hash": "c491b90dac454521cf2b636d01b912c4d69cddf1185cae1455fdf4819434f07c",
-          "description_hash": "35b3e0b4c0a65b16624ef433e48cbda9b4331f299af2ce203f0c60a1dd8b8ab6",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "azureterraform": {
-          "annotations_hash": "af2a72face02dc7fc13b6b4a9e9dfd6485afbd25952fc14305009b9aa41f1a67",
-          "composite_hash": "7a0760b428cb85cdb3630824727f9e44091b16393edd58c07b19f7b2a32fdcc4",
-          "description_hash": "fab59a26a07407310076c0070bf280ac4a57c034e6bc16e1f3142277b67ea35b",
-          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": null,
-          "annotations": {},
-          "schema_shape": {
-            "required": [
-              "intent"
-            ],
-            "properties": {
-              "command": [
-                "string"
-              ],
-              "intent": [
-                "string"
-              ],
-              "learn": [
-                "boolean"
-              ],
-              "parameters": [
-                "object"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "insights": {
           "annotations_hash": "5fb33e005392bafc4212626015ea8a3ae51239193684daeb8fedf18d00350196",
@@ -3698,10 +2762,7 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "iothub": {
           "annotations_hash": "91f5f0aba01348f89280693877e03d4d08cf9f9dc1b151cbd0290f8378467fa5",
@@ -3730,10 +2791,355 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
+        },
+        "keyvault": {
+          "annotations_hash": "0be2eb5489fc68ab99788ddcc4f0b61898b530b834a30405fc0f746d43851367",
+          "composite_hash": "e0cdffa805e7460e9e7edf082cb7bd750c82a8872bfb09d10e52be7c8a36c4ab",
+          "description_hash": "5991b805397b07dfbe678ada3dc08ec7e6027bf6bab60d9c8ecd8d239d1c8957",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "kusto": {
+          "annotations_hash": "8abcf034d2966f76fd524a82cc05f7f1a3346c23537b8b10a9350076f5beebbe",
+          "composite_hash": "f4aef36545e34488be14298cc19a270bec55cfd4cf3f33dd5906bb92e9004629",
+          "description_hash": "2147d4b7af1c1e1a323940cd7e645a34c921f731f90d2f280859c217d03be93b",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "loadtesting": {
+          "annotations_hash": "8c6b90e5edf076e2600e9329fcc4e7656305d210268ace5ad4b7995c5aea3bea",
+          "composite_hash": "34d0f63ed69c52f1ee2f0873d254cf9aa66540865fac5bf4c54b9fe6c34ab363",
+          "description_hash": "0556c54e63c83afd53604371844f96a42eabae6c1e18f85e768211559c8329dd",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "managedlustre": {
+          "annotations_hash": "1eb6eeff3dc73d39be7d53f7bf2716efe3620239c7b395cd7c8cf13b5ef891ff",
+          "composite_hash": "6e3a8c4c3d1eea01a63c386c8147646dc6afa2c0924887c140887720de3ff765",
+          "description_hash": "bb72714134027b54358b03647cf97e2ebf7c5882e9c43241f3400933b375b458",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "marketplace": {
+          "annotations_hash": "748f3042c1e8571db433fa8c1e83e3d1aeedcc47c98f9b8444abfe2e39c55198",
+          "composite_hash": "bc178882d9196992951443b28e70ac37854950364c2cf0b71dcd31806d35f65a",
+          "description_hash": "a15385ab1d39363a57512ecc5d6cc515af4ce7b7f2176d0a2b9b3b089c02ff5b",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "monitor": {
+          "annotations_hash": "fbe7a5c3d2a47cea848f9a4eaa988f7e1f5b386ad374f54b93629db69ca763ad",
+          "composite_hash": "e555d4b1d849b6adf2c168b421c1fd613534cb3f8230ce597d8a4db3c76ac092",
+          "description_hash": "c327078caf7f1bc2619bfddb2d2cef3d0b89055e1efc6a40b8548c15fc7ddc5f",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "mysql": {
+          "annotations_hash": "11e4a9387f3e0ddd5ce67e5f170d1250e0e9c56df510330e20b529e523184ace",
+          "composite_hash": "49f8525c120c063a7b315cf3a05c015bf28bfd50475110b6e3636f2ca2e31ef3",
+          "description_hash": "aef809e4f9076d2b5b937259c9366f9aaaadafdcf2b5754762c03538c4c09ec2",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "policy": {
+          "annotations_hash": "586f0d6cd4d7dd3d5f1704e6bf975261ff49e1e9a6a4881d0d486d9ff7e4996c",
+          "composite_hash": "130322fd2d8db1df2a71d30660fecc1829d57fbd54d50682be2d952a3aee3f86",
+          "description_hash": "5795fed1a1fdd3f12c193973442d550566f81c6ab4c7978e59669c9d2f191cf4",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "postgres": {
+          "annotations_hash": "5c28d0950efab2c2f3df3b748a6ef2ce6dcfb7058769d0daa7cbdc55cd1c6c3a",
+          "composite_hash": "ae2416d4c84e3aad5a56cf70578f44540289f74a296bc88f5b38fd40cd581487",
+          "description_hash": "5158fcb69696ca789ff37bb88a4cabd5b5537dada5a5c9aaf6a4db4c2fdf2949",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "pricing": {
+          "annotations_hash": "3bc16b0b6474197fbb8683fbbcced907a566d22c50b1532463c618b18ad6ba6e",
+          "composite_hash": "fcb4887612f043b6a6386cd2bf5bcbdfcf7073d81fec5d6b4d78cde53d1043d5",
+          "description_hash": "02bf9abd262838e3845aa0e5b303a57c93988c8327dff2c14e583b418e3b8f00",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "quota": {
+          "annotations_hash": "5928f74cac84ebb0c0d0a488b71e373bb9c62f1f76ae452caab1e2b564538e74",
+          "composite_hash": "518af5feb576043d2774168784937281fbb94720faf638ef6fca2ec8a82a37e9",
+          "description_hash": "44a367e720cf69f52bbd9a1b8f3a24ab8e6e29c172061ee567dc460c33d51db9",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "redis": {
+          "annotations_hash": "d172a479cde18e0a2d285eda71011ee07d9e759cfd0276571139c8bdc3b1b16d",
+          "composite_hash": "46232d677ae947d798b80006f0cb03fe95fe79a8f86f32f51c352e172cf539b0",
+          "description_hash": "2333ee339b4c65ae884d9bd3e7fc6818a73b1508a3ec7943a2bd38f179aa474b",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
         },
         "resilience": {
           "annotations_hash": "e7547637ff8b4ddc2872c5e4e3ec0cdf94ecc6f4ffdaae27673d8a454c4c9abc",
@@ -3762,10 +3168,239 @@
                 "object"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
+        },
+        "resourcehealth": {
+          "annotations_hash": "15074a4bf7c67aa964f88116186ff191d6bc569f94c2163b9ebeefb90a331219",
+          "composite_hash": "ae5e5c263796c4b23c2d8db96b4c0b2200712f839f3a5f07a13f99cec88b53aa",
+          "description_hash": "eae297c00a5602030a5d00d884a1095c884bd27834cca7682b3035ef15d9ab39",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "role": {
+          "annotations_hash": "f3396b8c2fd4c2a78de777f22425df2b750fed79ab6dde4b8566fd8b4f13e7ec",
+          "composite_hash": "87c1766b55999724ff314a9855b2e18f4c6b5778d3b076615899b2853aded427",
+          "description_hash": "ff5b869333a366f460b73c2ae1ec1533aa4d7e81df3e7c1a9f7c29a29195bdab",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "search": {
+          "annotations_hash": "c4012917cc4eddf8c9d80598779d9607f2233b7ca46cd49c25a84f62744b9cfb",
+          "composite_hash": "9218ffd93a97b7c4f76266d7c7a9458a098e465022332fa7dfad6e5a1b9b7e65",
+          "description_hash": "c5fe4a231a9410d0f1f40c4236bf3d27e542fdbaf7b01e7b486442beadfd91ca",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "servicebus": {
+          "annotations_hash": "c5227d3d559853c4690c5480168c1af9d40afb839b6982f297d81a3f7592374b",
+          "composite_hash": "b722eece2a9e698eaf90b7957259205d3804c250709b59703fb25458c37c18e6",
+          "description_hash": "616f9b2b05903d15e8404d5e7b7efb9923951a579c6ead37510025a2b2dd83b6",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "servicefabric": {
+          "annotations_hash": "cd7320777947f310639141cf950f5793f68a3597774372a6a1fa2eccdb839ecc",
+          "composite_hash": "601508e98c093036035845de62cb33fa5f226310c4e10b5a5879f26aa8436841",
+          "description_hash": "bf9544490abe6a6e2649ddd82361b9f1a9fd9feb90f0b434b0cb913c04a969cd",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "signalr": {
+          "annotations_hash": "23445d5955de98467ffdd20bddb43d89c5406af418558ab8dc9b544cc72185cb",
+          "composite_hash": "89c980896370f06cb2b4a9dc9f292c8244e9f22c4307c8606e5e6e5c13fcf9d9",
+          "description_hash": "85b59f6fd86ceafcbad07d16c1895d11aade7a9faba35ef6e2135e6889a2545e",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "speech": {
+          "annotations_hash": "68fff2b1b0a33015eb4e5d4d2e85bc555502d5f9b3863bd20c5bfcec500ff972",
+          "composite_hash": "06b30d41fb21554c5c9602e00e057f81870224f22c1aed1402a6c39a10c5869b",
+          "description_hash": "d066d39e24d6603c82d55e178db9ab70466fccb111d4d176368aca4d027eb53f",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "sql": {
+          "annotations_hash": "f5bd3c9d0c00f9ca1bb33a6a2d517ad36e5c89c087ec666af1a98b93a179be32",
+          "composite_hash": "6afc16cf6e5d2c07e2da6800071a0aa51d894639cdaf11a0fa912175ec0b3772",
+          "description_hash": "67c277e1b95ce260f65b44fcb93270aae8189f9781f96016c68a4bd49964c586",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
         },
         "sreagent": {
           "annotations_hash": "d5cc5c496c2a1e7dae93b273c09965e80fe2e0ab99f7e2c6fe89b92da793c265",
@@ -3794,20 +3429,232 @@
                 "object"
               ]
             }
+          }
+        },
+        "storage": {
+          "annotations_hash": "4b46b547118d86a12f86d920a5edd2ab307b0c1e390f15017e5ab13d436cc1ec",
+          "composite_hash": "be45d4ee84d72cb31c6890333a07f2e77cf94a8b57480480c4c6a6084d15d12f",
+          "description_hash": "77f748aa2656290aca742f3e319f38163426985215a6d132be6fdd18c60197bb",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "storagesync": {
+          "annotations_hash": "e4a0fadbc17c4bc11e2de2becc2170401bc9ac05cfa32e6696e749b384933a66",
+          "composite_hash": "be59f42331395bff32634606bc74a9d965168ad28a35e1899b25a1ed383fefd0",
+          "description_hash": "09ae3e24d61cf8a934cd95854c7834c0f1c8f6a8ce49c6b70afca6438eb72150",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "subscription_list": {
+          "annotations_hash": "b21122a0d25c01a38f6778300b29d0adddf69afddb6474988000c8c60c1084e1",
+          "composite_hash": "d0a3bbf2b98e218d7164385bda896f7a9a8f5cf9faec205b19c3d1622db418ed",
+          "description_hash": "af10454bbc21fe97665b33209ef1f4b30572e1e3a6742015fd8f9b01321c9ab7",
+          "schema_hash": "ea1bef228f2b29d81aa12a98816b54212f4fc852944b57a13029f3f8c13191d0",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "idempotentHint": true,
+            "openWorldHint": false
           },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          "schema_shape": {
+            "required": [],
+            "properties": {
+              "tenant": [
+                "string"
+              ]
+            }
+          }
+        },
+        "virtualdesktop": {
+          "annotations_hash": "f6a15bb848a56acf55b646ecb1fc0ec3a59f1e64d7f828d9dece71559667314c",
+          "composite_hash": "21c82259449d990faa7ad733eb0ea6bf1a81ae6b0c0cee0fc95cf08fab3ca2d4",
+          "description_hash": "50a651b3485a7848cd09a828ad3a1f4d18bd0d2a4eae175db791ea6969df641c",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "wellarchitectedframework": {
+          "annotations_hash": "9ddfc544142c244ce75331a00438193c7a1b603a446d30169317904c97921cfa",
+          "composite_hash": "f7a4626d533eb51b9da2db33d989ba735eb69cb62f97da56a3581e936c13ac0d",
+          "description_hash": "b725a25f2d9afa10bad9ee5c09c8c1733e537375f2965b05620a844b71cb5248",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
+        },
+        "workbooks": {
+          "annotations_hash": "c19f2d1d8890e61f6a585da7cffdb54247ebb90e3d3254c0def190fe7bbcefbe",
+          "composite_hash": "08c2e9a3beee13574548e28a02afe1cd3ca7853a43b6d0134d7a821abc12b96c",
+          "description_hash": "012db7479abc5fd12d311a8dc42c75b0f359da749d806298a4bb5bb2046f0bd1",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {},
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "browser-tools@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "ba6325f9b955a1c793e9fc10131340f284afecbdf8d23b8320dea5e406aa2f03",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "2.0.0",
+      "version_pinned": false,
       "tools": {
+        "getBrowserStorage": {
+          "annotations_hash": "44a79ee911127e9f5cf3c58f84a1bbcf90c4ddf2a00fd56be36808793c6795a9",
+          "composite_hash": "a8bf85e6a4fe0e120a84821f984bd5743b8559e1ef8aa5c3147ee0e7cbe733fe",
+          "description_hash": "8ae563862f97479bd08b8dff1eb45074072c9d1ecc151ebbffb143c92fa43cfc",
+          "schema_hash": "bba7d7f37f2f2614fcf785b02a21c6ea23fbd7e7db48e3e101f63bd5000ea46e",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "idempotentHint": true,
+            "openWorldHint": false
+          },
+          "schema_shape": {
+            "required": [],
+            "properties": {
+              "includeValues": [
+                "boolean"
+              ],
+              "kinds": [
+                "array"
+              ],
+              "tabId": []
+            }
+          }
+        },
+        "getConnectionStatus": {
+          "annotations_hash": "7d38a6c175cb0817eb7a98eefa87895322f4afb13d3e4c13020bfea848971fe5",
+          "composite_hash": "121aa3ecaee4d7a4a21fd91be2dc9ed5fde324822fbd3368fd5620d65e44d909",
+          "description_hash": "71495eb229f02832e99b70c80a007d24875d306cbce9d56eb135ca7b339c96e2",
+          "schema_hash": "afaffb38755602cb8edb83f555aa6a54add2998677fd182ae07a367c91ea4f7c",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "idempotentHint": true,
+            "openWorldHint": false
+          },
+          "schema_shape": {
+            "required": [],
+            "properties": {}
+          }
+        },
         "getConsoleErrors": {
           "annotations_hash": "a2de8614b204ddf0c8d2a3d169f6fad86757a56a9ba2263b63b91fa5d59fe29d",
           "composite_hash": "f5b78cd495a146382b07d47c167b04f5cfd317c0ccd432223c4ea7f0d0ebe065",
@@ -3839,10 +3686,7 @@
               ],
               "tabId": []
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "getConsoleLogs": {
           "annotations_hash": "58b592d374792df1ccab0b3fde9d8e518c54bb5a61a07dc14ae98e648e880733",
@@ -3875,10 +3719,7 @@
               ],
               "tabId": []
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "getNetworkErrors": {
           "annotations_hash": "41948ea08171f9fb2e1b62a181915443958fec5a8ebea67db43005157ddeb1bf",
@@ -3911,10 +3752,7 @@
                 "array"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "getNetworkLogs": {
           "annotations_hash": "f0ab78ec7c4eed4fcb981388c788e1198b9e7eac02f6de7d5b1bd19f9100db23",
@@ -3950,10 +3788,26 @@
                 "array"
               ]
             }
+          }
+        },
+        "getPageInfo": {
+          "annotations_hash": "ecefdc74f3aea485a97b1d6d2b56acb05d1b3d98ed956bac51539c1cc1ad793d",
+          "composite_hash": "3957ff59d182f3f53db1480bbf5936863874eaf0b8c58f40e6341b7f19455537",
+          "description_hash": "0b4bb353b79a24680e7b596f1c37cdeb1feefee8262a6551684a35c3a461fb18",
+          "schema_hash": "7b65178d06c78fbbed0417f494fc4bafab475d0ff39385460aaf5f61dc653b28",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "idempotentHint": true,
+            "openWorldHint": false
           },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          "schema_shape": {
+            "required": [],
+            "properties": {}
+          }
         },
         "getSelectedElement": {
           "annotations_hash": "d404e2d2d6ac95ccf887d6ce92b9e2b45101513210e4a74d5515cf6fa73729de",
@@ -3974,10 +3828,47 @@
             "properties": {
               "tabId": []
             }
+          }
+        },
+        "listBrowserTabs": {
+          "annotations_hash": "0f0c03a460e0a1c5029a07e23c0b81fedef25424c2890711d8966668861e38be",
+          "composite_hash": "eed4f715fe6eb0f221cc2fbd5fc595ef36b84a2447b069435a39c429fd1b1137",
+          "description_hash": "2f69ebc5fe8e43a03497ce8c5afcac575de7826ba87c423cf724a6c579ce1fd4",
+          "schema_hash": "c8ae6707a8bbe2c4cef88733f84e1f9cb6e0c2125aa81b2301a35579d9b0b518",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "idempotentHint": true,
+            "openWorldHint": false
           },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          "schema_shape": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "refreshBrowser": {
+          "annotations_hash": "1aa5bffa20045faaf118f4f32819909a2a60589895568eba4100e02f56d711bf",
+          "composite_hash": "e9f6522c819a9d1e2cfec94fc631fcef769e23f3ea93ea99168a357d9431a519",
+          "description_hash": "3b241abb0381ff02ec6edd309c70fc0939ba00b76c1c00f06bf73608060ac47a",
+          "schema_hash": "157cb5a3df6f128081c8041e948ef05a04ef85a5eb65e8b3693c27c025ffb0a1",
+          "schema_resolution": "resolved",
+          "effect": "write",
+          "declared_ceiling": "external",
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": false,
+            "idempotentHint": false,
+            "openWorldHint": false
+          },
+          "schema_shape": {
+            "required": [],
+            "properties": {
+              "tabId": []
+            }
+          }
         },
         "runAccessibilityAudit": {
           "annotations_hash": "d39d3658bbbd7bc1f99b081e46837a16c497fb7265ffa97b18dba6b9f2ea1006",
@@ -4001,10 +3892,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "runBestPracticesAudit": {
           "annotations_hash": "61044c7df7911a0abc7dda03b6724febed55f3d33bf5f4be8f9d4355cc7bdf8b",
@@ -4028,10 +3916,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "runPerformanceAudit": {
           "annotations_hash": "bf0d4b6f15f9fdf11955917afd31c2d8bb438b430715f5c59f973d748e3b3169",
@@ -4055,10 +3940,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "runSEOAudit": {
           "annotations_hash": "e07977d26081546e7214c00f2b16296a7d262a11f71f7c885c866f8baaeb2987",
@@ -4082,10 +3964,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "takeScreenshot": {
           "annotations_hash": "8038d00c29e32d59e66e26a3c5e7760b372476aa792f02cc3cf32d8c9dad4405",
@@ -4109,10 +3988,7 @@
               ],
               "tabId": []
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "wipeLogs": {
           "annotations_hash": "9c10234cc7664601c70613119165374b2e01a16edf81cd13c59e7836c10d1520",
@@ -4133,139 +4009,17 @@
             "properties": {
               "tabId": []
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "getBrowserStorage": {
-          "annotations_hash": "44a79ee911127e9f5cf3c58f84a1bbcf90c4ddf2a00fd56be36808793c6795a9",
-          "composite_hash": "a8bf85e6a4fe0e120a84821f984bd5743b8559e1ef8aa5c3147ee0e7cbe733fe",
-          "description_hash": "8ae563862f97479bd08b8dff1eb45074072c9d1ecc151ebbffb143c92fa43cfc",
-          "schema_hash": "bba7d7f37f2f2614fcf785b02a21c6ea23fbd7e7db48e3e101f63bd5000ea46e",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": "read",
-          "annotations": {
-            "readOnlyHint": true,
-            "destructiveHint": false,
-            "idempotentHint": true,
-            "openWorldHint": false
-          },
-          "schema_shape": {
-            "required": [],
-            "properties": {
-              "includeValues": [
-                "boolean"
-              ],
-              "kinds": [
-                "array"
-              ],
-              "tabId": []
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "getConnectionStatus": {
-          "annotations_hash": "7d38a6c175cb0817eb7a98eefa87895322f4afb13d3e4c13020bfea848971fe5",
-          "composite_hash": "121aa3ecaee4d7a4a21fd91be2dc9ed5fde324822fbd3368fd5620d65e44d909",
-          "description_hash": "71495eb229f02832e99b70c80a007d24875d306cbce9d56eb135ca7b339c96e2",
-          "schema_hash": "afaffb38755602cb8edb83f555aa6a54add2998677fd182ae07a367c91ea4f7c",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": "read",
-          "annotations": {
-            "readOnlyHint": true,
-            "destructiveHint": false,
-            "idempotentHint": true,
-            "openWorldHint": false
-          },
-          "schema_shape": {
-            "required": [],
-            "properties": {}
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "getPageInfo": {
-          "annotations_hash": "ecefdc74f3aea485a97b1d6d2b56acb05d1b3d98ed956bac51539c1cc1ad793d",
-          "composite_hash": "3957ff59d182f3f53db1480bbf5936863874eaf0b8c58f40e6341b7f19455537",
-          "description_hash": "0b4bb353b79a24680e7b596f1c37cdeb1feefee8262a6551684a35c3a461fb18",
-          "schema_hash": "7b65178d06c78fbbed0417f494fc4bafab475d0ff39385460aaf5f61dc653b28",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": "read",
-          "annotations": {
-            "readOnlyHint": true,
-            "destructiveHint": false,
-            "idempotentHint": true,
-            "openWorldHint": false
-          },
-          "schema_shape": {
-            "required": [],
-            "properties": {}
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "listBrowserTabs": {
-          "annotations_hash": "0f0c03a460e0a1c5029a07e23c0b81fedef25424c2890711d8966668861e38be",
-          "composite_hash": "eed4f715fe6eb0f221cc2fbd5fc595ef36b84a2447b069435a39c429fd1b1137",
-          "description_hash": "2f69ebc5fe8e43a03497ce8c5afcac575de7826ba87c423cf724a6c579ce1fd4",
-          "schema_hash": "c8ae6707a8bbe2c4cef88733f84e1f9cb6e0c2125aa81b2301a35579d9b0b518",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": "read",
-          "annotations": {
-            "readOnlyHint": true,
-            "destructiveHint": false,
-            "idempotentHint": true,
-            "openWorldHint": false
-          },
-          "schema_shape": {
-            "required": [],
-            "properties": {}
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "refreshBrowser": {
-          "annotations_hash": "1aa5bffa20045faaf118f4f32819909a2a60589895568eba4100e02f56d711bf",
-          "composite_hash": "e9f6522c819a9d1e2cfec94fc631fcef769e23f3ea93ea99168a357d9431a519",
-          "description_hash": "3b241abb0381ff02ec6edd309c70fc0939ba00b76c1c00f06bf73608060ac47a",
-          "schema_hash": "157cb5a3df6f128081c8041e948ef05a04ef85a5eb65e8b3693c27c025ffb0a1",
-          "schema_resolution": "resolved",
-          "effect": "write",
-          "declared_ceiling": "external",
-          "annotations": {
-            "readOnlyHint": false,
-            "destructiveHint": false,
-            "idempotentHint": false,
-            "openWorldHint": false
-          },
-          "schema_shape": {
-            "required": [],
-            "properties": {
-              "tabId": []
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "chrome-devtools@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "adf66b2d704e8bd5ab66dbd4cc5f424cc39e5eedb53adeb1108fd2b6376034da",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "1.8.0",
+      "version_pinned": false,
       "tools": {
         "click": {
           "annotations_hash": "d2790a73227bfd01f72c4cdad05e960f71607b5c1c3d3ce7aba94d8a1d9b3a28",
@@ -5156,14 +4910,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "code-runner@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "bf39f620fa9d29a9eafcd66db203fdb8b575770be602df9050a58a9edc7cdc08",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "0.1.0",
+      "version_pinned": false,
       "tools": {
         "run-code": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -5189,14 +4944,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "context7-remote@http:mcp.context7.com": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "0efbb28f69ce08c13f21a3da61852f2b7096585efa5a2a02f1227f70b946d090",
       "transport": "http",
       "auth_method": "none",
+      "server_version": "4.0.5",
+      "version_pinned": false,
       "tools": {
         "query-docs": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
@@ -5256,14 +5012,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "context7@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "0efbb28f69ce08c13f21a3da61852f2b7096585efa5a2a02f1227f70b946d090",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "4.0.5",
+      "version_pinned": false,
       "tools": {
         "query-docs": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
@@ -5323,14 +5080,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "deepwiki-remote@http:mcp.deepwiki.com": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "dcd9f6134cdfc2b05914aa7abb8dae925c2ba6632812ece21627c477590327af",
       "transport": "http",
       "auth_method": "none",
+      "server_version": "2.14.3",
+      "version_pinned": false,
       "tools": {
         "ask_question": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -5394,14 +5152,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "desktop-commander@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "8cb921df5bbb3916e0e3ab10a59877d58735e5ca8e1f657745d46058dccb43e5",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "0.2.48",
+      "version_pinned": false,
       "tools": {
         "create_directory": {
           "annotations_hash": "bc77e58c27b497b23db2d81285a2fe7a0d3258db1a3fdd4b64d5f20c2607bf2a",
@@ -5977,10 +5736,7 @@
                 "boolean"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "start_search": {
           "annotations_hash": "38be885b392e7d32862fd67b686695ec1cc97a10c0161e8e67a3c99077b079ba",
@@ -6127,14 +5883,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "git-cyanheads@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "97cb8c5178c275808d2aa38b3ad03a51f662bfc21483faba94d87bfef120e4f6",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "2.15.3",
+      "version_pinned": false,
       "tools": {
         "git_add": {
           "annotations_hash": "982237d5a4a9e561c892fba892a326b3e3f45b2683e768f6aaed3717230b8b70",
@@ -7145,14 +6902,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "k8s@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "561809c174011e2fff1a21bb80ccb96b4411ce10e9645eb8ba3e05d8ea106c66",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "4.1.6",
+      "version_pinned": false,
       "tools": {
         "cleanup": {
           "annotations_hash": "eb87dc6b037d748e5b790f51edfff0fe0561d7f8fd90f907ffe8710b2536bf05",
@@ -8041,14 +7799,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "mcp-everything@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "dc1cb36e9cd203d2154a672cf0ea72c49ade0b14ff6f91e37bf5f997db348121",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "2.0.0",
+      "version_pinned": false,
       "tools": {
         "echo": {
           "annotations_hash": "7734bccfe083260cc67f8938d0bcc6766393e5c2f331310794cdcaf3264b8697",
@@ -8365,14 +8124,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "mcp-fetch@stdio:uvx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "a0d23789b75dd656f969a91e2c48df5bd436e6367cefa3a7f41d7c5f33a46052",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "1.29.1",
+      "version_pinned": false,
       "tools": {
         "fetch": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -8403,14 +8163,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "mcp-filesystem@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "7a683a984e2c76082398eebbb3e831ba6e48cecb48c375f8f892d7a3c2a23eea",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "0.2.0",
+      "version_pinned": false,
       "tools": {
         "create_directory": {
           "annotations_hash": "6b4ff80044529e5643a293ead5306e88ed42707366db0c2b9445d22a69fec0df",
@@ -8776,14 +8537,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "mcp-git@stdio:uvx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "e3a274df23c08ae1ab975b7cfada48d4ac5753cad55037187f092ebde477284a",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "1.29.1",
+      "version_pinned": false,
       "tools": {
         "git_add": {
           "annotations_hash": "6b4ff80044529e5643a293ead5306e88ed42707366db0c2b9445d22a69fec0df",
@@ -9130,14 +8892,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "mcp-github-arch@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "eb17408ad6a75bb69aa111cea6a78bfe44a95263d88e54c39a913e89c3c5da62",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "0.6.2",
+      "version_pinned": false,
       "tools": {
         "add_issue_comment": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -10019,14 +9782,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "mcp-memory@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "a8b357c6142a5399639726b87370f7e5f49a933eee3d3b2134aa83824538f51a",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "0.6.3",
+      "version_pinned": false,
       "tools": {
         "add_observations": {
           "annotations_hash": "5a2c1af291e74c0e6842eb9c7d3f3b4f232c8e2a478bb8c1accb97b8a22f4e41",
@@ -10247,14 +10011,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "mcp-postgres@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "8d74460bd1d42c939084e6fbef74e247a2ef644f7c1026671df998c832c54b63",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "0.1.0",
+      "version_pinned": false,
       "tools": {
         "query": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -10274,14 +10039,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "mcp-puppeteer@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "8850b9f8bc2c1d6d4bbb36b295db7095712ced20f29600ff32168da02963fc06",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "0.1.0",
+      "version_pinned": false,
       "tools": {
         "puppeteer_click": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -10449,14 +10215,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "mcp-seqthinking@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "82cd311930a7ed4be3f5f3d7ddaaf7d4f7bc1d9a572917cc085e6142e20297bf",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "2026.8.31",
+      "version_pinned": false,
       "tools": {
         "sequentialthinking": {
           "annotations_hash": "7734bccfe083260cc67f8938d0bcc6766393e5c2f331310794cdcaf3264b8697",
@@ -10511,19 +10278,17 @@
                 "integer"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "mcp-time@stdio:uvx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "dc05179d06ef6481a1649d58f54d46d57aebbb52cd983b5096a66ce7c9ee4c25",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "1.29.1",
+      "version_pinned": false,
       "tools": {
         "convert_time": {
           "annotations_hash": "7734bccfe083260cc67f8938d0bcc6766393e5c2f331310794cdcaf3264b8697",
@@ -10556,10 +10321,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "get_current_time": {
           "annotations_hash": "7734bccfe083260cc67f8938d0bcc6766393e5c2f331310794cdcaf3264b8697",
@@ -10584,19 +10346,17 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "notion@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "f42f80ef5adb1b225a7106521c564987dc3d43b448fc68e8c578efb5b588da3d",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "1.0.0",
+      "version_pinned": false,
       "tools": {
         "API-create-a-comment": {
           "annotations_hash": "209273c2817ad360e974f402a2921358f7f615188f229634c37ac2afeeca7aa2",
@@ -11231,14 +10991,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "playwright-ea@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "6d1a9a9433fa4970b6de466faa52dfd830aca11abcfcf5422b3e64256716b3a6",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "1.0.11",
+      "version_pinned": false,
       "tools": {
         "clear_codegen_session": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -12040,14 +11801,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "playwright@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "538a47e575467bd2194d85a3a88afaca32eccd95d54b5708f492bd881a1c940c",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "1.63.0-alpha-2026-08-31",
+      "version_pinned": false,
       "tools": {
         "browser_click": {
           "annotations_hash": "925910e268f83fb2b77a3704ae472301783f8856f19d155759aec22216c1da7a",
@@ -12733,14 +12495,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "qdrant@stdio:uvx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "5af556d9d9509f19ff79d37122b5aa4100e750ffbf736d66f8885c9d313adabf",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "1.29.1",
+      "version_pinned": false,
       "tools": {
         "qdrant-find": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -12791,14 +12554,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "searxng@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "d2310684383d9ae991d6a676af4d028de4e78e92674a1a4fac90cd8359c01d66",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "2.1.0",
+      "version_pinned": false,
       "tools": {
         "searxng_instance_info": {
           "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
@@ -12907,10 +12671,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "web_url_read": {
           "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
@@ -12950,14 +12711,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-01T21:36:54Z"
+      }
     },
     "brave-search-new@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "ab96a2848e636bf4e52043e40dac86909866f7282adbb05983f9d8cbb0194442",
       "transport": "stdio",
       "auth_method": "env_var",
+      "server_version": "2.1.3",
+      "version_pinned": false,
       "tools": {
         "brave_image_search": {
           "annotations_hash": "d54696f5b697f07d31d94cd9f9238f65fcc6ca551f8f7cb4670bbc084ca409b3",
@@ -13387,14 +13149,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-02T01:21:47Z"
+      }
     },
     "brave-search-old@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "9c72c703e24af61f15bf432674b66a9a1c336009da44ed72a667338cd43825c6",
       "transport": "stdio",
       "auth_method": "env_var",
+      "server_version": "0.1.0",
+      "version_pinned": false,
       "tools": {
         "brave_local_search": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -13445,14 +13208,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-02T01:21:47Z"
+      }
     },
     "exa@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "415ffd648307e6399ab3dd8964d292477120eb2b86f238ccc11f8af71c8a755d",
       "transport": "stdio",
       "auth_method": "env_var",
+      "server_version": "3.4.1",
+      "version_pinned": false,
       "tools": {
         "web_fetch_exa": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
@@ -13510,14 +13274,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-02T01:21:47Z"
+      }
     },
     "firecrawl@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "740b7a15f7ba470746e01edc19b7ae3163f23dec27db174ce0c3af1d28345d2d",
       "transport": "stdio",
       "auth_method": "env_var",
+      "server_version": "3.24.0",
+      "version_pinned": false,
       "tools": {
         "firecrawl_agent": {
           "annotations_hash": "0823fb8baadeca6d3d17a8186cfac272e8d2a38877e65783dc1cb295a83311db",
@@ -13547,10 +13312,7 @@
                 "array"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_agent_status": {
           "annotations_hash": "c7c2e1471c400f6085587ec97231e7f2140ba5b4312fc00786d43f4879c41331",
@@ -13574,10 +13336,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_check_crawl_status": {
           "annotations_hash": "2606c25ea06728f9b91f521260492eca0c2e92483b78d2ee1544bb5d77f2e0e2",
@@ -13601,10 +13360,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_crawl": {
           "annotations_hash": "3986f370698ca1481739fd7fa6fc052e14b786777aab008a4d60631460f41531",
@@ -13676,10 +13432,37 @@
                 "object"
               ]
             }
+          }
+        },
+        "firecrawl_developer_search": {
+          "annotations_hash": "65bf9ee87d5dd589197e67fd59193015e47a9d876086d08c09515a6d702219b0",
+          "composite_hash": "e1c5ea1ff7a5711f27c208316698f8e08421c30695a46385a006149323f0bf07",
+          "description_hash": "97f87bd9cc58db9b8388b02b7109a398c78177d79e2d1aae905488ed7df75018",
+          "schema_hash": "ec44c6563fdabf7f910241f97d417cbe09976bfc47674dd5a874d6b328693dd3",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": true
           },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          "schema_shape": {
+            "required": [
+              "query"
+            ],
+            "properties": {
+              "k": [
+                "integer"
+              ],
+              "query": [
+                "string"
+              ],
+              "skills": [
+                "string"
+              ]
+            }
+          }
         },
         "firecrawl_extract": {
           "annotations_hash": "0f781d0ebf3df86a9ec38d2df2059af04b4dec52e16e070c89fd1af04ff32128",
@@ -13718,10 +13501,7 @@
                 "array"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_feedback": {
           "annotations_hash": "1e6c732fa14f5dc67b29965bc2eaa6a1032eaaee34d3fc453070437cc94b38ab",
@@ -13780,10 +13560,7 @@
                 "array"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_interact": {
           "annotations_hash": "0fa4bd92d887e43657a937eaaf65dc82a3f1ee66cf29ef19da7cf052e8df87a2",
@@ -13823,10 +13600,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_interact_stop": {
           "annotations_hash": "b51a859f28e61f16dcb1fe286e8fe069e2c1018fde821fe5fd4ff6a364c50aed",
@@ -13850,10 +13624,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_map": {
           "annotations_hash": "4be55e5a4b06f8e94dba8955721b94caaea83027df759c92cc3ad3086e11456a",
@@ -13892,10 +13663,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_monitor_check": {
           "annotations_hash": "3c72eea4614f01fd24dfcf4a109897063123d3c381267dbe9a754c8966ec0c78",
@@ -13932,10 +13700,7 @@
                 "integer"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_monitor_checks": {
           "annotations_hash": "7a87f836efff7293a7eb7ccf4a4e6a22ac6538e640348d5a279ff6c01bc4c4de",
@@ -13968,10 +13733,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_monitor_create": {
           "annotations_hash": "a47ea5ba665534b96994ae63681fbfc9b9b83140129fb41afcfd6ae1c9df9912",
@@ -14035,10 +13797,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_monitor_delete": {
           "annotations_hash": "6f993f33cf664888c08613a7cb9e72f5af43a27fa830ff9a1f58002a88835502",
@@ -14062,10 +13821,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_monitor_get": {
           "annotations_hash": "e26a119fad7b1d0cb4d9c2d7e158802de40bb9fdd67cfeec8029369d04b7dd06",
@@ -14089,10 +13845,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_monitor_list": {
           "annotations_hash": "0ef5f9614ae03ff0666ef9f565de36427f5f593f47ad821cddccc3ca01d45d1d",
@@ -14117,10 +13870,7 @@
                 "integer"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_monitor_run": {
           "annotations_hash": "f59edcacc05e49d16fbb3aff0b680b9ff882614d8ee6d56ba8cdf61c8412b4fb",
@@ -14144,10 +13894,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_monitor_update": {
           "annotations_hash": "1905f87ddf9d330a58fbc11e4c4738693b20c4f9be220cfce878ecf794e5ac61",
@@ -14175,10 +13922,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_parse": {
           "annotations_hash": "0ded18dc4f7fe9e2086556b6b1ded67948598f04daaaaa29f4a2d9c2dbdc6496",
@@ -14250,10 +13994,7 @@
                 "boolean"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_research_inspect_paper": {
           "annotations_hash": "15752b83c16e487b442f1b1d6c3cdcb53be46f54276118bfbf32f1ec9482f77d",
@@ -14277,10 +14018,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_research_read_paper": {
           "annotations_hash": "a2e1750df5a204274a385e57fb0eb9990967ff1794f00715affe3075fffce129",
@@ -14311,10 +14049,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_research_related_papers": {
           "annotations_hash": "c3d76b38477f15f3fbfd5065a9bd2ea065b44d677bcb9a650f2e237297267119",
@@ -14351,10 +14086,7 @@
                 "array"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_research_search_github": {
           "annotations_hash": "882e2492770c8836fc4e1ef667aa6a7519438025f7eaedf4f9f3556b22e66164",
@@ -14381,10 +14113,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_research_search_papers": {
           "annotations_hash": "6bf805b7713aecc231106501295c277a673db8ebc2da26cdfea3cab8dfadc623",
@@ -14423,10 +14152,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_scrape": {
           "annotations_hash": "2d1f7941795c7f523f7e19bfb35b22f44120d5d7fc1085d551318f3c1966aa48",
@@ -14516,10 +14242,7 @@
                 "boolean"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_search": {
           "annotations_hash": "b272165768a7762a2ff0a44c57e7c859e8b18c5c8bb36115148fa0a2c10c4828",
@@ -14576,10 +14299,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "firecrawl_search_feedback": {
           "annotations_hash": "c649b40a1b8ecbabec83310b06db8d0374db13111eb154212e0b784d603a17bb",
@@ -14616,52 +14336,17 @@
                 "array"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "firecrawl_developer_search": {
-          "annotations_hash": "65bf9ee87d5dd589197e67fd59193015e47a9d876086d08c09515a6d702219b0",
-          "composite_hash": "e1c5ea1ff7a5711f27c208316698f8e08421c30695a46385a006149323f0bf07",
-          "description_hash": "97f87bd9cc58db9b8388b02b7109a398c78177d79e2d1aae905488ed7df75018",
-          "schema_hash": "ec44c6563fdabf7f910241f97d417cbe09976bfc47674dd5a874d6b328693dd3",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": "read",
-          "annotations": {
-            "readOnlyHint": true,
-            "destructiveHint": false,
-            "openWorldHint": true
-          },
-          "schema_shape": {
-            "required": [
-              "query"
-            ],
-            "properties": {
-              "k": [
-                "integer"
-              ],
-              "query": [
-                "string"
-              ],
-              "skills": [
-                "string"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         }
-      },
-      "first_observed": "2026-09-02T01:21:47Z"
+      }
     },
     "gitlab@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "dbe3b29a201701e9a3cd188fb5a9450b5ff10f7c493cded2e2d7562c1b2cd361",
       "transport": "stdio",
       "auth_method": "env_var",
+      "server_version": "0.5.1",
+      "version_pinned": false,
       "tools": {
         "create_branch": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -14789,14 +14474,15 @@
             "properties": {}
           }
         }
-      },
-      "first_observed": "2026-09-02T01:21:47Z"
+      }
     },
     "google-maps@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "489737f130f3087632481f135644fb5519a9e7ec5def42b9ac6c294ecf37a9b8",
       "transport": "stdio",
       "auth_method": "env_var",
+      "server_version": "0.1.0",
+      "version_pinned": false,
       "tools": {
         "maps_directions": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -14962,14 +14648,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-02T01:21:47Z"
+      }
     },
     "sentry@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "c9deb927c556db5f70fc4d23cef348b70e1026b31f0fc21143ccb06de6e4754c",
       "transport": "stdio",
       "auth_method": "none",
+      "server_version": "0.39.0",
+      "version_pinned": false,
       "tools": {
         "analyze_issue_with_seer": {
           "annotations_hash": "03ffb2ef4c389ccaf873d172d017eb2ac96da921462c5037d62b6732647714b6",
@@ -15001,10 +14688,34 @@
               ],
               "regionUrl": []
             }
+          }
+        },
+        "execute_sentry_tool": {
+          "annotations_hash": "c811cf2aee9ccf5643e172ba58dca17fbbeec699adf2041516e25eb82b3d336a",
+          "composite_hash": "17cecabefe810e34f0b2b405564b59d3e3c89ee42156d5b4e37f5931c5b54063",
+          "description_hash": "aaaf2c9962392a145cfce354bfd7f4d34026e9687c5dcd7adc6c6cbb2851aad0",
+          "schema_hash": "4c63e44cf663342f1da559cd7241ec628da9b5961b63123d94b561ae73e188d0",
+          "schema_resolution": "resolved",
+          "effect": "irreversible",
+          "declared_ceiling": null,
+          "annotations": {
+            "readOnlyHint": false,
+            "destructiveHint": true,
+            "openWorldHint": true
           },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          "schema_shape": {
+            "required": [
+              "name"
+            ],
+            "properties": {
+              "arguments": [
+                "object"
+              ],
+              "name": [
+                "string"
+              ]
+            }
+          }
         },
         "find_organizations": {
           "annotations_hash": "df3e94c128a623174f20f4e91772dba92c3b4114f48c3c9a1bc7282d2db62139",
@@ -15024,10 +14735,7 @@
             "properties": {
               "query": []
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "find_projects": {
           "annotations_hash": "df3e94c128a623174f20f4e91772dba92c3b4114f48c3c9a1bc7282d2db62139",
@@ -15053,10 +14761,7 @@
               "query": [],
               "regionUrl": []
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "get_sentry_resource": {
           "annotations_hash": "df3e94c128a623174f20f4e91772dba92c3b4114f48c3c9a1bc7282d2db62139",
@@ -15087,10 +14792,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "search_events": {
           "annotations_hash": "df3e94c128a623174f20f4e91772dba92c3b4114f48c3c9a1bc7282d2db62139",
@@ -15137,10 +14839,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         },
         "search_issues": {
           "annotations_hash": "df3e94c128a623174f20f4e91772dba92c3b4114f48c3c9a1bc7282d2db62139",
@@ -15184,10 +14883,32 @@
                 "string"
               ]
             }
+          }
+        },
+        "search_sentry_tools": {
+          "annotations_hash": "c96a2dec9953fda8777729324f2999d70d328228022605761f986c59a0f65597",
+          "composite_hash": "324a31d687c3c08799ac1c148ec4b357c9c4f5930a2deb5a0df3f7f2257b6263",
+          "description_hash": "c6cd5b841d144533aa58ce3238a1eec9ca5b7610b4b029baec6968ae1500659b",
+          "schema_hash": "4f3a44b30f0fba7d6b129103c83769d9991f2ee592c3cd1b8a0d1ea72f7fbeca",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": false
           },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          "schema_shape": {
+            "required": [
+              "query"
+            ],
+            "properties": {
+              "limit": [],
+              "query": [
+                "string"
+              ]
+            }
+          }
         },
         "update_issue": {
           "annotations_hash": "08672e7cb09cb2dac1072523e520dcbd6ebcc5d036db1b88713086e1dde05169",
@@ -15244,77 +14965,17 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "execute_sentry_tool": {
-          "annotations_hash": "c811cf2aee9ccf5643e172ba58dca17fbbeec699adf2041516e25eb82b3d336a",
-          "composite_hash": "17cecabefe810e34f0b2b405564b59d3e3c89ee42156d5b4e37f5931c5b54063",
-          "description_hash": "aaaf2c9962392a145cfce354bfd7f4d34026e9687c5dcd7adc6c6cbb2851aad0",
-          "schema_hash": "4c63e44cf663342f1da559cd7241ec628da9b5961b63123d94b561ae73e188d0",
-          "schema_resolution": "resolved",
-          "effect": "irreversible",
-          "declared_ceiling": null,
-          "annotations": {
-            "readOnlyHint": false,
-            "destructiveHint": true,
-            "openWorldHint": true
-          },
-          "schema_shape": {
-            "required": [
-              "name"
-            ],
-            "properties": {
-              "arguments": [
-                "object"
-              ],
-              "name": [
-                "string"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
-        },
-        "search_sentry_tools": {
-          "annotations_hash": "c96a2dec9953fda8777729324f2999d70d328228022605761f986c59a0f65597",
-          "composite_hash": "324a31d687c3c08799ac1c148ec4b357c9c4f5930a2deb5a0df3f7f2257b6263",
-          "description_hash": "c6cd5b841d144533aa58ce3238a1eec9ca5b7610b4b029baec6968ae1500659b",
-          "schema_hash": "4f3a44b30f0fba7d6b129103c83769d9991f2ee592c3cd1b8a0d1ea72f7fbeca",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": "read",
-          "annotations": {
-            "readOnlyHint": true,
-            "destructiveHint": false,
-            "openWorldHint": false
-          },
-          "schema_shape": {
-            "required": [
-              "query"
-            ],
-            "properties": {
-              "limit": [],
-              "query": [
-                "string"
-              ]
-            }
-          },
-          "approved_at": "2026-09-03T03:00:09Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-03"
+          }
         }
-      },
-      "first_observed": "2026-09-02T01:21:47Z"
+      }
     },
     "slack@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "3d3a42890d38b394d34909760bf1e38116be80288b668e83c95123f782c40412",
       "transport": "stdio",
-      "auth_method": "literal_secret",
+      "auth_method": "env_var",
+      "server_version": "1.0.0",
+      "version_pinned": false,
       "tools": {
         "slack_add_reaction": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -15505,14 +15166,15 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-02T01:21:47Z"
+      }
     },
     "tavily@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
       "toolset_hash": "f36c69eff005b14b17f76b5bcacedb9ffad12d6d98b78e9a42e16d7416a4aeab",
       "transport": "stdio",
       "auth_method": "env_var",
+      "server_version": "0.2.22",
+      "version_pinned": false,
       "tools": {
         "tavily_crawl": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -15725,8 +15387,7 @@
             }
           }
         }
-      },
-      "first_observed": "2026-09-02T01:21:47Z"
+      }
     }
   }
 }
