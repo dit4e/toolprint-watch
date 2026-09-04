@@ -66,6 +66,39 @@ jobs:
       - name: Install toolprint
         run: pip install --quiet "$TOOLPRINT_SPEC"
 
+      - name: Download the watched packages before timing anything
+        # Every failure on 2026-09-04 was "timed out after 60s", 23 of them, and
+        # the observe step took 27 minutes - 23 x 60s of pure waiting. The cold
+        # `npx -y` download sits inside toolprint's per-server timeout, so a
+        # large package never finishes starting before the clock runs out.
+        #
+        # Downloading first moves that work outside the timed window, so the
+        # observation measures what it means to measure: how long a server takes
+        # to start and answer.
+        #
+        # Note this is NOT a cross-run cache. Each run still resolves fresh,
+        # which is the whole point - an unpinned spec resolving differently on
+        # two machines is what this collector exists to notice.
+        timeout-minutes: 20
+        continue-on-error: true
+        run: |
+          python - <<'PY' > /tmp/pkgs.txt
+          import json
+          for name, entry in json.load(open("servers.json"))["mcpServers"].items():
+              if entry.get("command") != "npx":
+                  continue          # uv resolves fast enough to stay in the window
+              for arg in entry.get("args") or []:
+                  if not arg.startswith("-"):
+                      print(arg)
+                      break
+          PY
+          echo "warming $(wc -l < /tmp/pkgs.txt) npm package(s)"
+          while read -r pkg; do
+            # `node -e 0` installs the package without starting the server.
+            timeout 180 npm exec --yes --package="$pkg" -- node -e 0 >/dev/null 2>&1 \
+              && echo "  ok      $pkg" || echo "  skipped $pkg"
+          done < /tmp/pkgs.txt
+
       - name: The watchlist must stay credential-free
         # Enforced rather than remembered. toolprint audits its own watchlist:
         # a literal credential pasted into servers.json is HYG-002, which exits
