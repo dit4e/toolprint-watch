@@ -34,7 +34,7 @@ env:
   # Pinned rather than floating: the collector's job is to detect when tool
   # definitions change, so the measuring instrument must not change underneath
   # the measurement. Bump deliberately, and treat a bump as a re-baseline event.
-  TOOLPRINT_SPEC: "toolprint[tokens]==0.2.1"
+  TOOLPRINT_SPEC: "toolprint[tokens]==0.2.2"
 
 jobs:
   observe:
@@ -147,7 +147,15 @@ jobs:
           if [ "$GEN" != "$WANT" ]; then
             echo "baseline written by '$GEN', now running '$WANT' - refreshing"
           fi
-          if [ "$DRIFT" != "0" ] || [ "$NEW" != "0" ] || [ "$GEN" != "$WANT" ]; then
+          if [ "$GEN" != "$WANT" ]; then
+            # A plain approve only rewrites servers that drifted, so a baseline
+            # written by an older build keeps its older fields indefinitely.
+            # --refresh re-records every server; it accepts outstanding drift,
+            # which is why it is reserved for exactly this case.
+            toolprint approve --yes --timeout 60 --refresh \
+              --config servers.json --baseline baseline.json \
+              --by "watch workflow" --note "refreshed for $WANT on $DATE"
+          elif [ "$DRIFT" != "0" ] || [ "$NEW" != "0" ]; then
             toolprint approve --yes --timeout 60 \
               --config servers.json --baseline baseline.json \
               --by "watch workflow" --note "observed $DATE"
