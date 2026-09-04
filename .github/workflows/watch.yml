@@ -34,7 +34,7 @@ env:
   # Pinned rather than floating: the collector's job is to detect when tool
   # definitions change, so the measuring instrument must not change underneath
   # the measurement. Bump deliberately, and treat a bump as a re-baseline event.
-  TOOLPRINT_SPEC: "toolprint[tokens]==0.2.0"
+  TOOLPRINT_SPEC: "toolprint[tokens]==0.2.1"
 
 jobs:
   observe:
