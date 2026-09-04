@@ -34,7 +34,7 @@ env:
   # Pinned rather than floating: the collector's job is to detect when tool
   # definitions change, so the measuring instrument must not change underneath
   # the measurement. Bump deliberately, and treat a bump as a re-baseline event.
-  TOOLPRINT_SPEC: "toolprint[tokens]==0.1.0"
+  TOOLPRINT_SPEC: "toolprint[tokens]==0.2.0"
 
 jobs:
   observe:
@@ -83,7 +83,11 @@ jobs:
             echo "drift=0" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          toolprint check --yes --timeout 60 --fail-on none \
+          # --min-coverage 0 because this job does its own coverage accounting:
+          # the denominator row records how many servers actually answered, and
+          # a shortfall raises a workflow warning. A research collector should
+          # record a degraded day, not refuse to.
+          toolprint check --yes --timeout 60 --fail-on none --min-coverage 0 \
             --config servers.json --baseline baseline.json \
             --format json --out "observations/$DATE.json" \
             --findings "$RUNNER_TEMP/findings.json"
