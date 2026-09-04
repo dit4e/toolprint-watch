@@ -64,7 +64,23 @@ jobs:
       - uses: astral-sh/setup-uv@v5
 
       - name: Install toolprint
-        run: pip install --quiet "$TOOLPRINT_SPEC"
+        # PyPI's JSON API can report a release minutes before the simple index
+        # that pip actually reads carries it. Twice now a run has failed with
+        # "no matching distribution" for a version that was demonstrably
+        # published. Retrying costs a minute; failing loses the day's
+        # observation, and a scheduled job that fails leaves a gap in the record
+        # that cannot be backfilled.
+        run: |
+          for attempt in 1 2 3 4 5; do
+            if pip install --quiet "$TOOLPRINT_SPEC"; then
+              echo "installed on attempt $attempt"
+              exit 0
+            fi
+            echo "install failed (attempt $attempt); the index may still be catching up"
+            sleep 30
+          done
+          echo "::error::could not install $TOOLPRINT_SPEC after 5 attempts"
+          exit 1
 
       - name: Download the watched packages before timing anything
         # Every failure on 2026-09-04 was "timed out after 60s", 23 of them, and
