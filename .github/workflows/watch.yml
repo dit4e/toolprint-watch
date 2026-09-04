@@ -138,7 +138,16 @@ jobs:
           # approve nothing at all. Gated on there being something to accept:
           # drift to record, or a server added to servers.json since the last
           # run. Both jobs still happen, just not for free every night.
-          if [ "$DRIFT" != "0" ] || [ "$NEW" != "0" ]; then
+          # A toolprint upgrade can add fields the baseline does not carry yet -
+          # server_version arrived this way and stayed empty, because approve
+          # only ran on drift and there had been none. Treat a generator change
+          # the same as drift: something to accept.
+          GEN=$(python -c "import json;print(json.load(open('baseline.json')).get('generator',''))")
+          WANT="toolprint/$(python -c "import toolprint;print(toolprint.__version__)")"
+          if [ "$GEN" != "$WANT" ]; then
+            echo "baseline written by '$GEN', now running '$WANT' - refreshing"
+          fi
+          if [ "$DRIFT" != "0" ] || [ "$NEW" != "0" ] || [ "$GEN" != "$WANT" ]; then
             toolprint approve --yes --timeout 60 \
               --config servers.json --baseline baseline.json \
               --by "watch workflow" --note "observed $DATE"

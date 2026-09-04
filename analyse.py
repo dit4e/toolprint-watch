@@ -132,7 +132,15 @@ def observed(events):
         rows = list(csv.DictReader(fh))
     if not rows:
         return
-    server_days = sum(int(r["servers"]) for r in rows)
+    # The column was renamed when "reachable" started being measured rather
+    # than copied from the baseline; tolerate both spellings so old rows count.
+    def watched(row):
+        for key in ("watched", "servers"):
+            if row.get(key):
+                return int(row[key])
+        return 0
+
+    server_days = sum(watched(r) for r in rows)
     print("Observation days   : {} ({} server-days)".format(len(rows), server_days))
     if server_days:
         print("Change rate        : {:.3f} per server-day".format(events / server_days))
