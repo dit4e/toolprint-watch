@@ -1,0 +1,10 @@
+{
+  "baseline": "baseline.json",
+  "changes": [],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": []
+}
