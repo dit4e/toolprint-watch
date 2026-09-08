@@ -5,6 +5,12 @@
 every commit that touched the baseline, diffs consecutive versions, and reports
 how often definitions actually changed - per server, and overall.
 
+Adoption is not drift. A server joining the watchlist brings its whole tool
+surface with it, and counting that as change measures this repository's
+growth rather than the ecosystem's. Servers are compared only across
+revisions in which they were already being watched; what they brought with
+them is reported separately, and kept out of the rate.
+
     python3 analyse.py            # summary
     python3 analyse.py --by-server
 
@@ -75,15 +81,40 @@ def main(argv=None):
     appeared = Counter()
     removed = Counter()
     events = 0
-    previous = tool_hashes(at(history[0][0]) or {})
+    first = tool_hashes(at(history[0][0]) or {})
+    previous = first
+    # The first revision is the watchlist's own starting point, not a day on
+    # which anything drifted, so its servers count as adopted too.
+    adopted_servers, adopted_tools = len(first), sum(len(t) for t in first.values())
+    retired_servers = retired_tools = 0
+    # When each server entered the watchlist, taken from the history rather
+    # than from a first_observed field on the record. approve --refresh
+    # rewrites every server from the live snapshot, which does not carry that
+    # field, so it was silently dropped at the 0.1.0 -> 0.2.2 refresh and every
+    # window has read "?" since. The history cannot be wiped by a refresh.
+    first_seen = {identity: history[0][1][:10] for identity in first}
 
     for sha, when in history[1:]:
         document = at(sha)
         if document is None:
             continue
         current = tool_hashes(document)
-        for identity in set(previous) | set(current):
-            before, after = previous.get(identity, {}), current.get(identity, {})
+
+        # A server entering or leaving the watchlist is adoption, not drift.
+        # Counting its whole tool surface as "appeared" made adding nine
+        # servers look like the largest drift event in the record - 89 of the
+        # first 235 counted changes were simply the watchlist growing, and the
+        # rate they fed was a rate of nothing in particular.
+        for identity in set(current) - set(previous):
+            adopted_servers += 1
+            adopted_tools += len(current[identity])
+            first_seen.setdefault(identity, when[:10])
+        for identity in set(previous) - set(current):
+            retired_servers += 1
+            retired_tools += len(previous[identity])
+
+        for identity in set(previous) & set(current):
+            before, after = previous[identity], current[identity]
             for name in set(before) & set(after):
                 if before[name] != after[name]:
                     changed[identity] += 1
@@ -99,33 +130,44 @@ def main(argv=None):
     print("Baseline revisions : {}".format(len(history)))
     print("First observation  : {}".format(history[0][1][:10]))
     print("Latest observation : {}".format(history[-1][1][:10]))
-    print("Definition changes : {} (modified {}, appeared {}, removed {})".format(
+    print("Adopted            : {} tools across {} servers{}".format(
+        adopted_tools, adopted_servers,
+        ", {} tools across {} retired".format(retired_tools, retired_servers)
+        if retired_servers else ""))
+    print("Drift              : {} (modified {}, tools added {}, tools removed {})".format(
         events, sum(changed.values()), sum(appeared.values()), sum(removed.values())))
     observed(events)
 
     if args.by_server:
-        latest = at(history[-1][0]) or {}
-        watched = windows(latest, history[-1][1])
+        watched = windows(first_seen, observation_dates())
         totals = Counter()
         for counter in (changed, appeared, removed):
             totals.update(counter)
-        print("\nBy server (window = days since first observed):")
+        print("\nDrift by server (window = days watched; adoption excluded):")
         print("  {:<44} {:>5} {:>7} {:>9}".format("server", "days", "changes", "per day"))
-        order = sorted(watched, key=lambda i: (-totals[i], i))
-        for identity in order:
-            days = watched[identity]
-            count = totals[identity]
+        # Every watched server, not only the ones that moved. The quiet ones
+        # are the denominator: a list of just the servers that drifted reads
+        # like every server drifts.
+        for identity in sorted(watched, key=lambda i: (-totals[i], i)):
+            days, count = watched[identity], totals[identity]
             print("  {:<44} {:>5} {:>7} {:>9}".format(
                 identity[:44], days, count,
                 "{:.3f}".format(count / days) if days else "-"))
-        unwatched = sorted(set(totals) - set(watched))
-        for identity in unwatched:
+        for identity in sorted(set(totals) - set(watched)):
             print("  {:<44} {:>5} {:>7} {:>9}".format(identity[:44], "?", totals[identity], "-"))
+        quiet = sum(1 for i in watched if not totals[i])
+        print("  {} of {} watched servers never drifted.".format(quiet, len(watched)))
     return 0
 
 
 def observed(events):
-    """The denominator. A count of rug pulls means nothing without it."""
+    """The denominator. A count of rug pulls means nothing without it.
+
+    Server-days come from observations.csv, which carries the watchlist size
+    for each date - so a day when 27 servers were watched contributes 27, not
+    36. Adoption is excluded from the numerator upstream, so this is a rate of
+    drift per server-day and not of activity in general.
+    """
     if not os.path.exists("observations.csv"):
         return
     with open("observations.csv") as fh:
@@ -143,31 +185,31 @@ def observed(events):
     server_days = sum(watched(r) for r in rows)
     print("Observation days   : {} ({} server-days)".format(len(rows), server_days))
     if server_days:
-        print("Change rate        : {:.3f} per server-day".format(events / server_days))
+        print("Drift rate         : {:.3f} per server-day".format(events / server_days))
 
 
-def windows(document, latest_date):
+def observation_dates():
+    """Dates the collector actually recorded a run, oldest first."""
+    if not os.path.exists("observations.csv"):
+        return []
+    with open("observations.csv") as fh:
+        return sorted({r["date"] for r in csv.DictReader(fh) if r.get("date")})
+
+
+def windows(first_seen, dates):
     """Days each server has actually been watched.
 
     The watchlist grows, so servers have different observation windows. Dividing
     by a flat server-day total would credit a server added last week with the
     whole run's quiet time - an error in the direction that flatters the result,
     which is the worst direction for it to be wrong in.
-    """
-    import datetime
 
-    out = {}
-    for identity, record in (document.get("servers") or {}).items():
-        first = (record.get("first_observed") or "")[:10]
-        if not first:
-            continue
-        try:
-            start = datetime.date.fromisoformat(first)
-            end = datetime.date.fromisoformat(latest_date[:10])
-        except ValueError:
-            continue
-        out[identity] = max((end - start).days, 0) + 1
-    return out
+    Counted in observation days, not calendar days, and for the same reason:
+    the collector has already missed a day, and charging a server for a day
+    nobody looked at inflates its window and flatters its rate.
+    """
+    return {identity: sum(1 for d in dates if d >= first)
+            for identity, first in first_seen.items()}
 
 
 if __name__ == "__main__":
