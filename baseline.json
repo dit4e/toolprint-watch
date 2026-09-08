@@ -1,9 +1,9 @@
 {
   "baseline_version": 1,
-  "generator": "toolprint/0.3.0",
+  "generator": "toolprint/0.3.1",
   "heuristics_version": 1,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-09-08T11:21:49Z",
+  "approved_at": "2026-09-08T19:25:05Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -25,7 +25,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Area Chart"
           },
           "schema_shape": {
             "required": [
@@ -71,7 +72,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Bar Chart"
           },
           "schema_shape": {
             "required": [
@@ -120,7 +122,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Boxplot Chart"
           },
           "schema_shape": {
             "required": [
@@ -163,7 +166,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Column Chart"
           },
           "schema_shape": {
             "required": [
@@ -212,7 +216,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate District Map"
           },
           "schema_shape": {
             "required": [
@@ -244,7 +249,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Dual Axes Chart"
           },
           "schema_shape": {
             "required": [
@@ -288,7 +294,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Fishbone Diagram"
           },
           "schema_shape": {
             "required": [
@@ -322,7 +329,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Flow Diagram"
           },
           "schema_shape": {
             "required": [
@@ -356,7 +364,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Funnel Chart"
           },
           "schema_shape": {
             "required": [
@@ -393,7 +402,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Histogram Chart"
           },
           "schema_shape": {
             "required": [
@@ -439,7 +449,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Line Chart"
           },
           "schema_shape": {
             "required": [
@@ -482,7 +493,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Liquid Chart"
           },
           "schema_shape": {
             "required": [
@@ -522,7 +534,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Mind Map"
           },
           "schema_shape": {
             "required": [
@@ -556,7 +569,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Network Graph"
           },
           "schema_shape": {
             "required": [
@@ -590,7 +604,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Organization Chart"
           },
           "schema_shape": {
             "required": [
@@ -627,7 +642,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Path Map"
           },
           "schema_shape": {
             "required": [
@@ -659,7 +675,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Pie Chart"
           },
           "schema_shape": {
             "required": [
@@ -699,7 +716,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Pin Map"
           },
           "schema_shape": {
             "required": [
@@ -734,7 +752,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Radar Chart"
           },
           "schema_shape": {
             "required": [
@@ -771,7 +790,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Sankey Chart"
           },
           "schema_shape": {
             "required": [
@@ -811,7 +831,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Scatter Chart"
           },
           "schema_shape": {
             "required": [
@@ -854,7 +875,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Spreadsheet"
           },
           "schema_shape": {
             "required": [
@@ -894,7 +916,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Treemap Chart"
           },
           "schema_shape": {
             "required": [
@@ -931,7 +954,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Venn Chart"
           },
           "schema_shape": {
             "required": [
@@ -968,7 +992,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Violin Chart"
           },
           "schema_shape": {
             "required": [
@@ -1011,7 +1036,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Waterfall Chart"
           },
           "schema_shape": {
             "required": [
@@ -1054,7 +1080,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Generate Word Cloud Chart"
           },
           "schema_shape": {
             "required": [
@@ -1101,9 +1128,9 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "idempotentHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [],
@@ -1123,8 +1150,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -1149,8 +1176,8 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -1184,8 +1211,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -1207,8 +1234,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -1230,8 +1257,8 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -1262,8 +1289,8 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -1326,8 +1353,8 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -1375,8 +1402,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [],
@@ -1458,9 +1485,9 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [],
@@ -1512,8 +1539,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -1556,8 +1583,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [],
@@ -1583,9 +1610,9 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -1607,9 +1634,9 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -1646,7 +1673,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Container Registry Services"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -1675,7 +1704,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Advisor Recommendations"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -1704,7 +1735,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Manage Azure Kubernetes Service"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -1733,7 +1766,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "App Configuration Management"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -1762,7 +1797,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure AppLens Diagnostics"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -1791,7 +1828,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Application Insights"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -1820,7 +1859,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure App Service"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -1849,7 +1890,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Resource Manager MCP"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -1878,7 +1921,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Developer CLI"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -1907,7 +1952,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Manage Azure Backup"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -1936,7 +1983,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Landing Zone Generation and Guidance"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -1965,7 +2014,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Terraform"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -1994,7 +2045,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Terraform Best Practices"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2023,7 +2076,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Bicep Schema"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2052,7 +2107,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Cloud Architecture"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2081,7 +2138,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Communication Services"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2110,7 +2169,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Manage Azure Compute Resources"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2139,7 +2200,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Confidential Ledger"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2168,7 +2231,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Container Apps Management"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2197,7 +2262,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Cosmos DB"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2226,7 +2293,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Datadog Integration"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2255,7 +2324,9 @@
           "schema_resolution": "resolved",
           "effect": "external",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Deployment"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2284,7 +2355,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Manage Azure Device Registry"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2313,7 +2386,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Microsoft Documentation Search"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2342,7 +2417,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Event Grid"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2371,7 +2448,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Event Hubs"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2401,10 +2480,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "Azure Quick Review CLI Command"
           },
           "schema_shape": {
             "required": [],
@@ -2430,10 +2510,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "Generate CLI Command"
           },
           "schema_shape": {
             "required": [
@@ -2459,10 +2540,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "Get CLI installation instructions"
           },
           "schema_shape": {
             "required": [
@@ -2483,7 +2565,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure File Shares"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2512,7 +2596,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Microsoft Foundry MCP"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2541,7 +2627,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Microsoft Foundry Extensions"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2570,7 +2658,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Functions"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2599,7 +2689,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Functions"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2628,7 +2720,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Best Practices"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2657,7 +2751,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Managed Grafana"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2687,10 +2783,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "List Resource Groups"
           },
           "schema_shape": {
             "required": [],
@@ -2713,10 +2810,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "List Resources in Resource Group"
           },
           "schema_shape": {
             "required": [
@@ -2743,7 +2841,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Derive Azure infrastructure insights"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2772,7 +2872,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Manage Azure IoT Hub"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2801,7 +2903,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Key Vault"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2830,7 +2934,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Data Explorer"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2859,7 +2965,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Load Testing"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2888,7 +2996,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Managed Lustre"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2917,7 +3027,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Marketplace"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2946,7 +3058,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Monitor"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -2975,7 +3089,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Database for MySQL"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3004,7 +3120,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Policy Management"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3033,7 +3151,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Database for PostgreSQL"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3062,7 +3182,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Retail Pricing"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3091,7 +3213,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Quota Management"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3120,7 +3244,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Redis"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3149,7 +3275,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Resilience Management"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3178,7 +3306,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Resource Health"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3207,7 +3337,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Role-Based Access Control"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3236,7 +3368,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure AI Search"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3265,7 +3399,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Service Bus"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3294,7 +3430,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Manage Azure Service Fabric"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3323,7 +3461,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure SignalR Service"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3352,7 +3492,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure AI Speech"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3381,7 +3523,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure SQL Database"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3410,7 +3554,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure SRE Agent"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3439,7 +3585,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Manage Azure Storage Account"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3468,7 +3616,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Manage Azure Storage Sync Services"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3498,10 +3648,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "List Azure Subscriptions"
           },
           "schema_shape": {
             "required": [],
@@ -3520,7 +3671,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Virtual Desktop"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3549,7 +3702,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Well-Architected Framework"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3578,7 +3733,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Azure Workbooks"
+          },
           "schema_shape": {
             "required": [
               "intent"
@@ -3618,10 +3775,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "Inspect browser storage"
           },
           "schema_shape": {
             "required": [],
@@ -3645,10 +3803,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "Check browser connection"
           },
           "schema_shape": {
             "required": [],
@@ -3664,10 +3823,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "Get console errors"
           },
           "schema_shape": {
             "required": [],
@@ -3697,10 +3857,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "Get console logs"
           },
           "schema_shape": {
             "required": [],
@@ -3730,10 +3891,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "Get failed network requests"
           },
           "schema_shape": {
             "required": [],
@@ -3763,10 +3925,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "Get network requests"
           },
           "schema_shape": {
             "required": [],
@@ -3799,10 +3962,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "Get current page"
           },
           "schema_shape": {
             "required": [],
@@ -3818,10 +3982,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "Get selected element"
           },
           "schema_shape": {
             "required": [],
@@ -3839,10 +4004,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "List browser tabs"
           },
           "schema_shape": {
             "required": [],
@@ -3858,10 +4024,11 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
             "idempotentHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false,
+            "title": "Reload the page"
           },
           "schema_shape": {
             "required": [],
@@ -3879,10 +4046,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Run an accessibility audit"
           },
           "schema_shape": {
             "required": [],
@@ -3903,10 +4071,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Run a best-practices audit"
           },
           "schema_shape": {
             "required": [],
@@ -3927,10 +4096,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Run a performance audit"
           },
           "schema_shape": {
             "required": [],
@@ -3951,10 +4121,11 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Run an SEO audit"
           },
           "schema_shape": {
             "required": [],
@@ -3975,10 +4146,11 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
             "idempotentHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false,
+            "title": "Take a screenshot"
           },
           "schema_shape": {
             "required": [],
@@ -3999,10 +4171,11 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false,
+            "title": "Clear captured telemetry"
           },
           "schema_shape": {
             "required": [],
@@ -4018,7 +4191,7 @@
       "toolset_hash": "cf3cb1fa04ec9d83c9e85f6b5688aab64cc1d710312cc92a14cef6ee392ce1ac",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "1.8.0",
+      "server_version": "1.9.0",
       "version_pinned": false,
       "tools": {
         "click": {
@@ -4030,6 +4203,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "input",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4062,6 +4236,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "navigation",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4084,6 +4259,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "input",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4117,6 +4293,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "emulation",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4160,6 +4337,10 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "debugging",
+            "conditions": [
+              "javascriptEvaluation"
+            ],
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4187,10 +4368,7 @@
                 "boolean"
               ]
             }
-          },
-          "approved_at": "2026-09-08T11:21:49Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-08"
+          }
         },
         "fill": {
           "annotations_hash": "d2790a73227bfd01f72c4cdad05e960f71607b5c1c3d3ce7aba94d8a1d9b3a28",
@@ -4201,6 +4379,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "input",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4234,6 +4413,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "input",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4263,6 +4443,7 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
+            "category": "debugging",
             "readOnlyHint": true
           },
           "schema_shape": {
@@ -4289,6 +4470,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "network",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4309,10 +4491,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-08T11:21:49Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-08"
+          }
         },
         "handle_dialog": {
           "annotations_hash": "d2790a73227bfd01f72c4cdad05e960f71607b5c1c3d3ce7aba94d8a1d9b3a28",
@@ -4323,6 +4502,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "input",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4352,6 +4532,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "input",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4381,6 +4562,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "debugging",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4412,6 +4594,7 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
+            "category": "debugging",
             "readOnlyHint": true
           },
           "schema_shape": {
@@ -4452,6 +4635,7 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
+            "category": "network",
             "readOnlyHint": true
           },
           "schema_shape": {
@@ -4486,6 +4670,7 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
+            "category": "navigation",
             "readOnlyHint": true
           },
           "schema_shape": {
@@ -4502,6 +4687,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "navigation",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4542,6 +4728,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "navigation",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4562,10 +4749,7 @@
                 "string"
               ]
             }
-          },
-          "approved_at": "2026-09-08T11:21:49Z",
-          "approved_by": "watch workflow",
-          "note": "observed 2026-09-08"
+          }
         },
         "performance_analyze_insight": {
           "annotations_hash": "3fecc3dc1aa991934165b39d1189df907bda76628387f1c0a3cb52b0c1cbb41a",
@@ -4576,6 +4760,7 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
+            "category": "performance",
             "readOnlyHint": true
           },
           "schema_shape": {
@@ -4606,6 +4791,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "performance",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4637,6 +4823,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "performance",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4662,6 +4849,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "input",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4691,6 +4879,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "emulation",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4721,6 +4910,7 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
+            "category": "navigation",
             "readOnlyHint": true
           },
           "schema_shape": {
@@ -4746,6 +4936,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "memory",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4772,6 +4963,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "debugging",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4809,6 +5001,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "debugging",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4837,6 +5030,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "input",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4866,6 +5060,7 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "category": "input",
             "readOnlyHint": false
           },
           "schema_shape": {
@@ -4899,6 +5094,7 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
+            "category": "navigation",
             "readOnlyHint": true
           },
           "schema_shape": {
@@ -4972,10 +5168,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -5001,10 +5197,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -5028,7 +5224,7 @@
       "toolset_hash": "0efbb28f69ce08c13f21a3da61852f2b7096585efa5a2a02f1227f70b946d090",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "4.0.5",
+      "server_version": "4.0.6",
       "version_pinned": false,
       "tools": {
         "query-docs": {
@@ -5040,10 +5236,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -5069,10 +5265,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -5180,8 +5376,9 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
+            "destructiveHint": false,
             "readOnlyHint": false,
-            "destructiveHint": false
+            "title": "Create Directory"
           },
           "schema_shape": {
             "required": [
@@ -5203,9 +5400,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false,
+            "title": "Edit Block"
           },
           "schema_shape": {
             "required": [
@@ -5246,9 +5444,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false,
+            "title": "Force Terminate Process"
           },
           "schema_shape": {
             "required": [
@@ -5270,7 +5469,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Get Configuration"
           },
           "schema_shape": {
             "required": [],
@@ -5290,7 +5490,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Get File Information"
           },
           "schema_shape": {
             "required": [
@@ -5312,7 +5513,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Get Search Results"
           },
           "schema_shape": {
             "required": [
@@ -5340,7 +5542,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Get Prompts"
           },
           "schema_shape": {
             "required": [
@@ -5366,7 +5569,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Get Recent Tool Calls"
           },
           "schema_shape": {
             "required": [],
@@ -5392,7 +5596,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Get Usage Statistics"
           },
           "schema_shape": {
             "required": [],
@@ -5408,8 +5613,9 @@
           "effect": "write",
           "declared_ceiling": null,
           "annotations": {
+            "openWorldHint": true,
             "readOnlyHint": false,
-            "openWorldHint": true
+            "title": "Give Feedback"
           },
           "schema_shape": {
             "required": [],
@@ -5425,9 +5631,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Send Input to Process"
           },
           "schema_shape": {
             "required": [
@@ -5462,9 +5669,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false,
+            "title": "Kill Process"
           },
           "schema_shape": {
             "required": [
@@ -5486,7 +5694,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "List Directory Contents"
           },
           "schema_shape": {
             "required": [
@@ -5514,7 +5723,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "List Running Processes"
           },
           "schema_shape": {
             "required": [],
@@ -5530,7 +5740,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "List Active Searches"
           },
           "schema_shape": {
             "required": [],
@@ -5546,7 +5757,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "List Terminal Sessions"
           },
           "schema_shape": {
             "required": [],
@@ -5562,9 +5774,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false,
+            "title": "Move/Rename File"
           },
           "schema_shape": {
             "required": [
@@ -5590,8 +5803,9 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
+            "openWorldHint": true,
             "readOnlyHint": true,
-            "openWorldHint": true
+            "title": "Read File or URL"
           },
           "schema_shape": {
             "required": [
@@ -5634,7 +5848,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Read Multiple Files"
           },
           "schema_shape": {
             "required": [
@@ -5656,7 +5871,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Read Process Output"
           },
           "schema_shape": {
             "required": [
@@ -5690,9 +5906,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false,
+            "title": "Set Configuration Value"
           },
           "schema_shape": {
             "required": [
@@ -5719,9 +5936,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Start Terminal Process"
           },
           "schema_shape": {
             "required": [
@@ -5756,7 +5974,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Start Search"
           },
           "schema_shape": {
             "required": [
@@ -5812,8 +6031,9 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
+            "destructiveHint": false,
             "readOnlyHint": false,
-            "destructiveHint": false
+            "title": "Stop Search"
           },
           "schema_shape": {
             "required": [
@@ -5835,9 +6055,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false,
+            "title": "Write File"
           },
           "schema_shape": {
             "required": [
@@ -5869,9 +6090,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false,
+            "title": "Write/Modify PDF"
           },
           "schema_shape": {
             "required": [
@@ -7690,7 +7912,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Port Forward"
+          },
           "schema_shape": {
             "required": [
               "localPort",
@@ -7725,7 +7949,9 @@
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
-          "annotations": {},
+          "annotations": {
+            "title": "Stop Port Forward"
+          },
           "schema_shape": {
             "required": [
               "id"
@@ -7827,10 +8053,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -7852,10 +8078,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -7880,10 +8106,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [],
@@ -7899,10 +8125,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [],
@@ -7922,10 +8148,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [],
@@ -7948,10 +8174,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -7973,10 +8199,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -8002,10 +8228,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [],
@@ -8021,10 +8247,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [],
@@ -8050,10 +8276,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
             "idempotentHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -8078,10 +8304,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
             "idempotentHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [],
@@ -8097,10 +8323,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
             "idempotentHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [],
@@ -8116,10 +8342,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [],
@@ -8140,7 +8366,7 @@
       "toolset_hash": "a0d23789b75dd656f969a91e2c48df5bd436e6367cefa3a7f41d7c5f33a46052",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "1.29.1",
+      "server_version": "1.30.0",
       "version_pinned": false,
       "tools": {
         "fetch": {
@@ -8191,10 +8417,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -8216,8 +8442,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -8242,10 +8468,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
             "idempotentHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -8274,8 +8500,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -8297,8 +8523,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [],
@@ -8314,8 +8540,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -8337,8 +8563,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -8363,10 +8589,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
             "idempotentHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -8392,8 +8618,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -8421,8 +8647,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -8444,8 +8670,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -8467,8 +8693,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -8496,8 +8722,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -8526,10 +8752,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -8553,7 +8779,7 @@
       "toolset_hash": "e3a274df23c08ae1ab975b7cfada48d4ac5753cad55037187f092ebde477284a",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "1.29.1",
+      "server_version": "1.30.0",
       "version_pinned": false,
       "tools": {
         "git_add": {
@@ -8565,10 +8791,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -8594,10 +8820,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -8625,10 +8851,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
             "idempotentHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -8654,10 +8880,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
             "idempotentHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -8683,10 +8909,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
             "idempotentHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -8713,10 +8939,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -8745,10 +8971,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -8773,10 +8999,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -8801,10 +9027,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -8831,10 +9057,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -8856,10 +9082,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -8885,10 +9111,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -9810,10 +10036,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
             "idempotentHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -9835,10 +10061,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
             "idempotentHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -9860,10 +10086,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
             "idempotentHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -9885,10 +10111,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -9910,10 +10136,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -9935,10 +10161,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -9960,10 +10186,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -9985,10 +10211,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [],
@@ -10004,10 +10230,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -10243,10 +10469,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -10296,7 +10522,7 @@
       "toolset_hash": "dc05179d06ef6481a1649d58f54d46d57aebbb52cd983b5096a66ce7c9ee4c25",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "1.29.1",
+      "server_version": "1.30.0",
       "version_pinned": false,
       "tools": {
         "convert_time": {
@@ -10308,10 +10534,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -10341,10 +10567,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -10376,7 +10602,8 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "destructiveHint": true
+            "destructiveHint": true,
+            "title": "Create A Comment"
           },
           "schema_shape": {
             "required": [
@@ -10400,7 +10627,8 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "destructiveHint": true
+            "destructiveHint": true,
+            "title": "Create A Data Source"
           },
           "schema_shape": {
             "required": [
@@ -10425,7 +10653,8 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "destructiveHint": true
+            "destructiveHint": true,
+            "title": "Delete A Block"
           },
           "schema_shape": {
             "required": [
@@ -10447,7 +10676,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Get Block Children"
           },
           "schema_shape": {
             "required": [
@@ -10475,7 +10705,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Get Self"
           },
           "schema_shape": {
             "required": [],
@@ -10491,7 +10722,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Get User"
           },
           "schema_shape": {
             "required": [
@@ -10513,7 +10745,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Get Users"
           },
           "schema_shape": {
             "required": [],
@@ -10536,7 +10769,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "List Data Source Templates"
           },
           "schema_shape": {
             "required": [
@@ -10564,7 +10798,8 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "destructiveHint": true
+            "destructiveHint": true,
+            "title": "Move Page"
           },
           "schema_shape": {
             "required": [
@@ -10588,7 +10823,8 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "destructiveHint": true
+            "destructiveHint": true,
+            "title": "Patch Block Children"
           },
           "schema_shape": {
             "required": [
@@ -10617,7 +10853,8 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "destructiveHint": true
+            "destructiveHint": true,
+            "title": "Patch Page"
           },
           "schema_shape": {
             "required": [
@@ -10648,7 +10885,8 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "destructiveHint": true
+            "destructiveHint": true,
+            "title": "Post Page"
           },
           "schema_shape": {
             "required": [
@@ -10679,7 +10917,8 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "destructiveHint": true
+            "destructiveHint": true,
+            "title": "Post Search"
           },
           "schema_shape": {
             "required": [],
@@ -10707,7 +10946,8 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "destructiveHint": true
+            "destructiveHint": true,
+            "title": "Query Data Source"
           },
           "schema_shape": {
             "required": [
@@ -10748,7 +10988,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Retrieve A Block"
           },
           "schema_shape": {
             "required": [
@@ -10770,7 +11011,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Retrieve A Comment"
           },
           "schema_shape": {
             "required": [
@@ -10798,7 +11040,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Retrieve A Data Source"
           },
           "schema_shape": {
             "required": [
@@ -10820,7 +11063,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Retrieve A Database"
           },
           "schema_shape": {
             "required": [
@@ -10842,7 +11086,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Retrieve A Page"
           },
           "schema_shape": {
             "required": [
@@ -10867,7 +11112,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Retrieve A Page Property"
           },
           "schema_shape": {
             "required": [
@@ -10899,7 +11145,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true
+            "readOnlyHint": true,
+            "title": "Retrieve Page Markdown"
           },
           "schema_shape": {
             "required": [
@@ -10924,7 +11171,8 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "destructiveHint": true
+            "destructiveHint": true,
+            "title": "Update A Block"
           },
           "schema_shape": {
             "required": [
@@ -10950,7 +11198,8 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "destructiveHint": true
+            "destructiveHint": true,
+            "title": "Update A Data Source"
           },
           "schema_shape": {
             "required": [
@@ -10979,7 +11228,8 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "destructiveHint": true
+            "destructiveHint": true,
+            "title": "Update Page Markdown"
           },
           "schema_shape": {
             "required": [
@@ -11829,9 +12079,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Click"
           },
           "schema_shape": {
             "required": [
@@ -11865,9 +12116,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Close browser"
           },
           "schema_shape": {
             "required": [],
@@ -11883,9 +12135,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Get console messages"
           },
           "schema_shape": {
             "required": [
@@ -11913,9 +12166,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Drag mouse"
           },
           "schema_shape": {
             "required": [
@@ -11947,9 +12201,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Drop files or data onto an element"
           },
           "schema_shape": {
             "required": [
@@ -11980,9 +12235,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Evaluate JavaScript"
           },
           "schema_shape": {
             "required": [
@@ -12013,9 +12269,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Upload files"
           },
           "schema_shape": {
             "required": [],
@@ -12035,9 +12292,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Fill form"
           },
           "schema_shape": {
             "required": [
@@ -12059,9 +12317,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Find in page snapshot"
           },
           "schema_shape": {
             "required": [],
@@ -12084,9 +12343,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Handle a dialog"
           },
           "schema_shape": {
             "required": [
@@ -12111,9 +12371,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Hover mouse"
           },
           "schema_shape": {
             "required": [
@@ -12138,9 +12399,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Navigate to a URL"
           },
           "schema_shape": {
             "required": [
@@ -12162,9 +12424,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Go back"
           },
           "schema_shape": {
             "required": [],
@@ -12180,9 +12443,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Show network request details"
           },
           "schema_shape": {
             "required": [
@@ -12210,9 +12474,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "List network requests"
           },
           "schema_shape": {
             "required": [
@@ -12240,9 +12505,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Press a key"
           },
           "schema_shape": {
             "required": [
@@ -12264,9 +12530,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Resize browser window"
           },
           "schema_shape": {
             "required": [
@@ -12292,9 +12559,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Run Playwright code (unsafe)"
           },
           "schema_shape": {
             "required": [],
@@ -12317,9 +12585,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Select option"
           },
           "schema_shape": {
             "required": [
@@ -12348,9 +12617,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Page snapshot"
           },
           "schema_shape": {
             "required": [],
@@ -12379,9 +12649,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Manage tabs"
           },
           "schema_shape": {
             "required": [
@@ -12409,9 +12680,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Take a screenshot"
           },
           "schema_shape": {
             "required": [
@@ -12448,9 +12720,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Type text"
           },
           "schema_shape": {
             "required": [
@@ -12485,9 +12758,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Wait for"
           },
           "schema_shape": {
             "required": [],
@@ -12511,7 +12785,7 @@
       "toolset_hash": "5af556d9d9509f19ff79d37122b5aa4100e750ffbf736d66f8885c9d313adabf",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "1.29.1",
+      "server_version": "1.30.0",
       "version_pinned": false,
       "tools": {
         "qdrant-find": {
@@ -12582,8 +12856,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [],
@@ -12612,8 +12886,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -12638,8 +12912,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -12691,8 +12965,8 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -12739,7 +13013,8 @@
           "effect": "read",
           "declared_ceiling": null,
           "annotations": {
-            "openWorldHint": true
+            "openWorldHint": true,
+            "title": "Brave Image Search"
           },
           "schema_shape": {
             "required": [
@@ -12774,7 +13049,8 @@
           "effect": "read",
           "declared_ceiling": null,
           "annotations": {
-            "openWorldHint": true
+            "openWorldHint": true,
+            "title": "Brave LLM Context"
           },
           "schema_shape": {
             "required": [
@@ -12867,7 +13143,8 @@
           "effect": "read",
           "declared_ceiling": null,
           "annotations": {
-            "openWorldHint": true
+            "openWorldHint": true,
+            "title": "Brave Local Search"
           },
           "schema_shape": {
             "required": [
@@ -12925,7 +13202,8 @@
           "effect": "read",
           "declared_ceiling": null,
           "annotations": {
-            "openWorldHint": true
+            "openWorldHint": true,
+            "title": "Brave News Search"
           },
           "schema_shape": {
             "required": [
@@ -12971,7 +13249,8 @@
           "effect": "read",
           "declared_ceiling": null,
           "annotations": {
-            "openWorldHint": true
+            "openWorldHint": true,
+            "title": "Brave Place Search"
           },
           "schema_shape": {
             "required": [],
@@ -13039,7 +13318,8 @@
           "effect": "read",
           "declared_ceiling": null,
           "annotations": {
-            "openWorldHint": true
+            "openWorldHint": true,
+            "title": "Brave Summarizer"
           },
           "schema_shape": {
             "required": [
@@ -13067,7 +13347,8 @@
           "effect": "read",
           "declared_ceiling": null,
           "annotations": {
-            "openWorldHint": true
+            "openWorldHint": true,
+            "title": "Brave Video Search"
           },
           "schema_shape": {
             "required": [
@@ -13109,7 +13390,8 @@
           "effect": "read",
           "declared_ceiling": null,
           "annotations": {
-            "openWorldHint": true
+            "openWorldHint": true,
+            "title": "Brave Web Search"
           },
           "schema_shape": {
             "required": [
@@ -13236,10 +13518,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -13264,10 +13546,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
             "idempotentHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -13302,9 +13584,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Start a research agent"
           },
           "schema_shape": {
             "required": [
@@ -13332,9 +13615,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "Get agent job status"
           },
           "schema_shape": {
             "required": [
@@ -13356,9 +13640,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "Get crawl status"
           },
           "schema_shape": {
             "required": [
@@ -13380,9 +13665,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Run a site crawl"
           },
           "schema_shape": {
             "required": [
@@ -13452,9 +13738,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Search developer sources"
           },
           "schema_shape": {
             "required": [
@@ -13482,9 +13769,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Deprecated: use Scrape JSON"
           },
           "schema_shape": {
             "required": [
@@ -13521,9 +13809,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Send feedback on a Firecrawl job"
           },
           "schema_shape": {
             "required": [
@@ -13580,9 +13869,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Interact with a scraped page"
           },
           "schema_shape": {
             "required": [],
@@ -13620,9 +13910,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": false,
+            "title": "Stop interact session"
           },
           "schema_shape": {
             "required": [
@@ -13644,9 +13935,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Map a website"
           },
           "schema_shape": {
             "required": [
@@ -13683,9 +13975,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "Get monitor check"
           },
           "schema_shape": {
             "required": [
@@ -13720,9 +14013,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "List monitor checks"
           },
           "schema_shape": {
             "required": [
@@ -13753,9 +14047,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Create monitor"
           },
           "schema_shape": {
             "required": [],
@@ -13817,9 +14112,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Delete monitor"
           },
           "schema_shape": {
             "required": [
@@ -13841,9 +14137,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "Get monitor"
           },
           "schema_shape": {
             "required": [
@@ -13865,9 +14162,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "List monitors"
           },
           "schema_shape": {
             "required": [],
@@ -13890,9 +14188,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Run monitor now"
           },
           "schema_shape": {
             "required": [
@@ -13914,9 +14213,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Update monitor"
           },
           "schema_shape": {
             "required": [
@@ -13942,9 +14242,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "Parse a local file"
           },
           "schema_shape": {
             "required": [
@@ -14014,9 +14315,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Inspect a paper"
           },
           "schema_shape": {
             "required": [
@@ -14038,9 +14340,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Read a paper"
           },
           "schema_shape": {
             "required": [
@@ -14069,9 +14372,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Find related papers via citation graph"
           },
           "schema_shape": {
             "required": [
@@ -14106,9 +14410,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Search GitHub history"
           },
           "schema_shape": {
             "required": [
@@ -14133,9 +14438,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Search research papers"
           },
           "schema_shape": {
             "required": [
@@ -14172,9 +14478,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Scrape a URL"
           },
           "schema_shape": {
             "required": [
@@ -14262,9 +14569,10 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Search the web"
           },
           "schema_shape": {
             "required": [
@@ -14319,9 +14627,10 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false,
+            "title": "Send feedback on a search result"
           },
           "schema_shape": {
             "required": [
@@ -14676,9 +14985,9 @@
           "effect": "write",
           "declared_ceiling": "external",
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [],
@@ -14708,9 +15017,9 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [
@@ -14735,9 +15044,9 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [],
@@ -14755,9 +15064,9 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -14781,9 +15090,9 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [],
@@ -14812,9 +15121,9 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -14859,9 +15168,9 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -14903,9 +15212,9 @@
           "effect": "read",
           "declared_ceiling": "read",
           "annotations": {
-            "readOnlyHint": true,
             "destructiveHint": false,
-            "openWorldHint": false
+            "openWorldHint": false,
+            "readOnlyHint": true
           },
           "schema_shape": {
             "required": [
@@ -14928,10 +15237,10 @@
           "effect": "irreversible",
           "declared_ceiling": null,
           "annotations": {
-            "readOnlyHint": false,
             "destructiveHint": true,
             "idempotentHint": false,
-            "openWorldHint": true
+            "openWorldHint": true,
+            "readOnlyHint": false
           },
           "schema_shape": {
             "required": [],
