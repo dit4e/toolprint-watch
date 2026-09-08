@@ -124,11 +124,28 @@ A newly watched server produces **no drift**, which is correct — nothing moved
 workflow runs `approve` every day for exactly this reason, so additions are
 adopted without anyone intervening.
 
-**`first_observed` is what keeps the arithmetic honest.** Servers joined at
-different times, so they have different observation windows. `analyse.py
---by-server` divides each server's changes by its own window; a flat
-server-day total would credit a server added last week with the whole run's
-quiet time, which is an error in the direction that flatters the result.
+**Observation windows are what keep the arithmetic honest.** Servers joined at
+different times, so they have different windows. `analyse.py --by-server`
+divides each server's changes by its own; a flat server-day total would credit
+a server added last week with the whole run's quiet time, which is an error in
+the direction that flatters the result. Windows are counted in observation
+days rather than calendar days, for the same reason — the collector has
+already missed a day, and charging a server for a day nobody looked at
+inflates its window.
+
+Those windows are read from the git history, not from the `first_observed`
+field. `approve` stamps that field on adoption, but `approve --refresh`
+rewrites every server from the live snapshot and does not carry it across, so
+it was silently dropped at the 0.1.0 → 0.2.2 refresh on 2026-09-04 and
+`--by-server` printed `?` for every server until analyse.py stopped depending
+on it. The history cannot be wiped by a refresh.
+
+**Adoption is not drift.** A server joining brings its whole tool surface with
+it, and counting that as change measures this repository's growth rather than
+the ecosystem's: adding nine servers on 2026-09-01 accounted for 89 of the 235
+changes the earlier counting reported. `analyse.py` compares servers only
+across revisions in which they were already being watched, and reports what
+they arrived with — 497 tools across 36 servers so far — separately.
 
 Removing a server is the same idea in reverse: drop it from `servers.json` and
 it stops being observed, but its baseline entry and its history stay. Deleting
@@ -159,9 +176,9 @@ toolprint scan --connect --config /tmp/candidate.json
 |---|---|
 | `servers.json` | The watchlist, in MCP client config format |
 | `baseline.json` | The approved state. **Its git history is the dataset.** |
-| `observations.csv` | One row per run: servers watched, how many were actually **reachable**, tools seen, changes found |
+| `observations.csv` | One row per **date**: servers watched, how many were actually **reachable**, tools seen, changes found. A re-run supersedes that date's row rather than adding one, and keeps the highest change count seen |
 | `observations/` | Per-run drift detail, written only on days with changes |
-| `analyse.py` | Reads the history and reports a rate |
+| `analyse.py` | Reads the history and reports a drift rate, with adoption excluded |
 | `.github/workflows/watch.yml` | Daily collector |
 
 ## Licence
