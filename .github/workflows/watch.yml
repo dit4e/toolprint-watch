@@ -219,13 +219,39 @@ jobs:
               reachable = len({(s["name"], s["url_host"] or s["command_basename"]) for s in ok})
               tools = sum(s["tool_count"] or 0 for s in ok)
 
+          # One row per date, not one per run. This appended, so re-running a
+          # day - after a failure, or to verify a toolprint upgrade - left the
+          # date in twice. analyse.py sums this column for the denominator, so
+          # every extra row inflated server-days and deflated the drift rate:
+          # an error in the direction that flatters the result.
+          #
+          # A repeat run supersedes the earlier one, except when it reached
+          # fewer servers. A partial run measured a broken collector, not the
+          # ecosystem, and must not overwrite the complete observation it is
+          # standing next to.
           path = "observations.csv"
-          new = not os.path.exists(path)
-          with open(path, "a", newline="") as fh:
-              w = csv.writer(fh)
-              if new:
-                  w.writerow(["date", "watched", "reachable", "tools", "drift_changes"])
-              w.writerow([date, watched, reachable, tools, drift])
+          header = ["date", "watched", "reachable", "tools", "drift_changes"]
+          rows = []
+          if os.path.exists(path):
+              with open(path) as fh:
+                  rows = [r for r in csv.DictReader(fh)]
+
+          row = dict(zip(header, [date, watched, reachable, tools, drift]))
+          existing = next((r for r in rows if r["date"] == date), None)
+          if existing is None:
+              rows.append(row)
+          elif int(tools) >= int(existing["tools"] or 0):
+              existing.update({k: str(v) for k, v in row.items()})
+          else:
+              print("::warning::{} already has a run that reached {} tools; "
+                    "this run reached {} and was not recorded".format(
+                        date, existing["tools"], tools))
+
+          rows.sort(key=lambda r: r["date"])
+          with open(path, "w", newline="") as fh:
+              w = csv.DictWriter(fh, fieldnames=header)
+              w.writeheader()
+              w.writerows(rows)
           print("watched={} reachable={} tools={} drift={}".format(
               watched, reachable, tools, drift))
           if reachable < watched:
