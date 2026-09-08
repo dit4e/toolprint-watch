@@ -87,11 +87,11 @@ def main(argv=None):
     # which anything drifted, so its servers count as adopted too.
     adopted_servers, adopted_tools = len(first), sum(len(t) for t in first.values())
     retired_servers = retired_tools = 0
-    # When each server entered the watchlist, taken from the history rather
-    # than from a first_observed field on the record. approve --refresh
-    # rewrites every server from the live snapshot, which does not carry that
-    # field, so it was silently dropped at the 0.1.0 -> 0.2.2 refresh and every
-    # window has read "?" since. The history cannot be wiped by a refresh.
+    # When each server entered the watchlist. The record's own first_observed
+    # is preferred where it survives - it is a UTC stamp from the moment of
+    # adoption, where a commit date is local and can land a day early. The
+    # history is the fallback, because approve --refresh dropped that field
+    # until toolprint 0.3.2 and no window could be computed for four days.
     first_seen = {identity: history[0][1][:10] for identity in first}
 
     for sha, when in history[1:]:
@@ -139,6 +139,11 @@ def main(argv=None):
     observed(events)
 
     if args.by_server:
+        latest = at(history[-1][0]) or {}
+        for identity, record in (latest.get("servers") or {}).items():
+            stamped = (record.get("first_observed") or "")[:10]
+            if stamped and identity in first_seen:
+                first_seen[identity] = stamped
         watched = windows(first_seen, observation_dates())
         totals = Counter()
         for counter in (changed, appeared, removed):

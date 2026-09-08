@@ -15,6 +15,7 @@
       "auth_method": "none",
       "server_version": "0.8.x",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "generate_area_chart": {
           "annotations_hash": "b4305f3cb53dca60d2034062bd31135618d821a719913a1cb63cac33e70f9878",
@@ -1118,6 +1119,7 @@
       "auth_method": "none",
       "server_version": "0.7.2",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "check_alerts": {
           "annotations_hash": "08fee34755e661502a62e6097494d6cf5cb427b72e2b663bafd11abd4ad4a73c",
@@ -1664,6 +1666,7 @@
       "auth_method": "none",
       "server_version": "3.0.0-beta.41",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "acr": {
           "annotations_hash": "2a1f0fa5e0ee322c30a65636c33a2f6009203ae158ba823c4d5753f3d9f60f74",
@@ -3765,6 +3768,7 @@
       "auth_method": "none",
       "server_version": "2.0.0",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "getBrowserStorage": {
           "annotations_hash": "44a79ee911127e9f5cf3c58f84a1bbcf90c4ddf2a00fd56be36808793c6795a9",
@@ -4193,6 +4197,7 @@
       "auth_method": "none",
       "server_version": "1.9.0",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "click": {
           "annotations_hash": "d2790a73227bfd01f72c4cdad05e960f71607b5c1c3d3ce7aba94d8a1d9b3a28",
@@ -5124,6 +5129,7 @@
       "auth_method": "none",
       "server_version": "0.1.0",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "run-code": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -5158,6 +5164,7 @@
       "auth_method": "none",
       "server_version": "4.0.5",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "query-docs": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
@@ -5226,6 +5233,7 @@
       "auth_method": "none",
       "server_version": "4.0.6",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "query-docs": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
@@ -5294,6 +5302,7 @@
       "auth_method": "none",
       "server_version": "2.14.3",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "ask_question": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -5366,6 +5375,7 @@
       "auth_method": "none",
       "server_version": "0.2.48",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "create_directory": {
           "annotations_hash": "bc77e58c27b497b23db2d81285a2fe7a0d3258db1a3fdd4b64d5f20c2607bf2a",
@@ -6123,6 +6133,7 @@
       "auth_method": "none",
       "server_version": "2.15.3",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "git_add": {
           "annotations_hash": "982237d5a4a9e561c892fba892a326b3e3f45b2683e768f6aaed3717230b8b70",
@@ -7142,6 +7153,7 @@
       "auth_method": "none",
       "server_version": "4.1.6",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "cleanup": {
           "annotations_hash": "eb87dc6b037d748e5b790f51edfff0fe0561d7f8fd90f907ffe8710b2536bf05",
@@ -8043,6 +8055,7 @@
       "auth_method": "none",
       "server_version": "2.0.0",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "echo": {
           "annotations_hash": "7734bccfe083260cc67f8938d0bcc6766393e5c2f331310794cdcaf3264b8697",
@@ -8368,6 +8381,7 @@
       "auth_method": "none",
       "server_version": "1.30.0",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "fetch": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -8407,6 +8421,7 @@
       "auth_method": "none",
       "server_version": "0.2.0",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "create_directory": {
           "annotations_hash": "6b4ff80044529e5643a293ead5306e88ed42707366db0c2b9445d22a69fec0df",
@@ -8781,6 +8796,7 @@
       "auth_method": "none",
       "server_version": "1.30.0",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "git_add": {
           "annotations_hash": "6b4ff80044529e5643a293ead5306e88ed42707366db0c2b9445d22a69fec0df",
@@ -9136,6 +9152,7 @@
       "auth_method": "none",
       "server_version": "0.6.2",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "add_issue_comment": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -10026,6 +10043,7 @@
       "auth_method": "none",
       "server_version": "0.6.3",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "add_observations": {
           "annotations_hash": "5a2c1af291e74c0e6842eb9c7d3f3b4f232c8e2a478bb8c1accb97b8a22f4e41",
@@ -10255,6 +10273,7 @@
       "auth_method": "none",
       "server_version": "0.1.0",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "query": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -10283,6 +10302,7 @@
       "auth_method": "none",
       "server_version": "0.1.0",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "puppeteer_click": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -10459,6 +10479,7 @@
       "auth_method": "none",
       "server_version": "2026.8.31",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "sequentialthinking": {
           "annotations_hash": "7734bccfe083260cc67f8938d0bcc6766393e5c2f331310794cdcaf3264b8697",
@@ -10524,6 +10545,7 @@
       "auth_method": "none",
       "server_version": "1.30.0",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "convert_time": {
           "annotations_hash": "7734bccfe083260cc67f8938d0bcc6766393e5c2f331310794cdcaf3264b8697",
@@ -10592,6 +10614,7 @@
       "auth_method": "none",
       "server_version": "1.0.0",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "API-create-a-comment": {
           "annotations_hash": "209273c2817ad360e974f402a2921358f7f615188f229634c37ac2afeeca7aa2",
@@ -11259,6 +11282,7 @@
       "auth_method": "none",
       "server_version": "1.0.11",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "clear_codegen_session": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -12069,6 +12093,7 @@
       "auth_method": "none",
       "server_version": "1.63.0-alpha-2026-08-31",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "browser_click": {
           "annotations_hash": "925910e268f83fb2b77a3704ae472301783f8856f19d155759aec22216c1da7a",
@@ -12787,6 +12812,7 @@
       "auth_method": "none",
       "server_version": "1.30.0",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "qdrant-find": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -12846,6 +12872,7 @@
       "auth_method": "none",
       "server_version": "2.1.0",
       "version_pinned": false,
+      "first_observed": "2026-09-01T21:36:54Z",
       "tools": {
         "searxng_instance_info": {
           "annotations_hash": "752b38557bb5e4eeabd19c13c9bf62034ec74ea0d92d40bc2f0e3f136c69d1fa",
@@ -13003,6 +13030,7 @@
       "auth_method": "env_var",
       "server_version": "2.1.3",
       "version_pinned": false,
+      "first_observed": "2026-09-02T01:21:47Z",
       "tools": {
         "brave_image_search": {
           "annotations_hash": "d54696f5b697f07d31d94cd9f9238f65fcc6ca551f8f7cb4670bbc084ca409b3",
@@ -13449,6 +13477,7 @@
       "auth_method": "env_var",
       "server_version": "0.1.0",
       "version_pinned": false,
+      "first_observed": "2026-09-02T01:21:47Z",
       "tools": {
         "brave_local_search": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -13508,6 +13537,7 @@
       "auth_method": "env_var",
       "server_version": "3.4.1",
       "version_pinned": false,
+      "first_observed": "2026-09-02T01:21:47Z",
       "tools": {
         "web_fetch_exa": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
@@ -13574,6 +13604,7 @@
       "auth_method": "env_var",
       "server_version": "3.24.0",
       "version_pinned": false,
+      "first_observed": "2026-09-02T01:21:47Z",
       "tools": {
         "firecrawl_agent": {
           "annotations_hash": "0823fb8baadeca6d3d17a8186cfac272e8d2a38877e65783dc1cb295a83311db",
@@ -14665,6 +14696,7 @@
       "auth_method": "env_var",
       "server_version": "0.5.1",
       "version_pinned": false,
+      "first_observed": "2026-09-02T01:21:47Z",
       "tools": {
         "create_branch": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -14801,6 +14833,7 @@
       "auth_method": "env_var",
       "server_version": "0.1.0",
       "version_pinned": false,
+      "first_observed": "2026-09-02T01:21:47Z",
       "tools": {
         "maps_directions": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -14975,6 +15008,7 @@
       "auth_method": "none",
       "server_version": "0.39.0",
       "version_pinned": false,
+      "first_observed": "2026-09-02T01:21:47Z",
       "tools": {
         "analyze_issue_with_seer": {
           "annotations_hash": "03ffb2ef4c389ccaf873d172d017eb2ac96da921462c5037d62b6732647714b6",
@@ -15294,6 +15328,7 @@
       "auth_method": "env_var",
       "server_version": "1.0.0",
       "version_pinned": false,
+      "first_observed": "2026-09-02T01:21:47Z",
       "tools": {
         "slack_add_reaction": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -15493,6 +15528,7 @@
       "auth_method": "env_var",
       "server_version": "0.2.22",
       "version_pinned": false,
+      "first_observed": "2026-09-02T01:21:47Z",
       "tools": {
         "tavily_crawl": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
