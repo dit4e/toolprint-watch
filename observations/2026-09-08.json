@@ -1,0 +1,50 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-002",
+      "severity": "critical",
+      "title": "Safety annotation revoked",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "evaluate_script",
+      "detail": "annotations changed",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "get_network_request",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "105845b1f8ee",
+        "description_hash_now": "8f35a8756555"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "new_page",
+      "detail": "schema changed without a shape-level difference",
+      "evidence": {
+        "breaking": [],
+        "additive": []
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": []
+}

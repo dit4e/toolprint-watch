@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.0",
   "heuristics_version": 1,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-09-04T21:23:49Z",
+  "approved_at": "2026-09-08T11:21:49Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -4015,7 +4015,7 @@
     },
     "chrome-devtools@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "adf66b2d704e8bd5ab66dbd4cc5f424cc39e5eedb53adeb1108fd2b6376034da",
+      "toolset_hash": "cf3cb1fa04ec9d83c9e85f6b5688aab64cc1d710312cc92a14cef6ee392ce1ac",
       "transport": "stdio",
       "auth_method": "none",
       "server_version": "1.8.0",
@@ -4152,8 +4152,8 @@
           }
         },
         "evaluate_script": {
-          "annotations_hash": "446b144b4a5a55b794092128e0b222f71bbad97a97e39ada7e6f3b3e55ca1975",
-          "composite_hash": "605c351511610c08ba303a413d896b06a5b125231bd8ad2a62262b4297d8e394",
+          "annotations_hash": "57ddd599886e59ddd04af01c8e67170463b5102f5919ad80d3e48d7d5974f7ee",
+          "composite_hash": "664538ad2b1e52e16ef697f8f6c2a10683279eefee6971dd269141c71590cea7",
           "description_hash": "e787c091ad74ff2064a24b509df84484469391875e54aeae7b65aaf35d43d700",
           "schema_hash": "34c1476d69f8a4b33f75e1d59b52df5ced943e5295519cd2b8192f106a678ec9",
           "schema_resolution": "resolved",
@@ -4187,7 +4187,10 @@
                 "boolean"
               ]
             }
-          }
+          },
+          "approved_at": "2026-09-08T11:21:49Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-09-08"
         },
         "fill": {
           "annotations_hash": "d2790a73227bfd01f72c4cdad05e960f71607b5c1c3d3ce7aba94d8a1d9b3a28",
@@ -4279,8 +4282,8 @@
         },
         "get_network_request": {
           "annotations_hash": "bb3ea063b71e15277026dca6bcd65cc0979c500e08cb9f27394b38d3d4177ce7",
-          "composite_hash": "43ab3b925487e5a5fb97bf9356f0adf8eb5f2e0d6f686498a0352df377a2d9c3",
-          "description_hash": "105845b1f8ee5c0a0b2ab7fd25b96b9f7fb338fbdf3c89c3a3cab103a54fda1a",
+          "composite_hash": "cc7a6370c595afbdfae09eba7b1107f0653ea0864060c6296d8d1587474000df",
+          "description_hash": "8f35a875655568914bdfd6684407ab11d2f76b2c576747843337bf404c3479cd",
           "schema_hash": "6d78364098ee894d9454a0a0ef4ae5b9f85baf80f4aea53cf401cff2a8632a37",
           "schema_resolution": "resolved",
           "effect": "write",
@@ -4306,7 +4309,10 @@
                 "string"
               ]
             }
-          }
+          },
+          "approved_at": "2026-09-08T11:21:49Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-09-08"
         },
         "handle_dialog": {
           "annotations_hash": "d2790a73227bfd01f72c4cdad05e960f71607b5c1c3d3ce7aba94d8a1d9b3a28",
@@ -4529,9 +4535,9 @@
         },
         "new_page": {
           "annotations_hash": "7c6e9042a47a5fe49c97f580aa00dfcb45927b273e5640b9878bfbebca3ebd16",
-          "composite_hash": "adebad80b8e2f57cfd96f40744df9ec5a9f017912f5fd828deb35ce7dd8d8eb5",
+          "composite_hash": "c6b05104544abbee9386fbbb14370745995471280ee25c614943c7a730cf0c9d",
           "description_hash": "ebfaa14048fa15d8115bdf7806af37f78600f5963cf9cb816dbbdfe24cce7532",
-          "schema_hash": "ad2cb31f9d46780c4c0f2f09611eb073a51f5cc391d85db96997b0effc078b11",
+          "schema_hash": "9aeafcb52671446eb9626a14f425000ae1d3a037d07cafa943dc20725bcb710f",
           "schema_resolution": "resolved",
           "effect": "write",
           "declared_ceiling": null,
@@ -4556,7 +4562,10 @@
                 "string"
               ]
             }
-          }
+          },
+          "approved_at": "2026-09-08T11:21:49Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-09-08"
         },
         "performance_analyze_insight": {
           "annotations_hash": "3fecc3dc1aa991934165b39d1189df907bda76628387f1c0a3cb52b0c1cbb41a",
