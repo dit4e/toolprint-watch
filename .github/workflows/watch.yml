@@ -229,6 +229,12 @@ jobs:
           # fewer servers. A partial run measured a broken collector, not the
           # ecosystem, and must not overwrite the complete observation it is
           # standing next to.
+          #
+          # drift_changes is the exception: it keeps the highest seen that date
+          # rather than the latest. Approving a day's drift means every later
+          # run that day sees none, so carrying the latest across would erase
+          # the day's findings whenever a date was re-run after approval - the
+          # first re-run of 09-08 turned 6 observed version bumps into 0.
           path = "observations.csv"
           header = ["date", "watched", "reachable", "tools", "drift_changes"]
           rows = []
@@ -241,6 +247,7 @@ jobs:
           if existing is None:
               rows.append(row)
           elif int(tools) >= int(existing["tools"] or 0):
+              row["drift_changes"] = max(int(drift), int(existing["drift_changes"] or 0))
               existing.update({k: str(v) for k, v in row.items()})
           else:
               print("::warning::{} already has a run that reached {} tools; "
