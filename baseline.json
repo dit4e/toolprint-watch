@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.2",
   "heuristics_version": 1,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-09-08T20:39:21Z",
+  "approved_at": "2026-09-09T11:26:36Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -1661,10 +1661,10 @@
     },
     "azure@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "14f9f14593df8df5ab4fcd28470d94153d9b93d7d26c971cc8169415e46d1259",
+      "toolset_hash": "670955bc9a593958cded8b6132b38962a1368973cf5fb79bb916e447647bdd8d",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "3.0.0-beta.41",
+      "server_version": "3.0.0-beta.42",
       "version_pinned": false,
       "tools": {
         "acr": {
@@ -3757,6 +3757,74 @@
               ]
             }
           }
+        },
+        "adme": {
+          "annotations_hash": "a30aa9f35836d2930aacaeb76a0c488ec8c9fc08d5d1d20d77d17772d1cb88b5",
+          "composite_hash": "d4af996fd209a545d359fd8bbfc07fad7e87be53610597e9287b60815095ef01",
+          "description_hash": "1d770e47a727fb8a528518f94ee475f276000530e0c72d254790a84fcae34b80",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {
+            "title": "Azure Data Manager for Energy"
+          },
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          },
+          "approved_at": "2026-09-09T11:26:36Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-09-09"
+        },
+        "optimization": {
+          "annotations_hash": "a66453ef499ea49ddc1af7ed2c5772a46936fbd7f8bbbe028cfd7ec47c3bffe1",
+          "composite_hash": "7629155692dd8daa55e852beedcc96e117390f4e46b42d9dc90f860afbce8afd",
+          "description_hash": "c1c5bfd3c77c6b4abfca013ca8fb8024b46df2718e27706f6cb29f3aca70cdd8",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": null,
+          "annotations": {
+            "title": "Azure Optimization Recommendations"
+          },
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          },
+          "approved_at": "2026-09-09T11:26:36Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-09-09"
         }
       },
       "first_observed": "2026-09-01T21:36:54Z"
