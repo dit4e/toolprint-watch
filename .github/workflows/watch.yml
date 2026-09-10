@@ -34,7 +34,7 @@ env:
   # Pinned rather than floating: the collector's job is to detect when tool
   # definitions change, so the measuring instrument must not change underneath
   # the measurement. Bump deliberately, and treat a bump as a re-baseline event.
-  TOOLPRINT_SPEC: "toolprint[tokens]==0.3.2"
+  TOOLPRINT_SPEC: "toolprint[tokens]==0.3.3"
 
 jobs:
   observe:
@@ -141,10 +141,20 @@ jobs:
           # the denominator row records how many servers actually answered, and
           # a shortfall raises a workflow warning. A research collector should
           # record a degraded day, not refuse to.
+          # findings/ and surfaces/ are kept, not just consumed. Everything the
+          # collector measures beyond five integers used to be written to
+          # RUNNER_TEMP and destroyed with the job: why a server was
+          # unreachable, token cost, protocol era, effect classes, and the
+          # findings themselves. And drift records that a description changed,
+          # never what it said - hashes are one way - so the corpus could prove
+          # a rug pull happened and never show it.
+          mkdir -p findings surfaces
           toolprint check --yes --timeout 60 --fail-on none --min-coverage 0 \
             --config servers.json --baseline baseline.json \
             --format json --out "observations/$DATE.json" \
-            --findings "$RUNNER_TEMP/findings.json"
+            --findings "findings/$DATE.json" \
+            --bundle "surfaces/$DATE.json"
+          cp "findings/$DATE.json" "$RUNNER_TEMP/findings.json"
           DRIFT=$(python -c "import json;print(len(json.load(open('observations/$DATE.json'))['changes']))")
           NEW=$(python -c "import json;print(len(json.load(open('observations/$DATE.json'))['new_servers']))")
           echo "drift=$DRIFT" >> "$GITHUB_OUTPUT"
@@ -264,6 +274,59 @@ jobs:
           if reachable < watched:
               print("::warning::{} of {} servers were not reachable this run".format(
                   watched - reachable, watched))
+          PY
+
+      - name: Nothing about the machine may be published
+        env:
+          OBS_DATE: ${{ steps.observe.outputs.date }}
+        run: |
+          # Runs before the deploy key is loaded, so a failure here cannot be
+          # followed by a push. The bundle is safe by construction - bundle.py
+          # projects through an allowlist - but findings.json is not: it
+          # carries source_path and project, which are absolute paths holding a
+          # username and whatever is being worked on. This collector passes a
+          # relative --config and never discovers clients, so those come out
+          # empty. That is a property of how it is invoked, not of the format,
+          # and an unattended job should not depend on nobody ever editing an
+          # invocation.
+          python - "$OBS_DATE" <<'PY'
+          import json, re, sys, pathlib
+          date = sys.argv[1]
+          BAD = {
+              "absolute path": re.compile(r'"(?:/(?:Users|home|root|var|opt)/|[A-Z]:\\\\)'),
+              "home marker": re.compile(r"[\"/](?:runner|home)/[a-z_][a-z0-9_-]*/\\."),
+              "runner workspace": re.compile(r"/home/runner/work"),
+          }
+          MAX_BYTES = 8_000_000     # a server that emits a huge description
+                                    # would otherwise bloat the repo forever
+          failed = False
+          for name in ("findings/%s.json" % date, "surfaces/%s.json" % date):
+              path = pathlib.Path(name)
+              if not path.exists():
+                  print("::error::%s was not written" % name); failed = True; continue
+              blob = path.read_text(encoding="utf-8")
+              if len(blob) > MAX_BYTES:
+                  print("::error::%s is %d bytes, over the %d cap"
+                        % (name, len(blob), MAX_BYTES)); failed = True
+              for label, rx in BAD.items():
+                  m = rx.search(blob)
+                  if m:
+                      print("::error::%s contains a %s near %r"
+                            % (name, label, blob[max(0, m.start()-40):m.start()+40]))
+                      failed = True
+              doc = json.loads(blob)
+              for server in doc.get("servers", []):
+                  for field in ("source_path", "project", "scope_detail"):
+                      # The danger is an absolute path, not the field. This
+                      # collector's source_path is "servers.json" - relative,
+                      # and harmless. Rejecting the field outright failed every
+                      # clean run when this guard was first tested.
+                      value = server.get(field)
+                      if isinstance(value, str) and (
+                              value.startswith("/") or re.match(r"^[A-Za-z]:[\\\\/]", value)):
+                          print("::error::%s carries an absolute %s: %s"
+                                % (name, field, value)); failed = True
+          sys.exit(1 if failed else 0)
           PY
 
       - name: Commit
