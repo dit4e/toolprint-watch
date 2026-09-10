@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.2",
   "heuristics_version": 1,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-09-09T11:26:36Z",
+  "approved_at": "2026-09-10T11:22:25Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -5230,7 +5230,7 @@
       "toolset_hash": "0efbb28f69ce08c13f21a3da61852f2b7096585efa5a2a02f1227f70b946d090",
       "transport": "http",
       "auth_method": "none",
-      "server_version": "4.0.5",
+      "server_version": "4.0.7",
       "version_pinned": false,
       "tools": {
         "query-docs": {
@@ -5299,7 +5299,7 @@
       "toolset_hash": "0efbb28f69ce08c13f21a3da61852f2b7096585efa5a2a02f1227f70b946d090",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "4.0.6",
+      "server_version": "4.0.7",
       "version_pinned": false,
       "tools": {
         "query-docs": {
@@ -5438,10 +5438,10 @@
     },
     "desktop-commander@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "8cb921df5bbb3916e0e3ab10a59877d58735e5ca8e1f657745d46058dccb43e5",
+      "toolset_hash": "538dcddde936e80a8468629e3590614c6cfad3b702df4e749ba3a38a1a7f849d",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "0.2.48",
+      "server_version": "0.2.50",
       "version_pinned": false,
       "tools": {
         "create_directory": {
@@ -5639,8 +5639,8 @@
         },
         "get_recent_tool_calls": {
           "annotations_hash": "942657ee60be2c05e0393b245e916c21f2f0e93eb0b35f8bb7754689075fbd45",
-          "composite_hash": "4c4e11fc228ade66e4af884d941a3a8799ad6777e4010db7292a8a62c01deadf",
-          "description_hash": "ed3a37f5574fc8201535c7ce508ef169b927c5f289b046787bb5395590983e52",
+          "composite_hash": "a293b5f49f0f47d8c4ccbe215d7c59ae0e5bcb35d177c4fa4cbfd71da907c374",
+          "description_hash": "012ccc9404265d432044307d71799a3ad64b93013c39063424ae2247750477bf",
           "schema_hash": "d793bba743e5d81f51e9c5b6e82c983756d9cb93762c5455a2c37bb958a20a03",
           "schema_resolution": "resolved",
           "effect": "read",
@@ -5662,7 +5662,10 @@
                 "string"
               ]
             }
-          }
+          },
+          "approved_at": "2026-09-10T11:22:25Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-09-10"
         },
         "get_usage_stats": {
           "annotations_hash": "4b21ce9826da243f2864ca416efb4ef92e57eed72297dd3ff280519bbf50b507",
@@ -12938,7 +12941,7 @@
       "toolset_hash": "d2310684383d9ae991d6a676af4d028de4e78e92674a1a4fac90cd8359c01d66",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "2.1.0",
+      "server_version": "2.2.0",
       "version_pinned": false,
       "tools": {
         "searxng_instance_info": {
