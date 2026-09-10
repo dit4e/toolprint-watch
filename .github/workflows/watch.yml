@@ -149,11 +149,45 @@ jobs:
           # never what it said - hashes are one way - so the corpus could prove
           # a rug pull happened and never show it.
           mkdir -p findings surfaces
+          # A heuristics bump makes `check` refuse outright: it cannot tell a
+          # reclassification from real drift, so it declines rather than guess.
+          # The repair is `approve --refresh`, which used to sit *below* this
+          # line - the step that rewrites the baseline ran after the step that
+          # refused to read it. So the first run on a new heuristics version
+          # would record nothing, and every run after it would do the same.
+          # Detected and repaired before the check, not after.
+          #
+          # This is the one case that costs a second pass over every server.
+          # It happens only when the effect-class rules themselves change, so
+          # it is rare, and recording nothing is the more expensive outcome.
+          HEUR=$(python -c "import json;print(json.load(open('baseline.json')).get('heuristics_version',''))")
+          WANT_HEUR=$(python -c "from toolprint import effects;print(effects.HEURISTICS_VERSION)")
+          if [ "$HEUR" != "$WANT_HEUR" ]; then
+            echo "::warning::baseline uses heuristics $HEUR, this build uses $WANT_HEUR."
+            echo "::warning::Re-recording. Today is a seam in the series, not a comparison:"
+            echo "::warning::a diff across that boundary cannot separate reclassification from drift."
+            toolprint approve --yes --timeout 60 --refresh \
+              --config servers.json --baseline baseline.json \
+              --by "watch workflow" --note "heuristics $HEUR -> $WANT_HEUR on $DATE"
+          fi
+
           toolprint check --yes --timeout 60 --fail-on none --min-coverage 0 \
             --config servers.json --baseline baseline.json \
             --format json --out "observations/$DATE.json" \
             --findings "findings/$DATE.json" \
             --bundle "surfaces/$DATE.json"
+          RC=$?
+          # This step runs under `set +e` and ends in `exit 0`, so that a
+          # degraded day gets recorded rather than refused. That tolerance was
+          # swallowing the difference between "reached fewer servers" and "did
+          # not run at all": a check that exited without writing anything left
+          # the job green and the day blank. Keyed on the artefact rather than
+          # the exit code, because the artefact is what the corpus is made of.
+          if [ ! -f "observations/$DATE.json" ]; then
+            echo "::error::check exited $RC without writing an observation."
+            echo "::error::Nothing recorded for $DATE. Failing rather than reporting a quiet day."
+            exit 1
+          fi
           cp "findings/$DATE.json" "$RUNNER_TEMP/findings.json"
           DRIFT=$(python -c "import json;print(len(json.load(open('observations/$DATE.json'))['changes']))")
           NEW=$(python -c "import json;print(len(json.load(open('observations/$DATE.json'))['new_servers']))")
