@@ -1,9 +1,9 @@
 {
   "baseline_version": 1,
-  "generator": "toolprint/0.3.3",
-  "heuristics_version": 1,
+  "generator": "toolprint/0.3.4",
+  "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-09-10T17:35:04Z",
+  "approved_at": "2026-09-10T18:39:53Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -1673,7 +1673,7 @@
           "description_hash": "7527cde9bcdc81fc2365b058e4a1cde90f8d0858547f99b42d5d1905705a0702",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Container Registry Services"
@@ -1704,7 +1704,7 @@
           "description_hash": "1d770e47a727fb8a528518f94ee475f276000530e0c72d254790a84fcae34b80",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Data Manager for Energy"
@@ -1735,7 +1735,7 @@
           "description_hash": "382cb90737fd75feef14cbade651c57bcce1f1d58f4e3c009fc8762a73d65fc1",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Advisor Recommendations"
@@ -1766,7 +1766,7 @@
           "description_hash": "c15fe9c25fe727a394f1d785a8bf6e4e1406528cdd895931e8eaa83fc3d1c03c",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Manage Azure Kubernetes Service"
@@ -1797,7 +1797,7 @@
           "description_hash": "7d69176cba7aefd57d7c1967bb99f5aa5965c2cbe1ea04325529e33af5a6b477",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "App Configuration Management"
@@ -1828,7 +1828,7 @@
           "description_hash": "99b3be639b83a6396f390a234c7446e32fe6d4c7ceedead499ecf4abe02ddf25",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure AppLens Diagnostics"
@@ -1859,7 +1859,7 @@
           "description_hash": "02b5d05a8cac7543a7b9dbe8b75632ca5255f4f8e253ab41f0871cdc448f25ac",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Application Insights"
@@ -1890,7 +1890,7 @@
           "description_hash": "5f231a3dc7a5c77851784d59105cd68897a767d3d7e16c378c44b5b4ad2b831e",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure App Service"
@@ -1921,7 +1921,7 @@
           "description_hash": "3eba6b1be7eb2f6bbdd7e262e89b3ad0e62ae2177914c59032ad9a9769c2590d",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Resource Manager MCP"
@@ -1952,7 +1952,7 @@
           "description_hash": "6384d37e14eba8a9f937077c77d1da4c7e170ddeabcff093ced2660182e9b885",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Developer CLI"
@@ -1983,7 +1983,7 @@
           "description_hash": "35b3e0b4c0a65b16624ef433e48cbda9b4331f299af2ce203f0c60a1dd8b8ab6",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Manage Azure Backup"
@@ -2014,7 +2014,7 @@
           "description_hash": "1b8362ecb0a847e0ef0ee1f578d818659e37ac2c1b359a8ac67467a68a030124",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Landing Zone Generation and Guidance"
@@ -2045,7 +2045,7 @@
           "description_hash": "fab59a26a07407310076c0070bf280ac4a57c034e6bc16e1f3142277b67ea35b",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Terraform"
@@ -2076,7 +2076,7 @@
           "description_hash": "4c765b33934daf5903451f9df88aca85773d032c429d1bde4e174b2a283b5df2",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Terraform Best Practices"
@@ -2107,7 +2107,7 @@
           "description_hash": "681f27462455a1f145ded36e34718c5f388d84dd5906aab40fcbc47c439c9fc6",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Bicep Schema"
@@ -2138,7 +2138,7 @@
           "description_hash": "1f02b8bca959ecc22abe7d32688b9007cde35e65c2af021142149649ed77df94",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Cloud Architecture"
@@ -2169,7 +2169,7 @@
           "description_hash": "d172c49f027b184461df3495042b49033b15cdc1844092bec447d677b2fd8fb0",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Communication Services"
@@ -2200,7 +2200,7 @@
           "description_hash": "20a055caed278b509cd31b02868c065411da47abb9e1d2737d38cc7b587ae8cd",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Manage Azure Compute Resources"
@@ -2231,7 +2231,7 @@
           "description_hash": "19f6f992575b926b451b991c455675171a4333212952447392d4b7f2fe21f76c",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Confidential Ledger"
@@ -2262,7 +2262,7 @@
           "description_hash": "f457d04a49df7d090ae3301ad64734751e2462f23a40a3602412c9939bf23a1d",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Container Apps Management"
@@ -2293,7 +2293,7 @@
           "description_hash": "62233fad4e71ab1f3a7848dec19041747e9af497452f0b805a3555aa35cb122d",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Cosmos DB"
@@ -2324,7 +2324,7 @@
           "description_hash": "34c95481b0821b78b38a9d9ec668c429985cc9d01dfe8356f85b2816dfd38bb5",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Datadog Integration"
@@ -2386,7 +2386,7 @@
           "description_hash": "4ee575c18aa791828020cdf2cbce13c7566a4d80eb836747a5b16aaa0e980206",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Manage Azure Device Registry"
@@ -2417,7 +2417,7 @@
           "description_hash": "fc477d6c67d447e3d4beb875f12b3f03c1009bec529005b521c8b4a3df5adfc0",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Microsoft Documentation Search"
@@ -2448,7 +2448,7 @@
           "description_hash": "86741330c86020d78d404f9659d058c8abaf5e81fe47bef53f3c3b6bc548aee3",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Event Grid"
@@ -2479,7 +2479,7 @@
           "description_hash": "6af204f31c08214d117082f2bbad6774b98f52f68f56db0ff97011709533654b",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Event Hubs"
@@ -2596,7 +2596,7 @@
           "description_hash": "6bc095072acf9b5f86205370808ef920220d5e6bf5cc512b36dbf2286244e258",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure File Shares"
@@ -2627,7 +2627,7 @@
           "description_hash": "1125684756ea6bd98aea784969a592e049130d04f6acd7ccfdaa68a1227089db",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Microsoft Foundry MCP"
@@ -2658,7 +2658,7 @@
           "description_hash": "036800505ddbca00bdd6645f956d4dc70596ae7928a896b0745b1ec74af59bff",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Microsoft Foundry Extensions"
@@ -2689,7 +2689,7 @@
           "description_hash": "f19507f1ac76d9b2e2a17c7fc171dd9913e46a502ee793bbe01ab74d36d8b84e",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Functions"
@@ -2720,7 +2720,7 @@
           "description_hash": "3b58547886c0f5c572fa61eaf1a7c9266aafcdc77421b15c62a5a795eab5c8b8",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Functions"
@@ -2782,7 +2782,7 @@
           "description_hash": "cb7dc25c56f78942e0940ab1dcfda5eb487b97b39f8c6d12769477bc9c390398",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Managed Grafana"
@@ -2872,7 +2872,7 @@
           "description_hash": "f4adcdedcb1b1823d301e3e3a6886f0d54ca164ffc672de6c7cf0742789002ca",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Derive Azure infrastructure insights"
@@ -2903,7 +2903,7 @@
           "description_hash": "943a2ecf7b870f3fd188c1f09f5606c8dac0c028be093f5870f5aba05375ed88",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Manage Azure IoT Hub"
@@ -2934,7 +2934,7 @@
           "description_hash": "5991b805397b07dfbe678ada3dc08ec7e6027bf6bab60d9c8ecd8d239d1c8957",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Key Vault"
@@ -2965,7 +2965,7 @@
           "description_hash": "2147d4b7af1c1e1a323940cd7e645a34c921f731f90d2f280859c217d03be93b",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Data Explorer"
@@ -2996,7 +2996,7 @@
           "description_hash": "0556c54e63c83afd53604371844f96a42eabae6c1e18f85e768211559c8329dd",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Load Testing"
@@ -3027,7 +3027,7 @@
           "description_hash": "bb72714134027b54358b03647cf97e2ebf7c5882e9c43241f3400933b375b458",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Managed Lustre"
@@ -3058,7 +3058,7 @@
           "description_hash": "a15385ab1d39363a57512ecc5d6cc515af4ce7b7f2176d0a2b9b3b089c02ff5b",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Marketplace"
@@ -3089,7 +3089,7 @@
           "description_hash": "c327078caf7f1bc2619bfddb2d2cef3d0b89055e1efc6a40b8548c15fc7ddc5f",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Monitor"
@@ -3120,7 +3120,7 @@
           "description_hash": "aef809e4f9076d2b5b937259c9366f9aaaadafdcf2b5754762c03538c4c09ec2",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Database for MySQL"
@@ -3151,7 +3151,7 @@
           "description_hash": "c1c5bfd3c77c6b4abfca013ca8fb8024b46df2718e27706f6cb29f3aca70cdd8",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Optimization Recommendations"
@@ -3182,7 +3182,7 @@
           "description_hash": "5795fed1a1fdd3f12c193973442d550566f81c6ab4c7978e59669c9d2f191cf4",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Policy Management"
@@ -3213,7 +3213,7 @@
           "description_hash": "5158fcb69696ca789ff37bb88a4cabd5b5537dada5a5c9aaf6a4db4c2fdf2949",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Database for PostgreSQL"
@@ -3244,7 +3244,7 @@
           "description_hash": "02bf9abd262838e3845aa0e5b303a57c93988c8327dff2c14e583b418e3b8f00",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Retail Pricing"
@@ -3275,7 +3275,7 @@
           "description_hash": "44a367e720cf69f52bbd9a1b8f3a24ab8e6e29c172061ee567dc460c33d51db9",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Quota Management"
@@ -3306,7 +3306,7 @@
           "description_hash": "2333ee339b4c65ae884d9bd3e7fc6818a73b1508a3ec7943a2bd38f179aa474b",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Redis"
@@ -3337,7 +3337,7 @@
           "description_hash": "c62cfcbfb2f16ff27fc754a847473458a9226220392c1a23af6c44164ce36f4d",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Resilience Management"
@@ -3368,7 +3368,7 @@
           "description_hash": "eae297c00a5602030a5d00d884a1095c884bd27834cca7682b3035ef15d9ab39",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Resource Health"
@@ -3399,7 +3399,7 @@
           "description_hash": "ff5b869333a366f460b73c2ae1ec1533aa4d7e81df3e7c1a9f7c29a29195bdab",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Role-Based Access Control"
@@ -3461,7 +3461,7 @@
           "description_hash": "616f9b2b05903d15e8404d5e7b7efb9923951a579c6ead37510025a2b2dd83b6",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Service Bus"
@@ -3492,7 +3492,7 @@
           "description_hash": "bf9544490abe6a6e2649ddd82361b9f1a9fd9feb90f0b434b0cb913c04a969cd",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Manage Azure Service Fabric"
@@ -3523,7 +3523,7 @@
           "description_hash": "85b59f6fd86ceafcbad07d16c1895d11aade7a9faba35ef6e2135e6889a2545e",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure SignalR Service"
@@ -3554,7 +3554,7 @@
           "description_hash": "d066d39e24d6603c82d55e178db9ab70466fccb111d4d176368aca4d027eb53f",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure AI Speech"
@@ -3585,7 +3585,7 @@
           "description_hash": "67c277e1b95ce260f65b44fcb93270aae8189f9781f96016c68a4bd49964c586",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure SQL Database"
@@ -3616,7 +3616,7 @@
           "description_hash": "91f77a458737dd79b390805c64c149834f73e82e0c4b30ea01a54ffeab64f1d6",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure SRE Agent"
@@ -3647,7 +3647,7 @@
           "description_hash": "77f748aa2656290aca742f3e319f38163426985215a6d132be6fdd18c60197bb",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Manage Azure Storage Account"
@@ -3678,7 +3678,7 @@
           "description_hash": "09ae3e24d61cf8a934cd95854c7834c0f1c8f6a8ce49c6b70afca6438eb72150",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Manage Azure Storage Sync Services"
@@ -3733,7 +3733,7 @@
           "description_hash": "50a651b3485a7848cd09a828ad3a1f4d18bd0d2a4eae175db791ea6969df641c",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Virtual Desktop"
@@ -3764,7 +3764,7 @@
           "description_hash": "b725a25f2d9afa10bad9ee5c09c8c1733e537375f2965b05620a844b71cb5248",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Well-Architected Framework"
@@ -3795,7 +3795,7 @@
           "description_hash": "012db7479abc5fd12d311a8dc42c75b0f359da749d806298a4bb5bb2046f0bd1",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Azure Workbooks"
@@ -5198,7 +5198,7 @@
           "description_hash": "1f4fab030d352ff833fedd0a17afc53b17c01f1d5ea831678fe7c3b948b379e4",
           "schema_hash": "7a8cbe6cfb8aa875a14467ceb640a749a55c7876f529828e2521bd6a44052f0a",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -5371,7 +5371,7 @@
           "description_hash": "3b41064b39ceed88dfb9af601b7a32ffe8b4b4c4c5da317f34bf66a870fc0a3b",
           "schema_hash": "32d76427cd08fb5d028269e1e019b00b62ea3e47523cf803286cb6f5e687dd70",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -7983,7 +7983,7 @@
           "description_hash": "7704fe20c09419171d46316e7b6595d2183fe13d60027860e23926ce76dc842d",
           "schema_hash": "6b93ca2049e2fdbe1a2d6f3384d0caac6e2c0b6982b8b281cd13641dab52bcce",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Port Forward"
@@ -8020,7 +8020,7 @@
           "description_hash": "ec5bd392112108570c199a87987fd3c43b8d40e18555699d9e047f763901d56d",
           "schema_hash": "248a9f55f42b1664035e0a1bba9f9fa2ec329bf5a97949deaff2ba0e3609599d",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "title": "Stop Port Forward"
@@ -9483,7 +9483,7 @@
           "description_hash": "e2cd9bbac6103b61e8aaf801b72227abae6ce0744aa170cd04191f17d29bd73b",
           "schema_hash": "cefd0caca55132d05188140fe6c3121c5ea4b66d545a0f2ea7b13013ad0a664d",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -9832,7 +9832,7 @@
           "description_hash": "2b2aa3ed25847dbb729f7458045d2fe1e7430605235afa7e38d4f1f021a1c70b",
           "schema_hash": "0b881ec691ed94675f85613c87a7f20f35527b47d3e781858a3881b591e9f452",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -9869,7 +9869,7 @@
           "description_hash": "690481f53ab3c75fbd5ea8551e2a0bdc8e4bbc6539770d94e4b1cd4086e3b412",
           "schema_hash": "edd91380ce1bdd7e05acc5dcc845d52164a4b28aaffb8ee4d0949793ed02e499",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -10371,7 +10371,7 @@
           "description_hash": "87ac47ef2e0ba665eea6fd7a3693a144708e05311a816036e43c8e5243f6dd02",
           "schema_hash": "614bc542ff07bfe17681d30ac4f3acf9a84864679492a5c3bce39ea887240edf",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -10391,7 +10391,7 @@
           "description_hash": "ebcb883d94214485e9fe801ca5702fb1b613842c6aeec3e527c971c702426d22",
           "schema_hash": "2c20112e431be0112e9dbd9b48631f86e3a2d3fc40a563eebdba3e9c89f6eabd",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -10411,7 +10411,7 @@
           "description_hash": "4f0054ea9eaa623a71e36c7380a7e64c3148e1f1220d9be159f64f1ef621fcc6",
           "schema_hash": "509b12d2da203715be7efe70f56853c3944224b681e827f98a9536381a62e063",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -10435,7 +10435,7 @@
           "description_hash": "e42facad0bfe5ead1f46785075f3570acee7debf29af60ce8d5e39df36f056d4",
           "schema_hash": "069eda2e0f6b7939bdd6b5e1558b5048d7eee4faf0df614eada2627940d6cd0d",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -10455,7 +10455,7 @@
           "description_hash": "18ff4f32a183eabb56ce37e63089e62ffce3fe0a7adf1d5281b536e909b1853c",
           "schema_hash": "1388126ef850e045ff7dc2aa2de9c7f31ec42e5f131b063b77f745a9cea1fb80",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -10481,7 +10481,7 @@
           "description_hash": "964a2c589f1afe1b60de5677bb8204bde7c12c3c92b4f298a9e1500f644a0260",
           "schema_hash": "02a1dbadc26f58085691485136c9cc50d4d21c01409db61e01137b2b08c4b844",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -10513,7 +10513,7 @@
           "description_hash": "bc9471dcb2995c584203a52b2748b76c0abf736208a0382a9e3b133749014e4c",
           "schema_hash": "6c35aac0774861a8fcbd5ab803b07a377c69293975bbec54bbc2b880309dd606",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11351,7 +11351,7 @@
           "description_hash": "e3931ed1ac7e9fba63c84f144d967def64477ac0fdb406946f22221732c3ff78",
           "schema_hash": "b48e2a77c031f6d1676aba430ca5f5c75ceb3fcf781291ab0004d75aca3713b7",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11371,7 +11371,7 @@
           "description_hash": "d2c72240f6eb5189d946b2f5db40c57cee03e96dfaf1817518ae03dd3d6718c2",
           "schema_hash": "17986b4a52ab3f22be413bc0d8c1373653d8fd38e47bbabd4f4709d11b97eceb",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11411,7 +11411,7 @@
           "description_hash": "6292325d254fc1f9e23b3c6e56da1c3d5501f9327c4266569009146907f57a4c",
           "schema_hash": "05dab72514c2d891d118062bd88602360b93f6b0fb205d315e41717ee529defd",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11434,7 +11434,7 @@
           "description_hash": "87ac47ef2e0ba665eea6fd7a3693a144708e05311a816036e43c8e5243f6dd02",
           "schema_hash": "8c478a14206a7312a6de7d51b5eade2f9516fc22a4600f884b204a15501d8f5d",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11454,7 +11454,7 @@
           "description_hash": "58105ec7223b0d24cd56354c2fb89bbeb091781197d5ba141d68e8cafb45e1ab",
           "schema_hash": "6f2c0a9b70ec8891d76fa11b050dbcf4a0352b55720fab1d70472053ea591876",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11474,7 +11474,7 @@
           "description_hash": "f3f026c3065a3831564b8ab25c81d33f232b8e1cdfff5ed52ac09885c289011d",
           "schema_hash": "e04ab914272827fef1c26c72b75099ad4cc5412173abde544332dae4cf6f0de9",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11488,7 +11488,7 @@
           "description_hash": "43097f10ed74c257fa729829254e9574b539a37cee9150d046d1d2f61c5f9c63",
           "schema_hash": "d6cf95265a2aa636b9d464471c28c3078c350e53999902ea839a53c96cbdb116",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11515,7 +11515,7 @@
           "description_hash": "4d41180eacb3328019903f3199ea0f0f8ee0b388fc520e086b65bb754cab0a40",
           "schema_hash": "f8b08688406fbab89e0c68e75de41917c2b936bd0bd9608228c137a081381f33",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11561,7 +11561,7 @@
           "description_hash": "58f2e2774cff5bb8581a748d1b534b68081223449526972d73962941916ca7d5",
           "schema_hash": "a3dc941fe4bf3cb32f2a317b7b4660e96c7117f825a56a0cb38a4731495ef7dd",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11585,7 +11585,7 @@
           "description_hash": "ebcb883d94214485e9fe801ca5702fb1b613842c6aeec3e527c971c702426d22",
           "schema_hash": "2c20112e431be0112e9dbd9b48631f86e3a2d3fc40a563eebdba3e9c89f6eabd",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11605,7 +11605,7 @@
           "description_hash": "fba63325cb84bc2d4bd181880ef4e3f34ab4a4f25e7745b7aa3834b210b90f5d",
           "schema_hash": "21ca749c642940659eb8f6d890b736b746f6dfba4de7dc0e0b1d65871672d459",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11629,7 +11629,7 @@
           "description_hash": "9346ab1946ac215c4edefba84cb3e49d3ef53796c19e6b651be5f1269eef66fa",
           "schema_hash": "509b12d2da203715be7efe70f56853c3944224b681e827f98a9536381a62e063",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11732,7 +11732,7 @@
           "description_hash": "35d455fc52ecf4193dc15443b2fb6495eb294d20303b056c83954e30a324171e",
           "schema_hash": "e04ab914272827fef1c26c72b75099ad4cc5412173abde544332dae4cf6f0de9",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11746,7 +11746,7 @@
           "description_hash": "966e5b9c7b64ef03aa114c483bec839d74e77f4bc2b8d4975505daf2d1622b3f",
           "schema_hash": "e04ab914272827fef1c26c72b75099ad4cc5412173abde544332dae4cf6f0de9",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11760,7 +11760,7 @@
           "description_hash": "e42facad0bfe5ead1f46785075f3570acee7debf29af60ce8d5e39df36f056d4",
           "schema_hash": "069eda2e0f6b7939bdd6b5e1558b5048d7eee4faf0df614eada2627940d6cd0d",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11780,7 +11780,7 @@
           "description_hash": "6e4f5199fe01e303704a4afb5ea37c2342c0ce3be2913efb2103eddfd68090d9",
           "schema_hash": "2d566b31d10794856f55aa76f0711ad6b8d4335c25f55c8e9f78f77b21df64fc",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11804,7 +11804,7 @@
           "description_hash": "eff8149589be14372523065ea893837199ac5d2c550b57bd78fb513d43ea4e19",
           "schema_hash": "7e964850fe85bf5d5c30dc9979e433a790cc48c0a38013eb41767f18f6afa1fc",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11832,7 +11832,7 @@
           "description_hash": "18ff4f32a183eabb56ce37e63089e62ffce3fe0a7adf1d5281b536e909b1853c",
           "schema_hash": "34c099f70842cf4be9e9a50b908dca27b69f92f13229935ccd2b7c801e0c8937",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11930,7 +11930,7 @@
           "description_hash": "3eeebf7b9c412abfcf951ab69e5452451e2a942de9e9ad57f0bec593d675186b",
           "schema_hash": "ee714c78f4e87884a8266aebeb20df969113d64c527ab595484a65f6e7a3bb12",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -11983,7 +11983,7 @@
           "description_hash": "2884fe5db7840e5cf646253069e9e5bb61205a9bd3b1bbca6d0cd35599e9841e",
           "schema_hash": "532968e283c74d7f72a782cf70f147b98a316a2cabd66982522aaa30d8010d96",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -12042,7 +12042,7 @@
           "description_hash": "964a2c589f1afe1b60de5677bb8204bde7c12c3c92b4f298a9e1500f644a0260",
           "schema_hash": "54606e95e848f653c2629328f5b0789822ec36b4b65a40dfd516ac51c06f734f",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -12083,7 +12083,7 @@
           "description_hash": "bc9471dcb2995c584203a52b2748b76c0abf736208a0382a9e3b133749014e4c",
           "schema_hash": "6c35aac0774861a8fcbd5ab803b07a377c69293975bbec54bbc2b880309dd606",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -12131,7 +12131,7 @@
           "description_hash": "f3912082f24cc6ff073ef9adabdb71209383f3d0f51329aa4726ce76d0fa04e4",
           "schema_hash": "a591eb3e3ab5208de072f9e0e999515936a983408e3faa5ac5c7f887e65ee788",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -12905,7 +12905,7 @@
           "description_hash": "fe6aadbd792b445ee06bde4231af1b1c12f17200874474bb3113fa1361881561",
           "schema_hash": "3dddffcb0909bb8e9edf9a6c62c152c6bb6b1263492c78cbf574e7cb8a6da2a4",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -13135,7 +13135,7 @@
           "description_hash": "caa7a99ee7e8743c29993ef9a25db43d60b043e0a8701f71fd0f988177f8040f",
           "schema_hash": "1e9dbd2144bdb326988580d2d021c476cc41b1343ceb4dced5b42d25d9e923f9",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "openWorldHint": true,
@@ -13404,7 +13404,7 @@
           "description_hash": "d77a0219ff8899539b33bf48b0e92b92ec986830b0964b249a37c6f4e4e5e06a",
           "schema_hash": "671ab881956d8019c12495281046ec3d07cea6761131f3f69dab963fecd50c86",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
             "openWorldHint": true,
@@ -14835,7 +14835,7 @@
           "description_hash": "029bc5c57f74c0a62a251bddf8bb2edc019a28e932a241987ba2302c39f3f9f4",
           "schema_hash": "f2029be5f91e58a56b17a4c27fd8f3045ac212d01ccb2ba0027441041ade5584",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -14863,7 +14863,7 @@
           "description_hash": "ae795a2e88b739400077c4153cdb8c15b03869488eeaa73791492deab1120f3f",
           "schema_hash": "f2029be5f91e58a56b17a4c27fd8f3045ac212d01ccb2ba0027441041ade5584",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -14902,7 +14902,7 @@
           "description_hash": "eded3ba3e6fb111889884128bc90c8128de6f40edbe1788d6fbc84700f1bf928",
           "schema_hash": "9e91a520f4f7d7a1998dc7328cbd1967daa87d15bc72c9493208353f67f025b4",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -14929,7 +14929,7 @@
           "description_hash": "985910fa25032b8fa3981795c5194da49016f91fb9baa15b1c74997001012d10",
           "schema_hash": "b2818d198e235133f019867923794dd6bf55f79dd44806d76267200112dc5267",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -14956,7 +14956,7 @@
           "description_hash": "6cb5d11929738a4e0204b3aed6189b317fcec14a8b7b59b17e7fc42df37aa150",
           "schema_hash": "8ca91680ff98b9caa5a5141de69e119995214775d88b77aeae6b8a9ec175890b",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -14976,7 +14976,7 @@
           "description_hash": "dc27d5108e7aa14b306ee151d953b66ad8f52b0f4b1c0991c900b6189b1b38e3",
           "schema_hash": "7a42b8d1a06fc0ab16ac21927b8f95c1188e728c6c54102fcafd3d7e78066cd0",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -14996,7 +14996,7 @@
           "description_hash": "8234c2789cfb4490706a7d55eecf0d6c313efb76c47067066bc8667aefbd11da",
           "schema_hash": "9be2a2bda9c3a34db9fc75976eb02e7ccdf9deebe858d10d658b8752798ba259",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -15016,7 +15016,7 @@
           "description_hash": "29292320253d8e21c0171c793a9d958bf190266756a7a13806452bd7363e0f2d",
           "schema_hash": "8b380467e52d2f69ef9a95f3b0b6fd1ef68a5a282c22a0bed75942da45677f63",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -15558,7 +15558,7 @@
           "description_hash": "e172b8d069d9c3ed2f32423646057aaa857c41b5b253ea9962f97f5fe69ca108",
           "schema_hash": "ab654c1240634868e607a87a8c3e81f1b641babe8e0fd160bc7dbc9bf6006377",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -15597,7 +15597,7 @@
           "description_hash": "9dbd5617049b75ea4437173abf402d6ea3d57a7b523a753cfdcc3175980d147a",
           "schema_hash": "24e08bf0c8006c0b0f1c46da0ef4a125838c8ca08a819e1aff3b7ff48e108850",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -15647,7 +15647,7 @@
           "description_hash": "b4f50ccc9a8e15eddb2dd75566313eb0aa158b9b6373b68d996474f60b2f3f0a",
           "schema_hash": "e98eead7b9da33b03eea8f88b8804cc853729fbc1dbe3db5ba8b3c5ef98d5c02",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -15682,7 +15682,7 @@
           "description_hash": "86d16d24ae7cdac7b4035d4379dc79acbd17649949af0c380aaed7499bdc50fe",
           "schema_hash": "2b8105827d6c701e4613b7dcdba833edb4c2b0dd9cb10e3acb9b0c2b66adec5a",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {
@@ -15723,7 +15723,7 @@
           "description_hash": "175cfeaaa6f33aa793e331cced2426f180c1f4f2d77c06087701c906b637d197",
           "schema_hash": "c1f1f40c7f6adc934dc8a8f273d1a277aa5dd175e939d572d0ee357682f0a932",
           "schema_resolution": "resolved",
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {},
           "schema_shape": {

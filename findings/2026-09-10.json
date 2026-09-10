@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T18:05:27Z",
-  "generator": "toolprint/0.3.3",
-  "heuristics_version": 1,
+  "generated_at": "2026-09-10T18:40:29Z",
+  "generator": "toolprint/0.3.4",
+  "heuristics_version": 2,
   "mode": "connect",
   "summary": {
     "context_count": 1,
@@ -10,7 +10,8 @@
     "context_window": 200000,
     "distinct_server_count": 36,
     "effect_counts": {
-      "read": 331,
+      "unknown": 114,
+      "read": 217,
       "write": 89,
       "external": 1,
       "irreversible": 75
@@ -110,6 +111,7 @@
       "token_total": 13756,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 27,
         "write": 0,
         "external": 0,
@@ -328,11 +330,14 @@
       "server_name": "arxiv-mcp-server",
       "server_version": "0.7.2",
       "version_pinned": false,
-      "installed_versions": [],
+      "installed_versions": [
+        "0.7.2"
+      ],
       "tool_count": 19,
       "token_total": 3834,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 11,
         "write": 6,
         "external": 0,
@@ -502,7 +507,8 @@
       "token_total": 15205,
       "token_method": "tiktoken",
       "effect_counts": {
-        "read": 69,
+        "unknown": 61,
+        "read": 8,
         "write": 0,
         "external": 1,
         "irreversible": 0
@@ -511,154 +517,154 @@
         {
           "name": "acr",
           "tokens": 193,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "adme",
           "tokens": 202,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "advisor",
           "tokens": 227,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "aks",
           "tokens": 252,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "appconfig",
           "tokens": 209,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "applens",
           "tokens": 230,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "applicationinsights",
           "tokens": 203,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "appservice",
           "tokens": 188,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "arm",
           "tokens": 200,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "azd",
           "tokens": 233,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "azurebackup",
           "tokens": 239,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "azuremigrate",
           "tokens": 279,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "azureterraform",
           "tokens": 219,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "azureterraformbestpractices",
           "tokens": 212,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "bicepschema",
           "tokens": 218,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "cloudarchitect",
           "tokens": 185,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "communication",
           "tokens": 183,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "compute",
           "tokens": 363,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "confidentialledger",
           "tokens": 204,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "containerapps",
           "tokens": 194,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "cosmos",
           "tokens": 196,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "datadog",
           "tokens": 208,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -672,28 +678,28 @@
         {
           "name": "deviceregistry",
           "tokens": 217,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "documentation",
           "tokens": 255,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "eventgrid",
           "tokens": 187,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "eventhubs",
           "tokens": 197,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -721,35 +727,35 @@
         {
           "name": "fileshares",
           "tokens": 179,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "foundry",
           "tokens": 219,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "foundryextensions",
           "tokens": 246,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "functionapp",
           "tokens": 181,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "functions",
           "tokens": 205,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -763,7 +769,7 @@
         {
           "name": "grafana",
           "tokens": 206,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -784,126 +790,126 @@
         {
           "name": "insights",
           "tokens": 214,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "iothub",
           "tokens": 183,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "keyvault",
           "tokens": 182,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "kusto",
           "tokens": 213,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "loadtesting",
           "tokens": 210,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "managedlustre",
           "tokens": 222,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "marketplace",
           "tokens": 182,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "monitor",
           "tokens": 286,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "mysql",
           "tokens": 203,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "optimization",
           "tokens": 208,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "policy",
           "tokens": 192,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "postgres",
           "tokens": 204,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "pricing",
           "tokens": 225,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "quota",
           "tokens": 189,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "redis",
           "tokens": 214,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "resilience",
           "tokens": 232,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "resourcehealth",
           "tokens": 194,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "role",
           "tokens": 208,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -917,56 +923,56 @@
         {
           "name": "servicebus",
           "tokens": 242,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "servicefabric",
           "tokens": 212,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "signalr",
           "tokens": 191,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "speech",
           "tokens": 240,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "sql",
           "tokens": 208,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "sreagent",
           "tokens": 215,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "storage",
           "tokens": 281,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "storagesync",
           "tokens": 215,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -980,21 +986,21 @@
         {
           "name": "virtualdesktop",
           "tokens": 197,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "wellarchitectedframework",
           "tokens": 223,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "workbooks",
           "tokens": 209,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         }
@@ -1030,7 +1036,8 @@
       "token_total": 24358,
       "token_method": "tiktoken",
       "effect_counts": {
-        "read": 8,
+        "unknown": 2,
+        "read": 6,
         "write": 0,
         "external": 0,
         "irreversible": 0
@@ -1046,7 +1053,7 @@
         {
           "name": "brave_llm_context",
           "tokens": 2471,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -1074,7 +1081,7 @@
         {
           "name": "brave_summarizer",
           "tokens": 298,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -1124,6 +1131,7 @@
       "token_total": 309,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 2,
         "write": 0,
         "external": 0,
@@ -1174,6 +1182,7 @@
       "token_total": 5817,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 13,
         "write": 2,
         "external": 0,
@@ -1322,6 +1331,7 @@
       "token_total": 5299,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 7,
         "write": 22,
         "external": 0,
@@ -1561,7 +1571,8 @@
       "token_total": 175,
       "token_method": "tiktoken",
       "effect_counts": {
-        "read": 1,
+        "unknown": 1,
+        "read": 0,
         "write": 0,
         "external": 0,
         "irreversible": 0
@@ -1570,7 +1581,7 @@
         {
           "name": "run-code",
           "tokens": 175,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         }
@@ -1604,6 +1615,7 @@
       "token_total": 1047,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 2,
         "write": 0,
         "external": 0,
@@ -1652,6 +1664,7 @@
       "token_total": 1047,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 2,
         "write": 0,
         "external": 0,
@@ -1700,7 +1713,8 @@
       "token_total": 307,
       "token_method": "tiktoken",
       "effect_counts": {
-        "read": 3,
+        "unknown": 1,
+        "read": 2,
         "write": 0,
         "external": 0,
         "irreversible": 0
@@ -1709,7 +1723,7 @@
         {
           "name": "ask_question",
           "tokens": 129,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -1757,6 +1771,7 @@
       "token_total": 11331,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 14,
         "write": 3,
         "external": 0,
@@ -1977,6 +1992,7 @@
       "token_total": 458,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 2,
         "write": 0,
         "external": 0,
@@ -2029,6 +2045,7 @@
       "token_total": 9243,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 16,
         "write": 8,
         "external": 0,
@@ -2254,6 +2271,7 @@
       "token_total": 15847,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 8,
         "write": 11,
         "external": 0,
@@ -2489,7 +2507,8 @@
       "token_total": 335,
       "token_method": "tiktoken",
       "effect_counts": {
-        "read": 4,
+        "unknown": 2,
+        "read": 2,
         "write": 5,
         "external": 0,
         "irreversible": 0
@@ -2533,7 +2552,7 @@
         {
           "name": "fork_repository",
           "tokens": 39,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -2547,7 +2566,7 @@
         {
           "name": "push_files",
           "tokens": 39,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -2590,7 +2609,8 @@
       "token_total": 523,
       "token_method": "tiktoken",
       "effect_counts": {
-        "read": 7,
+        "unknown": 6,
+        "read": 1,
         "write": 0,
         "external": 0,
         "irreversible": 0
@@ -2599,42 +2619,42 @@
         {
           "name": "maps_directions",
           "tokens": 94,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "maps_distance_matrix",
           "tokens": 117,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "maps_elevation",
           "tokens": 75,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "maps_geocode",
           "tokens": 44,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "maps_place_details",
           "tokens": 49,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "maps_reverse_geocode",
           "tokens": 54,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -2675,7 +2695,8 @@
       "token_total": 5023,
       "token_method": "tiktoken",
       "effect_counts": {
-        "read": 8,
+        "unknown": 2,
+        "read": 6,
         "write": 3,
         "external": 0,
         "irreversible": 12
@@ -2817,14 +2838,14 @@
         {
           "name": "port_forward",
           "tokens": 85,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "stop_port_forward",
           "tokens": 43,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -2872,6 +2893,7 @@
       "token_total": 1562,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 9,
         "write": 4,
         "external": 0,
@@ -2992,11 +3014,14 @@
       "server_name": "mcp-fetch",
       "server_version": "1.30.0",
       "version_pinned": false,
-      "installed_versions": [],
+      "installed_versions": [
+        "2026.8.18"
+      ],
       "tool_count": 1,
       "token_total": 232,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 1,
         "write": 0,
         "external": 0,
@@ -3040,6 +3065,7 @@
       "token_total": 2627,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 10,
         "write": 1,
         "external": 0,
@@ -3167,11 +3193,14 @@
       "server_name": "mcp-git",
       "server_version": "1.30.0",
       "version_pinned": false,
-      "installed_versions": [],
+      "installed_versions": [
+        "2026.8.18"
+      ],
       "tool_count": 12,
       "token_total": 1395,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 7,
         "write": 4,
         "external": 0,
@@ -3292,7 +3321,8 @@
       "token_total": 3357,
       "token_method": "tiktoken",
       "effect_counts": {
-        "read": 17,
+        "unknown": 3,
+        "read": 14,
         "write": 9,
         "external": 0,
         "irreversible": 0
@@ -3350,7 +3380,7 @@
         {
           "name": "fork_repository",
           "tokens": 103,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -3427,14 +3457,14 @@
         {
           "name": "merge_pull_request",
           "tokens": 150,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "push_files",
           "tokens": 169,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -3510,6 +3540,7 @@
       "token_total": 2196,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 3,
         "write": 3,
         "external": 0,
@@ -3609,6 +3640,7 @@
       "token_total": 30,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 1,
         "write": 0,
         "external": 0,
@@ -3652,7 +3684,8 @@
       "token_total": 516,
       "token_method": "tiktoken",
       "effect_counts": {
-        "read": 7,
+        "unknown": 7,
+        "read": 0,
         "write": 0,
         "external": 0,
         "irreversible": 0
@@ -3661,49 +3694,49 @@
         {
           "name": "puppeteer_click",
           "tokens": 46,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "puppeteer_evaluate",
           "tokens": 45,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "puppeteer_fill",
           "tokens": 58,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "puppeteer_hover",
           "tokens": 46,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "puppeteer_navigate",
           "tokens": 125,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "puppeteer_screenshot",
           "tokens": 133,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "puppeteer_select",
           "tokens": 63,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         }
@@ -3737,6 +3770,7 @@
       "token_total": 979,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 1,
         "write": 0,
         "external": 0,
@@ -3773,11 +3807,14 @@
       "server_name": "mcp-time",
       "server_version": "1.30.0",
       "version_pinned": false,
-      "installed_versions": [],
+      "installed_versions": [
+        "2026.8.18"
+      ],
       "tool_count": 2,
       "token_total": 283,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 2,
         "write": 0,
         "external": 0,
@@ -3828,6 +3865,7 @@
       "token_total": 16727,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 12,
         "write": 0,
         "external": 0,
@@ -4032,6 +4070,7 @@
       "token_total": 3916,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 7,
         "write": 0,
         "external": 0,
@@ -4236,7 +4275,8 @@
       "token_total": 2789,
       "token_method": "tiktoken",
       "effect_counts": {
-        "read": 27,
+        "unknown": 23,
+        "read": 4,
         "write": 5,
         "external": 0,
         "irreversible": 1
@@ -4245,14 +4285,14 @@
         {
           "name": "clear_codegen_session",
           "tokens": 48,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "end_codegen_session",
           "tokens": 49,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -4266,42 +4306,42 @@
         {
           "name": "playwright_assert_response",
           "tokens": 96,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "playwright_click",
           "tokens": 46,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "playwright_click_and_switch_tab",
           "tokens": 53,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "playwright_close",
           "tokens": 31,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "playwright_console_logs",
           "tokens": 132,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "playwright_custom_user_agent",
           "tokens": 54,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -4315,28 +4355,28 @@
         {
           "name": "playwright_drag",
           "tokens": 68,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "playwright_evaluate",
           "tokens": 44,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "playwright_expect_response",
           "tokens": 96,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "playwright_fill",
           "tokens": 57,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -4364,42 +4404,42 @@
         {
           "name": "playwright_go_back",
           "tokens": 30,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "playwright_go_forward",
           "tokens": 30,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "playwright_hover",
           "tokens": 45,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "playwright_iframe_click",
           "tokens": 74,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "playwright_iframe_fill",
           "tokens": 88,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "playwright_navigate",
           "tokens": 163,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -4420,7 +4460,7 @@
         {
           "name": "playwright_press_key",
           "tokens": 72,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -4434,7 +4474,7 @@
         {
           "name": "playwright_resize",
           "tokens": 192,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -4448,14 +4488,14 @@
         {
           "name": "playwright_screenshot",
           "tokens": 180,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "playwright_select",
           "tokens": 62,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -4469,7 +4509,7 @@
         {
           "name": "start_codegen_session",
           "tokens": 120,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         }
@@ -4496,12 +4536,15 @@
       "server_name": "mcp-server-qdrant",
       "server_version": "1.30.0",
       "version_pinned": false,
-      "installed_versions": [],
+      "installed_versions": [
+        "0.8.1"
+      ],
       "tool_count": 2,
       "token_total": 230,
       "token_method": "tiktoken",
       "effect_counts": {
-        "read": 2,
+        "unknown": 1,
+        "read": 1,
         "write": 0,
         "external": 0,
         "irreversible": 0
@@ -4517,7 +4560,7 @@
         {
           "name": "qdrant-store",
           "tokens": 123,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         }
@@ -4551,6 +4594,7 @@
       "token_total": 1511,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 4,
         "write": 0,
         "external": 0,
@@ -4615,6 +4659,7 @@
       "token_total": 5883,
       "token_method": "tiktoken",
       "effect_counts": {
+        "unknown": 0,
         "read": 6,
         "write": 1,
         "external": 0,
@@ -4717,7 +4762,8 @@
       "token_total": 651,
       "token_method": "tiktoken",
       "effect_counts": {
-        "read": 6,
+        "unknown": 1,
+        "read": 5,
         "write": 2,
         "external": 0,
         "irreversible": 0
@@ -4775,7 +4821,7 @@
         {
           "name": "slack_reply_to_thread",
           "tokens": 120,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         }
@@ -4811,7 +4857,8 @@
       "token_total": 1598,
       "token_method": "tiktoken",
       "effect_counts": {
-        "read": 5,
+        "unknown": 4,
+        "read": 1,
         "write": 0,
         "external": 0,
         "irreversible": 0
@@ -4820,28 +4867,28 @@
         {
           "name": "tavily_crawl",
           "tokens": 398,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "tavily_extract",
           "tokens": 170,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "tavily_map",
           "tokens": 278,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
         {
           "name": "tavily_research",
           "tokens": 155,
-          "effect": "read",
+          "effect": "unknown",
           "declared_ceiling": null,
           "mislabelled": false
         },
@@ -7769,6 +7816,478 @@
       "narrative": null
     },
     {
+      "id": "EFFECT-003",
+      "severity": "low",
+      "category": "effect",
+      "title": "Tools whose capability could not be determined",
+      "detail": "114 tools whose capability could not be determined from name, schema or annotations.",
+      "affected": [
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "acr"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "adme"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "advisor"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "aks"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "appconfig"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "applens"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "applicationinsights"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "appservice"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "arm"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "azd"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "azurebackup"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "azuremigrate"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "azureterraform"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "azureterraformbestpractices"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "bicepschema"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "cloudarchitect"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "communication"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "compute"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "confidentialledger"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "containerapps"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "cosmos"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "datadog"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "deviceregistry"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "documentation"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "eventgrid"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "eventhubs"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "fileshares"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "foundry"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "foundryextensions"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "functionapp"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "functions"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "grafana"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "insights"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "iothub"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "keyvault"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "kusto"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "loadtesting"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "managedlustre"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "marketplace"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "monitor"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "mysql"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "optimization"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "policy"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "postgres"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "pricing"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "quota"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "redis"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "resilience"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "resourcehealth"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "role"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "servicebus"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "servicefabric"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "signalr"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "speech"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "sql"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "sreagent"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "storage"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "storagesync"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "virtualdesktop"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "wellarchitectedframework"
+        },
+        {
+          "server": "explicit/explicit/azure",
+          "tool": "workbooks"
+        },
+        {
+          "server": "explicit/explicit/brave-search-new",
+          "tool": "brave_llm_context"
+        },
+        {
+          "server": "explicit/explicit/brave-search-new",
+          "tool": "brave_summarizer"
+        },
+        {
+          "server": "explicit/explicit/code-runner",
+          "tool": "run-code"
+        },
+        {
+          "server": "explicit/explicit/deepwiki-remote",
+          "tool": "ask_question"
+        },
+        {
+          "server": "explicit/explicit/gitlab",
+          "tool": "fork_repository"
+        },
+        {
+          "server": "explicit/explicit/gitlab",
+          "tool": "push_files"
+        },
+        {
+          "server": "explicit/explicit/google-maps",
+          "tool": "maps_directions"
+        },
+        {
+          "server": "explicit/explicit/google-maps",
+          "tool": "maps_distance_matrix"
+        },
+        {
+          "server": "explicit/explicit/google-maps",
+          "tool": "maps_elevation"
+        },
+        {
+          "server": "explicit/explicit/google-maps",
+          "tool": "maps_geocode"
+        },
+        {
+          "server": "explicit/explicit/google-maps",
+          "tool": "maps_place_details"
+        },
+        {
+          "server": "explicit/explicit/google-maps",
+          "tool": "maps_reverse_geocode"
+        },
+        {
+          "server": "explicit/explicit/k8s",
+          "tool": "port_forward"
+        },
+        {
+          "server": "explicit/explicit/k8s",
+          "tool": "stop_port_forward"
+        },
+        {
+          "server": "explicit/explicit/mcp-github-arch",
+          "tool": "fork_repository"
+        },
+        {
+          "server": "explicit/explicit/mcp-github-arch",
+          "tool": "merge_pull_request"
+        },
+        {
+          "server": "explicit/explicit/mcp-github-arch",
+          "tool": "push_files"
+        },
+        {
+          "server": "explicit/explicit/mcp-puppeteer",
+          "tool": "puppeteer_click"
+        },
+        {
+          "server": "explicit/explicit/mcp-puppeteer",
+          "tool": "puppeteer_evaluate"
+        },
+        {
+          "server": "explicit/explicit/mcp-puppeteer",
+          "tool": "puppeteer_fill"
+        },
+        {
+          "server": "explicit/explicit/mcp-puppeteer",
+          "tool": "puppeteer_hover"
+        },
+        {
+          "server": "explicit/explicit/mcp-puppeteer",
+          "tool": "puppeteer_navigate"
+        },
+        {
+          "server": "explicit/explicit/mcp-puppeteer",
+          "tool": "puppeteer_screenshot"
+        },
+        {
+          "server": "explicit/explicit/mcp-puppeteer",
+          "tool": "puppeteer_select"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "clear_codegen_session"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "end_codegen_session"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_assert_response"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_click"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_click_and_switch_tab"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_close"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_console_logs"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_custom_user_agent"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_drag"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_evaluate"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_expect_response"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_fill"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_go_back"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_go_forward"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_hover"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_iframe_click"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_iframe_fill"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_navigate"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_press_key"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_resize"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_screenshot"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "playwright_select"
+        },
+        {
+          "server": "explicit/explicit/playwright-ea",
+          "tool": "start_codegen_session"
+        },
+        {
+          "server": "explicit/explicit/qdrant",
+          "tool": "qdrant-store"
+        },
+        {
+          "server": "explicit/explicit/slack",
+          "tool": "slack_reply_to_thread"
+        },
+        {
+          "server": "explicit/explicit/tavily",
+          "tool": "tavily_crawl"
+        },
+        {
+          "server": "explicit/explicit/tavily",
+          "tool": "tavily_extract"
+        },
+        {
+          "server": "explicit/explicit/tavily",
+          "tool": "tavily_map"
+        },
+        {
+          "server": "explicit/explicit/tavily",
+          "tool": "tavily_research"
+        }
+      ],
+      "fix": "Read what these do before trusting a capability summary that omits them.",
+      "remediation": "Nothing in these tools' names, schemas or annotations said what they affect, so no class was inferred. They are reported as `unknown` rather than folded into `read`, because absence of evidence is not evidence of harmlessness and the two used to be indistinguishable. A dispatch router is the common case - a tool taking an operation name and a free-form argument object is uninformative by design, and the operations behind it can do anything the server can. Read the documentation for these, and treat any count of destructive tools as a lower bound while they are unresolved.",
+      "evidence": {
+        "unresolved": 114,
+        "of": 496
+      },
+      "narrative": null
+    },
+    {
       "id": "HYG-005",
       "severity": "low",
       "category": "hygiene",
@@ -8095,7 +8614,7 @@
       "severity": "low",
       "category": "hygiene",
       "title": "Server reports a version that is not the one installed",
-      "detail": "16 servers report a version that is not installed on this machine; 9 unrelated servers all report '0.1.0', which is the version of the SDK they are built on rather than their own.",
+      "detail": "20 servers report a version that is not installed on this machine; 13 unrelated servers all report '0.1.0', which is the version of the SDK they are built on rather than their own.",
       "affected": [
         {
           "server": "explicit/explicit/antv-chart",
@@ -8126,7 +8645,15 @@
           "tool": ""
         },
         {
+          "server": "explicit/explicit/mcp-fetch",
+          "tool": ""
+        },
+        {
           "server": "explicit/explicit/mcp-filesystem",
+          "tool": ""
+        },
+        {
+          "server": "explicit/explicit/mcp-git",
           "tool": ""
         },
         {
@@ -8146,6 +8673,10 @@
           "tool": ""
         },
         {
+          "server": "explicit/explicit/mcp-time",
+          "tool": ""
+        },
+        {
           "server": "explicit/explicit/notion",
           "tool": ""
         },
@@ -8155,6 +8686,10 @@
         },
         {
           "server": "explicit/explicit/playwright-ea",
+          "tool": ""
+        },
+        {
+          "server": "explicit/explicit/qdrant",
           "tool": ""
         },
         {
@@ -8208,10 +8743,22 @@
               "2026.8.31"
             ]
           },
+          "explicit/explicit/mcp-fetch": {
+            "reports": "1.30.0",
+            "installed": [
+              "2026.8.18"
+            ]
+          },
           "explicit/explicit/mcp-filesystem": {
             "reports": "0.2.0",
             "installed": [
               "2026.8.31"
+            ]
+          },
+          "explicit/explicit/mcp-git": {
+            "reports": "1.30.0",
+            "installed": [
+              "2026.8.18"
             ]
           },
           "explicit/explicit/mcp-github-arch": {
@@ -8238,6 +8785,12 @@
               "2025.5.12"
             ]
           },
+          "explicit/explicit/mcp-time": {
+            "reports": "1.30.0",
+            "installed": [
+              "2026.8.18"
+            ]
+          },
           "explicit/explicit/notion": {
             "reports": "1.0.0",
             "installed": [
@@ -8256,6 +8809,12 @@
               "1.0.12"
             ]
           },
+          "explicit/explicit/qdrant": {
+            "reports": "1.30.0",
+            "installed": [
+              "0.8.1"
+            ]
+          },
           "explicit/explicit/slack": {
             "reports": "1.0.0",
             "installed": [
@@ -8271,18 +8830,20 @@
       "severity": "info",
       "category": "effect",
       "title": "Capability profile of the loaded tool surface",
-      "detail": "In explicit (no project config): 89 can write, 1 can send or reach outside, 75 can do something irreversible.",
+      "detail": "In explicit (no project config): 89 can write, 1 can send or reach outside, 75 can do something irreversible; 114 could not be determined.",
       "affected": [],
       "fix": "Check that every destructive and outbound tool needs to be loaded here.",
       "remediation": "Review whether every destructive and outbound tool needs to be loaded in this context. Tools the model can see, it can call.",
       "evidence": {
         "effect_counts": {
-          "read": 331,
+          "unknown": 114,
+          "read": 217,
           "write": 89,
           "external": 1,
           "irreversible": 75
         },
-        "high_consequence": 76
+        "high_consequence": 76,
+        "unresolved": 114
       },
       "narrative": null
     }
