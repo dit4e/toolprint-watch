@@ -177,8 +177,16 @@ toolprint scan --connect --config /tmp/candidate.json
 | `servers.json` | The watchlist, in MCP client config format |
 | `baseline.json` | The approved state. **Its git history is the dataset.** |
 | `observations.csv` | One row per **date**: servers watched, how many were actually **reachable**, tools seen, changes found. A re-run supersedes that date's row rather than adding one, and keeps the highest change count seen |
-| `observations/` | Per-run drift detail, written only on days with changes |
+| `observations/` | Per-date drift detail: which rules fired, on which tools |
+| `findings/` | Per-date full assessment — auth posture, protocol era, versions, token cost, effect classes, every finding with evidence, and `fetch_status`/`fetch_detail` for servers that failed |
+| `surfaces/` | Per-date tool definitions — names, descriptions, schemas, annotations. **Untrusted model-facing text; see `surfaces/README.md`** |
 | `analyse.py` | Reads the history and reports a drift rate, with adoption excluded |
+
+A drift report records *that* a description changed and never what it said —
+hashes are one way. `surfaces/` is how the text is kept, so the corpus can
+show a rug pull rather than only prove one happened. `findings/` keeps
+everything else the collector measures; both used to be computed daily and
+discarded, and a day not captured cannot be recovered afterwards.
 | `.github/workflows/watch.yml` | Daily collector |
 
 ## Licence
