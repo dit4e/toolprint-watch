@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T11:23:49Z",
+  "generated_at": "2026-09-11T14:06:09Z",
   "generator": "toolprint/0.3.4",
   "heuristics_version": 2,
   "mode": "connect",
@@ -8799,33 +8799,6 @@
     }
   ],
   "collection_errors": [],
-  "drift": [
-    {
-      "rule": "DRIFT-013",
-      "severity": "low",
-      "title": "Server version changed",
-      "server": "context7-remote@http:mcp.context7.com",
-      "tool": null,
-      "detail": "server version 4.0.7 -> 4.1.0",
-      "evidence": {
-        "was": "4.0.7",
-        "now": "4.1.0"
-      },
-      "excepted": false
-    },
-    {
-      "rule": "DRIFT-013",
-      "severity": "low",
-      "title": "Server version changed",
-      "server": "context7@stdio:npx",
-      "tool": null,
-      "detail": "server version 4.0.7 -> 4.1.0",
-      "evidence": {
-        "was": "4.0.7",
-        "now": "4.1.0"
-      },
-      "excepted": false
-    }
-  ],
+  "drift": [],
   "benchmark": null
 }
