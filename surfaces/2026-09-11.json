@@ -1,8 +1,8 @@
 {
   "bundle_version": 1,
-  "kit_version": "0.3.4",
+  "kit_version": "0.3.5",
   "kit_sha256": "d4652c0a554823ed456f344d37294d1c74ea87492b1602663b3491b9283d855c",
-  "collected_at": "2026-09-11T14:06:07Z",
+  "collected_at": "2026-09-11T14:51:58Z",
   "mode": "connect",
   "anonymized": false,
   "data_policy": "This bundle contains: MCP server names, which client they were configured in, transport type, the basename of any command (for example 'npx'), the hostname of any remote server, the NAMES of environment variables and HTTP headers used for authentication, and the full tool definitions each server advertises - tool names, descriptions and JSON schemas.\nIt does NOT contain: environment variable values, HTTP header values, API keys, tokens or passwords of any kind; full command lines or arguments; absolute file paths; URL paths or query strings; usernames or hostnames of your machine; or the contents of any file, request or response.\nTool definitions are included in full because they are the substance of the assessment, and because they are already what the language model sees on every request.",

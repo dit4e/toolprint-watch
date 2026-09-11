@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T14:06:09Z",
-  "generator": "toolprint/0.3.4",
+  "generated_at": "2026-09-11T14:52:00Z",
+  "generator": "toolprint/0.3.5",
   "heuristics_version": 2,
   "mode": "connect",
   "summary": {
@@ -8604,7 +8604,7 @@
       "severity": "low",
       "category": "hygiene",
       "title": "Server reports a version that is not the one installed",
-      "detail": "16 servers report a version that is not installed on this machine; 9 unrelated servers all report '0.1.0', which is the version of the SDK they are built on rather than their own.",
+      "detail": "16 servers report a version that is not installed on this machine; 5 report '0.1.0'; 2 report '1.0.0'; 2 report '2.0.0', so the field cannot tell them apart.",
       "affected": [
         {
           "server": "explicit/explicit/antv-chart",
@@ -8672,7 +8672,7 @@
         }
       ],
       "fix": "Trust the installed version, not the server's; tell the maintainer.",
-      "remediation": "The version a server states for itself does not match any copy of its package on this machine. Servers built on the official Python SDK commonly report the SDK's version rather than their own, so several unrelated servers announce the same number. Whatever the cause, the field cannot be used to identify what is running - read the installed version instead, and report the mismatch to whoever maintains the server.",
+      "remediation": "The version a server states for itself does not match any copy of its package on this machine. There is more than one cause. Some servers report the version of the SDK they are built on - several built on the official Python SDK moved from 1.29.1 to 1.30.0 on the same day. Others report a literal left in their source: the archived reference servers hardcode 0.1.0 while shipping as 0.6.2. Whatever the cause, the field cannot be used to identify what is running - read the installed version instead, and report the mismatch to whoever maintains the server.",
       "evidence": {
         "servers": {
           "explicit/explicit/antv-chart": {
@@ -8771,6 +8771,23 @@
               "2025.4.25"
             ]
           }
+        },
+        "shared": {
+          "0.1.0": [
+            "brave-search-old",
+            "code-runner",
+            "google-maps",
+            "mcp-postgres",
+            "mcp-puppeteer"
+          ],
+          "1.0.0": [
+            "notion",
+            "slack"
+          ],
+          "2.0.0": [
+            "browser-tools",
+            "mcp-everything"
+          ]
         }
       },
       "narrative": null
