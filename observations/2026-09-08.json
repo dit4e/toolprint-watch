@@ -1,6 +1,130 @@
 {
   "baseline": "baseline.json",
-  "changes": [],
+  "changes": [
+    {
+      "rule": "DRIFT-002",
+      "severity": "critical",
+      "title": "Safety annotation revoked",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "evaluate_script",
+      "detail": "annotations changed",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "get_network_request",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "105845b1f8ee",
+        "description_hash_now": "8f35a8756555"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "new_page",
+      "detail": "schema changed without a shape-level difference",
+      "evidence": {
+        "breaking": [],
+        "additive": []
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": null,
+      "detail": "server version 1.8.0 -> 1.9.0",
+      "evidence": {
+        "was": "1.8.0",
+        "now": "1.9.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.0.5 -> 4.0.6",
+      "evidence": {
+        "was": "4.0.5",
+        "now": "4.0.6"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-fetch@stdio:uvx",
+      "tool": null,
+      "detail": "server version 1.29.1 -> 1.30.0",
+      "evidence": {
+        "was": "1.29.1",
+        "now": "1.30.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-git@stdio:uvx",
+      "tool": null,
+      "detail": "server version 1.29.1 -> 1.30.0",
+      "evidence": {
+        "was": "1.29.1",
+        "now": "1.30.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-time@stdio:uvx",
+      "tool": null,
+      "detail": "server version 1.29.1 -> 1.30.0",
+      "evidence": {
+        "was": "1.29.1",
+        "now": "1.30.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "qdrant@stdio:uvx",
+      "tool": null,
+      "detail": "server version 1.29.1 -> 1.30.0",
+      "evidence": {
+        "was": "1.29.1",
+        "now": "1.30.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
   "new_servers": [],
   "unwatched_or_unreachable": [],
   "baselined_servers": 36,

@@ -171,9 +171,16 @@ jobs:
               --by "watch workflow" --note "heuristics $HEUR -> $WANT_HEUR on $DATE"
           fi
 
+          # This run's observation goes to a temporary file and is merged into
+          # the day's below, rather than written over it. Once a day's drift is
+          # approved every later run that day sees none, so a re-run used to
+          # replace the day's findings with an empty list - it happened on 09-08
+          # and 09-10, and the detail survived only in git history.
+          RUN_OBS="$RUNNER_TEMP/observation.json"
+          rm -f "$RUN_OBS"
           toolprint check --yes --timeout 60 --fail-on none --min-coverage 0 \
             --config servers.json --baseline baseline.json \
-            --format json --out "observations/$DATE.json" \
+            --format json --out "$RUN_OBS" \
             --findings "findings/$DATE.json" \
             --bundle "surfaces/$DATE.json"
           RC=$?
@@ -182,16 +189,52 @@ jobs:
           # swallowing the difference between "reached fewer servers" and "did
           # not run at all": a check that exited without writing anything left
           # the job green and the day blank. Keyed on the artefact rather than
-          # the exit code, because the artefact is what the corpus is made of.
-          if [ ! -f "observations/$DATE.json" ]; then
+          # the exit code, because the artefact is what the corpus is made of -
+          # and on THIS run's artefact: checking the day's file passed whenever
+          # an earlier run that day had written it.
+          if [ ! -f "$RUN_OBS" ]; then
             echo "::error::check exited $RC without writing an observation."
             echo "::error::Nothing recorded for $DATE. Failing rather than reporting a quiet day."
             exit 1
           fi
           cp "findings/$DATE.json" "$RUNNER_TEMP/findings.json"
-          DRIFT=$(python -c "import json;print(len(json.load(open('observations/$DATE.json'))['changes']))")
-          NEW=$(python -c "import json;print(len(json.load(open('observations/$DATE.json'))['new_servers']))")
+          # DRIFT is this run's count: it decides whether approve has anything
+          # to accept. DRIFT_DAY is the day's, after merging: it is what gets
+          # recorded. They differ exactly when a date is re-run after approval.
+          DRIFT=$(python -c "import json;print(len(json.load(open('$RUN_OBS'))['changes']))")
+          NEW=$(python -c "import json;print(len(json.load(open('$RUN_OBS'))['new_servers']))")
+          DRIFT_DAY=$(python - "$RUN_OBS" "observations/$DATE.json" <<'MERGE'
+          import json, os, sys
+          run_path, day_path = sys.argv[1], sys.argv[2]
+          run = json.load(open(run_path))
+          if not os.path.exists(day_path):
+              day = dict(run, runs=1)
+          else:
+              day = json.load(open(day_path))
+              # The day saw everything any of its runs saw. Keyed on rule,
+              # server and tool, keeping the first sighting - the one made before
+              # approval, which is the one that carries the evidence.
+              key = lambda c: (c.get("rule"), c.get("server"), c.get("tool"))
+              known = {key(c) for c in day.get("changes", [])}
+              day["changes"] = day.get("changes", []) + [
+                  c for c in run.get("changes", []) if key(c) not in known]
+              for field in ("new_servers", "expired_exceptions"):
+                  day[field] = sorted(set(day.get(field) or []) | set(run.get(field) or []),
+                                      key=json.dumps)
+              # Coverage from the most complete run, as the CSV does: a partial
+              # run measured a broken collector, not the ecosystem.
+              if (run.get("servers_reached") or 0) >= (day.get("servers_reached") or 0):
+                  for field in ("baselined_servers", "servers_reached", "coverage_pct",
+                                "unwatched_or_unreachable"):
+                      day[field] = run.get(field)
+              day["runs"] = (day.get("runs") or 1) + 1
+          json.dump(day, open(day_path, "w"), indent=2)
+          open(day_path, "a").write("\n")
+          print(len(day["changes"]))
+          MERGE
+          )
           echo "drift=$DRIFT" >> "$GITHUB_OUTPUT"
+          echo "drift_day=$DRIFT_DAY" >> "$GITHUB_OUTPUT"
           echo "new=$NEW" >> "$GITHUB_OUTPUT"
           # approve re-contacts every server, so running it unconditionally meant
           # 72 cold package fetches a day rather than 36 - on most days to
@@ -245,7 +288,7 @@ jobs:
       - name: Record the denominator
         env:
           OBS_DATE: ${{ steps.observe.outputs.date }}
-          OBS_DRIFT: ${{ steps.observe.outputs.drift }}
+          OBS_DRIFT: ${{ steps.observe.outputs.drift_day }}
         run: |
           python - "$OBS_DATE" "$OBS_DRIFT" "$RUNNER_TEMP/findings.json" <<'PY'
           import csv, json, os, sys
