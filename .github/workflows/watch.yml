@@ -64,22 +64,38 @@ jobs:
       - uses: astral-sh/setup-uv@v5
 
       - name: Install toolprint
-        # PyPI's JSON API can report a release minutes before the simple index
-        # that pip actually reads carries it. Twice now a run has failed with
-        # "no matching distribution" for a version that was demonstrably
-        # published. Retrying costs a minute; failing loses the day's
-        # observation, and a scheduled job that fails leaves a gap in the record
-        # that cannot be backfilled.
+        # PyPI's JSON API can report a release well before the CDN edge serving
+        # the simple index that pip reads carries it, and different edges differ.
+        # Twice now a run has failed with "no matching distribution" for a
+        # version that was demonstrably published and installable elsewhere at
+        # the same moment. Five tries thirty seconds apart was not enough either
+        # time.
+        #
+        # --no-cache-dir because the wait is only useful if pip re-fetches. Its
+        # HTTP cache can hold the index page that lacks the new version, in which
+        # case every retry re-reads the same stale list and the backoff buys
+        # nothing.
+        #
+        # Retrying costs minutes; failing loses the day. A scheduled run that
+        # dies here leaves a gap in the record that cannot be backfilled, and a
+        # release landing shortly before 06:17 UTC is exactly when this fires.
         run: |
-          for attempt in 1 2 3 4 5; do
-            if pip install --quiet "$TOOLPRINT_SPEC"; then
-              echo "installed on attempt $attempt"
+          WAITS="15 30 45 60 60 90 90 120 120 150"
+          attempt=0
+          waited=0
+          for wait in $WAITS done; do
+            attempt=$((attempt + 1))
+            if pip install --quiet --no-cache-dir "$TOOLPRINT_SPEC"; then
+              echo "installed on attempt $attempt after ${waited}s of waiting"
               exit 0
             fi
-            echo "install failed (attempt $attempt); the index may still be catching up"
-            sleep 30
+            [ "$wait" = "done" ] && break
+            echo "install failed (attempt $attempt); the index may still be catching up, waiting ${wait}s"
+            sleep "$wait"
+            waited=$((waited + wait))
           done
-          echo "::error::could not install $TOOLPRINT_SPEC after 5 attempts"
+          echo "::error::could not install $TOOLPRINT_SPEC after $attempt attempts over ${waited}s."
+          echo "::error::If the version was published in the last few minutes, re-run this job."
           exit 1
 
       - name: Download the watched packages before timing anything
