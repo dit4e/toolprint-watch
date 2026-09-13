@@ -1,0 +1,866 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "acr",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "7527cde9bcdc",
+        "description_hash_now": "2bdf966a6549"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "adme",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "1d770e47a727",
+        "description_hash_now": "333dcb3e528e"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "advisor",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "382cb90737fd",
+        "description_hash_now": "e7625313a705"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "aks",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "c15fe9c25fe7",
+        "description_hash_now": "e69448787d1c"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "appconfig",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "7d69176cba7a",
+        "description_hash_now": "ab810b0f6e46"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "applens",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "99b3be639b83",
+        "description_hash_now": "193f79d325e5"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "applicationinsights",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "02b5d05a8cac",
+        "description_hash_now": "093133335a98"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "appservice",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "5f231a3dc7a5",
+        "description_hash_now": "6cbbe268abbd"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "azurebackup",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "35b3e0b4c0a6",
+        "description_hash_now": "c41fd9788bab"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "azuremigrate",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "1b8362ecb0a8",
+        "description_hash_now": "a16ec2eef6fb"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "azureterraform",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "fab59a26a074",
+        "description_hash_now": "26956011b000"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "azureterraformbestpractices",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "4c765b33934d",
+        "description_hash_now": "b4fbdce96643"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "bicepschema",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "681f27462455",
+        "description_hash_now": "cdf62a649b50"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "cloudarchitect",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "1f02b8bca959",
+        "description_hash_now": "0c66fbcb848a"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "communication",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "d172c49f027b",
+        "description_hash_now": "4bf8f9dde80b"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "compute",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "20a055caed27",
+        "description_hash_now": "b8681544d451"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "confidentialledger",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "19f6f992575b",
+        "description_hash_now": "4d56ef569230"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "containerapps",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "f457d04a49df",
+        "description_hash_now": "6fa6bc94d0c3"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "cosmos",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "62233fad4e71",
+        "description_hash_now": "03088f8739e4"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "datadog",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "34c95481b082",
+        "description_hash_now": "e5285e459338"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "deploy",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "069f54e0c963",
+        "description_hash_now": "190a433b85a9"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "deviceregistry",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "4ee575c18aa7",
+        "description_hash_now": "84fccf1a266f"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "eventgrid",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "86741330c860",
+        "description_hash_now": "1a379e93bd36"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "eventhubs",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "6af204f31c08",
+        "description_hash_now": "455d95ec1f5b"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "fileshares",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "6bc095072acf",
+        "description_hash_now": "4b165b30840f"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "foundryextensions",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "036800505ddb",
+        "description_hash_now": "1e7ce93b7bec"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "functionapp",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "f19507f1ac76",
+        "description_hash_now": "81815e43309d"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "functions",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "3b58547886c0",
+        "description_hash_now": "82c5abb87381"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "get_azure_bestpractices",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "3e7f201d1f1f",
+        "description_hash_now": "e231b8d7222b"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "grafana",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "cb7dc25c56f7",
+        "description_hash_now": "177352c6e1d3"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "insights",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "f4adcdedcb1b",
+        "description_hash_now": "c26e15b1dfd9"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "iothub",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "943a2ecf7b87",
+        "description_hash_now": "c108b2b141d3"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "keyvault",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "5991b805397b",
+        "description_hash_now": "a45efd95782a"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "kusto",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "2147d4b7af1c",
+        "description_hash_now": "a4d1e8e78e9e"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "loadtesting",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "0556c54e63c8",
+        "description_hash_now": "3c050cb8f962"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "managedlustre",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "bb7271413402",
+        "description_hash_now": "5fcf72bf9af6"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "marketplace",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "a15385ab1d39",
+        "description_hash_now": "40c38447e491"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "monitor",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "c327078caf7f",
+        "description_hash_now": "c8b51df30ab0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "mysql",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "aef809e4f907",
+        "description_hash_now": "d1c77b6aaabb"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "optimization",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "c1c5bfd3c77c",
+        "description_hash_now": "73eafd15243c"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "policy",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "5795fed1a1fd",
+        "description_hash_now": "bb42f3c03962"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "postgres",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "5158fcb69696",
+        "description_hash_now": "11526664d4df"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "pricing",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "02bf9abd2628",
+        "description_hash_now": "12737261a1b4"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "quota",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "44a367e720cf",
+        "description_hash_now": "d7aaf69600ab"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "redis",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "2333ee339b4c",
+        "description_hash_now": "5e9b9d59e9f7"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "resilience",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "c62cfcbfb2f1",
+        "description_hash_now": "66474e1cd587"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "resourcehealth",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "eae297c00a56",
+        "description_hash_now": "57ff01694e52"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "role",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "ff5b869333a3",
+        "description_hash_now": "60c65752b1b0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "search",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "c5fe4a231a94",
+        "description_hash_now": "643f4845d50d"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "servicebus",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "616f9b2b0590",
+        "description_hash_now": "2d0434375b04"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "servicefabric",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "bf9544490abe",
+        "description_hash_now": "6f09c816a0cf"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "signalr",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "85b59f6fd86c",
+        "description_hash_now": "6c6468448c6f"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "speech",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "d066d39e24d6",
+        "description_hash_now": "3840ff73c1e4"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "sql",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "67c277e1b95c",
+        "description_hash_now": "536d4d39554a"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "sreagent",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "91f77a458737",
+        "description_hash_now": "7038adbc8d2c"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "storage",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "77f748aa2656",
+        "description_hash_now": "d87a52c12311"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "storagesync",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "09ae3e24d61c",
+        "description_hash_now": "f3088075a5f3"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "virtualdesktop",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "50a651b3485a",
+        "description_hash_now": "73ffbae89815"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "wellarchitectedframework",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "b725a25f2d9a",
+        "description_hash_now": "c0573a662052"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "workbooks",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "012db7479abc",
+        "description_hash_now": "3e4de1006335"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "azure@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.0.0-beta.42 -> 3.0.0-beta.43",
+      "evidence": {
+        "was": "3.0.0-beta.42",
+        "now": "3.0.0-beta.43"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
