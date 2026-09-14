@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T03:51:53Z",
+  "generated_at": "2026-09-14T12:50:10Z",
   "generator": "toolprint/0.3.6",
   "heuristics_version": 2,
   "mode": "connect",
@@ -8816,20 +8816,6 @@
     }
   ],
   "collection_errors": [],
-  "drift": [
-    {
-      "rule": "DRIFT-013",
-      "severity": "low",
-      "title": "Server version changed",
-      "server": "k8s@stdio:npx",
-      "tool": null,
-      "detail": "server version 4.1.6 -> 4.1.7",
-      "evidence": {
-        "was": "4.1.6",
-        "now": "4.1.7"
-      },
-      "excepted": false
-    }
-  ],
+  "drift": [],
   "benchmark": null
 }
