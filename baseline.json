@@ -1,9 +1,9 @@
 {
   "baseline_version": 1,
-  "generator": "toolprint/0.3.7",
+  "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-09-15T01:45:50Z",
+  "approved_at": "2026-09-15T02:28:12Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],

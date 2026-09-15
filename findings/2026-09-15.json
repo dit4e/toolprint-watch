@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T01:45:15Z",
-  "generator": "toolprint/0.3.7",
+  "generated_at": "2026-09-15T02:27:38Z",
+  "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "mode": "connect",
   "summary": {
@@ -8883,6 +8883,41 @@
       "narrative": null
     },
     {
+      "id": "CAP-001",
+      "severity": "info",
+      "category": "capability",
+      "title": "Where the tool surface's real capability is defined",
+      "detail": "In explicit (no project config): 68 of 498 tools have capability the definition does not show - 65 behind package routers (enumerate with toolprint-probe); 3 defined by their environment (the cluster's API and the credential's permissions; the open web page (per page, changes as pages load)), which no package scan can list.",
+      "affected": [
+        {
+          "server": "explicit/explicit/k8s",
+          "tool": "kubectl_generic"
+        },
+        {
+          "server": "explicit/explicit/playwright",
+          "tool": "browser_webmcp_list"
+        },
+        {
+          "server": "explicit/explicit/playwright",
+          "tool": "browser_webmcp_call"
+        }
+      ],
+      "fix": "Enumerate package routers in a sandbox with toolprint-probe; for environment-defined tools, observe the environment, not the package.",
+      "remediation": "A tool's capability is not always in its definition, and where it lives decides how to see it. Declared tools are fully in the tool list. Package routers take an operation name and a free-form object and reach operations that ship inside the package - not in the tool list, but enumerable by calling their discovery mode in a sandbox (toolprint-probe). Environment-defined tools reach operations set by something outside the package - the open web page, or a credential's cluster permissions - so no scan of the package can list them, and a clean drift result covers only the router, never what it reaches. A fourth case is not counted here because it cannot be seen from the surface at all: a tool whose definition never changes while its behaviour does. Treat any count of capability as a floor.",
+      "evidence": {
+        "levels": {
+          "declared": 430,
+          "package_hidden": 65,
+          "environment_defined": 3
+        },
+        "environments": {
+          "explicit/explicit/k8s": "the cluster's API and the credential's permissions",
+          "explicit/explicit/playwright": "the open web page (per page, changes as pages load)"
+        }
+      },
+      "narrative": null
+    },
+    {
       "id": "EFFECT-001",
       "severity": "info",
       "category": "effect",
@@ -8906,161 +8941,6 @@
     }
   ],
   "collection_errors": [],
-  "drift": [
-    {
-      "rule": "DRIFT-007",
-      "severity": "medium",
-      "title": "New tool appeared",
-      "server": "playwright@stdio:npx",
-      "tool": "browser_webmcp_call",
-      "detail": "tool appeared in an approved server",
-      "evidence": {
-        "effect": "irreversible"
-      },
-      "excepted": false
-    },
-    {
-      "rule": "DRIFT-007",
-      "severity": "medium",
-      "title": "New tool appeared",
-      "server": "playwright@stdio:npx",
-      "tool": "browser_webmcp_list",
-      "detail": "tool appeared in an approved server",
-      "evidence": {
-        "effect": "read"
-      },
-      "excepted": false
-    },
-    {
-      "rule": "DRIFT-015",
-      "severity": "low",
-      "title": "Schema changed inside its parameters",
-      "server": "playwright@stdio:npx",
-      "tool": "browser_console_messages",
-      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
-      "evidence": {
-        "schema_hash_was": "8de240e55353",
-        "schema_hash_now": "a902cfaee5b2"
-      },
-      "excepted": false
-    },
-    {
-      "rule": "DRIFT-015",
-      "severity": "low",
-      "title": "Schema changed inside its parameters",
-      "server": "playwright@stdio:npx",
-      "tool": "browser_evaluate",
-      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
-      "evidence": {
-        "schema_hash_was": "7af907a5880f",
-        "schema_hash_now": "a187d4aa7e70"
-      },
-      "excepted": false
-    },
-    {
-      "rule": "DRIFT-015",
-      "severity": "low",
-      "title": "Schema changed inside its parameters",
-      "server": "playwright@stdio:npx",
-      "tool": "browser_network_request",
-      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
-      "evidence": {
-        "schema_hash_was": "0e3a62899f0e",
-        "schema_hash_now": "66fee374f219"
-      },
-      "excepted": false
-    },
-    {
-      "rule": "DRIFT-015",
-      "severity": "low",
-      "title": "Schema changed inside its parameters",
-      "server": "playwright@stdio:npx",
-      "tool": "browser_network_requests",
-      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
-      "evidence": {
-        "schema_hash_was": "bd551b75e07a",
-        "schema_hash_now": "5feb51b10ad0"
-      },
-      "excepted": false
-    },
-    {
-      "rule": "DRIFT-015",
-      "severity": "low",
-      "title": "Schema changed inside its parameters",
-      "server": "playwright@stdio:npx",
-      "tool": "browser_run_code_unsafe",
-      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
-      "evidence": {
-        "schema_hash_was": "f7b563b05e9f",
-        "schema_hash_now": "09286100e76a"
-      },
-      "excepted": false
-    },
-    {
-      "rule": "DRIFT-015",
-      "severity": "low",
-      "title": "Schema changed inside its parameters",
-      "server": "playwright@stdio:npx",
-      "tool": "browser_snapshot",
-      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
-      "evidence": {
-        "schema_hash_was": "f840cea35490",
-        "schema_hash_now": "5b139049e2ed"
-      },
-      "excepted": false
-    },
-    {
-      "rule": "DRIFT-015",
-      "severity": "low",
-      "title": "Schema changed inside its parameters",
-      "server": "playwright@stdio:npx",
-      "tool": "browser_take_screenshot",
-      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
-      "evidence": {
-        "schema_hash_was": "89c179b1fb26",
-        "schema_hash_now": "53af63596ce1"
-      },
-      "excepted": false
-    },
-    {
-      "rule": "DRIFT-013",
-      "severity": "low",
-      "title": "Server version changed",
-      "server": "context7-remote@http:mcp.context7.com",
-      "tool": null,
-      "detail": "server version 4.1.0 -> 4.1.1",
-      "evidence": {
-        "was": "4.1.0",
-        "now": "4.1.1"
-      },
-      "excepted": false
-    },
-    {
-      "rule": "DRIFT-013",
-      "severity": "low",
-      "title": "Server version changed",
-      "server": "context7@stdio:npx",
-      "tool": null,
-      "detail": "server version 4.1.0 -> 4.1.1",
-      "evidence": {
-        "was": "4.1.0",
-        "now": "4.1.1"
-      },
-      "excepted": false
-    },
-    {
-      "rule": "DRIFT-013",
-      "severity": "low",
-      "title": "Server version changed",
-      "server": "playwright@stdio:npx",
-      "tool": null,
-      "detail": "server version 1.63.0-alpha-2026-08-31 -> 1.64.0-alpha-2026-09-14",
-      "evidence": {
-        "was": "1.63.0-alpha-2026-08-31",
-        "now": "1.64.0-alpha-2026-09-14"
-      },
-      "excepted": false
-    }
-  ],
+  "drift": [],
   "benchmark": null
 }
