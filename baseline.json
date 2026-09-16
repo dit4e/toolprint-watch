@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-09-15T02:28:12Z",
+  "approved_at": "2026-09-16T11:36:27Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -1921,10 +1921,10 @@
     },
     "azure@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "e21d5bf0ad31fa0821085942836e772d7a6a4dac03982f34671524dfdaee1ed2",
+      "toolset_hash": "51125b0c2c242c57f6730118b790a9d35e3a7d07526d4d22e20b4ca02ab96dbf",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "3.0.0-beta.43",
+      "server_version": "3.0.0-beta.44",
       "version_pinned": false,
       "tools": {
         "acr": {
@@ -1968,8 +1968,8 @@
         },
         "adme": {
           "annotations_hash": "a30aa9f35836d2930aacaeb76a0c488ec8c9fc08d5d1d20d77d17772d1cb88b5",
-          "composite_hash": "de91c529259030dc06789d268c166d358f292e042dd3b14d03bbee23b0bf3f15",
-          "description_hash": "333dcb3e528e3c2fd3914ca6726800988fd74f6d2916478d7a4ffd2af7e0cdbd",
+          "composite_hash": "9c67c4bb63e8b268be5422d18c47379a6746de227391a33f0e48fa8b3258f49b",
+          "description_hash": "7120ef4b143298936c13bcf14af0f23ea38931eeecdb79060d90f0b3d0fbba21",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
           "effect": "unknown",
@@ -1996,14 +1996,17 @@
               ]
             }
           },
-          "description_text_hash": "d494106c45feb37b6dff8080a45c9d3febc5927a69472559b43cc20ca6ccc668",
+          "description_text_hash": "3807e6e058bfd07502bea0afb33121631bcc5a4867462fe0904b9aeafebd28cc",
           "description_sentences": [
             "ae7545ac906556ba",
-            "1070b98d64f620e5",
+            "eefaf599de04f4dc",
             "ac49b37ba593564d",
             "260d29accf366f16",
             "2958c1aaa40df2fd"
-          ]
+          ],
+          "approved_at": "2026-09-16T11:36:27Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-09-16"
         },
         "advisor": {
           "annotations_hash": "082e01dbae6aadfae1614089d163758190c8f92937a0ccb8f1ac77c59080573f",
@@ -4657,6 +4660,50 @@
             "260d29accf366f16",
             "2958c1aaa40df2fd"
           ]
+        },
+        "iotoperations": {
+          "annotations_hash": "9fe5e931dd44f43d91a15c0d70c0330195d997f886ec5c512f8f7c1964bbba68",
+          "composite_hash": "a3badfa9b74e8f2ed71af6ced3b039478e334ffd57308e5f0be6108bbed8c282",
+          "description_hash": "f5041dcf12b93641fd2593f62fa601f8405e1318e87f3179658981824b3bea54",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "unknown",
+          "declared_ceiling": null,
+          "annotations": {
+            "title": "Manage Azure IoT Operations"
+          },
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          },
+          "description_text_hash": "35f986155c99c026decaaa61bb20fcfe88be2470b816735e43379938ac312216",
+          "description_sentences": [
+            "4f9535e6dd455151",
+            "67d2e2f91fd5e4fc",
+            "1f37a389624e9ea9",
+            "d32b32fc1a8c936b",
+            "ac49b37ba593564d",
+            "260d29accf366f16",
+            "2958c1aaa40df2fd"
+          ],
+          "approved_at": "2026-09-16T11:36:27Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-09-16"
         }
       },
       "first_observed": "2026-09-01T21:36:54Z"
@@ -15463,7 +15510,7 @@
       "toolset_hash": "d2310684383d9ae991d6a676af4d028de4e78e92674a1a4fac90cd8359c01d66",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "2.2.0",
+      "server_version": "2.3.0",
       "version_pinned": false,
       "tools": {
         "searxng_instance_info": {

@@ -1,0 +1,73 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "adme",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "333dcb3e528e",
+        "description_hash_now": "7120ef4b1432",
+        "sentences_removed": [
+          "1070b98d64f620e5"
+        ],
+        "sentences_added": [
+          "eefaf599de04f4dc"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "azure@stdio:npx",
+      "tool": "iotoperations",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "unknown"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "azure@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.0.0-beta.43 -> 3.0.0-beta.44",
+      "evidence": {
+        "was": "3.0.0-beta.43",
+        "now": "3.0.0-beta.44"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "searxng@stdio:npx",
+      "tool": null,
+      "detail": "server version 2.2.0 -> 2.3.0",
+      "evidence": {
+        "was": "2.2.0",
+        "now": "2.3.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
