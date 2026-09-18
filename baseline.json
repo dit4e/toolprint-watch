@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-09-16T11:36:27Z",
+  "approved_at": "2026-09-18T11:17:39Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -1924,7 +1924,7 @@
       "toolset_hash": "51125b0c2c242c57f6730118b790a9d35e3a7d07526d4d22e20b4ca02ab96dbf",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "3.0.0-beta.44",
+      "server_version": "3.0.0-beta.45",
       "version_pinned": false,
       "tools": {
         "acr": {
@@ -6594,7 +6594,7 @@
       "toolset_hash": "538dcddde936e80a8468629e3590614c6cfad3b702df4e749ba3a38a1a7f849d",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "0.2.50",
+      "server_version": "0.2.51",
       "version_pinned": false,
       "tools": {
         "create_directory": {
@@ -15696,17 +15696,17 @@
     },
     "brave-search-new@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "ab96a2848e636bf4e52043e40dac86909866f7282adbb05983f9d8cbb0194442",
+      "toolset_hash": "5b6101725ab8492c43ea5b9173a5201cdc1fc0776f28a46bb1cbf025595bc395",
       "transport": "stdio",
       "auth_method": "env_var",
-      "server_version": "2.1.3",
+      "server_version": "2.1.4",
       "version_pinned": false,
       "tools": {
         "brave_image_search": {
           "annotations_hash": "d54696f5b697f07d31d94cd9f9238f65fcc6ca551f8f7cb4670bbc084ca409b3",
-          "composite_hash": "0029b5941fb392314288078b33fd6e096270a6ab8fd50d2e03647ff952969fc2",
+          "composite_hash": "455a8dd5ac059373b80eb8b65a68407f8f93e08b71218d348b064e6499287cf2",
           "description_hash": "8ef238f7318a5baa50b62358354c596e82dda40f96616fd885b400e264e5253b",
-          "schema_hash": "a6960b124f6b9ca98db8d39556742c9b998ae016f97e5959316e549b22eb342e",
+          "schema_hash": "199ba539dbabf06e4c3a5dc92521a2ed5adcca2fff7191afcc7b64a9a042c6b9",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
@@ -15743,7 +15743,10 @@
             "f0c16edf79af1bc0",
             "822b18ef93e72644",
             "cd45853dabc09de2"
-          ]
+          ],
+          "approved_at": "2026-09-18T11:17:39Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-09-18"
         },
         "brave_llm_context": {
           "annotations_hash": "3deeced636d5644f16927c46ac5de20ffbc4fb5a3154ebab0e46c92fafb0418e",

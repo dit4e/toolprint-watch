@@ -1,0 +1,68 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "brave-search-new@stdio:npx",
+      "tool": "brave_image_search",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "a6960b124f6b",
+        "schema_hash_now": "199ba539dbab"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "azure@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.0.0-beta.44 -> 3.0.0-beta.45",
+      "evidence": {
+        "was": "3.0.0-beta.44",
+        "now": "3.0.0-beta.45"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "brave-search-new@stdio:npx",
+      "tool": null,
+      "detail": "server version 2.1.3 -> 2.1.4",
+      "evidence": {
+        "was": "2.1.3",
+        "now": "2.1.4"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "desktop-commander@stdio:npx",
+      "tool": null,
+      "detail": "server version 0.2.50 -> 0.2.51",
+      "evidence": {
+        "was": "0.2.50",
+        "now": "0.2.51"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
