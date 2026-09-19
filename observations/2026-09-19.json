@@ -1,0 +1,61 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "playwright@stdio:npx",
+      "tool": "browser_emulate_media",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "irreversible"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-010",
+      "severity": "low",
+      "title": "Tool removed",
+      "server": "playwright@stdio:npx",
+      "tool": "browser_webmcp_call",
+      "detail": "tool no longer advertised",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-010",
+      "severity": "low",
+      "title": "Tool removed",
+      "server": "playwright@stdio:npx",
+      "tool": "browser_webmcp_list",
+      "detail": "tool no longer advertised",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "playwright@stdio:npx",
+      "tool": null,
+      "detail": "server version 1.64.0-alpha-2026-09-14 -> 1.64.0-alpha-1789764292000",
+      "evidence": {
+        "was": "1.64.0-alpha-2026-09-14",
+        "now": "1.64.0-alpha-1789764292000"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}

@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-09-18T11:17:39Z",
+  "approved_at": "2026-09-19T11:02:13Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -14558,10 +14558,10 @@
     },
     "playwright@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "4933aff9b087a90b20ac252541054126154ca1689a1b4ec331d73be4b745a50d",
+      "toolset_hash": "0d6ce9cfa06e9d35b2e8956097b49de0b815e6eaf87bb54e083880cf5ba4f3e4",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "1.64.0-alpha-2026-09-14",
+      "server_version": "1.64.0-alpha-1789764292000",
       "version_pinned": false,
       "tools": {
         "browser_click": {
@@ -15374,11 +15374,11 @@
             "607348b995c2ee4f"
           ]
         },
-        "browser_webmcp_call": {
-          "annotations_hash": "1aa7906c9fc80f7ea16d7c44b70c8a4c5c95ae43b860c14cd8e35bece06f58aa",
-          "composite_hash": "481eaa9a63ebc1c62cd647b2bf359142f29646b11749ff9f5b51ccd41f07782b",
-          "description_hash": "aec9743402183421a1b89a547497efefd2aee1863d19d391006086fee7c15c9d",
-          "schema_hash": "df82e40ffcce714c198418422d101a4303550de529c4fb2db032ac6e0d949bf8",
+        "browser_emulate_media": {
+          "annotations_hash": "0aba01c25293f45d98aeef418723f126717a672d06d162ffc528c0a2aff9faae",
+          "composite_hash": "fc8bf5129e3f0a9a1c9ba03912870ddd70ce2f11d79a04db5a8004908b61b7f6",
+          "description_hash": "534f4f8bd45d686c0db5b551445418c7667478ff2a9649ee1059bed1632cab51",
+          "schema_hash": "839e923bcb1caaf813076c1722ff741435fc496cea5ebeb8b8e001efb4f0d520",
           "schema_resolution": "resolved",
           "effect": "irreversible",
           "declared_ceiling": null,
@@ -15386,52 +15386,26 @@
             "destructiveHint": true,
             "openWorldHint": true,
             "readOnlyHint": false,
-            "title": "Call a WebMCP tool"
-          },
-          "schema_shape": {
-            "required": [
-              "name"
-            ],
-            "properties": {
-              "frame": [
-                "string"
-              ],
-              "name": [
-                "string"
-              ],
-              "params": [
-                "object"
-              ]
-            }
-          },
-          "description_text_hash": "8d20b9ac01d7d220c661d9304b35940db82b326df14430ce9d5eece83d972761",
-          "description_sentences": [
-            "4784b55f688166a2",
-            "7e9d29b07ed57293"
-          ]
-        },
-        "browser_webmcp_list": {
-          "annotations_hash": "8237fe854718fbe6d4a069559606976f1b72652013470f9f268946115e0a1a8c",
-          "composite_hash": "05ab8edf7d05bb9aaa5c9b558966723688782beb08a5ef4f04761beb1244f020",
-          "description_hash": "e726406d3d22afb88a4c3066bb7a4933727dde3f780c3fab18925a0aa6a26b6e",
-          "schema_hash": "9407ee774bfc67d14ba659495a1f7ffefe11d9ee385b01de33ac2de2fb216e56",
-          "schema_resolution": "resolved",
-          "effect": "read",
-          "declared_ceiling": "read",
-          "annotations": {
-            "destructiveHint": false,
-            "openWorldHint": true,
-            "readOnlyHint": true,
-            "title": "List WebMCP tools"
+            "title": "Emulate media features"
           },
           "schema_shape": {
             "required": [],
-            "properties": {}
+            "properties": {
+              "colorScheme": [],
+              "contrast": [],
+              "forcedColors": [],
+              "media": [],
+              "reducedMotion": []
+            }
           },
-          "description_text_hash": "5ca1c81200ed3149dff3f73c98383a10489ad3fd86ba2879d0f15bb78b02aa45",
+          "description_text_hash": "440f6e72b9764b2842e8fe0a78fdb8454b5cbbb97980d6284518bfbfa6466e73",
           "description_sentences": [
-            "5ca1c81200ed3149"
-          ]
+            "ac4bb21ee31024a6",
+            "803ff83f1b9f2af8"
+          ],
+          "approved_at": "2026-09-19T11:02:13Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-09-19"
         }
       },
       "first_observed": "2026-09-01T21:36:54Z"
