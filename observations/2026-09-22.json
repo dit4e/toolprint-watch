@@ -1,0 +1,569 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_agent",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "2551b260139a",
+        "description_hash_now": "c0c373d1f039",
+        "sentences_removed": [
+          "16c8e03290f0e453",
+          "265aa6a64345c29f",
+          "488878e16c8c899b",
+          "a2c9119e143ff569",
+          "bc1dd805b44be3b7"
+        ],
+        "sentences_added": [
+          "595bcc93e65cca10",
+          "6a71170bcd243cbe",
+          "941fa2c45956aea7",
+          "e0c5f7b2884b15ba",
+          "f7027d08d37cc5f4"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_agent_status",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "e6f36e5d9f0d",
+        "description_hash_now": "ed31c57e7f75",
+        "sentences_removed": [
+          "1fad03391f1f89cd"
+        ],
+        "sentences_added": [
+          "2884eabf0a201344"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_developer_search",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "97f87bd9cc58",
+        "description_hash_now": "bd58e94c9f84",
+        "sentences_removed": [
+          "8e53807eaee67565"
+        ],
+        "sentences_added": [
+          "5101ae36a872ccc0"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_extract",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "ae4e0caef7a5",
+        "description_hash_now": "c373745bf98f",
+        "sentences_removed": [
+          "e0fe28af720e3565"
+        ],
+        "sentences_added": [
+          "5e6e561f4a08e49f"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_map",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "038d82a3ec86",
+        "description_hash_now": "592e311b6591",
+        "sentences_removed": [],
+        "sentences_added": [
+          "c5954171d7a99a5c"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_parse",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "adccf97ea2a1",
+        "description_hash_now": "29f922434c1c",
+        "sentences_removed": [],
+        "sentences_added": [
+          "77c20b5715f6ba3c"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_research_search_github",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "6ee41e4cbb75",
+        "description_hash_now": "ed1c731571e4",
+        "sentences_removed": [
+          "38234c41cfafe0ce",
+          "5079b916b6b94845"
+        ],
+        "sentences_added": [
+          "91dcc31a30ec4ce6",
+          "bac926b2401d7186"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "deepwiki-remote@http:mcp.deepwiki.com",
+      "tool": "ask_wiki_question",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "unknown"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_credit_usage",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_find_tools",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_feedback",
+      "detail": "optional parameter 'capabilityFeedback' added; optional parameter 'providerFeedback' added; optional parameter 'rationale' added; optional parameter 'requestedWebsite' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'capabilityFeedback' added",
+          "optional parameter 'providerFeedback' added",
+          "optional parameter 'rationale' added",
+          "optional parameter 'requestedWebsite' added",
+          "parameter 'jobId' is no longer required"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_scrape",
+      "detail": "optional parameter 'alexandria' added; optional parameter 'domainTools' added; optional parameter 'requestId' added; optional parameter 'timeout' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'alexandria' added",
+          "optional parameter 'domainTools' added",
+          "optional parameter 'requestId' added",
+          "optional parameter 'timeout' added",
+          "optional parameter 'toolDetail' added",
+          "parameter 'url' is no longer required"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_search",
+      "detail": "optional parameter 'domainTools' added; optional parameter 'toolDetail' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'domainTools' added",
+          "optional parameter 'toolDetail' added"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-010",
+      "severity": "low",
+      "title": "Tool removed",
+      "server": "deepwiki-remote@http:mcp.deepwiki.com",
+      "tool": "ask_question",
+      "detail": "tool no longer advertised",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-012",
+      "severity": "low",
+      "title": "Tool annotations changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_check_crawl_status",
+      "detail": "title changed from \"Get crawl status\" to \"Firecrawl crawl status\"",
+      "evidence": {
+        "hint_changes": [],
+        "vendor_changes": [
+          "title changed from \"Get crawl status\" to \"Firecrawl crawl status\""
+        ],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-012",
+      "severity": "low",
+      "title": "Tool annotations changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_crawl",
+      "detail": "title changed from \"Run a site crawl\" to \"Firecrawl site crawl\"",
+      "evidence": {
+        "hint_changes": [],
+        "vendor_changes": [
+          "title changed from \"Run a site crawl\" to \"Firecrawl site crawl\""
+        ],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-012",
+      "severity": "low",
+      "title": "Tool annotations changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_interact",
+      "detail": "title changed from \"Interact with a scraped page\" to \"Firecrawl interact\"",
+      "evidence": {
+        "hint_changes": [],
+        "vendor_changes": [
+          "title changed from \"Interact with a scraped page\" to \"Firecrawl interact\""
+        ],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-012",
+      "severity": "low",
+      "title": "Tool annotations changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_interact_stop",
+      "detail": "title changed from \"Stop interact session\" to \"Stop Firecrawl interact session\"",
+      "evidence": {
+        "hint_changes": [],
+        "vendor_changes": [
+          "title changed from \"Stop interact session\" to \"Stop Firecrawl interact session\""
+        ],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-012",
+      "severity": "low",
+      "title": "Tool annotations changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_check",
+      "detail": "title changed from \"Get monitor check\" to \"Get Firecrawl monitor check\"",
+      "evidence": {
+        "hint_changes": [],
+        "vendor_changes": [
+          "title changed from \"Get monitor check\" to \"Get Firecrawl monitor check\""
+        ],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-012",
+      "severity": "low",
+      "title": "Tool annotations changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_checks",
+      "detail": "title changed from \"List monitor checks\" to \"List Firecrawl monitor checks\"",
+      "evidence": {
+        "hint_changes": [],
+        "vendor_changes": [
+          "title changed from \"List monitor checks\" to \"List Firecrawl monitor checks\""
+        ],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-012",
+      "severity": "low",
+      "title": "Tool annotations changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_create",
+      "detail": "title changed from \"Create monitor\" to \"Create Firecrawl monitor\"",
+      "evidence": {
+        "hint_changes": [],
+        "vendor_changes": [
+          "title changed from \"Create monitor\" to \"Create Firecrawl monitor\""
+        ],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-012",
+      "severity": "low",
+      "title": "Tool annotations changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_delete",
+      "detail": "title changed from \"Delete monitor\" to \"Delete Firecrawl monitor\"",
+      "evidence": {
+        "hint_changes": [],
+        "vendor_changes": [
+          "title changed from \"Delete monitor\" to \"Delete Firecrawl monitor\""
+        ],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-012",
+      "severity": "low",
+      "title": "Tool annotations changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_get",
+      "detail": "title changed from \"Get monitor\" to \"Get Firecrawl monitor\"",
+      "evidence": {
+        "hint_changes": [],
+        "vendor_changes": [
+          "title changed from \"Get monitor\" to \"Get Firecrawl monitor\""
+        ],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-012",
+      "severity": "low",
+      "title": "Tool annotations changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_list",
+      "detail": "title changed from \"List monitors\" to \"List Firecrawl monitors\"",
+      "evidence": {
+        "hint_changes": [],
+        "vendor_changes": [
+          "title changed from \"List monitors\" to \"List Firecrawl monitors\""
+        ],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-012",
+      "severity": "low",
+      "title": "Tool annotations changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_run",
+      "detail": "title changed from \"Run monitor now\" to \"Run Firecrawl monitor now\"",
+      "evidence": {
+        "hint_changes": [],
+        "vendor_changes": [
+          "title changed from \"Run monitor now\" to \"Run Firecrawl monitor now\""
+        ],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-012",
+      "severity": "low",
+      "title": "Tool annotations changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_update",
+      "detail": "title changed from \"Update monitor\" to \"Update Firecrawl monitor\"",
+      "evidence": {
+        "hint_changes": [],
+        "vendor_changes": [
+          "title changed from \"Update monitor\" to \"Update Firecrawl monitor\""
+        ],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-012",
+      "severity": "low",
+      "title": "Tool annotations changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_research_inspect_paper",
+      "detail": "title changed from \"Inspect a paper\" to \"Firecrawl inspect research paper\"",
+      "evidence": {
+        "hint_changes": [],
+        "vendor_changes": [
+          "title changed from \"Inspect a paper\" to \"Firecrawl inspect research paper\""
+        ],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-012",
+      "severity": "low",
+      "title": "Tool annotations changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_research_read_paper",
+      "detail": "title changed from \"Read a paper\" to \"Firecrawl read research paper\"",
+      "evidence": {
+        "hint_changes": [],
+        "vendor_changes": [
+          "title changed from \"Read a paper\" to \"Firecrawl read research paper\""
+        ],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-012",
+      "severity": "low",
+      "title": "Tool annotations changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_research_related_papers",
+      "detail": "title changed from \"Find related papers via citation graph\" to \"Firecrawl related research papers\"",
+      "evidence": {
+        "hint_changes": [],
+        "vendor_changes": [
+          "title changed from \"Find related papers via citation graph\" to \"Firecrawl related research papers\""
+        ],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-012",
+      "severity": "low",
+      "title": "Tool annotations changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_research_search_papers",
+      "detail": "title changed from \"Search research papers\" to \"Firecrawl research paper search\"",
+      "evidence": {
+        "hint_changes": [],
+        "vendor_changes": [
+          "title changed from \"Search research papers\" to \"Firecrawl research paper search\""
+        ],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-012",
+      "severity": "low",
+      "title": "Tool annotations changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_search_feedback",
+      "detail": "title changed from \"Send feedback on a search result\" to \"Firecrawl search feedback\"",
+      "evidence": {
+        "hint_changes": [],
+        "vendor_changes": [
+          "title changed from \"Send feedback on a search result\" to \"Firecrawl search feedback\""
+        ],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.24.0 -> 3.25.2",
+      "evidence": {
+        "was": "3.24.0",
+        "now": "3.25.2"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
