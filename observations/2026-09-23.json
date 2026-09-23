@@ -1,0 +1,609 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_developer_search",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "bd58e94c9f84",
+        "description_hash_now": "4dee400da1ad",
+        "sentences_removed": [
+          "126b14d76ea2d25f",
+          "322a171ac9e38623",
+          "5101ae36a872ccc0"
+        ],
+        "sentences_added": [
+          "1aa1095aaafc5a0c"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_research_search_github",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "ed1c731571e4",
+        "description_hash_now": "ed2177d24637",
+        "sentences_removed": [
+          "bac926b2401d7186"
+        ],
+        "sentences_added": [
+          "a184a9e965c8f9b0"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_scrape",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "77fd0a97239c",
+        "description_hash_now": "1d289195e201",
+        "sentences_removed": [
+          "37f6dd8e181947a1"
+        ],
+        "sentences_added": [
+          "63d66fcabff27505",
+          "f34419bd5287b3fb"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-014",
+      "severity": "high",
+      "title": "Tools moved behind a dispatch router",
+      "server": "azure@stdio:npx",
+      "tool": null,
+      "detail": "'resilience' disappeared in the same revision that added 'resiliency', which takes an operation name and a free-form argument object",
+      "evidence": {
+        "router": [
+          "resiliency"
+        ],
+        "gone": [
+          "resilience"
+        ],
+        "effects": [
+          "unknown"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "azure@stdio:npx",
+      "tool": "resiliency",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "unknown"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "get_css_styles",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "click",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "3b6195a310dd",
+        "schema_hash_now": "6f8f19950c4e"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "close_page",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "3498c9a2e19e",
+        "schema_hash_now": "e5f677126fb2"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "drag",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "1753da657857",
+        "schema_hash_now": "43b92e654f60"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "emulate",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "a8d7b7478848",
+        "schema_hash_now": "7de621c08166"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "evaluate_script",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "34c1476d69f8",
+        "schema_hash_now": "4d08cb82fe90"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "fill",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "752bbce41f45",
+        "schema_hash_now": "75332a6c64b6"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "fill_form",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "4c46dd65a54c",
+        "schema_hash_now": "e51350f8ff1d"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "get_console_message",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "e1ac5867e190",
+        "schema_hash_now": "f0403acaba7b"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "get_network_request",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "6d78364098ee",
+        "schema_hash_now": "6e88932c0aa6"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "handle_dialog",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "b68e27dbbcee",
+        "schema_hash_now": "65ae82e766ed"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "hover",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "35bb513778f0",
+        "schema_hash_now": "7e9378bb5f38"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "lighthouse_audit",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "d5abefcdfc1e",
+        "schema_hash_now": "fe67c2d6508f"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "list_console_messages",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "5563a79f5d22",
+        "schema_hash_now": "dd1830453bea"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "list_network_requests",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "7726d126bc29",
+        "schema_hash_now": "dadb2f57de42"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "list_pages",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "b97f8ecdadeb",
+        "schema_hash_now": "c1076a012717"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "navigate_page",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "45c3605f21f1",
+        "schema_hash_now": "89174d5fee04"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "new_page",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "9aeafcb52671",
+        "schema_hash_now": "139fda7f62f9"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "performance_analyze_insight",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "48309ba9543a",
+        "schema_hash_now": "c6d17f41faad"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "performance_start_trace",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "f845a2063bc2",
+        "schema_hash_now": "5a91cc0cc603"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "performance_stop_trace",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "430e3ccdcbad",
+        "schema_hash_now": "7868221e1d9b"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "press_key",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "faa68c390371",
+        "schema_hash_now": "b570e5b54637"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "resize_page",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "db95e45cc52a",
+        "schema_hash_now": "12b7e6eabd30"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "select_page",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "70e24c8d6882",
+        "schema_hash_now": "b35d706ad857"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "take_heapsnapshot",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "d1f925b164f1",
+        "schema_hash_now": "2ab51d88d47f"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "take_screenshot",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "a3630229825a",
+        "schema_hash_now": "2335b0cbe802"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "take_snapshot",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "e38951e888e2",
+        "schema_hash_now": "39bf1e50f22a"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "type_text",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "7144577a36ab",
+        "schema_hash_now": "0679a2e24d84"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "upload_file",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "a938dd21a1cf",
+        "schema_hash_now": "0f0ff37dbe55"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "wait_for",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "94673821a3ca",
+        "schema_hash_now": "8998d57a7fe6"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_search",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "d61f616ed667",
+        "schema_hash_now": "4e1b560b376d"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-010",
+      "severity": "low",
+      "title": "Tool removed",
+      "server": "azure@stdio:npx",
+      "tool": "resilience",
+      "detail": "tool no longer advertised",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "azure@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.0.0-beta.45 -> 3.0.0-beta.46",
+      "evidence": {
+        "was": "3.0.0-beta.45",
+        "now": "3.0.0-beta.46"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": null,
+      "detail": "server version 1.9.0 -> 1.10.1",
+      "evidence": {
+        "was": "1.9.0",
+        "now": "1.10.1"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.25.2 -> 3.25.3",
+      "evidence": {
+        "was": "3.25.2",
+        "now": "3.25.3"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "searxng@stdio:npx",
+      "tool": null,
+      "detail": "server version 2.3.0 -> 2.4.0",
+      "evidence": {
+        "was": "2.3.0",
+        "now": "2.4.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
