@@ -1,6 +1,6 @@
 # toolprint-watch
 
-A fixed set of 27 public MCP servers, checked daily against an approved
+A fixed set of 36 public MCP servers, checked daily against an approved
 baseline, to answer a question the product depends on: **how often do MCP tool
 definitions actually change without anyone reviewing them?**
 
@@ -28,7 +28,7 @@ a directory.
 
 Deliberately not padded. A larger list built from npm keyword search fills up
 with abandoned single-author packages that will never change, which inflates the
-denominator and teaches nothing. 27 servers people actually run beats 60 that
+denominator and teaches nothing. 36 servers people actually run beats 60 that
 include 30 dead ones.
 
 Three groups, on purpose:
@@ -145,7 +145,7 @@ it, and counting that as change measures this repository's growth rather than
 the ecosystem's: adding nine servers on 2026-09-01 accounted for 89 of the 235
 changes the earlier counting reported. `analyse.py` compares servers only
 across revisions in which they were already being watched, and reports what
-they arrived with — 497 tools across 36 servers so far — separately.
+they arrived with — 501 tools across 36 servers so far — separately.
 
 Removing a server is the same idea in reverse: drop it from `servers.json` and
 it stops being observed, but its baseline entry and its history stay. Deleting
