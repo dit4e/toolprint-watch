@@ -1,0 +1,20 @@
+{
+  "_comment": "Watchlist tiers for the daily MCP drift monitor. Kept SEPARATE from servers.json on purpose: the collector and toolprint read only servers.json['mcpServers'], so tagging lives here and cannot affect the live config. Classification is by the actual package each entry runs (see servers.json args), verified 2026-09-27.",
+  "generated": "2026-09-27",
+  "counts": { "reference": 7, "frozen": 7, "vendor-community": 22, "total": 36 },
+  "provenance": "frozen = the @modelcontextprotocol reference servers that have been moved to modelcontextprotocol/servers-archived (confirmed against the servers repo, 2026-09-27); reference = the active steering-group reference servers; vendor-community = third-party vendor and community servers.",
+  "tiers": {
+    "reference": {
+      "description": "Actively maintained MCP steering-group reference servers. Churn is expected here; it is the baseline for 'normal' change.",
+      "servers": ["mcp-filesystem", "mcp-memory", "mcp-everything", "mcp-seqthinking", "mcp-git", "mcp-time", "mcp-fetch"]
+    },
+    "frozen": {
+      "description": "Archived/deprecated reference servers (moved to modelcontextprotocol/servers-archived). CONTROL GROUP: these should not change. Any drift here is a signal that something upstream (a dependency, a re-publish, a shared SDK) moved, not normal maintenance.",
+      "servers": ["mcp-puppeteer", "mcp-github-arch", "mcp-postgres", "gitlab", "slack", "google-maps", "brave-search-old"]
+    },
+    "vendor-community": {
+      "description": "Third-party vendor and community servers, where real capability change is most likely to appear.",
+      "servers": ["context7", "context7-remote", "playwright", "playwright-ea", "chrome-devtools", "notion", "azure", "k8s", "qdrant", "desktop-commander", "antv-chart", "git-cyanheads", "arxiv", "browser-tools", "searxng", "code-runner", "deepwiki-remote", "brave-search-new", "sentry", "firecrawl", "tavily", "exa"]
+    }
+  }
+}
