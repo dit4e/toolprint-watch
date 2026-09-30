@@ -1,0 +1,379 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "arxiv@stdio:uvx",
+      "tool": "citation_graph",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "170ba4e84d2b",
+        "description_hash_now": "a266abfd4eee",
+        "sentences_removed": [
+          "ec3c4d42b024988a"
+        ],
+        "sentences_added": [
+          "6564cae37398aa9e",
+          "f68f10bd914c5e6f"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "resiliency",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "66474e1cd587",
+        "description_hash_now": "3bdf8d379a03",
+        "sentences_removed": [
+          "4680eedb5d15a0f8",
+          "6a73abd7dad6a490"
+        ],
+        "sentences_added": [
+          "d43230cec74b3caa"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "resourcehealth",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "57ff01694e52",
+        "description_hash_now": "77b1074a1806",
+        "sentences_removed": [
+          "1eb49b6007af37ce"
+        ],
+        "sentences_added": [
+          "25eb06f3dacbc260"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "interact_with_process",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "f4e45ea041fe",
+        "description_hash_now": "61fd0697eb5a",
+        "sentences_removed": [
+          "02e89a4601a6610b",
+          "092e70287f3eff79",
+          "0ff7e498a6c5974f",
+          "17c09909aea6736d",
+          "2bb897a7c2c14521",
+          "2cae0d97f9acc733",
+          "65a08a5777ae83c7",
+          "8cdf9b40e7faa6dc",
+          "9f5100f7633dc919",
+          "ae5c395b7635720f",
+          "cd00e305e6d82847",
+          "d012189346e1fc96",
+          "e5181221598e3bbb",
+          "e6126d337f7d381f",
+          "efb31d77f4ed76e4"
+        ],
+        "sentences_added": [
+          "30f0c0b087f6203f",
+          "3af25876a4202838",
+          "86309a025c96da1c",
+          "a5798bbff6cdb980",
+          "aef42f51ed173c17"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "read_file",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "a0b06cfcfabd",
+        "description_hash_now": "ccfca1eda1f8",
+        "sentences_removed": [
+          "3242074e0f19e755"
+        ],
+        "sentences_added": [
+          "155d8e0464d7900f"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "start_process",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "ecb5f3a31629",
+        "description_hash_now": "8fee33716433",
+        "sentences_removed": [
+          "03cc7281f0316e87",
+          "11f9b8e998d2fc1f",
+          "23ec81ad78855d6c",
+          "2bbc50eb3b1bf21d",
+          "630fb25815bb7172",
+          "7875e19a02c08222",
+          "8f9d5f86e079642e",
+          "97610d219c25da22",
+          "a9d99e03cdaeb66f",
+          "da093e1db6750c61",
+          "e1363e25bece11a1",
+          "f4d9a268c4741be5",
+          "f6ee588a9382dee4"
+        ],
+        "sentences_added": [
+          "0f30d83710f249c3",
+          "1ff150474076b913",
+          "815ad0781e308bf9",
+          "a3b0abc59df4167c",
+          "beb8ce8b42e1fabe",
+          "fa93782812669bd4"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-016",
+      "severity": "low",
+      "title": "Description reformatted",
+      "server": "azure@stdio:npx",
+      "tool": "applicationinsights",
+      "detail": "line breaks or spacing changed; the wording did not",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-016",
+      "severity": "low",
+      "title": "Description reformatted",
+      "server": "azure@stdio:npx",
+      "tool": "azurebackup",
+      "detail": "line breaks or spacing changed; the wording did not",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-016",
+      "severity": "low",
+      "title": "Description reformatted",
+      "server": "azure@stdio:npx",
+      "tool": "azureterraformbestpractices",
+      "detail": "line breaks or spacing changed; the wording did not",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-016",
+      "severity": "low",
+      "title": "Description reformatted",
+      "server": "azure@stdio:npx",
+      "tool": "compute",
+      "detail": "line breaks or spacing changed; the wording did not",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-016",
+      "severity": "low",
+      "title": "Description reformatted",
+      "server": "azure@stdio:npx",
+      "tool": "deviceregistry",
+      "detail": "line breaks or spacing changed; the wording did not",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-016",
+      "severity": "low",
+      "title": "Description reformatted",
+      "server": "azure@stdio:npx",
+      "tool": "foundryextensions",
+      "detail": "line breaks or spacing changed; the wording did not",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-016",
+      "severity": "low",
+      "title": "Description reformatted",
+      "server": "azure@stdio:npx",
+      "tool": "get_azure_bestpractices",
+      "detail": "line breaks or spacing changed; the wording did not",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-016",
+      "severity": "low",
+      "title": "Description reformatted",
+      "server": "azure@stdio:npx",
+      "tool": "insights",
+      "detail": "line breaks or spacing changed; the wording did not",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-016",
+      "severity": "low",
+      "title": "Description reformatted",
+      "server": "azure@stdio:npx",
+      "tool": "iotoperations",
+      "detail": "line breaks or spacing changed; the wording did not",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-016",
+      "severity": "low",
+      "title": "Description reformatted",
+      "server": "azure@stdio:npx",
+      "tool": "monitor",
+      "detail": "line breaks or spacing changed; the wording did not",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-016",
+      "severity": "low",
+      "title": "Description reformatted",
+      "server": "azure@stdio:npx",
+      "tool": "search",
+      "detail": "line breaks or spacing changed; the wording did not",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-016",
+      "severity": "low",
+      "title": "Description reformatted",
+      "server": "azure@stdio:npx",
+      "tool": "speech",
+      "detail": "line breaks or spacing changed; the wording did not",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-016",
+      "severity": "low",
+      "title": "Description reformatted",
+      "server": "azure@stdio:npx",
+      "tool": "storage",
+      "detail": "line breaks or spacing changed; the wording did not",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-016",
+      "severity": "low",
+      "title": "Description reformatted",
+      "server": "azure@stdio:npx",
+      "tool": "storagesync",
+      "detail": "line breaks or spacing changed; the wording did not",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "arxiv@stdio:uvx",
+      "tool": null,
+      "detail": "server version 0.7.2 -> 0.7.3",
+      "evidence": {
+        "was": "0.7.2",
+        "now": "0.7.3"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "azure@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.0.0-beta.47 -> 3.0.0-beta.48",
+      "evidence": {
+        "was": "3.0.0-beta.47",
+        "now": "3.0.0-beta.48"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "desktop-commander@stdio:npx",
+      "tool": null,
+      "detail": "server version 0.2.51 -> 0.2.52",
+      "evidence": {
+        "was": "0.2.51",
+        "now": "0.2.52"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "k8s@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.1.7 -> 4.1.8",
+      "evidence": {
+        "was": "4.1.7",
+        "now": "4.1.8"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
