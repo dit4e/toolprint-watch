@@ -1,0 +1,584 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_agent",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "c84e4f2d1bd3",
+        "description_hash_now": "42f1d7f47e47",
+        "sentences_removed": [
+          "f7027d08d37cc5f4"
+        ],
+        "sentences_added": [
+          "0b90ef2e3a0ffa7e"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_agent_status",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "ed31c57e7f75",
+        "description_hash_now": "9c7cda73b202",
+        "sentences_removed": [
+          "3107c1ccabc4f21a"
+        ],
+        "sentences_added": [
+          "26adf9a56f321859"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_check_crawl_status",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "d20697cdc27d",
+        "description_hash_now": "e2225d86a72a",
+        "sentences_removed": [
+          "929e09873cf9ae99"
+        ],
+        "sentences_added": [
+          "32fdd08c5f86e0c1"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_crawl",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "564d0657392c",
+        "description_hash_now": "5e5ca6bd3bb5",
+        "sentences_removed": [
+          "f25fb5f45b8b5e0f"
+        ],
+        "sentences_added": [
+          "bce153b149bee5ad"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_credit_usage",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "76f0011936f0",
+        "description_hash_now": "88591ad333d1",
+        "sentences_removed": [
+          "35beff71f886a72e"
+        ],
+        "sentences_added": [
+          "9bda65897e4a575c"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_developer_search",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "4dee400da1ad",
+        "description_hash_now": "4074a859ff3c",
+        "sentences_removed": [
+          "1aa1095aaafc5a0c"
+        ],
+        "sentences_added": [
+          "07a4da46ae951a41"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_find_tools",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "beed6327b69d",
+        "description_hash_now": "bc3bf52065d6",
+        "sentences_removed": [
+          "6fc2e6c3b4086f6a"
+        ],
+        "sentences_added": [
+          "b9a2cb16179e45f5"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_interact",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "7db87f9f15e8",
+        "description_hash_now": "83e56c9f7221",
+        "sentences_removed": [
+          "54904618f5aa6dc4"
+        ],
+        "sentences_added": [
+          "92ddd4af0e78fe3a"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_interact_stop",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "6f8f382b0dbe",
+        "description_hash_now": "41ae2a872376",
+        "sentences_removed": [
+          "8af9dcc4369b71b4"
+        ],
+        "sentences_added": [
+          "55625b2016eb2dd1"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_map",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "592e311b6591",
+        "description_hash_now": "4142f03c2308",
+        "sentences_removed": [
+          "31ff7d83aa32a60d"
+        ],
+        "sentences_added": [
+          "3885fbd301d1a520"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_check",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "773f2e5e93b1",
+        "description_hash_now": "732cdc69dc73",
+        "sentences_removed": [
+          "39620144f6a1280e"
+        ],
+        "sentences_added": [
+          "a52158204b3ba445"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_checks",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "2c1e7c99bd88",
+        "description_hash_now": "ccd4bef203db",
+        "sentences_removed": [
+          "27b2773e2e6958c0"
+        ],
+        "sentences_added": [
+          "0657bb5e3b2315e4"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_create",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "e2931d8c95ee",
+        "description_hash_now": "7e2bb42d17f9",
+        "sentences_removed": [
+          "93642713553c6129"
+        ],
+        "sentences_added": [
+          "3aa8fbe7592b8472"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_delete",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "7b889aa8dea1",
+        "description_hash_now": "5ff42d1f84ef",
+        "sentences_removed": [
+          "be946df8e1733274"
+        ],
+        "sentences_added": [
+          "51cf003a59efeee5"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_get",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "54096cbdb5c9",
+        "description_hash_now": "0c8f5a129091",
+        "sentences_removed": [
+          "c8870e8e56fc623a"
+        ],
+        "sentences_added": [
+          "8f3955ed8b9c3c16"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_list",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "78201e583bc2",
+        "description_hash_now": "e4d56923ff2c",
+        "sentences_removed": [
+          "58d95cfc23df4b91"
+        ],
+        "sentences_added": [
+          "a18d0c2fe660bf12"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_run",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "d07634942dc3",
+        "description_hash_now": "1633ce16454e",
+        "sentences_removed": [
+          "f80225c87cf00d7d"
+        ],
+        "sentences_added": [
+          "e9be2be2658d59e4"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_update",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "42a16bed2349",
+        "description_hash_now": "839749919c9b",
+        "sentences_removed": [
+          "dc1fc74ffc0dc815"
+        ],
+        "sentences_added": [
+          "e486935b58311fd2"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_parse",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "29f922434c1c",
+        "description_hash_now": "9c8b7167249f",
+        "sentences_removed": [
+          "f0322e7debbf5d9d"
+        ],
+        "sentences_added": [
+          "b9a5b4fa30494bf7"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_research_inspect_paper",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "4bccf534614f",
+        "description_hash_now": "6965e528c503",
+        "sentences_removed": [
+          "e8c39f60f4bef820"
+        ],
+        "sentences_added": [
+          "dc9d86cbd7f949bc"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_research_read_paper",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "585e794324f1",
+        "description_hash_now": "4fca9b27ec74",
+        "sentences_removed": [
+          "a7a0888340955e7e"
+        ],
+        "sentences_added": [
+          "bfdb3a1409cf65d6"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_research_related_papers",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "9dc149c40b58",
+        "description_hash_now": "dfab1ec2a889",
+        "sentences_removed": [
+          "38164de9056e1b57"
+        ],
+        "sentences_added": [
+          "bb75eca16f1dbb68"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_research_search_papers",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "70d9468c93ab",
+        "description_hash_now": "74a62166bed1",
+        "sentences_removed": [
+          "44e15ad40ad307da"
+        ],
+        "sentences_added": [
+          "c597ac13ac4ea8fb"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_scrape",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "2a34972dd013",
+        "description_hash_now": "e3b7cd65fb6b",
+        "sentences_removed": [
+          "82a00ed452e4bc46"
+        ],
+        "sentences_added": [
+          "33c306c7d9c49da3"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_search",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "df1b10fbc1a2",
+        "description_hash_now": "cab0aed3f4bd",
+        "sentences_removed": [
+          "e3973d98e9f2cab4"
+        ],
+        "sentences_added": [
+          "83fc8095051aecc8"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_search_feedback",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "8556be6fe0b9",
+        "description_hash_now": "d7e7774c360c",
+        "sentences_removed": [
+          "b7faea0560b47f7d"
+        ],
+        "sentences_added": [
+          "bf9c918c4fdcd9c2"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_feedback",
+      "detail": "optional parameter 'objective' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'objective' added"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-010",
+      "severity": "low",
+      "title": "Tool removed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_extract",
+      "detail": "tool no longer advertised",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-010",
+      "severity": "low",
+      "title": "Tool removed",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_research_search_github",
+      "detail": "tool no longer advertised",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.26.0 -> 3.27.2",
+      "evidence": {
+        "was": "3.26.0",
+        "now": "3.27.2"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
