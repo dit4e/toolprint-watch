@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-10-02T12:37:57Z",
+  "approved_at": "2026-10-03T11:42:38Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -1233,7 +1233,7 @@
       "toolset_hash": "3499340db249622f9fc48136371c775e630724b8e82539e44ec1b5dd65535e59",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "0.7.3",
+      "server_version": "0.8.0",
       "version_pinned": false,
       "tools": {
         "check_alerts": {
@@ -16487,17 +16487,17 @@
     },
     "firecrawl@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "a3641c9bf55b861f09cae36b9360e8b915456e244b127e1a94d17dcc24e6e734",
+      "toolset_hash": "9b7b7bf9d0a3d9833e23e1734342b6d2ef6a4f9afee8ee592bf6fb85d789a9b6",
       "transport": "stdio",
       "auth_method": "env_var",
-      "server_version": "3.27.2",
+      "server_version": "3.27.3",
       "version_pinned": false,
       "tools": {
         "firecrawl_agent": {
           "annotations_hash": "8b7a9bf7542e8826d1953060367af4fe64cdd229ab7bf4172adb914fff2c067f",
-          "composite_hash": "cd206d80bb8843c1f123e8b1f3f790ae1bd5e2776a3cc87610449e0e06442aca",
-          "description_hash": "42f1d7f47e479a0b135d6bd04df78624a7d4b072bbda1c3dbb62072a3cd50ae1",
-          "schema_hash": "2172f19716e7a1cb53f4f60f99d0980993df78df29b529b8cb39b6569ab3d1d6",
+          "composite_hash": "46ad0b9d3ade6b2fd4c33d287e679d37d4b7596311fb6da30aecf4d855bb3a8e",
+          "description_hash": "5b11da90edf11076ef65ebaf4c3365117bf04e19aa475f823ea1a495e5fcee44",
+          "schema_hash": "a0471650c6cf07a9c656b020a86820a154529c092b92cfe403b831a7456084d4",
           "schema_resolution": "resolved",
           "effect": "write",
           "declared_ceiling": "external",
@@ -16541,7 +16541,7 @@
               ]
             }
           },
-          "description_text_hash": "bdfc187fedb0ecb2f9aa54dfadf3ae8d9d4cf781f13e26c8ed03d07885f8e57b",
+          "description_text_hash": "d229dc2ebfadd0475491dfc98965591d6e94860f09df6f038a5a723191f909fa",
           "description_sentences": [
             "0b90ef2e3a0ffa7e",
             "e0c5f7b2884b15ba",
@@ -16552,22 +16552,24 @@
             "941fa2c45956aea7",
             "bf6e474fb4aa8107",
             "7f7039d9d5e1761c",
-            "d32b7309f006167a",
-            "4a7acd34aa296a2b",
-            "e60df0a47fa47c6a",
-            "e045b1c3450a73e3",
-            "cd9d5faa72da3a5a",
-            "4fbfff9c2b030c4f"
+            "dfcf2072e6e60912",
+            "d5eefd5e51ccc261",
+            "e84fc9b38be044f0",
+            "d7d77d1778ca904a",
+            "83cccfbc59e7dfa2",
+            "79949e7a9bbf8fc6",
+            "c971fbf8eb492794",
+            "0eb958a662092d1e"
           ],
-          "approved_at": "2026-10-01T13:17:54Z",
+          "approved_at": "2026-10-03T11:42:38Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-01"
+          "note": "observed 2026-10-03"
         },
         "firecrawl_agent_status": {
           "annotations_hash": "853b319b7a20608777c3013d7f32e7ab1931dc3021c48006812f298c1a8c7964",
-          "composite_hash": "c7668d30b6abf4642583dade4f647ffcbbfe579d62d8b4254fc5dff3d2079c67",
+          "composite_hash": "0da74edb6397ff7ed8da8dbcf5f8cf762264268307c4c881592e3b61d4f50de4",
           "description_hash": "9c7cda73b202c415b2fa0b07d321d3393d468204e3f15848c3d81bf3d876dd79",
-          "schema_hash": "62761b45e0980129a5ebcbea84726fd723138399428741c5a9f2eb071efa7a64",
+          "schema_hash": "3168b12c7c042891b64d8d58b32d68b929016436d6b258ef8148e655e698071a",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -16595,9 +16597,9 @@
             "0faf01357ff2a9d1",
             "6dcc924d0f09baff"
           ],
-          "approved_at": "2026-10-01T13:17:54Z",
+          "approved_at": "2026-10-03T11:42:38Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-01"
+          "note": "observed 2026-10-03"
         },
         "firecrawl_check_crawl_status": {
           "annotations_hash": "e581f10b64c0272289928358ce996e409564b5826d281d9806903743c2e110cb",
@@ -17693,9 +17695,9 @@
         },
         "firecrawl_search": {
           "annotations_hash": "ec1d294655f59ab34028c1e1baf4d707ce3e92f27208ab5c0e554231a1e0d835",
-          "composite_hash": "61b0474373c2b924f1b19c4ed27925c02839104dc370c38185e60db8e2427ddc",
+          "composite_hash": "d3d6295a08d080c344f464d0ac68dadd64da53a8b82e23f67ab3bce7f469af30",
           "description_hash": "cab0aed3f4bd2931c16bcbe07d78031b71420f23759f265f22b0e13498606bdf",
-          "schema_hash": "83cf9e352fe30e613cb666da69473d4b69d979ca6ace06fb26096324b65e76e3",
+          "schema_hash": "9728f683949fb344215bb778456e672b1dfbd62740dc0bd57dd09c23f10e07a4",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -17712,6 +17714,9 @@
             "properties": {
               "categories": [
                 "array"
+              ],
+              "clientModel": [
+                "string"
               ],
               "domainTools": [
                 "boolean"
@@ -17735,6 +17740,9 @@
                 "integer"
               ],
               "location": [
+                "string"
+              ],
+              "objective": [
                 "string"
               ],
               "query": [
@@ -17769,9 +17777,9 @@
             "9b748161aed9867e",
             "9930fcc518d1ff7e"
           ],
-          "approved_at": "2026-10-01T13:17:54Z",
+          "approved_at": "2026-10-03T11:42:38Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-01"
+          "note": "observed 2026-10-03"
         },
         "firecrawl_search_feedback": {
           "annotations_hash": "39c94365d45a71f9be0a3ae8a824123848b830591a18888e16d762b0774ddcee",

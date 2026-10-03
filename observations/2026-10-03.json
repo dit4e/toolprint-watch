@@ -1,0 +1,85 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_search",
+      "detail": "optional parameter 'clientModel' added; optional parameter 'objective' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'clientModel' added",
+          "optional parameter 'objective' added"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_agent",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "2172f19716e7",
+        "schema_hash_now": "a0471650c6cf"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_agent_status",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "62761b45e098",
+        "schema_hash_now": "3168b12c7c04"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "arxiv@stdio:uvx",
+      "tool": null,
+      "detail": "server version 0.7.3 -> 0.8.0",
+      "evidence": {
+        "was": "0.7.3",
+        "now": "0.8.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.27.2 -> 3.27.3",
+      "evidence": {
+        "was": "3.27.2",
+        "now": "3.27.3"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
