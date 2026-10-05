@@ -176,6 +176,7 @@ toolprint scan --connect --config /tmp/candidate.json
 |---|---|
 | `servers.json` | The watchlist, in MCP client config format |
 | `server-tiers.json` | The watchlist's three tiers (reference / frozen-control / vendor-community), by server. See `METHODOLOGY.md` |
+| `charts/` | Charts generated from the data (daily changes; rule distribution), with a reproducible generator |
 | `METHODOLOGY.md` | How the monitor works and why the frozen tier is a control group |
 | `baseline.json` | The approved state. **Its git history is the dataset.** |
 | `observations.csv` | One row per **date**: servers watched, how many were actually **reachable**, tools seen, changes found. A re-run supersedes that date's row rather than adding one, and keeps the highest change count seen |
