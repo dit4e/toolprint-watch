@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-10-03T11:42:38Z",
+  "approved_at": "2026-10-06T13:21:31Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -1233,7 +1233,7 @@
       "toolset_hash": "3499340db249622f9fc48136371c775e630724b8e82539e44ec1b5dd65535e59",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "0.8.0",
+      "server_version": "0.8.1",
       "version_pinned": false,
       "tools": {
         "check_alerts": {
@@ -15624,7 +15624,7 @@
       "toolset_hash": "d2310684383d9ae991d6a676af4d028de4e78e92674a1a4fac90cd8359c01d66",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "2.5.0",
+      "server_version": "2.5.1",
       "version_pinned": false,
       "tools": {
         "searxng_instance_info": {
@@ -16405,7 +16405,7 @@
       "toolset_hash": "415ffd648307e6399ab3dd8964d292477120eb2b86f238ccc11f8af71c8a755d",
       "transport": "stdio",
       "auth_method": "env_var",
-      "server_version": "3.4.1",
+      "server_version": "3.4.2",
       "version_pinned": false,
       "tools": {
         "web_fetch_exa": {
