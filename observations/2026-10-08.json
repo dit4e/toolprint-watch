@@ -1,0 +1,54 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "arxiv@stdio:uvx",
+      "tool": null,
+      "detail": "server version 0.8.1 -> 0.8.2",
+      "evidence": {
+        "was": "0.8.1",
+        "now": "0.8.2"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7-remote@http:mcp.context7.com",
+      "tool": null,
+      "detail": "server version 4.1.3 -> 4.2.0",
+      "evidence": {
+        "was": "4.1.3",
+        "now": "4.2.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.1.3 -> 4.2.0",
+      "evidence": {
+        "was": "4.1.3",
+        "now": "4.2.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
