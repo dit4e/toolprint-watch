@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-10-09T13:20:11Z",
+  "approved_at": "2026-10-10T12:34:30Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -6428,17 +6428,17 @@
     },
     "context7-remote@http:mcp.context7.com": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "0efbb28f69ce08c13f21a3da61852f2b7096585efa5a2a02f1227f70b946d090",
+      "toolset_hash": "90c39c260cac691b079879fb1306276409ac832a2932cc47490fc95f9ad06cf1",
       "transport": "http",
       "auth_method": "none",
-      "server_version": "4.2.0",
+      "server_version": "4.3.0",
       "version_pinned": false,
       "tools": {
         "query-docs": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
-          "composite_hash": "66a4707160a121317272131e5b647a7e2e67d01056ba153a029ffc6e1e84d0dd",
-          "description_hash": "e1529e9e5e696b5102acc7995e58301c5a9edfd1523964fc65fc1b761ff6e596",
-          "schema_hash": "f9dfbc7b6cfceaaa827f53df07f5a1bfefd945dc38a5e849cdb186efeb84bc2a",
+          "composite_hash": "cac19a3520f20decafe0981b20d8ce19d798540e73d7e84c38efd0c165c492c2",
+          "description_hash": "bf313f39d2a4a7ef0509d27720601ddedcff9f3c1d3159aa5fa6ac1cf3e9f2db",
+          "schema_hash": "ae732dbf99ff65271012c79f820d3f48f3933a9e2af6d0036f0487b80f01465e",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -6454,6 +6454,9 @@
               "query"
             ],
             "properties": {
+              "language": [
+                "string"
+              ],
               "libraryId": [
                 "string"
               ],
@@ -6462,12 +6465,16 @@
               ]
             }
           },
-          "description_text_hash": "5629c0b0b0f6c2b8094011a27dd4c3557be707dac4d5210b8487c1e7ad37c9d5",
+          "description_text_hash": "68edddaacc5a22a57a69773152dba493b96ae312312b8c6c3f6bb9ccade1b176",
           "description_sentences": [
             "65508c0a3078a8c4",
             "50c2e75016469e04",
-            "c87970bacb739e8f"
-          ]
+            "c87970bacb739e8f",
+            "4884e71daa3189a4"
+          ],
+          "approved_at": "2026-10-10T12:34:30Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-10"
         },
         "resolve-library-id": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
@@ -6517,17 +6524,17 @@
     },
     "context7@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "0efbb28f69ce08c13f21a3da61852f2b7096585efa5a2a02f1227f70b946d090",
+      "toolset_hash": "90c39c260cac691b079879fb1306276409ac832a2932cc47490fc95f9ad06cf1",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "4.2.0",
+      "server_version": "4.3.0",
       "version_pinned": false,
       "tools": {
         "query-docs": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
-          "composite_hash": "66a4707160a121317272131e5b647a7e2e67d01056ba153a029ffc6e1e84d0dd",
-          "description_hash": "e1529e9e5e696b5102acc7995e58301c5a9edfd1523964fc65fc1b761ff6e596",
-          "schema_hash": "f9dfbc7b6cfceaaa827f53df07f5a1bfefd945dc38a5e849cdb186efeb84bc2a",
+          "composite_hash": "cac19a3520f20decafe0981b20d8ce19d798540e73d7e84c38efd0c165c492c2",
+          "description_hash": "bf313f39d2a4a7ef0509d27720601ddedcff9f3c1d3159aa5fa6ac1cf3e9f2db",
+          "schema_hash": "ae732dbf99ff65271012c79f820d3f48f3933a9e2af6d0036f0487b80f01465e",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -6543,6 +6550,9 @@
               "query"
             ],
             "properties": {
+              "language": [
+                "string"
+              ],
               "libraryId": [
                 "string"
               ],
@@ -6551,12 +6561,16 @@
               ]
             }
           },
-          "description_text_hash": "5629c0b0b0f6c2b8094011a27dd4c3557be707dac4d5210b8487c1e7ad37c9d5",
+          "description_text_hash": "68edddaacc5a22a57a69773152dba493b96ae312312b8c6c3f6bb9ccade1b176",
           "description_sentences": [
             "65508c0a3078a8c4",
             "50c2e75016469e04",
-            "c87970bacb739e8f"
-          ]
+            "c87970bacb739e8f",
+            "4884e71daa3189a4"
+          ],
+          "approved_at": "2026-10-10T12:34:30Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-10"
         },
         "resolve-library-id": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
