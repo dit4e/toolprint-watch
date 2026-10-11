@@ -1,0 +1,397 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-001",
+      "severity": "critical",
+      "title": "Effect class escalated",
+      "server": "mcp-seqthinking@stdio:npx",
+      "tool": "sequentialthinking",
+      "detail": "effect class escalated from read to write (readOnlyHint changed from true to false)",
+      "evidence": {
+        "was": "read",
+        "now": "write",
+        "cause": "readOnlyHint changed from true to false"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "mcp-git@stdio:uvx",
+      "tool": "git_show",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "c8d7ef933d46",
+        "description_hash_now": "719866ce3951",
+        "sentences_removed": [
+          "2ec686f1b7c72980"
+        ],
+        "sentences_added": [
+          "8f492418898b9cbf"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-fetch@stdio:uvx",
+      "tool": "fetch",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "1fc73d68696e",
+        "schema_hash_now": "303d8c4115d8"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-filesystem@stdio:npx",
+      "tool": "create_directory",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "5751252cb604",
+        "schema_hash_now": "acd6e46aca7c"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-filesystem@stdio:npx",
+      "tool": "directory_tree",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "8285ebacea02",
+        "schema_hash_now": "0cb71f819005"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-filesystem@stdio:npx",
+      "tool": "edit_file",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "d57994e01883",
+        "schema_hash_now": "133f7c388f03"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-filesystem@stdio:npx",
+      "tool": "get_file_info",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "5751252cb604",
+        "schema_hash_now": "acd6e46aca7c"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-filesystem@stdio:npx",
+      "tool": "list_allowed_directories",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "b4a69abbfdac",
+        "schema_hash_now": "dd100dd17647"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-filesystem@stdio:npx",
+      "tool": "list_directory",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "5751252cb604",
+        "schema_hash_now": "acd6e46aca7c"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-filesystem@stdio:npx",
+      "tool": "list_directory_with_sizes",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "8e119409a440",
+        "schema_hash_now": "970c141e0d1a"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-filesystem@stdio:npx",
+      "tool": "move_file",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "de2c891d591d",
+        "schema_hash_now": "32444d342ff6"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-filesystem@stdio:npx",
+      "tool": "read_file",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "56619ed1aa66",
+        "schema_hash_now": "9c93fe3869d0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-filesystem@stdio:npx",
+      "tool": "read_media_file",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "3b186184d19b",
+        "schema_hash_now": "bc66ef4585df"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-filesystem@stdio:npx",
+      "tool": "read_multiple_files",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "7689e0905b5e",
+        "schema_hash_now": "cd597a7765bd"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-filesystem@stdio:npx",
+      "tool": "read_text_file",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "56619ed1aa66",
+        "schema_hash_now": "9c93fe3869d0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-filesystem@stdio:npx",
+      "tool": "search_files",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "862a97d222e1",
+        "schema_hash_now": "55ef38566089"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-filesystem@stdio:npx",
+      "tool": "write_file",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "a70d665c68c4",
+        "schema_hash_now": "62f8d3ff1deb"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-git@stdio:uvx",
+      "tool": "git_add",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "b7e893a7f9e6",
+        "schema_hash_now": "a02f059ad72c"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-memory@stdio:npx",
+      "tool": "create_entities",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "b71c2245fa01",
+        "schema_hash_now": "04fd086a8535"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-memory@stdio:npx",
+      "tool": "search_nodes",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "2be405ece4c0",
+        "schema_hash_now": "3c3cbdfcd771"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-everything@stdio:npx",
+      "tool": null,
+      "detail": "server version 2.0.0 -> 1.0.0",
+      "evidence": {
+        "was": "2.0.0",
+        "now": "1.0.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-fetch@stdio:uvx",
+      "tool": null,
+      "detail": "server version 1.30.0 -> 2026.10.10",
+      "evidence": {
+        "was": "1.30.0",
+        "now": "2026.10.10"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-filesystem@stdio:npx",
+      "tool": null,
+      "detail": "server version 0.2.0 -> 1.0.0",
+      "evidence": {
+        "was": "0.2.0",
+        "now": "1.0.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-git@stdio:uvx",
+      "tool": null,
+      "detail": "server version 1.30.0 -> 2026.10.10",
+      "evidence": {
+        "was": "1.30.0",
+        "now": "2026.10.10"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-memory@stdio:npx",
+      "tool": null,
+      "detail": "server version 0.6.3 -> 1.0.0",
+      "evidence": {
+        "was": "0.6.3",
+        "now": "1.0.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-seqthinking@stdio:npx",
+      "tool": null,
+      "detail": "server version 2026.8.31 -> 1.0.0",
+      "evidence": {
+        "was": "2026.8.31",
+        "now": "1.0.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-time@stdio:uvx",
+      "tool": null,
+      "detail": "server version 1.30.0 -> 2026.10.10",
+      "evidence": {
+        "was": "1.30.0",
+        "now": "2026.10.10"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
