@@ -1,0 +1,138 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "advisor",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "e7625313a705",
+        "description_hash_now": "e206b7379b74",
+        "sentences_removed": [
+          "a3787e7c2f64e4eb",
+          "bcc69e4d0966cee4"
+        ],
+        "sentences_added": [
+          "8850b8f6f5f913ce",
+          "aab6a9893db62a39"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "azureterraform",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "26956011b000",
+        "description_hash_now": "6bad91f18c4e",
+        "sentences_removed": [
+          "b7a354418f4038d7"
+        ],
+        "sentences_added": [
+          "8dc44d40c0d4b2fc"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "context7-remote@http:mcp.context7.com",
+      "tool": "query-docs",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "ae732dbf99ff",
+        "schema_hash_now": "a26cc3b45e52"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "context7@stdio:npx",
+      "tool": "query-docs",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "ae732dbf99ff",
+        "schema_hash_now": "a26cc3b45e52"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "azure@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.0.0-beta.50 -> 3.0.0",
+      "evidence": {
+        "was": "3.0.0-beta.50",
+        "now": "3.0.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7-remote@http:mcp.context7.com",
+      "tool": null,
+      "detail": "server version 4.3.0 -> 4.4.0",
+      "evidence": {
+        "was": "4.3.0",
+        "now": "4.4.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.3.0 -> 4.4.1",
+      "evidence": {
+        "was": "4.3.0",
+        "now": "4.4.1"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "searxng@stdio:npx",
+      "tool": null,
+      "detail": "server version 2.5.1 -> 2.6.0",
+      "evidence": {
+        "was": "2.5.1",
+        "now": "2.6.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}

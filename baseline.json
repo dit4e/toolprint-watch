@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-10-11T12:52:07Z",
+  "approved_at": "2026-10-13T14:15:07Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -1925,10 +1925,10 @@
     },
     "azure@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "e8c4ee7e6a55e58f64abf50533d8d430892be62aa0505d5ddea8f3d0d3ec9cb9",
+      "toolset_hash": "85498bcf11fc450c88c2f92c3699999673621c0b7a201f0553217d2f404d09e7",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "3.0.0-beta.50",
+      "server_version": "3.0.0",
       "version_pinned": false,
       "tools": {
         "acr": {
@@ -1972,8 +1972,8 @@
         },
         "advisor": {
           "annotations_hash": "082e01dbae6aadfae1614089d163758190c8f92937a0ccb8f1ac77c59080573f",
-          "composite_hash": "f12bcccc300419fd47a5e7de0b5e74074747dddc24df78e9a0bc243e4fa50ca3",
-          "description_hash": "e7625313a70560176200ca5564bcd5a1f3c9b5561a955b205626d8632839e2e5",
+          "composite_hash": "ed40388ca310945b87f9a395743ac437b525727b0b9da5c2e28a67d829b18072",
+          "description_hash": "e206b7379b74d5812ad81d6695f1c4e09b2382e36320d5f7ab418ce3fb987cf4",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
           "effect": "unknown",
@@ -2000,15 +2000,18 @@
               ]
             }
           },
-          "description_text_hash": "d3ac73812d084f35e58c5ff0d5170160a117f25a24e387c41bc050e83e2b4897",
+          "description_text_hash": "0b60057c4b8e3e522d58757dc2a1bef11e2246a61ec112983303e70cb4bf5c1c",
           "description_sentences": [
-            "a3787e7c2f64e4eb",
-            "bcc69e4d0966cee4",
+            "8850b8f6f5f913ce",
+            "aab6a9893db62a39",
             "e7f5445e7c12ec15",
             "ac49b37ba593564d",
             "260d29accf366f16",
             "2958c1aaa40df2fd"
-          ]
+          ],
+          "approved_at": "2026-10-13T14:15:07Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-13"
         },
         "aks": {
           "annotations_hash": "bd2f3825c48a81344220321f506527fa8306ed0007be1b622bcf8839f66914bd",
@@ -2377,8 +2380,8 @@
         },
         "azureterraform": {
           "annotations_hash": "af2a72face02dc7fc13b6b4a9e9dfd6485afbd25952fc14305009b9aa41f1a67",
-          "composite_hash": "366ac43ec0206fdaf4e7034aa9c2e295a939517f1deb802342cf6575295ee493",
-          "description_hash": "26956011b00068c55885cfcf6d9fd3d7418d436763a1321d3ec2ea51352efc9b",
+          "composite_hash": "3bf983eea909f26da7f3a3a4b14c32cbb84a924f7ea9b53d735d2a621ea4336f",
+          "description_hash": "6bad91f18c4e8418b146d6a0eba169f4aeaee0bcb13ac382311b10f0ce466e8d",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
           "effect": "unknown",
@@ -2405,13 +2408,16 @@
               ]
             }
           },
-          "description_text_hash": "13833c7f894e7fd8c68e1603ee822ff9324ddfd6a87384e3c080e7a7ce4461ac",
+          "description_text_hash": "160109a0a60ecf5087e32a4b36fcff4d52a49efca8d68a3035eac80ea32fcfbe",
           "description_sentences": [
-            "b7a354418f4038d7",
+            "8dc44d40c0d4b2fc",
             "ac49b37ba593564d",
             "260d29accf366f16",
             "2958c1aaa40df2fd"
-          ]
+          ],
+          "approved_at": "2026-10-13T14:15:07Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-13"
         },
         "azureterraformbestpractices": {
           "annotations_hash": "a4e0b7f9893a9bcacd4a4d3600a92a078f68e7a64674e2ce30805ef6f84eec86",
@@ -6428,17 +6434,17 @@
     },
     "context7-remote@http:mcp.context7.com": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "90c39c260cac691b079879fb1306276409ac832a2932cc47490fc95f9ad06cf1",
+      "toolset_hash": "e97265044f816a3c114e90b1c91bbbb1788946506183d574d23b6a3c1b3281e1",
       "transport": "http",
       "auth_method": "none",
-      "server_version": "4.3.0",
+      "server_version": "4.4.0",
       "version_pinned": false,
       "tools": {
         "query-docs": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
-          "composite_hash": "cac19a3520f20decafe0981b20d8ce19d798540e73d7e84c38efd0c165c492c2",
+          "composite_hash": "b526ccd10497e960422f2e15e58bcadf063f1cee0f6028287d3efe7b2f85f9d6",
           "description_hash": "bf313f39d2a4a7ef0509d27720601ddedcff9f3c1d3159aa5fa6ac1cf3e9f2db",
-          "schema_hash": "ae732dbf99ff65271012c79f820d3f48f3933a9e2af6d0036f0487b80f01465e",
+          "schema_hash": "a26cc3b45e52830158ce4108e59626e4fd195ca945bf249a5facf8c6b128841a",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -6472,9 +6478,9 @@
             "c87970bacb739e8f",
             "4884e71daa3189a4"
           ],
-          "approved_at": "2026-10-10T12:34:30Z",
+          "approved_at": "2026-10-13T14:15:07Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-10"
+          "note": "observed 2026-10-13"
         },
         "resolve-library-id": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
@@ -6524,17 +6530,17 @@
     },
     "context7@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "90c39c260cac691b079879fb1306276409ac832a2932cc47490fc95f9ad06cf1",
+      "toolset_hash": "e97265044f816a3c114e90b1c91bbbb1788946506183d574d23b6a3c1b3281e1",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "4.3.0",
+      "server_version": "4.4.1",
       "version_pinned": false,
       "tools": {
         "query-docs": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
-          "composite_hash": "cac19a3520f20decafe0981b20d8ce19d798540e73d7e84c38efd0c165c492c2",
+          "composite_hash": "b526ccd10497e960422f2e15e58bcadf063f1cee0f6028287d3efe7b2f85f9d6",
           "description_hash": "bf313f39d2a4a7ef0509d27720601ddedcff9f3c1d3159aa5fa6ac1cf3e9f2db",
-          "schema_hash": "ae732dbf99ff65271012c79f820d3f48f3933a9e2af6d0036f0487b80f01465e",
+          "schema_hash": "a26cc3b45e52830158ce4108e59626e4fd195ca945bf249a5facf8c6b128841a",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -6568,9 +6574,9 @@
             "c87970bacb739e8f",
             "4884e71daa3189a4"
           ],
-          "approved_at": "2026-10-10T12:34:30Z",
+          "approved_at": "2026-10-13T14:15:07Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-10"
+          "note": "observed 2026-10-13"
         },
         "resolve-library-id": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
@@ -15669,7 +15675,7 @@
       "toolset_hash": "d2310684383d9ae991d6a676af4d028de4e78e92674a1a4fac90cd8359c01d66",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "2.5.1",
+      "server_version": "2.6.0",
       "version_pinned": false,
       "tools": {
         "searxng_instance_info": {
