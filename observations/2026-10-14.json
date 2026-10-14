@@ -1,0 +1,893 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "desktop-commander@stdio:npx",
+      "tool": null,
+      "detail": "the same edit was made to 4 tools' descriptions while their schemas did not change: 4 sentence(s) removed, 3 added - added: 'Relative paths depend on the current working directory, and tilde paths (~/...) may not resolve in every context.'; 'Absolute paths are the most reliable because they do not depend on the current working directory.'; 'Absolute paths are generally the most reliable.'",
+      "evidence": {
+        "tools": [
+          "create_directory",
+          "get_file_info",
+          "move_file",
+          "read_multiple_files"
+        ],
+        "sentences_removed": [
+          "6232513fb3eb3bbf",
+          "888ef8fda0976878",
+          "f48f79c5c92e21e8",
+          "fe8ac1d69e5fd37c"
+        ],
+        "sentences_added": [
+          "1fd3f6287fe8edd8",
+          "6fa647fd53174461",
+          "852e881e5a8aa8f5"
+        ],
+        "added_text": [
+          "Relative paths depend on the current working directory, and tilde paths (~/...) may not resolve in every context.",
+          "Absolute paths are the most reliable because they do not depend on the current working directory.",
+          "Absolute paths are generally the most reliable."
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "edit_block",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "2d011ef49adc",
+        "description_hash_now": "592774be0e3c",
+        "sentences_removed": [
+          "6232513fb3eb3bbf",
+          "888ef8fda0976878",
+          "a55c513a9462d3c5",
+          "ba224c2fcfbd8765",
+          "f48f79c5c92e21e8",
+          "fe7a407250670575",
+          "fe8ac1d69e5fd37c"
+        ],
+        "sentences_added": [
+          "1fd3f6287fe8edd8",
+          "6fa647fd53174461",
+          "7b78f52375efb137",
+          "852e881e5a8aa8f5",
+          "b7c18bcb6afe1796"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "give_feedback_to_desktop_commander",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "b6c323453183",
+        "description_hash_now": "29401c3e1053",
+        "sentences_removed": [
+          "1d94e6b6f58c5647",
+          "27cba5c397555ca7",
+          "321818c2f26fa7f9",
+          "6eb8396544cf37d0",
+          "7cfdb641fa8fe732",
+          "afacad9a26a776c9",
+          "c11bc890193d4331",
+          "cb6f180340aba26d"
+        ],
+        "sentences_added": [
+          "1eb0a85aa04cb70d",
+          "87b04dbbf54638da"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "list_directory",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "eec02d2df7d6",
+        "description_hash_now": "fa72b619a2e1",
+        "sentences_removed": [
+          "1d202ff62b9203f7",
+          "6232513fb3eb3bbf",
+          "888ef8fda0976878",
+          "f48f79c5c92e21e8",
+          "fe8ac1d69e5fd37c"
+        ],
+        "sentences_added": [
+          "1fd3f6287fe8edd8",
+          "6fa647fd53174461",
+          "798a25cb3d28db23",
+          "852e881e5a8aa8f5"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "read_file",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "ccfca1eda1f8",
+        "description_hash_now": "f0eff4ea9bf9",
+        "sentences_removed": [
+          "6232513fb3eb3bbf",
+          "888ef8fda0976878",
+          "8f81467599b307dc",
+          "c48b3cd14f018496",
+          "f48f79c5c92e21e8",
+          "fe8ac1d69e5fd37c"
+        ],
+        "sentences_added": [
+          "1fd3f6287fe8edd8",
+          "6fa647fd53174461",
+          "852e881e5a8aa8f5",
+          "ce7e0a62b1d47cf4",
+          "f315b2eef47fe73a"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "set_config_value",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "86351a6a8ad3",
+        "description_hash_now": "7ea5692a41cf",
+        "sentences_removed": [
+          "c6a8280c92b52e81"
+        ],
+        "sentences_added": [
+          "5c17560eaad763b8",
+          "b4613546aa496df6"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "start_process",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "8fee33716433",
+        "description_hash_now": "2c7f983645ad",
+        "sentences_removed": [
+          "1ff150474076b913",
+          "6232513fb3eb3bbf",
+          "888ef8fda0976878",
+          "b537d2be11fede6f",
+          "fe8ac1d69e5fd37c"
+        ],
+        "sentences_added": [
+          "1fd3f6287fe8edd8",
+          "5832243acc3c1d68",
+          "852e881e5a8aa8f5",
+          "a521678b8b1e8940"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "write_file",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "b58514d70db7",
+        "description_hash_now": "545399f930a9",
+        "sentences_removed": [
+          "063ceeb1bb1b3355",
+          "1071beda6b4d3524",
+          "1a5f23582d38566f",
+          "1b347ab2a1de8605",
+          "1f41512cf7e07337",
+          "2ed3dcf0b24c8f27",
+          "30569522479ba400",
+          "3939bf0d39058a0f",
+          "41c4db5c05939cc6",
+          "4fb971f90ac2f461",
+          "6232513fb3eb3bbf",
+          "63fc1b540669d588",
+          "724e0fea7a352f07",
+          "7ef9b580acb83e20",
+          "888ef8fda0976878",
+          "8a912cf704c3057e",
+          "947e639f7f75cc3e",
+          "c7bf5cbc7c4ecfb0",
+          "e644ccec16e01c3b",
+          "f047e82ca70ef434",
+          "f48f79c5c92e21e8",
+          "f5e17eaede8823d9",
+          "fe8ac1d69e5fd37c"
+        ],
+        "sentences_added": [
+          "1fd3f6287fe8edd8",
+          "6fa647fd53174461",
+          "852e881e5a8aa8f5",
+          "8672cac009ee98c8",
+          "a8a1d2225700ab47",
+          "d94bd2efee8a3f87",
+          "dd10c29ec5bc03bc",
+          "f82a515950355e0b"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "write_pdf",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "b7afee13b3b4",
+        "description_hash_now": "04ccbef6564e",
+        "sentences_removed": [
+          "365001a9809313df",
+          "6232513fb3eb3bbf",
+          "7176c593ce2d6a75",
+          "888ef8fda0976878",
+          "d1f0f7b404379149",
+          "f48f79c5c92e21e8",
+          "fe8ac1d69e5fd37c"
+        ],
+        "sentences_added": [
+          "1fd3f6287fe8edd8",
+          "45b2dc78e0e0b1b9",
+          "58b1636b44434b76",
+          "615cab29fba4c260",
+          "6fa647fd53174461",
+          "852e881e5a8aa8f5"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-006",
+      "severity": "medium",
+      "title": "Breaking schema change",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_search",
+      "detail": "parameter 'clientModel' removed; parameter 'objective' removed",
+      "evidence": {
+        "breaking": [
+          "parameter 'clientModel' removed",
+          "parameter 'objective' removed"
+        ],
+        "additive": []
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-011",
+      "severity": "medium",
+      "title": "Safety annotation added or relaxed",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "get_config",
+      "detail": "destructiveHint added as false; openWorldHint added as false",
+      "evidence": {
+        "hint_changes": [
+          "destructiveHint added as false",
+          "openWorldHint added as false"
+        ],
+        "vendor_changes": [],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-011",
+      "severity": "medium",
+      "title": "Safety annotation added or relaxed",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "get_recent_tool_calls",
+      "detail": "destructiveHint added as false; openWorldHint added as false",
+      "evidence": {
+        "hint_changes": [
+          "destructiveHint added as false",
+          "openWorldHint added as false"
+        ],
+        "vendor_changes": [],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-011",
+      "severity": "medium",
+      "title": "Safety annotation added or relaxed",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "get_usage_stats",
+      "detail": "destructiveHint added as false; openWorldHint added as false",
+      "evidence": {
+        "hint_changes": [
+          "destructiveHint added as false",
+          "openWorldHint added as false"
+        ],
+        "vendor_changes": [],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-011",
+      "severity": "medium",
+      "title": "Safety annotation added or relaxed",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "list_processes",
+      "detail": "destructiveHint added as false; openWorldHint added as false",
+      "evidence": {
+        "hint_changes": [
+          "destructiveHint added as false",
+          "openWorldHint added as false"
+        ],
+        "vendor_changes": [],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-011",
+      "severity": "medium",
+      "title": "Safety annotation added or relaxed",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "list_searches",
+      "detail": "destructiveHint added as false; openWorldHint added as false",
+      "evidence": {
+        "hint_changes": [
+          "destructiveHint added as false",
+          "openWorldHint added as false"
+        ],
+        "vendor_changes": [],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-011",
+      "severity": "medium",
+      "title": "Safety annotation added or relaxed",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "list_sessions",
+      "detail": "destructiveHint added as false; openWorldHint added as false",
+      "evidence": {
+        "hint_changes": [
+          "destructiveHint added as false",
+          "openWorldHint added as false"
+        ],
+        "vendor_changes": [],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-011",
+      "severity": "medium",
+      "title": "Safety annotation added or relaxed",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "read_process_output",
+      "detail": "destructiveHint added as false; openWorldHint added as false",
+      "evidence": {
+        "hint_changes": [
+          "destructiveHint added as false",
+          "openWorldHint added as false"
+        ],
+        "vendor_changes": [],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-011",
+      "severity": "medium",
+      "title": "Safety annotation added or relaxed",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "stop_search",
+      "detail": "openWorldHint added as false",
+      "evidence": {
+        "hint_changes": [
+          "openWorldHint added as false"
+        ],
+        "vendor_changes": [],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "get_more_search_results",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "771103b7b48e",
+        "schema_hash_now": "5e8af4c2f40e"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "start_search",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "29678e79ce27",
+        "schema_hash_now": "caf45ac16ff1"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_agent",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "a0471650c6cf",
+        "schema_hash_now": "1d863075781b"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_agent_status",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "3168b12c7c04",
+        "schema_hash_now": "a735e60e0f59"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_check_crawl_status",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "a503f81a9395",
+        "schema_hash_now": "a5379a5d70a3"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_crawl",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "b4b2892d66d0",
+        "schema_hash_now": "64bd1b9e63e6"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_developer_search",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "f62deefb9d20",
+        "schema_hash_now": "7a37e2cd0718"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_feedback",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "06d917bd7214",
+        "schema_hash_now": "429c73623b5d"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_find_tools",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "33f5ff7e1624",
+        "schema_hash_now": "f5b928fc779a"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_gov_search",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "3990b97f4b6a",
+        "schema_hash_now": "3f015d3989d6"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_interact",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "75bd0534e590",
+        "schema_hash_now": "147c4ef36569"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_interact_stop",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "d732ced450e2",
+        "schema_hash_now": "b79224ed1653"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_map",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "dcba64c98245",
+        "schema_hash_now": "f2e96b5b6f56"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_check",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "c81fd5543e54",
+        "schema_hash_now": "a7b88739bcf1"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_checks",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "5f8385622471",
+        "schema_hash_now": "605deaa61b27"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_create",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "45454e497c9b",
+        "schema_hash_now": "9b0a7ef336e9"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_delete",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "bfaf824fd5f6",
+        "schema_hash_now": "207d8d9fb828"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_get",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "6d3cf6c6c76c",
+        "schema_hash_now": "9446bc54cc41"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_list",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "ee706d3d1444",
+        "schema_hash_now": "5b2d13946bc2"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_run",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "acd12e2a54e7",
+        "schema_hash_now": "a8845c94a6b3"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_update",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "9d5c72a7de06",
+        "schema_hash_now": "2292a08d4403"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_parse",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "63c40408b364",
+        "schema_hash_now": "3bcc0bbf8db0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_research_inspect_paper",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "359d41d87dd0",
+        "schema_hash_now": "d86a01f5d9bf"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_research_read_paper",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "2ffdd8a79953",
+        "schema_hash_now": "690f8203441e"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_research_related_papers",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "47d21207e3d3",
+        "schema_hash_now": "23eee64e2182"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_research_search_papers",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "3db6a3faea43",
+        "schema_hash_now": "c7a063d35c79"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_scrape",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "efc43fce4494",
+        "schema_hash_now": "4c16a0da21ee"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_search_feedback",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "d772a682241b",
+        "schema_hash_now": "527d52bb836e"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-010",
+      "severity": "low",
+      "title": "Tool removed",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "get_prompts",
+      "detail": "tool no longer advertised",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7-remote@http:mcp.context7.com",
+      "tool": null,
+      "detail": "server version 4.4.0 -> 4.4.1",
+      "evidence": {
+        "was": "4.4.0",
+        "now": "4.4.1"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "desktop-commander@stdio:npx",
+      "tool": null,
+      "detail": "server version 0.2.52 -> 0.3.0",
+      "evidence": {
+        "was": "0.2.52",
+        "now": "0.3.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.29.1 -> 3.30.0",
+      "evidence": {
+        "was": "3.29.1",
+        "now": "3.30.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
