@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-10-14T11:54:31Z",
+  "approved_at": "2026-10-15T11:32:18Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -16553,10 +16553,10 @@
     },
     "firecrawl@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "d2c56b8e415359b8e0c5a09658b958876819b2bf0eacaf40128fec7d23df8251",
+      "toolset_hash": "232e22b3d025db260346478214b50fdc14a8a7e122e6c73a475306792e0fedfb",
       "transport": "stdio",
       "auth_method": "env_var",
-      "server_version": "3.30.0",
+      "server_version": "3.30.1",
       "version_pinned": false,
       "tools": {
         "firecrawl_agent": {
@@ -17937,9 +17937,9 @@
         },
         "firecrawl_find_tools": {
           "annotations_hash": "bcf8689df717981e9f895017269a07a3425a2593cc1d26c2d8b38bb2637f281d",
-          "composite_hash": "cfe9b18f0a1c9f352a36e152d2fa6ab0496fe805b0d0ee5cc491e82c63fba81e",
+          "composite_hash": "ea7ff886db73402cb2a4b944198b4db151edb1d9a8c63587a67bc0948b8f5524",
           "description_hash": "bc3bf52065d67bece3abe0f3d36cc2ce6fb517b42743b7c7ba9579b20a5d5c26",
-          "schema_hash": "f5b928fc779a25a17df97b6f2bff6cd83ad0cb95eb3318d56562bcc3874ad49b",
+          "schema_hash": "44baef1aaf1dde19560248a074ec250c829e7861280a65fffee93f6d98924632",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -17964,6 +17964,9 @@
               ],
               "groups": [
                 "array"
+              ],
+              "includeCosts": [
+                "boolean"
               ],
               "level": [
                 "string"
@@ -17998,9 +18001,9 @@
             "7b08b3e4b5a526db",
             "322c082e6a40ae44"
           ],
-          "approved_at": "2026-10-14T11:54:31Z",
+          "approved_at": "2026-10-15T11:32:18Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-14"
+          "note": "observed 2026-10-15"
         },
         "firecrawl_gov_search": {
           "annotations_hash": "7969f1461a12abcd8debe5bfb143ed6f26713b126843b90eb670bd61fff2b55a",
