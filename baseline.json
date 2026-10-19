@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-10-17T10:47:22Z",
+  "approved_at": "2026-10-19T13:18:18Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -6522,7 +6522,7 @@
       "toolset_hash": "e97265044f816a3c114e90b1c91bbbb1788946506183d574d23b6a3c1b3281e1",
       "transport": "http",
       "auth_method": "none",
-      "server_version": "4.4.2",
+      "server_version": "4.4.3",
       "version_pinned": false,
       "tools": {
         "query-docs": {
@@ -6618,7 +6618,7 @@
       "toolset_hash": "e97265044f816a3c114e90b1c91bbbb1788946506183d574d23b6a3c1b3281e1",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "4.4.2",
+      "server_version": "4.4.3",
       "version_pinned": false,
       "tools": {
         "query-docs": {
@@ -10475,17 +10475,17 @@
     },
     "mcp-fetch@stdio:uvx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "442076e4f7b941f0e6e4bf4381355abb390270ceafffd48a888466a0010bcecb",
+      "toolset_hash": "28f7db14804e14e30ff8370eadb87ae808d3af834363c587ded32c2c60e8d997",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "2026.10.10",
+      "server_version": "2026.10.19",
       "version_pinned": false,
       "tools": {
         "fetch": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
-          "composite_hash": "6e0db6e165093246734b9e644e87ba06d39faa19224d021995e4e41419c76dc0",
+          "composite_hash": "239753a16596499762812414a9b6fb5499528d52d68d7cf92b29aaf6feee8b53",
           "description_hash": "dd595a56e63668929510c29ee5d656b28be16b47cabb94919fad232dc5c19c65",
-          "schema_hash": "303d8c4115d8df687d3ff40bc28db650333a4747dcacf7f95621a59d3f6ab8f7",
+          "schema_hash": "230c3d31e22e16207eae0b13a6a625b3088a1d00d253fab5d7ddf6f3715cc834",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -10520,9 +10520,9 @@
             "cd2eabdf0e80fd85",
             "b837e9970793def0"
           ],
-          "approved_at": "2026-10-11T12:52:07Z",
+          "approved_at": "2026-10-19T13:18:18Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-11"
+          "note": "observed 2026-10-19"
         }
       },
       "first_observed": "2026-09-01T21:36:54Z"
@@ -11048,17 +11048,17 @@
     },
     "mcp-git@stdio:uvx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "ae97a280f79a9f53107991f95159f94702c55510a069f0013c2238dd46052b73",
+      "toolset_hash": "bd61085998a1863e372384c612f5b8c37d8e76cbfd1e8047319548804a128ef6",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "2026.10.10",
+      "server_version": "2026.10.19",
       "version_pinned": false,
       "tools": {
         "git_add": {
           "annotations_hash": "6b4ff80044529e5643a293ead5306e88ed42707366db0c2b9445d22a69fec0df",
-          "composite_hash": "274689c91acdbd3e4e28686655035960a73c25184162fd376c0172a257941f9d",
+          "composite_hash": "88d0ff8deb6251ae404861b0a07ed5f791e0084ad8c18aaad1aa593e69e28178",
           "description_hash": "f007117d46d2c8777123419da5837989c807d7138a4de5a710feb087df381a70",
-          "schema_hash": "a02f059ad72ce9cb0677e84c713d3ecd47fc9bec1c1790079bcbaf977635b060",
+          "schema_hash": "349f9862eda925d91cedb6117b3a6989bf19373baba293c5af537d07905ce4c6",
           "schema_resolution": "resolved",
           "effect": "write",
           "declared_ceiling": "external",
@@ -11086,15 +11086,15 @@
           "description_sentences": [
             "acac6174ff5a5b32"
           ],
-          "approved_at": "2026-10-11T12:52:07Z",
+          "approved_at": "2026-10-19T13:18:18Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-11"
+          "note": "observed 2026-10-19"
         },
         "git_branch": {
           "annotations_hash": "7734bccfe083260cc67f8938d0bcc6766393e5c2f331310794cdcaf3264b8697",
-          "composite_hash": "943bd8530763d02b5d43e7a2ba84d3115fa0240a884a6e30007e2b80e2bf5707",
+          "composite_hash": "f8e5ec7be194297b065835b6d7a3fb5e4b8cc13224341472dc5f133e07a880ff",
           "description_hash": "ec510699ae62e4b3212804fa3c7fd6562060b9b776da3058a29e209a0c19972b",
-          "schema_hash": "4a3eb5e48e0bcb3d5f403c5affedf1e9d6ad3dbf37301ca54d4fce52825a6640",
+          "schema_hash": "d635d4e4fe7aa6123089e34120762b396ec321f030b191e04b3849fc5bfe711f",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -11123,13 +11123,16 @@
           "description_text_hash": "0b7a60a3fc05dd150fe778efb5b94e744b6d3692b8dee3acd697879c7ca2aaa1",
           "description_sentences": [
             "0b7a60a3fc05dd15"
-          ]
+          ],
+          "approved_at": "2026-10-19T13:18:18Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-19"
         },
         "git_checkout": {
           "annotations_hash": "5a2c1af291e74c0e6842eb9c7d3f3b4f232c8e2a478bb8c1accb97b8a22f4e41",
-          "composite_hash": "16b1f7449d2031202010e94f2d1a7624ab4ead5e28427f2133b3c90b6426a999",
+          "composite_hash": "a2e3dcfcec7b013d1ef68b4388007c397003bbfcd45361eb2f2a99f158d0cf88",
           "description_hash": "264d4e6035ceed6ec299fe4e83c94f8c9fb6c1b8b18126e50c8d1e18f29b23fa",
-          "schema_hash": "5ec544efe45d254f9c51e9b6be21a1dffc8247dd6a85969f2296a7939fe9c731",
+          "schema_hash": "fd25d6a2ca70856a8c7fc2da8c868a25505f02dfb24f9fc5ed035abe6ee7eac9",
           "schema_resolution": "resolved",
           "effect": "write",
           "declared_ceiling": "external",
@@ -11156,13 +11159,16 @@
           "description_text_hash": "0f53dcf72fea96449629e277212cef8bc4e7e89d2d42ee6bc990be5e31f5ad19",
           "description_sentences": [
             "0f53dcf72fea9644"
-          ]
+          ],
+          "approved_at": "2026-10-19T13:18:18Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-19"
         },
         "git_commit": {
           "annotations_hash": "5a2c1af291e74c0e6842eb9c7d3f3b4f232c8e2a478bb8c1accb97b8a22f4e41",
-          "composite_hash": "f4da64efdd849c2bdd7930d94b3932d98154d5cd74fe50468fee0677d7e20523",
+          "composite_hash": "3288ec80defd3929e7d4d305af0ea3ab7edcbbbdf1ed7b39569a231be8a65e3e",
           "description_hash": "541962849313633bba234d31572bf9ea72e4b38875270761fc459c510d69244b",
-          "schema_hash": "7c8a11b8275cd9891996a8db06b0b2bdfabea482a18e75d9e60f1b76c2ec6e6e",
+          "schema_hash": "b5157e530f187d8b1c0d8f4b0ecf9c73cc38a53e0e3069696ba3aaedfaf24978",
           "schema_resolution": "resolved",
           "effect": "write",
           "declared_ceiling": "external",
@@ -11189,13 +11195,16 @@
           "description_text_hash": "fd628a0cd9b519aa8745a5957ecc316846a1e6cae8723685a6338409824b9edb",
           "description_sentences": [
             "fd628a0cd9b519aa"
-          ]
+          ],
+          "approved_at": "2026-10-19T13:18:18Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-19"
         },
         "git_create_branch": {
           "annotations_hash": "5a2c1af291e74c0e6842eb9c7d3f3b4f232c8e2a478bb8c1accb97b8a22f4e41",
-          "composite_hash": "9ac9cdce532a1a22b1e1a904cdaa6626350c0bf560fd75c3cad95577851331b9",
+          "composite_hash": "c62f5b30a9143363438f9adf5ad69d998b0d1f3e603358f18d775d994af258e6",
           "description_hash": "6c3e8556c140efc38e18a62f3fa6ff09b9a751ef0a47cb0ef7aac80ea53ff0e9",
-          "schema_hash": "96810fe7e8eb45f5babbf2e45c3baa7d2784e96c2f4c3028c4ba2d49d21531c3",
+          "schema_hash": "8b47d70d15cbef3351f1add65d51d173880c6e2bab47eccd4925168e1b078017",
           "schema_resolution": "resolved",
           "effect": "write",
           "declared_ceiling": "external",
@@ -11223,13 +11232,16 @@
           "description_text_hash": "9bf95b990eeec90aba676252cd3db207715df8d3b8c6b612d3c54c51f72cc8a7",
           "description_sentences": [
             "9bf95b990eeec90a"
-          ]
+          ],
+          "approved_at": "2026-10-19T13:18:18Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-19"
         },
         "git_diff": {
           "annotations_hash": "7734bccfe083260cc67f8938d0bcc6766393e5c2f331310794cdcaf3264b8697",
-          "composite_hash": "8d5861f7e882b22ab48a53e25ff2dbee53975733033fd82a4a7aef536aa4ad1d",
+          "composite_hash": "71bc93277f816e0faacf35c2e02a1550cc2d7d8c1d6cfab7d6178603027df489",
           "description_hash": "af172318272113b85666fc44e1ce3a714483e284629594bb51a3507915a51b26",
-          "schema_hash": "6b30378130b1e0eccb3c1df8be8bc0ee9e8a43d1d5a2b97d252fa3299a3f7991",
+          "schema_hash": "67f468b7d275e5ef366c17b5125cf6a2e44a2bd25cc975d78e5912c6142b8d9a",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -11259,13 +11271,16 @@
           "description_text_hash": "a37c490a91ac839a28f4023909267bce7d8c2dc28ed0c802f2eb70beac8954ff",
           "description_sentences": [
             "a37c490a91ac839a"
-          ]
+          ],
+          "approved_at": "2026-10-19T13:18:18Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-19"
         },
         "git_diff_staged": {
           "annotations_hash": "7734bccfe083260cc67f8938d0bcc6766393e5c2f331310794cdcaf3264b8697",
-          "composite_hash": "be99dd34956af762ce8842cb8078f7ab6ce89903a176049aa5fd0fe158ea661a",
+          "composite_hash": "f2ca251e45a29092a0eb4fa06089bbb889beb54007e3b5f3a5ccd3fa3519184d",
           "description_hash": "11a114ac1462f81a0dd10bc7e5b850accc49ecff3806e7f656d77990e399d2d9",
-          "schema_hash": "f3cffc9509a085f4cb7a89180055b70eb9811c5ba257660038c3ccf59a65078f",
+          "schema_hash": "e32d075fde8358b3dfb693c0760fa695efcfbc2390cbd81f04c491cbae971ae1",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -11291,13 +11306,16 @@
           "description_text_hash": "4aa4b947e2ea3d5a86d8d063124478474998c781a6d965f1c56cbc4974fc95c6",
           "description_sentences": [
             "4aa4b947e2ea3d5a"
-          ]
+          ],
+          "approved_at": "2026-10-19T13:18:18Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-19"
         },
         "git_diff_unstaged": {
           "annotations_hash": "7734bccfe083260cc67f8938d0bcc6766393e5c2f331310794cdcaf3264b8697",
-          "composite_hash": "5fefb317341bf81ccf0af6dccb2623f1d67076589a356552b317068d5369d48d",
+          "composite_hash": "9c63708cfeaca01a517dc3b7548a24e5b524f1d97d8c12f5e82dc8445bff9a1a",
           "description_hash": "f1d94342b75d337f92072ebd061acb102c4fdc1a1e155286e753ef9d8823b880",
-          "schema_hash": "4028a64eb2827ed82f7385191ab34c72f6cfaa8cb68aeae559ab9bc771e2cea8",
+          "schema_hash": "68b09ce5ef1f4607c7044a04eefe1fa580382cd5be2c3a2bf1d9488ba26a9028",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -11323,13 +11341,16 @@
           "description_text_hash": "5cda9239d52bf193215cb2c18ac60d5ea58e32434030d02eeb7670851aee9041",
           "description_sentences": [
             "5cda9239d52bf193"
-          ]
+          ],
+          "approved_at": "2026-10-19T13:18:18Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-19"
         },
         "git_log": {
           "annotations_hash": "7734bccfe083260cc67f8938d0bcc6766393e5c2f331310794cdcaf3264b8697",
-          "composite_hash": "6364dfe86218638785dea8387a20594598e0a620724f95fa930a9f66b4186b51",
+          "composite_hash": "af478921a32eac47e5db6659803d279fa2284b061d85d22c22713b0ff43a2fd1",
           "description_hash": "985a95c5795ca380c25b40330d531b957758d429579f7aa468c70b9a48bba3ed",
-          "schema_hash": "e4e3d489a389b229f4d0bcea2ca53451776e27e40d1078af8902ed820b9f6d17",
+          "schema_hash": "b41c6d1c56b9fc0a7e221defd4a762a245db54ce5f9a5e017deba832b9987e33",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -11357,13 +11378,16 @@
           "description_text_hash": "ccec979bca9d7e40a5fb95b5d4fe5b435cd4e5b1ef8e07f44026546e48f4ae27",
           "description_sentences": [
             "ccec979bca9d7e40"
-          ]
+          ],
+          "approved_at": "2026-10-19T13:18:18Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-19"
         },
         "git_reset": {
           "annotations_hash": "c4e81697afc7b41c0d6bfe103ac16e49e578bb3d89b4e866f206e1853ffc614f",
-          "composite_hash": "45ba2c4dec768ea9ebfa9a4b81e11564a53f72296f73f430d834a371735842fe",
+          "composite_hash": "95cb20cfe71d194a5489be494d605dac709f3a18c37b45d6553463122668a54f",
           "description_hash": "aa71f4ee2baecdf243f7797e2284a7eb7783b979c71f4b917a920e569b8d664a",
-          "schema_hash": "4b4fb9fc6f1443b641f0bd205b76119924768879339b2ddf2bafc84fa38337b2",
+          "schema_hash": "8543a0d38e3726a047c03de03f528ac6af7724e6ba6f2692817c05375c94c099",
           "schema_resolution": "resolved",
           "effect": "irreversible",
           "declared_ceiling": null,
@@ -11386,13 +11410,16 @@
           "description_text_hash": "6678c5914bfd2d02a10c8deb1ae89cc0bd201de44c66e9545638f4fb3ffc29d8",
           "description_sentences": [
             "6678c5914bfd2d02"
-          ]
+          ],
+          "approved_at": "2026-10-19T13:18:18Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-19"
         },
         "git_show": {
           "annotations_hash": "7734bccfe083260cc67f8938d0bcc6766393e5c2f331310794cdcaf3264b8697",
-          "composite_hash": "47c2802a1c3f7006c76be08da29132f5020bb8a253512f85e67707346bb75ae4",
+          "composite_hash": "aa12f60b7806cf5c657afa48bdda9b88882aaad39df1b68b5f8a065a8dd023d4",
           "description_hash": "719866ce3951f3644545fe2bcf13c5f6ff435acf89c02c0bcdf7356e205c1b17",
-          "schema_hash": "119a849539d7ab7518ef254d9505eb4ba8303b16d6a7eb77f65c90e59f05473c",
+          "schema_hash": "2a628b36dd42c11cbcb389a8d47e17d12d7f8593ba0523bd48e81a2899cdbbc9",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -11420,15 +11447,15 @@
           "description_sentences": [
             "8f492418898b9cbf"
           ],
-          "approved_at": "2026-10-11T12:52:07Z",
+          "approved_at": "2026-10-19T13:18:18Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-11"
+          "note": "observed 2026-10-19"
         },
         "git_status": {
           "annotations_hash": "7734bccfe083260cc67f8938d0bcc6766393e5c2f331310794cdcaf3264b8697",
-          "composite_hash": "03fa2a5f80927732fe59a6a43f0eb70b75eff090077a3f2b5bb6a2e483946e29",
+          "composite_hash": "16fc89214fb7bd3bcdd8b868b751a5ac8a5b7110ea35648f964810e5c681f7e8",
           "description_hash": "86a793283a23fea5c6653d7347be3dc1026bdb9bd00784f96abdf8e3ae518801",
-          "schema_hash": "5a44d989ebc172f5c762cefb69a38287dd3dad1727b59b9aa5065896282ef845",
+          "schema_hash": "ae5b8f2c2b5fc4c74bc4058ca929b7418918a1349b352a0dcc1a16301c77895c",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -11451,7 +11478,10 @@
           "description_text_hash": "4d831f760557b739d48d12314f5978ac384f31a1d2508747eaaef769db92cb60",
           "description_sentences": [
             "4d831f760557b739"
-          ]
+          ],
+          "approved_at": "2026-10-19T13:18:18Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-19"
         }
       },
       "first_observed": "2026-09-01T21:36:54Z"
@@ -13053,17 +13083,17 @@
     },
     "mcp-time@stdio:uvx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "dc05179d06ef6481a1649d58f54d46d57aebbb52cd983b5096a66ce7c9ee4c25",
+      "toolset_hash": "967a58e893ab5fd0597205970baa4606b56873d668291c717b54ae220b3b6e66",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "2026.10.10",
+      "server_version": "2026.10.19",
       "version_pinned": false,
       "tools": {
         "convert_time": {
           "annotations_hash": "7734bccfe083260cc67f8938d0bcc6766393e5c2f331310794cdcaf3264b8697",
-          "composite_hash": "e2a64999df66f143d78e90ac4fcba6cf448c5ff46baaa5efffb28d85de7f7952",
+          "composite_hash": "c2fbe3d4d4dd872796b2bdbe0e197f77c8efd0c9b420f78c63736079429c4cbc",
           "description_hash": "44d5713a3e67420ab4dd93ccafa85b258c3c3cb8fb603d0a2462456ffd8e5a0e",
-          "schema_hash": "5a2e346df2050017e010bfe7b64911e51d586aabe6bdbe3270d3d60e7d8f5f2b",
+          "schema_hash": "230e122e4959ccdac75557368df09a37d01ebe5ad7a344cde939d9512fe84c70",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -13094,13 +13124,16 @@
           "description_text_hash": "334ee9d98073786a0bfe931f748e4a285211eebfa9ee373966cac77cd7c2477a",
           "description_sentences": [
             "334ee9d98073786a"
-          ]
+          ],
+          "approved_at": "2026-10-19T13:18:18Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-19"
         },
         "get_current_time": {
           "annotations_hash": "7734bccfe083260cc67f8938d0bcc6766393e5c2f331310794cdcaf3264b8697",
-          "composite_hash": "7d4ea966608b4abfac3c344c69b9be9944c8f478318b48e86476e4acc0a33c79",
+          "composite_hash": "c744e623615d64bfbb06be14c725bc65c753492b331834304d4d0d9039325556",
           "description_hash": "4c2ac355e19be34ee1d8fb14ed81f0711413950c21c10e16846175e35d4d2baa",
-          "schema_hash": "6a18b41b631e50c4564969f373d5594c55a07c53bd52a877b1bbf1995b93d6e9",
+          "schema_hash": "f61c971845850c98b1a87c15cb0e828fd95a7ca54dfb235f3ab08b70087d0b8b",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -13123,7 +13156,10 @@
           "description_text_hash": "f16457cc5068a8343b6939ef8b7b583349ae8f3fe9092c9aec4c5c1f7554ff66",
           "description_sentences": [
             "f16457cc5068a834"
-          ]
+          ],
+          "approved_at": "2026-10-19T13:18:18Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-19"
         }
       },
       "first_observed": "2026-09-01T21:36:54Z"
@@ -16641,7 +16677,7 @@
       "toolset_hash": "52764bf357c4a2b6675b3580c06bd04c5ededbb47a84414f99de77d355a98ee6",
       "transport": "stdio",
       "auth_method": "env_var",
-      "server_version": "3.30.3",
+      "server_version": "3.33.2",
       "version_pinned": false,
       "tools": {
         "firecrawl_agent": {
