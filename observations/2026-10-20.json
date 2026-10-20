@@ -1,0 +1,159 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "advisor",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "e206b7379b74",
+        "description_hash_now": "639b5d0f9f60",
+        "sentences_removed": [
+          "8850b8f6f5f913ce",
+          "aab6a9893db62a39",
+          "e7f5445e7c12ec15"
+        ],
+        "sentences_added": [
+          "2a1e96db6cb2c735",
+          "41ba43054f328644",
+          "d01140f92e5fedf8",
+          "d4c78dd64a1c839f"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "optimization",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "73eafd15243c",
+        "description_hash_now": "3f7984d05a19",
+        "sentences_removed": [
+          "8ade9ee952ebf171"
+        ],
+        "sentences_added": [
+          "36937927c6b62abb"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_scrape",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "c39eb87c704b",
+        "description_hash_now": "e8d7a3735847",
+        "sentences_removed": [
+          "20c088aa90ac321e",
+          "637b277d4b6a817b",
+          "b6bb66b8c2bf1590",
+          "dae6c0e0c7315e64",
+          "e8ed8472d386bb91"
+        ],
+        "sentences_added": [
+          "3cf4d1fc36e1742f",
+          "605ce8c3d7f7a5ed",
+          "63cf096dcba06e61",
+          "7b704e91e772d6c4"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_search",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "9e5ac534911f",
+        "description_hash_now": "51f63266f12e",
+        "sentences_removed": [
+          "fe6a8e3ceef15936"
+        ],
+        "sentences_added": [
+          "9275619d40091667"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "azure@stdio:npx",
+      "tool": "deviceprovisioning",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "unknown"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "azure@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.0.0 -> 4.0.0-beta.1",
+      "evidence": {
+        "was": "3.0.0",
+        "now": "4.0.0-beta.1"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.4.3 -> 4.4.4",
+      "evidence": {
+        "was": "4.4.3",
+        "now": "4.4.4"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.33.2 -> 3.33.4",
+      "evidence": {
+        "was": "3.33.2",
+        "now": "3.33.4"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}

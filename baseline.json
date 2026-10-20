@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-10-19T13:18:18Z",
+  "approved_at": "2026-10-20T11:38:23Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -1925,10 +1925,10 @@
     },
     "azure@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "85498bcf11fc450c88c2f92c3699999673621c0b7a201f0553217d2f404d09e7",
+      "toolset_hash": "6bf47c0f525713d7ff48e16d80dd2e95bfb98d131b57a4bbb024b47e1853a913",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "3.0.0",
+      "server_version": "4.0.0-beta.1",
       "version_pinned": false,
       "tools": {
         "acr": {
@@ -1972,8 +1972,8 @@
         },
         "advisor": {
           "annotations_hash": "082e01dbae6aadfae1614089d163758190c8f92937a0ccb8f1ac77c59080573f",
-          "composite_hash": "ed40388ca310945b87f9a395743ac437b525727b0b9da5c2e28a67d829b18072",
-          "description_hash": "e206b7379b74d5812ad81d6695f1c4e09b2382e36320d5f7ab418ce3fb987cf4",
+          "composite_hash": "4f3f8098c8a987762d60d411f12635b50a475bb99f33e757022241348c4e4c8a",
+          "description_hash": "639b5d0f9f6085564b2fa94272d7314df8c000ca50248a40f8d27f7d9fc7b43d",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
           "effect": "unknown",
@@ -2000,18 +2000,19 @@
               ]
             }
           },
-          "description_text_hash": "0b60057c4b8e3e522d58757dc2a1bef11e2246a61ec112983303e70cb4bf5c1c",
+          "description_text_hash": "ee2a0b9c7abd572cd3e639e16ff016cf90c5db88e36993fad2b776ec415ddac4",
           "description_sentences": [
-            "8850b8f6f5f913ce",
-            "aab6a9893db62a39",
-            "e7f5445e7c12ec15",
+            "41ba43054f328644",
+            "d4c78dd64a1c839f",
+            "2a1e96db6cb2c735",
+            "d01140f92e5fedf8",
             "ac49b37ba593564d",
             "260d29accf366f16",
             "2958c1aaa40df2fd"
           ],
-          "approved_at": "2026-10-13T14:15:07Z",
+          "approved_at": "2026-10-20T11:38:23Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-13"
+          "note": "observed 2026-10-20"
         },
         "aks": {
           "annotations_hash": "bd2f3825c48a81344220321f506527fa8306ed0007be1b622bcf8839f66914bd",
@@ -3766,8 +3767,8 @@
         },
         "optimization": {
           "annotations_hash": "a66453ef499ea49ddc1af7ed2c5772a46936fbd7f8bbbe028cfd7ec47c3bffe1",
-          "composite_hash": "bfa13b057b8d8d5f83bdf0d0db63a030a5cd04e46ed500ba92bb7de5ba3a4d06",
-          "description_hash": "73eafd15243c1ccd7e2854085a178e59bc036e696bfce3082d956d3b3898b28c",
+          "composite_hash": "3402be99fc7d1c73711211c43fe696fcba5fa8c1704949275c5be6d7aed1536a",
+          "description_hash": "3f7984d05a1961c0d5db9210d1a34946c76b27d8a91b51d5bbd2a36a182bc5d0",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
           "effect": "unknown",
@@ -3794,14 +3795,17 @@
               ]
             }
           },
-          "description_text_hash": "5e3a5ef6963a6dae2e4666b76048dd98dacf2f62cdb19a802cf9b15d477ac8ee",
+          "description_text_hash": "20299fafc440ecf61a8dbd4715adb21c84267f16e75afe5f758a1632dbf7759f",
           "description_sentences": [
-            "8ade9ee952ebf171",
+            "36937927c6b62abb",
             "c030963ee6ff6e7b",
             "ac49b37ba593564d",
             "260d29accf366f16",
             "2958c1aaa40df2fd"
-          ]
+          ],
+          "approved_at": "2026-10-20T11:38:23Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-20"
         },
         "policy": {
           "annotations_hash": "586f0d6cd4d7dd3d5f1704e6bf975261ff49e1e9a6a4881d0d486d9ff7e4996c",
@@ -4680,6 +4684,47 @@
           "approved_at": "2026-09-30T12:38:03Z",
           "approved_by": "watch workflow",
           "note": "observed 2026-09-30"
+        },
+        "deviceprovisioning": {
+          "annotations_hash": "46a7833c2f0dd4b514877811940c0a581dab0cfaecc0df8c67ec1242b41b3f1d",
+          "composite_hash": "207680d4fec2a008d8fbc4c488b7e5da36b5681a49d4e3587102007efa0deac6",
+          "description_hash": "14047f8095e264f76ae1812b5b157486ae326a86f018406c4619d7a01d9d67e3",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "unknown",
+          "declared_ceiling": null,
+          "annotations": {
+            "title": "Manage Azure Device Provisioning Service"
+          },
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          },
+          "description_text_hash": "d9f1969fffee99ecd5f8626c748be1a899c61390845fee67c72a7bedaabd962b",
+          "description_sentences": [
+            "5c6d6c4a02db1528",
+            "ac49b37ba593564d",
+            "260d29accf366f16",
+            "2958c1aaa40df2fd"
+          ],
+          "approved_at": "2026-10-20T11:38:23Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-20"
         }
       },
       "first_observed": "2026-09-01T21:36:54Z"
@@ -6618,7 +6663,7 @@
       "toolset_hash": "e97265044f816a3c114e90b1c91bbbb1788946506183d574d23b6a3c1b3281e1",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "4.4.3",
+      "server_version": "4.4.4",
       "version_pinned": false,
       "tools": {
         "query-docs": {
@@ -16674,10 +16719,10 @@
     },
     "firecrawl@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "52764bf357c4a2b6675b3580c06bd04c5ededbb47a84414f99de77d355a98ee6",
+      "toolset_hash": "20d3e9f64339de5d338cf7a750915b1710e40772abfad2a57a4b74ef4fbfb148",
       "transport": "stdio",
       "auth_method": "env_var",
-      "server_version": "3.33.2",
+      "server_version": "3.33.4",
       "version_pinned": false,
       "tools": {
         "firecrawl_agent": {
@@ -17765,8 +17810,8 @@
         },
         "firecrawl_scrape": {
           "annotations_hash": "89918886beccf70011b70bf3e5fc255b9b660e47dfb8eb5a8da1becbaf3931b6",
-          "composite_hash": "75c598881a680b1a2a50de7034d73edb7d1cd12e5508ae48530e5f154729203c",
-          "description_hash": "c39eb87c704b057905095a3a0c015927e8fd1922e8358b91035a07eddab8210b",
+          "composite_hash": "434b05388425b8b1d4ec4afb43af76a613ccb9302f41e660605dd5307b7ef1cf",
+          "description_hash": "e8d7a37358479ce66211e6db2d9444d69f25232973685fe680c9e55769be36cc",
           "schema_hash": "4c16a0da21ee1dc6040591c57ef1d486db75103a2ebcd840520e7d3a186c27ab",
           "schema_resolution": "resolved",
           "effect": "write",
@@ -17864,27 +17909,26 @@
               ]
             }
           },
-          "description_text_hash": "95f11006cbf9bce0231a9d1476eeabe1ae6c29d360b47703c044e8c3b5425242",
+          "description_text_hash": "54dd6c954b6a6114f5a0adcd4cd2404ff6dc444f60dbc31d58bda81a577aeff5",
           "description_sentences": [
             "33c306c7d9c49da3",
-            "637b277d4b6a817b",
+            "7b704e91e772d6c4",
             "206b51dbe7d20545",
             "6297d739146406be",
             "1711aa41fbf8f32a",
             "f441e0c7bebd7dca",
-            "dae6c0e0c7315e64",
-            "20c088aa90ac321e",
-            "b6bb66b8c2bf1590",
-            "e8ed8472d386bb91"
+            "3cf4d1fc36e1742f",
+            "63cf096dcba06e61",
+            "605ce8c3d7f7a5ed"
           ],
-          "approved_at": "2026-10-17T10:47:22Z",
+          "approved_at": "2026-10-20T11:38:23Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-17"
+          "note": "observed 2026-10-20"
         },
         "firecrawl_search": {
           "annotations_hash": "ec1d294655f59ab34028c1e1baf4d707ce3e92f27208ab5c0e554231a1e0d835",
-          "composite_hash": "ad1b7cfff70511e9ee501b3fe89fb9cdcae5d34892205683ec3b501198d4529e",
-          "description_hash": "9e5ac534911f8102b28ba9bba46d13d403fc3f9209f87fc14085f0376f3c1220",
+          "composite_hash": "4bcb50c81406d730e5d9c1f2fdc7dc38bf4da2b5dd2119f3dd6c10a6a5aaae87",
+          "description_hash": "51f63266f12e144684dd01330e929cb2c648432f2d75359efe54b61f3f94031b",
           "schema_hash": "25827ea78d5abb1228c06e23e24acfb99344a112dc3bc9fb2cd9da49990c72c0",
           "schema_resolution": "resolved",
           "effect": "read",
@@ -17944,9 +17988,10 @@
               ]
             }
           },
-          "description_text_hash": "c9688c6879d6584f29cf9998ad74dae01797473164eedfcae371478f0537fdb9",
+          "description_text_hash": "e474d1c84fa34cec36a23edb90ba83a2f4d093f700f59c2baa56f9f05bd6836e",
           "description_sentences": [
             "83fc8095051aecc8",
+            "9275619d40091667",
             "1a1e06c0feeff94c",
             "b14c500f0dbae138",
             "df8620a1f2016148",
@@ -17956,13 +18001,12 @@
             "fadfb7a096bc3963",
             "79177554071d9d3c",
             "1cf6a695e0e60e76",
-            "fe6a8e3ceef15936",
             "9b748161aed9867e",
             "9930fcc518d1ff7e"
           ],
-          "approved_at": "2026-10-17T10:47:22Z",
+          "approved_at": "2026-10-20T11:38:23Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-17"
+          "note": "observed 2026-10-20"
         },
         "firecrawl_search_feedback": {
           "annotations_hash": "39c94365d45a71f9be0a3ae8a824123848b830591a18888e16d762b0774ddcee",
