@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-10-22T11:54:43Z",
+  "approved_at": "2026-10-23T11:42:08Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -1925,10 +1925,10 @@
     },
     "azure@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "6bf47c0f525713d7ff48e16d80dd2e95bfb98d131b57a4bbb024b47e1853a913",
+      "toolset_hash": "badbe9e3642a27863a13a57f11ccf3e8ed65c2f0cbff5df2d1dfec8c84528189",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "4.0.0-beta.2",
+      "server_version": "4.0.0-beta.3",
       "version_pinned": false,
       "tools": {
         "acr": {
@@ -4367,15 +4367,15 @@
           "note": "observed 2026-10-07"
         },
         "storage": {
-          "annotations_hash": "4b46b547118d86a12f86d920a5edd2ab307b0c1e390f15017e5ab13d436cc1ec",
-          "composite_hash": "57a9ce982df9d27dcb985b459a369d16f92ba525d5d5e1c2f4a921cba8adbcfc",
-          "description_hash": "66f46661761825d8d3a2896c357e86469f2740c3f920b8c366c20db4ae87e8c9",
+          "annotations_hash": "d5328bb21f15479e78d7b71fca2a8bbc7d4f8f2d2889a051a7646f19d477240c",
+          "composite_hash": "16b61822fcc66c9a2a854530ede9961128b21ea90f44a90aad1c3c56f39a59b9",
+          "description_hash": "7e03359d6293924bfd67956b2ba70c3eaff41105d48c357fd58d4776edd59993",
           "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
           "schema_resolution": "resolved",
           "effect": "unknown",
           "declared_ceiling": null,
           "annotations": {
-            "title": "Manage Azure Storage Account"
+            "title": "Manage Azure Storage"
           },
           "schema_shape": {
             "required": [
@@ -4396,19 +4396,19 @@
               ]
             }
           },
-          "description_text_hash": "64dbf98901a3b35ed11bb03f7a09ba4065f6cfec61ae4d5e4fda5fc1d07b1ed9",
+          "description_text_hash": "7c1f5422b09312d345655b43b0b2c4339a1480534f605383892a424bfb5328ca",
           "description_sentences": [
             "c2d7eaab9b1f50ae",
-            "ad8ead0f13a9c5f6",
-            "377b473a70c49800",
+            "2d4d49f7910f10fd",
+            "aaf47a05f905cd47",
             "3d82a69014d930b3",
             "ac49b37ba593564d",
             "260d29accf366f16",
             "2958c1aaa40df2fd"
           ],
-          "approved_at": "2026-09-30T12:38:03Z",
+          "approved_at": "2026-10-23T11:42:08Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-09-30"
+          "note": "observed 2026-10-23"
         },
         "storagesync": {
           "annotations_hash": "e4a0fadbc17c4bc11e2de2becc2170401bc9ac05cfa32e6696e749b384933a66",
@@ -4725,6 +4725,54 @@
           "approved_at": "2026-10-20T11:38:23Z",
           "approved_by": "watch workflow",
           "note": "observed 2026-10-20"
+        },
+        "resiliencyagent": {
+          "annotations_hash": "8b9fcdd7ff8e55df3c63985e6fe209eaf25ed5818190074ffd4002b9fa2c0a5f",
+          "composite_hash": "82b118033c7589438eb0d3f3ebb63503f492fc2207f613296b2eead3b5647cbd",
+          "description_hash": "02f7f2f86e4adc12e7ebca361270d10eb37b99caea7d4c0eeb0190459ec2d18c",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "unknown",
+          "declared_ceiling": null,
+          "annotations": {
+            "title": "Azure Resiliency Agent"
+          },
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          },
+          "description_text_hash": "1d75b914d715bef8585fce412e8a47e2ef58fdb082606c905ad1e25e3756f415",
+          "description_sentences": [
+            "320555a6b13b219e",
+            "f50e8a2172d15ca4",
+            "4a583579afc89a8d",
+            "0ac53f3e049cd6e6",
+            "3c05e42606f1f66e",
+            "3038d94354b3a037",
+            "322c6f4b903a2ea6",
+            "65c4ff97b13e174d",
+            "ac49b37ba593564d",
+            "260d29accf366f16",
+            "2958c1aaa40df2fd"
+          ],
+          "approved_at": "2026-10-23T11:42:08Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-23"
         }
       },
       "first_observed": "2026-09-01T21:36:54Z"
@@ -5244,10 +5292,10 @@
     },
     "chrome-devtools@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "21bd7f25ee670fd0c2ccc34bc8a9855f42aa451fdb25bd69412fa87128791f56",
+      "toolset_hash": "06fad30395c0667f3562afd5a716026ce9d6cf6376a22dfd957171d7ae320fc8",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "1.11.0",
+      "server_version": "1.12.0",
       "version_pinned": false,
       "tools": {
         "click": {
@@ -5753,9 +5801,9 @@
         },
         "list_console_messages": {
           "annotations_hash": "573dc2054f4f446003a989ca8358b234cd09829c98f47a135319410e3498fd07",
-          "composite_hash": "f841d74fa6eb94adaf34fdf1cb333334db416be70e271544f6d62ee370df4f3b",
+          "composite_hash": "f1ff9e1db33e39fe85ddc0a472cec6a01e468fa910f8e873e5bf392f10c7345a",
           "description_hash": "8f8bde05f11570768bb0c7f8d2d72f6c38e7189807cf6974fa63bd18cffbd1eb",
-          "schema_hash": "651bc1326a3863a0bbebb887371e1cf744b81d7b432e41182213e279ee908418",
+          "schema_hash": "e115472b8f406ea3dce6027f79eb6760937ab4feca54dfb7bad27d0efc26d0da",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -5795,15 +5843,15 @@
           "description_sentences": [
             "fc2717aafaff2545"
           ],
-          "approved_at": "2026-10-16T11:26:54Z",
+          "approved_at": "2026-10-23T11:42:08Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-16"
+          "note": "observed 2026-10-23"
         },
         "list_network_requests": {
           "annotations_hash": "44268c4dbaccd10402e1c87f84506935ee06033a50f538e8df503b514d453eb6",
-          "composite_hash": "33120bbc82fe95e4382f9bd629eea1bffb838affe7a6d78eba2886f8e20769e1",
+          "composite_hash": "0c1883281ab2db40daa42d2ced156d008f3f5f7657140e8f2ee058593b91c830",
           "description_hash": "a363dc2e830c14c858f67f00967d613f36dac214c427909665a58388035ab566",
-          "schema_hash": "7d819ca0d5176524dab76d0f338a3ea31fe9e811efe13c00de507fafe30c1450",
+          "schema_hash": "343f6d7e8be6d95097767d654ed2cad3dd0060d45063dbb9ed1ed8bc67997404",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -5837,9 +5885,9 @@
           "description_sentences": [
             "cefd07b00921a9a7"
           ],
-          "approved_at": "2026-10-16T11:26:54Z",
+          "approved_at": "2026-10-23T11:42:08Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-16"
+          "note": "observed 2026-10-23"
         },
         "list_pages": {
           "annotations_hash": "1fe9d2884129c2e6d38c0e8bed4b47eadae1a93c530b5819533e9b3b9aaf384c",
@@ -6377,9 +6425,9 @@
         },
         "wait_for": {
           "annotations_hash": "1fe9d2884129c2e6d38c0e8bed4b47eadae1a93c530b5819533e9b3b9aaf384c",
-          "composite_hash": "541e46838c4dc4054d82ca7fa678ea0a59bc14f1e789868c696d1014bf8ad9c1",
-          "description_hash": "4096e858253ae802b4c5b93a9815a3f1eb47752ab75b1de85690740f5ac7a0a6",
-          "schema_hash": "38bc43a9bc012c2c8a85597ada9fa15f410ebb84665fa07b2987c9bcd85e6c14",
+          "composite_hash": "d2525fb6938c84c90a5976ae92568af604f68b23e730cd62158e5358c6d6e8c2",
+          "description_hash": "ab52314817eeeb5a7ed7f8045f291008c7039e94035799aa48bf56d52efb6856",
+          "schema_hash": "8ab76b171dda256492db84f07f4ad5416754ab6021774154df0f1768ad8efd72",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -6401,16 +6449,21 @@
               ],
               "timeout": [
                 "integer"
+              ],
+              "visible": [
+                "boolean"
               ]
             }
           },
-          "description_text_hash": "4a9ee17e5111ebc1ae26125c9bde15a66b0b66dad0b152caba30374f63d739c9",
+          "description_text_hash": "a69ead9d115d16d72eaafd92a6c708521caa2e6ce0ed87aa7040d951b7217ad1",
           "description_sentences": [
-            "4a9ee17e5111ebc1"
+            "4a9ee17e5111ebc1",
+            "62c7198ac38174a6",
+            "492f4ab6a55cf525"
           ],
-          "approved_at": "2026-10-16T11:26:54Z",
+          "approved_at": "2026-10-23T11:42:08Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-16"
+          "note": "observed 2026-10-23"
         },
         "get_css_styles": {
           "annotations_hash": "573dc2054f4f446003a989ca8358b234cd09829c98f47a135319410e3498fd07",
@@ -16719,10 +16772,10 @@
     },
     "firecrawl@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "20d3e9f64339de5d338cf7a750915b1710e40772abfad2a57a4b74ef4fbfb148",
+      "toolset_hash": "37a36c0c7b1cbc49cc09d44fb9a1122c217cdd87916a1f3b224937e830a3d7d2",
       "transport": "stdio",
       "auth_method": "env_var",
-      "server_version": "3.33.4",
+      "server_version": "3.34.1",
       "version_pinned": false,
       "tools": {
         "firecrawl_agent": {
@@ -17810,9 +17863,9 @@
         },
         "firecrawl_scrape": {
           "annotations_hash": "89918886beccf70011b70bf3e5fc255b9b660e47dfb8eb5a8da1becbaf3931b6",
-          "composite_hash": "434b05388425b8b1d4ec4afb43af76a613ccb9302f41e660605dd5307b7ef1cf",
-          "description_hash": "e8d7a37358479ce66211e6db2d9444d69f25232973685fe680c9e55769be36cc",
-          "schema_hash": "4c16a0da21ee1dc6040591c57ef1d486db75103a2ebcd840520e7d3a186c27ab",
+          "composite_hash": "067cdc78313ce602b2cbaf53cba9d056c7790bd95d4254aef9c184a34b01032c",
+          "description_hash": "64eed00fabbedbeaffb4b50cdb8e0cd16c1e3fae0d38cbba5e42a4aedf1cce20",
+          "schema_hash": "da27a69889ca4ba44cb758e9c03ced515fa67d99ce70e60b45aa3326e022ff6b",
           "schema_resolution": "resolved",
           "effect": "write",
           "declared_ceiling": "external",
@@ -17909,7 +17962,7 @@
               ]
             }
           },
-          "description_text_hash": "54dd6c954b6a6114f5a0adcd4cd2404ff6dc444f60dbc31d58bda81a577aeff5",
+          "description_text_hash": "7a83a08e373e93d3158429038c9d136b272e23b297bb78299ba3b414f9a26a77",
           "description_sentences": [
             "33c306c7d9c49da3",
             "7b704e91e772d6c4",
@@ -17917,19 +17970,20 @@
             "6297d739146406be",
             "1711aa41fbf8f32a",
             "f441e0c7bebd7dca",
-            "3cf4d1fc36e1742f",
+            "dae6c0e0c7315e64",
+            "eb530321d94b40c9",
             "63cf096dcba06e61",
-            "605ce8c3d7f7a5ed"
+            "4d6814e383622c0a"
           ],
-          "approved_at": "2026-10-20T11:38:23Z",
+          "approved_at": "2026-10-23T11:42:08Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-20"
+          "note": "observed 2026-10-23"
         },
         "firecrawl_search": {
           "annotations_hash": "ec1d294655f59ab34028c1e1baf4d707ce3e92f27208ab5c0e554231a1e0d835",
-          "composite_hash": "4bcb50c81406d730e5d9c1f2fdc7dc38bf4da2b5dd2119f3dd6c10a6a5aaae87",
+          "composite_hash": "3c38aaf34ffdd05a9ccd51dd4473bf44c9cdedcd12a06243365319ff8094bfc9",
           "description_hash": "51f63266f12e144684dd01330e929cb2c648432f2d75359efe54b61f3f94031b",
-          "schema_hash": "25827ea78d5abb1228c06e23e24acfb99344a112dc3bc9fb2cd9da49990c72c0",
+          "schema_hash": "ea5a54b3b4a09e6511e6b72be009085ebbe10517d9e91644a741e8cb65cd370f",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -18004,9 +18058,9 @@
             "9b748161aed9867e",
             "9930fcc518d1ff7e"
           ],
-          "approved_at": "2026-10-20T11:38:23Z",
+          "approved_at": "2026-10-23T11:42:08Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-20"
+          "note": "observed 2026-10-23"
         },
         "firecrawl_search_feedback": {
           "annotations_hash": "39c94365d45a71f9be0a3ae8a824123848b830591a18888e16d762b0774ddcee",
@@ -18060,9 +18114,9 @@
         },
         "firecrawl_credit_usage": {
           "annotations_hash": "d45d02bdb1be3ebf9af32ed41cbc8497832c64303908c80474ca35821368c027",
-          "composite_hash": "4467d6cb0a7bbf1a8dff6406355452246074a555b6605fdb5556a1f03d5ddd44",
-          "description_hash": "88591ad333d146345efe84ed6ea6fe8ab9e47e4a37c7ff73b75dc08eb21ffa07",
-          "schema_hash": "5d515b44af45541c2343ef25ae54b3d97728414f25acb01a612467fc2f5f1872",
+          "composite_hash": "6de64dd39813d287f1f4b3cf42c608690e9259005e0baa7d3e793e76af44d8d5",
+          "description_hash": "0eb0aeaedd3e5e807ea7bd5d3bda3d97e34617dc298d0296d1f00bcf318219b3",
+          "schema_hash": "b550741a0daabb83bd848a6eef53b890a3a10161c2aaa605a818a10ad5892232",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -18075,7 +18129,13 @@
           "schema_shape": {
             "required": [],
             "properties": {
+              "bin": [
+                "string"
+              ],
               "byApiKey": [
+                "boolean"
+              ],
+              "byEndpoint": [
                 "boolean"
               ],
               "view": [
@@ -18083,21 +18143,25 @@
               ]
             }
           },
-          "description_text_hash": "6d813105a6a2d4d271c4808aa6ce4ea011099fbee877d1f8fc8938faa5745245",
+          "description_text_hash": "82c1495bfec3d1e549dca0ee8219bc3b5f6035e18c4d3b15012935c5c9336204",
           "description_sentences": [
-            "9bda65897e4a575c",
+            "6a14774a942994aa",
             "8763bec2f2a88795",
-            "5d4e12fc8fcb4248",
+            "1a6df0c895d1dc41",
             "01c1ad36bc8e8626",
             "27c3694962934c02",
             "6819ccd6c4c9f387",
-            "edb9e0552e153a2a",
-            "58411942e312aa6d",
-            "859c3a52143652da"
+            "e3daaaf9effad19e",
+            "48dd5d75b9c78be8",
+            "f8aeb355d1ebd8ce",
+            "859c3a52143652da",
+            "f1b2c959bac2bb94",
+            "a29a7bd8bf436668",
+            "467ec314f81d1ec8"
           ],
-          "approved_at": "2026-10-01T13:17:54Z",
+          "approved_at": "2026-10-23T11:42:08Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-01"
+          "note": "observed 2026-10-23"
         },
         "firecrawl_find_tools": {
           "annotations_hash": "bcf8689df717981e9f895017269a07a3425a2593cc1d26c2d8b38bb2637f281d",
@@ -18171,9 +18235,9 @@
         },
         "firecrawl_gov_search": {
           "annotations_hash": "7969f1461a12abcd8debe5bfb143ed6f26713b126843b90eb670bd61fff2b55a",
-          "composite_hash": "46461ab6631eb9297c2b5d3592fe42da075677bca374909ef2165aeb1b85a97f",
-          "description_hash": "a454b4394ac0c92b62105efefcf19017893dff65f934febeaafa3256d01f8181",
-          "schema_hash": "3f015d3989d6dd571ac99710a56b7a4a542916197ff1a31dc6a386a58aedc087",
+          "composite_hash": "d976bd311cb646d2b1d65628e90b04a563a06214f329f86ec90ce8345943be6a",
+          "description_hash": "ae7a51d859d3007eca6c79b57560398b57d3cb49f6159051307c043df215508d",
+          "schema_hash": "1bf631a83c41e1d6128d0f913d6447da71b71803968aa7d24e5487a6ca55abdd",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -18188,6 +18252,21 @@
               "query"
             ],
             "properties": {
+              "cites": [
+                "string"
+              ],
+              "court": [
+                "string"
+              ],
+              "courtType": [
+                "string"
+              ],
+              "domain": [
+                "string"
+              ],
+              "jurisdiction": [
+                "string"
+              ],
               "k": [
                 "integer"
               ],
@@ -18196,19 +18275,22 @@
               ]
             }
           },
-          "description_text_hash": "2b77434a39aaef22d9679bcadf22377a060ba1ed73e497782a3358cb90269c90",
+          "description_text_hash": "5050c57f4e2900233b197f5c03700e9eb4fd73f27d99d209601c57edf3364904",
           "description_sentences": [
             "3e72b6322254a957",
             "e78511cc334512d3",
+            "95cb0c8a55b5bfc5",
+            "c0e0ef59362b7b56",
+            "ac3d533597f6418f",
             "f672b173b8bbd147",
             "46e485144b0978f4",
             "dd4851431b5f74e8",
             "b97443511ac5734d",
             "518d40dd38bb5f8b"
           ],
-          "approved_at": "2026-10-14T11:54:31Z",
+          "approved_at": "2026-10-23T11:42:08Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-14"
+          "note": "observed 2026-10-23"
         }
       },
       "first_observed": "2026-09-02T01:21:47Z"
