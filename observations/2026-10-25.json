@@ -1,0 +1,26 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-fetch@stdio:uvx",
+      "tool": null,
+      "detail": "server version 2026.10.19 -> 2026.10.24",
+      "evidence": {
+        "was": "2026.10.19",
+        "now": "2026.10.24"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
