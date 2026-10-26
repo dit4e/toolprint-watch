@@ -1,0 +1,26 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "searxng@stdio:npx",
+      "tool": null,
+      "detail": "server version 2.7.0 -> 2.8.1",
+      "evidence": {
+        "was": "2.7.0",
+        "now": "2.8.1"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
