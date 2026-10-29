@@ -1,0 +1,68 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-git@stdio:uvx",
+      "tool": "git_create_branch",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "8b47d70d15cb",
+        "schema_hash_now": "c1416dec67c9"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-fetch@stdio:uvx",
+      "tool": null,
+      "detail": "server version 2026.10.24 -> 2026.10.28",
+      "evidence": {
+        "was": "2026.10.24",
+        "now": "2026.10.28"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-git@stdio:uvx",
+      "tool": null,
+      "detail": "server version 2026.10.19 -> 2026.10.28",
+      "evidence": {
+        "was": "2026.10.19",
+        "now": "2026.10.28"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-time@stdio:uvx",
+      "tool": null,
+      "detail": "server version 2026.10.19 -> 2026.10.28",
+      "evidence": {
+        "was": "2026.10.19",
+        "now": "2026.10.28"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
