@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-10-29T13:03:31Z",
+  "approved_at": "2026-10-30T12:59:02Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -1925,10 +1925,10 @@
     },
     "azure@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "badbe9e3642a27863a13a57f11ccf3e8ed65c2f0cbff5df2d1dfec8c84528189",
+      "toolset_hash": "7b0cc176f9a2cf55ad149727e321603ac465d1f46599654fa539d71bb9d08160",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "4.0.0-beta.3",
+      "server_version": "4.0.0-beta.4",
       "version_pinned": false,
       "tools": {
         "acr": {
@@ -4773,6 +4773,89 @@
           "approved_at": "2026-10-23T11:42:08Z",
           "approved_by": "watch workflow",
           "note": "observed 2026-10-23"
+        },
+        "adme": {
+          "annotations_hash": "a30aa9f35836d2930aacaeb76a0c488ec8c9fc08d5d1d20d77d17772d1cb88b5",
+          "composite_hash": "9c67c4bb63e8b268be5422d18c47379a6746de227391a33f0e48fa8b3258f49b",
+          "description_hash": "7120ef4b143298936c13bcf14af0f23ea38931eeecdb79060d90f0b3d0fbba21",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "unknown",
+          "declared_ceiling": null,
+          "annotations": {
+            "title": "Azure Data Manager for Energy"
+          },
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          },
+          "description_text_hash": "3807e6e058bfd07502bea0afb33121631bcc5a4867462fe0904b9aeafebd28cc",
+          "description_sentences": [
+            "ae7545ac906556ba",
+            "eefaf599de04f4dc",
+            "ac49b37ba593564d",
+            "260d29accf366f16",
+            "2958c1aaa40df2fd"
+          ],
+          "approved_at": "2026-10-30T12:59:02Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-30"
+        },
+        "netappfiles": {
+          "annotations_hash": "76778917f6076b6f0bb61731d259b3f83215840473e9b8e2daa322c3909f8417",
+          "composite_hash": "6089b5e4461d077236478b98d912398c36725e1936dc10bf2dffcc29f301fd9c",
+          "description_hash": "5743087ebd91535bd460b5dbab48109e9f32558c8323002a402edb353938c8a5",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "unknown",
+          "declared_ceiling": null,
+          "annotations": {
+            "title": "Azure NetApp Files"
+          },
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          },
+          "description_text_hash": "83a49d92a23be1e569dba84a0c943bd5239e253fd33a7287a4c3d28bd51fa732",
+          "description_sentences": [
+            "342c92c5bb79620c",
+            "ac49b37ba593564d",
+            "260d29accf366f16",
+            "2958c1aaa40df2fd"
+          ],
+          "approved_at": "2026-10-30T12:59:02Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-10-30"
         }
       },
       "first_observed": "2026-09-01T21:36:54Z"

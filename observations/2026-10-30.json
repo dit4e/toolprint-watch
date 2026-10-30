@@ -1,0 +1,52 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "azure@stdio:npx",
+      "tool": "adme",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "unknown"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "azure@stdio:npx",
+      "tool": "netappfiles",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "unknown"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "azure@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.0.0-beta.3 -> 4.0.0-beta.4",
+      "evidence": {
+        "was": "4.0.0-beta.3",
+        "now": "4.0.0-beta.4"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
