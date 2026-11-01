@@ -1,0 +1,88 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "playwright@stdio:npx",
+      "tool": "browser_find",
+      "detail": "optional parameter 'maxResults' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'maxResults' added"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "playwright@stdio:npx",
+      "tool": "browser_network_requests",
+      "detail": "optional parameter 'all' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'all' added"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "playwright@stdio:npx",
+      "tool": "browser_tabs",
+      "detail": "optional parameter 'isolatedContext' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'isolatedContext' added"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "playwright@stdio:npx",
+      "tool": "browser_wait_for",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "fafe19dc1a3b",
+        "schema_hash_now": "61f9a81a2bb1"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "playwright@stdio:npx",
+      "tool": null,
+      "detail": "server version 1.64.0-alpha-1790635538000 -> 1.65.0-alpha-2026-10-30",
+      "evidence": {
+        "was": "1.64.0-alpha-1790635538000",
+        "now": "1.65.0-alpha-2026-10-30"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
