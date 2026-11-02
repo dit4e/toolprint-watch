@@ -1,24 +1,27 @@
-# Tool definitions are served before authentication
+# What an API key does and doesn't protect (why credential-free monitoring is valid)
 
-MCP authenticates at `tools/call`, not at `tools/list`. A server can require an
-API key to *do* anything and still hand its entire tool catalogue — every name,
-description, input/output schema — to an unauthenticated (or fake-key) client.
+A common assumption is that a server requiring an API key keeps its tool surface
+private. It does not — and, per the MCP specification, it isn't meant to.
 
-The watch demonstrates this incidentally: credential-requiring servers are
-configured with a **placeholder key** (`servers.json`: `${WATCH_PLACEHOLDER}`,
-`fc-…`, `xoxb-…`). Result (latest run):
+All of the credential-requiring servers in the watchlist are **stdio** servers
+(run via `npx`/`uvx`). For stdio, the MCP spec explicitly places authorization
+out of scope: *"Implementations using an STDIO transport SHOULD NOT follow [the
+authorization] specification, and instead retrieve credentials from the
+environment."* The key is a credential for the vendor's **upstream service**
+(its cloud API — quota, billing, data), used only when a tool is actually
+**called**. The tool **list** is static metadata baked into the package and is
+served regardless of the key.
 
-**8 of 8 credential-requiring servers served their full `tools/list` to a key
-that is not real** — brave-search-new, brave-search-old, exa, firecrawl, gitlab,
-google-maps, slack, tavily.
+So when the watch scans these servers with a placeholder key (`${WATCH_PLACEHOLDER}`,
+`fc-…`, `xoxb-…`) and gets back a full `tools/list`, that is **expected and
+correct**, not a leak or a vulnerability. The spec defines no per-method
+authorization, requires no authentication of `tools/list`, and nowhere designates
+the tool list as sensitive.
 
-**Framing — this is a protocol behaviour, not a per-vendor flaw.** It is how MCP
-is specified; naming these servers as "leaking" would be wrong. Two honest
-implications:
+**Why this matters for this project (the only reason it's noted here):** it is
+precisely what makes credential-free drift monitoring valid. The definitions —
+the thing a rug-pull would alter — are not behind the key, so the monitor can
+observe them on key-gated servers without holding any credential. It is a
+methodology note, not a finding about any vendor.
 
-1. It is *why* credential-free drift monitoring is possible at all — the thing a
-   rug-pull would alter (the definition) is not credential-protected.
-2. Anyone assuming an API-key requirement protects what their agent is told about
-   a server's tools is mistaken. The definitions are public either way.
-
-Reproduce: `python3 analysis/credential_exposure.py`.
+Reproduce the count: `python3 analysis/credential_exposure.py`.
