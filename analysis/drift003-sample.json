@@ -1,0 +1,221 @@
+{
+ "total_drift003": 124,
+ "seed": 20261102,
+ "n": 30,
+ "tally": {
+  "GENUINE": 24,
+  "UNVERIFIABLE": 6
+ },
+ "sample": [
+  {
+   "day": "2026-09-13",
+   "server": "azure",
+   "tool": "applens",
+   "verdict": "GENUINE",
+   "why": "+[] -['to', 'the', 'mcp', 'sub', 'commands', 'are', 'routed', 'servers']"
+  },
+  {
+   "day": "2026-09-13",
+   "server": "azure",
+   "tool": "azurebackup",
+   "verdict": "GENUINE",
+   "why": "+[] -['commands', 'to', 'the', 'mcp', 'sub', 'are', 'routed', 'servers']"
+  },
+  {
+   "day": "2026-09-13",
+   "server": "azure",
+   "tool": "compute",
+   "verdict": "GENUINE",
+   "why": "+[] -['commands', 'to', 'the', 'mcp', 'sub', 'are', 'routed', 'servers']"
+  },
+  {
+   "day": "2026-09-13",
+   "server": "azure",
+   "tool": "deploy",
+   "verdict": "GENUINE",
+   "why": "+[] -['specific', 'mcp', 'sub', 'commands', 'are', 'routed', 'to', 'servers']"
+  },
+  {
+   "day": "2026-09-13",
+   "server": "azure",
+   "tool": "eventhubs",
+   "verdict": "GENUINE",
+   "why": "+[] -['commands', 'mcp', 'sub', 'are', 'routed', 'to', 'servers', 'that']"
+  },
+  {
+   "day": "2026-09-13",
+   "server": "azure",
+   "tool": "fileshares",
+   "verdict": "GENUINE",
+   "why": "+[] -['commands', 'mcp', 'sub', 'are', 'routed', 'to', 'servers', 'that']"
+  },
+  {
+   "day": "2026-09-13",
+   "server": "azure",
+   "tool": "foundryextensions",
+   "verdict": "GENUINE",
+   "why": "+[] -['mcp', 'sub', 'commands', 'are', 'routed', 'to', 'servers', 'that']"
+  },
+  {
+   "day": "2026-09-13",
+   "server": "azure",
+   "tool": "postgres",
+   "verdict": "GENUINE",
+   "why": "+[] -['commands', 'servers', 'parameters', 'mcp', 'sub', 'are', 'routed', 'to']"
+  },
+  {
+   "day": "2026-09-13",
+   "server": "azure",
+   "tool": "search",
+   "verdict": "GENUINE",
+   "why": "+[] -['commands', 'to', 'mcp', 'the', 'parameters', 'sub', 'are', 'routed']"
+  },
+  {
+   "day": "2026-09-13",
+   "server": "azure",
+   "tool": "signalr",
+   "verdict": "GENUINE",
+   "why": "+[] -['commands', 'mcp', 'sub', 'are', 'routed', 'to', 'servers', 'that']"
+  },
+  {
+   "day": "2026-09-13",
+   "server": "azure",
+   "tool": "speech",
+   "verdict": "GENUINE",
+   "why": "+[] -['commands', 'to', 'mcp', 'parameters', 'sub', 'are', 'routed', 'servers']"
+  },
+  {
+   "day": "2026-09-13",
+   "server": "azure",
+   "tool": "sql",
+   "verdict": "GENUINE",
+   "why": "+[] -['commands', 'servers', 'mcp', 'sub', 'are', 'routed', 'to', 'that']"
+  },
+  {
+   "day": "2026-09-13",
+   "server": "azure",
+   "tool": "storagesync",
+   "verdict": "GENUINE",
+   "why": "+[] -['commands', 'to', 'servers', 'mcp', 'sub', 'are', 'routed', 'that']"
+  },
+  {
+   "day": "2026-09-13",
+   "server": "azure",
+   "tool": "workbooks",
+   "verdict": "GENUINE",
+   "why": "+[] -['commands', 'mcp', 'sub', 'are', 'routed', 'to', 'servers', 'that']"
+  },
+  {
+   "day": "2026-09-22",
+   "server": "firecrawl",
+   "tool": "firecrawl_parse",
+   "verdict": "GENUINE",
+   "why": "+['parse', 'a', 'include', 'can', 'authenticated', 'for', 'final', 'responses'] -[]"
+  },
+  {
+   "day": "2026-09-25",
+   "server": "sentry",
+   "tool": "search_events",
+   "verdict": "GENUINE",
+   "why": "+['is', 'three', 'errors', 'last', 'hour', 'hour', 'time', 'time'] -['can', 'be', 'or', 'with', 'an', 'it', 'dataset', 'before']"
+  },
+  {
+   "day": "2026-09-30",
+   "server": "arxiv",
+   "tool": "citation_graph",
+   "verdict": "GENUINE",
+   "why": "+['an', 'are', 'to', 'graphs', 'cached', 'on', 'disk', 'reduce'] -['export', 'for', 'higher', 'limit']"
+  },
+  {
+   "day": "2026-09-30",
+   "server": "desktop-commander",
+   "tool": "interact_with_process",
+   "verdict": "GENUINE",
+   "why": "+['send', 'input', 'an', 'existing', 'existing', 'terminal', 'or', 'or'] -['process', 'process', 'process', 'process', 'process', 'process', 'and', 'and']"
+  },
+  {
+   "day": "2026-09-30",
+   "server": "desktop-commander",
+   "tool": "read_file",
+   "verdict": "UNVERIFIABLE",
+   "why": "before-text not in retained surfaces"
+  },
+  {
+   "day": "2026-10-01",
+   "server": "firecrawl",
+   "tool": "firecrawl_agent",
+   "verdict": "GENUINE",
+   "why": "+['run', 'that', 'that', 'that', 'returns', 'data', 'data', 'the'] -[]"
+  },
+  {
+   "day": "2026-10-01",
+   "server": "firecrawl",
+   "tool": "firecrawl_check_crawl_status",
+   "verdict": "UNVERIFIABLE",
+   "why": "before-text not in retained surfaces"
+  },
+  {
+   "day": "2026-10-01",
+   "server": "firecrawl",
+   "tool": "firecrawl_credit_usage",
+   "verdict": "UNVERIFIABLE",
+   "why": "before-text not in retained surfaces"
+  },
+  {
+   "day": "2026-10-01",
+   "server": "firecrawl",
+   "tool": "firecrawl_developer_search",
+   "verdict": "GENUINE",
+   "why": "+['of', 'public', 'documentation', 'programming', 'questions', 'that', 'need', 'external'] -['for', 'a', 'a', 'a', 'developer', 'question', 'behaviour', 'library']"
+  },
+  {
+   "day": "2026-10-01",
+   "server": "firecrawl",
+   "tool": "firecrawl_monitor_create",
+   "verdict": "UNVERIFIABLE",
+   "why": "before-text not in retained surfaces"
+  },
+  {
+   "day": "2026-10-01",
+   "server": "firecrawl",
+   "tool": "firecrawl_research_inspect_paper",
+   "verdict": "UNVERIFIABLE",
+   "why": "before-text not in retained surfaces"
+  },
+  {
+   "day": "2026-10-01",
+   "server": "firecrawl",
+   "tool": "firecrawl_research_read_paper",
+   "verdict": "UNVERIFIABLE",
+   "why": "before-text not in retained surfaces"
+  },
+  {
+   "day": "2026-10-01",
+   "server": "firecrawl",
+   "tool": "firecrawl_scrape",
+   "verdict": "GENUINE",
+   "why": "+[] -['and', 'and', 'the', 'alexandria', 'provider', 'requestid', 'parameters', 'describe']"
+  },
+  {
+   "day": "2026-10-13",
+   "server": "azure",
+   "tool": "advisor",
+   "verdict": "GENUINE",
+   "why": "+[] -['azure', 'advisor', 'advisor', 'recommendations', 'recommendations', 'or', 'or', 'apply']"
+  },
+  {
+   "day": "2026-10-14",
+   "server": "desktop-commander",
+   "tool": "give_feedback_to_desktop_commander",
+   "verdict": "GENUINE",
+   "why": "+['itself', 'collects', 'survey', 'answers', 'does', 'not', 'accept', 'responses'] -['open', 'open', 'feedback', 'feedback', 'feedback', 'feedback', 'feedback', 'form']"
+  },
+  {
+   "day": "2026-10-23",
+   "server": "azure",
+   "tool": "storage",
+   "verdict": "GENUINE",
+   "why": "+['storage', 'azure', 'diagnose', 'vm', 'or', 'managed', 'disk', 'disk'] -[]"
+  }
+ ]
+}
