@@ -1,0 +1,177 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "exa@stdio:npx",
+      "tool": "web_fetch_exa",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "108357433df3",
+        "description_hash_now": "feeed1e4fd08",
+        "sentences_removed": [
+          "3b21c961a1019379"
+        ],
+        "sentences_added": [
+          "adda76612b14ff5f"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "exa@stdio:npx",
+      "tool": "web_search_exa",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "62aadef2f622",
+        "description_hash_now": "15a00af5e1df",
+        "sentences_removed": [
+          "4f2bdfea62a1fb21"
+        ],
+        "sentences_added": [
+          "e85a5f49bc0e7619"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "exa@stdio:npx",
+      "tool": "agent_run",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "deepwiki-remote@http:mcp.deepwiki.com",
+      "tool": "ask_wiki_question",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "32d76427cd08",
+        "schema_hash_now": "d9bef828b77f"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "deepwiki-remote@http:mcp.deepwiki.com",
+      "tool": "read_wiki_contents",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "3fc0be2454d2",
+        "schema_hash_now": "1ec36391e042"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "deepwiki-remote@http:mcp.deepwiki.com",
+      "tool": "read_wiki_structure",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "3fc0be2454d2",
+        "schema_hash_now": "1ec36391e042"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7-remote@http:mcp.context7.com",
+      "tool": null,
+      "detail": "server version 4.4.3 -> 4.5.0",
+      "evidence": {
+        "was": "4.4.3",
+        "now": "4.5.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.4.4 -> 4.5.0",
+      "evidence": {
+        "was": "4.4.4",
+        "now": "4.5.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "deepwiki-remote@http:mcp.deepwiki.com",
+      "tool": null,
+      "detail": "server version 2.14.3 -> 4.0.2",
+      "evidence": {
+        "was": "2.14.3",
+        "now": "4.0.2"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "exa@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.4.2 -> 3.4.3",
+      "evidence": {
+        "was": "3.4.2",
+        "now": "3.4.3"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "searxng@stdio:npx",
+      "tool": null,
+      "detail": "server version 2.9.0 -> 2.10.0",
+      "evidence": {
+        "was": "2.9.0",
+        "now": "2.10.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}

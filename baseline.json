@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-11-01T13:26:06Z",
+  "approved_at": "2026-11-03T14:16:15Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -6715,7 +6715,7 @@
       "toolset_hash": "e97265044f816a3c114e90b1c91bbbb1788946506183d574d23b6a3c1b3281e1",
       "transport": "http",
       "auth_method": "none",
-      "server_version": "4.4.3",
+      "server_version": "4.5.0",
       "version_pinned": false,
       "tools": {
         "query-docs": {
@@ -6811,7 +6811,7 @@
       "toolset_hash": "e97265044f816a3c114e90b1c91bbbb1788946506183d574d23b6a3c1b3281e1",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "4.4.4",
+      "server_version": "4.5.0",
       "version_pinned": false,
       "tools": {
         "query-docs": {
@@ -6904,17 +6904,17 @@
     },
     "deepwiki-remote@http:mcp.deepwiki.com": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "1b14c811ab9bbc1dc26969306c23fa78dcf1941750d9051e80582777f11d3db4",
+      "toolset_hash": "b422217c522e166c60a02afd0532dce69a585f3d19a4b469adc38cca01d26982",
       "transport": "http",
       "auth_method": "none",
-      "server_version": "2.14.3",
+      "server_version": "4.0.2",
       "version_pinned": false,
       "tools": {
         "read_wiki_contents": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-          "composite_hash": "6e38523a62f9605ad4922b3d18110acda663ee0f907b72f1112098c33d76ac49",
-          "description_hash": "60b9fd765ff1aa96215b64e32ae0c276b0ad9c7e37b79a5c198e3b97928dfbdd",
-          "schema_hash": "3fc0be2454d2c65d3ff7a7be36bb9fb4903931cbb9bfac6042696d0caf42cb00",
+          "composite_hash": "0c57fe263cc639ac583606d1b7d84dfdf3534b53785dd54d397477bf9bda1a4f",
+          "description_hash": "06545284413d6c7260d5e9f69de1bbcaaf36c89ff5c64e40693e3c7e9cffef15",
+          "schema_hash": "1ec36391e042163f66478b248e810e921d82aa64040e2d50857177df0ff3bda0",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
@@ -6929,16 +6929,19 @@
               ]
             }
           },
-          "description_text_hash": "094e08ad3ce9aa6c72d35340fa5a3db7f3ff9a5c2821f59eecdb43eab3df8a05",
+          "description_text_hash": "5e1e588ca93ad6951ea1707b655907e49fb82ef71279ad4cb6a5766fb10df183",
           "description_sentences": [
-            "094e08ad3ce9aa6c"
-          ]
+            "5e1e588ca93ad695"
+          ],
+          "approved_at": "2026-11-03T14:16:15Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-11-03"
         },
         "read_wiki_structure": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-          "composite_hash": "6f48adc3e50a00f827aaa692282f4b425658aff777214d828a6fbe38673dc2e8",
-          "description_hash": "74d478e15a9f441d6a588f3716d1a1f0949546443b072aa14f6b1ca79f8f9384",
-          "schema_hash": "3fc0be2454d2c65d3ff7a7be36bb9fb4903931cbb9bfac6042696d0caf42cb00",
+          "composite_hash": "2e10fab428e3a2e9565af9468e52729045a10d84cdc14ed000736391d0a00edc",
+          "description_hash": "4cdf2694e085d71ed973d12f9af21fcf0b35761a0ab97bd2f1c031e439fea890",
+          "schema_hash": "1ec36391e042163f66478b248e810e921d82aa64040e2d50857177df0ff3bda0",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": null,
@@ -6953,16 +6956,19 @@
               ]
             }
           },
-          "description_text_hash": "218fdb82ab7b51b2709a44e3d05d3801e36a460318d836145d8539aac596f20a",
+          "description_text_hash": "b2a0cea3971641522cc04342ca1f44e6ec22d56a4be5fb688e71c6ea9eb3bceb",
           "description_sentences": [
-            "218fdb82ab7b51b2"
-          ]
+            "b2a0cea397164152"
+          ],
+          "approved_at": "2026-11-03T14:16:15Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-11-03"
         },
         "ask_wiki_question": {
           "annotations_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-          "composite_hash": "2f675271059af12f7f1cae6e615289eb58f576384d1daab9fceee97eafc42b53",
-          "description_hash": "1b960cfc535ef70dfc0bffde6591013c1cd7244b19c26c2fb876a9a64816c692",
-          "schema_hash": "32d76427cd08fb5d028269e1e019b00b62ea3e47523cf803286cb6f5e687dd70",
+          "composite_hash": "3a1329e4986ccdd640f2cbd0702c176ba0032687e03f7d2a62ef5494307bfd8d",
+          "description_hash": "417c0a30ceb95972ac2c14ae186631eb2eecb195498fd88a6a1b66de8ed97923",
+          "schema_hash": "d9bef828b77ff3b31883f8b681b7b5234f24bfec61192f8af15e3d62310b81ca",
           "schema_resolution": "resolved",
           "effect": "unknown",
           "declared_ceiling": null,
@@ -6979,13 +6985,13 @@
               "repoName": []
             }
           },
-          "description_text_hash": "1aebbd350abb8cf59ac553487aefba254524478d8108a6b1e130c1892b12a7f8",
+          "description_text_hash": "e54f871340b25740c31c5d7ca0dd765f3c3a1912db9fd02f39e65c1b0aec7539",
           "description_sentences": [
-            "1aebbd350abb8cf5"
+            "e54f871340b25740"
           ],
-          "approved_at": "2026-09-22T11:41:33Z",
+          "approved_at": "2026-11-03T14:16:15Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-09-22"
+          "note": "observed 2026-11-03"
         }
       },
       "first_observed": "2026-09-01T21:36:54Z"
@@ -16032,7 +16038,7 @@
       "toolset_hash": "7f70a6291240b30c7962f1a4257d4c3c22ab45ab2819c42211291430e461ae5b",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "2.9.0",
+      "server_version": "2.10.0",
       "version_pinned": false,
       "tools": {
         "searxng_instance_info": {
@@ -16816,16 +16822,16 @@
     },
     "exa@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "415ffd648307e6399ab3dd8964d292477120eb2b86f238ccc11f8af71c8a755d",
+      "toolset_hash": "ea9bbb4cd46a84e4fb931ad8a5fe05099114edac63281cbf7b1485c3daf5cd0b",
       "transport": "stdio",
       "auth_method": "env_var",
-      "server_version": "3.4.2",
+      "server_version": "3.4.3",
       "version_pinned": false,
       "tools": {
         "web_fetch_exa": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
-          "composite_hash": "3bf62866d030c00a7f9afda16665d4a0f2199ea6467f5743336e9ed25f169280",
-          "description_hash": "108357433df3c202289c3608ebbea1afbb809d0c52071d09c54246fed131001b",
+          "composite_hash": "2a18b743c3868458dac75ded9454a720c5114cdf800236b8d86a00df6db6db77",
+          "description_hash": "feeed1e4fd081f9a5956551822d957490b2185476e731539d6eecc036cfcfc3a",
           "schema_hash": "641b453bf873f8f3d0dae8fe31ff5f5abf4e653e7303b4cae68b780a0354fba0",
           "schema_resolution": "resolved",
           "effect": "read",
@@ -16849,19 +16855,22 @@
               ]
             }
           },
-          "description_text_hash": "311c114a706335389063e738b8a12ef8de58ab3c01da89c50c1a192d2c380a08",
+          "description_text_hash": "3926cbda547f567c5f72e824f3b2e309099045dc6652375452464e00bc861c5d",
           "description_sentences": [
-            "3b21c961a1019379",
+            "adda76612b14ff5f",
             "9b9ae47a26b34d31",
             "444cce55da706dfd",
             "2b2bdca5072b433d",
             "0aa8995996ff27c6"
-          ]
+          ],
+          "approved_at": "2026-11-03T14:16:15Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-11-03"
         },
         "web_search_exa": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
-          "composite_hash": "6d9843ec3ad1585af0764e7ae0e1be88ea41d9812a038e2f8151fb09760422fa",
-          "description_hash": "62aadef2f622283ef7e063775230a962784dd55c718e1e7f96ac26977537ad0c",
+          "composite_hash": "adeb3e219e8cfe322ab9e499196950bdf64e8ed93a14e0e5f6924c6119f6b547",
+          "description_hash": "15a00af5e1df8b135105a9b47243aa19eeb6e4005e8bff2ac4945ca42c1ab87d",
           "schema_hash": "1bf9b9bdfbb39ca5b95e5bd19539b14a7c16b990078846ffb6ad642967dce90a",
           "schema_resolution": "resolved",
           "effect": "read",
@@ -16885,16 +16894,77 @@
               ]
             }
           },
-          "description_text_hash": "3808c7f193bb02a3c5d2d229e4c2d0ac555964959182f1c2e9d487d73a42ab71",
+          "description_text_hash": "472b32e1d4df0534b9115b8a4415bf306de87ccbf28be2ea08e4541c0fd539e0",
           "description_sentences": [
-            "4f2bdfea62a1fb21",
+            "e85a5f49bc0e7619",
             "a2b64fbb4bed543b",
             "d5d97ef78f9c1182",
             "d5908cb868d62f29",
             "f1ae4cabafebb2cc",
             "bb6fc228c2f8b69f",
             "d4c8218f37b0b948"
-          ]
+          ],
+          "approved_at": "2026-11-03T14:16:15Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-11-03"
+        },
+        "agent_run": {
+          "annotations_hash": "cc2023112ecd9bf98a52d774ea0fe2b9f1d360fd23fa898a739f4b56f7269884",
+          "composite_hash": "5b1df47218e45b29fdfbbbca2d2df143c616f2e5c4b5014883d00e236a7345ad",
+          "description_hash": "26e9e50da3b48b5eaa9734d0e7f8b1274eb045e48570ea77e4ead48913ed4b40",
+          "schema_hash": "65d20674b6664105b72eac33872edf1495cd283518175f0a9ead70c2d765e3fd",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "destructiveHint": false,
+            "idempotentHint": false,
+            "openWorldHint": true,
+            "readOnlyHint": true
+          },
+          "schema_shape": {
+            "required": [],
+            "properties": {
+              "budget": [
+                "object"
+              ],
+              "dataSources": [
+                "array"
+              ],
+              "effort": [
+                "string"
+              ],
+              "input": [
+                "object"
+              ],
+              "outputSchema": [
+                "object"
+              ],
+              "previousRunId": [
+                "string"
+              ],
+              "query": [
+                "string"
+              ],
+              "runId": [
+                "string"
+              ],
+              "systemPrompt": [
+                "string"
+              ]
+            }
+          },
+          "description_text_hash": "196a72308defeb474fb4ece5d1f5f683448ef6aaa6b237d0d17e8f5d7844ce38",
+          "description_sentences": [
+            "fab232fdbd29a740",
+            "aa3af7ed4734f131",
+            "ba8e70267e5bdda8",
+            "f8fef8f218af210c",
+            "89ec19195c8ef032"
+          ],
+          "approved_at": "2026-11-03T14:16:15Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-11-03"
         }
       },
       "first_observed": "2026-09-02T01:21:47Z"
