@@ -1,0 +1,252 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "advisor",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "639b5d0f9f60",
+        "description_hash_now": "5f6bb948c2f1",
+        "sentences_removed": [],
+        "sentences_added": [
+          "40f9dd0dcd6fcdce"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "mcp-git@stdio:uvx",
+      "tool": "git_diff",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "af1723182721",
+        "description_hash_now": "2766fbf1fa38",
+        "sentences_removed": [
+          "a37c490a91ac839a"
+        ],
+        "sentences_added": [
+          "b25cd10591540c9e"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "mcp-git@stdio:uvx",
+      "tool": "git_merge",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "write"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "mcp-git@stdio:uvx",
+      "tool": "git_remote",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "mcp-time@stdio:uvx",
+      "tool": "get_time_ago",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_research_search_papers",
+      "detail": "optional parameter 'sort' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'sort' added"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "mcp-fetch@stdio:uvx",
+      "tool": "fetch",
+      "detail": "optional parameter 'timeout_ms' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'timeout_ms' added"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "mcp-time@stdio:uvx",
+      "tool": "convert_time",
+      "detail": "parameter 'source_timezone' is no longer required; parameter 'target_timezone' is no longer required",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "parameter 'source_timezone' is no longer required",
+          "parameter 'target_timezone' is no longer required"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "mcp-time@stdio:uvx",
+      "tool": "get_current_time",
+      "detail": "parameter 'timezone' is no longer required",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "parameter 'timezone' is no longer required"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_research_inspect_paper",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "d86a01f5d9bf",
+        "schema_hash_now": "e3e40071e819"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_research_related_papers",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "23eee64e2182",
+        "schema_hash_now": "6bb94bb275ad"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "azure@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.0.0-beta.4 -> 4.0.0-beta.5",
+      "evidence": {
+        "was": "4.0.0-beta.4",
+        "now": "4.0.0-beta.5"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.36.1 -> 3.37.0",
+      "evidence": {
+        "was": "3.36.1",
+        "now": "3.37.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-fetch@stdio:uvx",
+      "tool": null,
+      "detail": "server version 2026.10.28 -> 2026.11.4",
+      "evidence": {
+        "was": "2026.10.28",
+        "now": "2026.11.4"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-git@stdio:uvx",
+      "tool": null,
+      "detail": "server version 2026.10.28 -> 2026.11.4",
+      "evidence": {
+        "was": "2026.10.28",
+        "now": "2026.11.4"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-time@stdio:uvx",
+      "tool": null,
+      "detail": "server version 2026.10.28 -> 2026.11.4",
+      "evidence": {
+        "was": "2026.10.28",
+        "now": "2026.11.4"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
