@@ -1,0 +1,1077 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "advisor",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "5f6bb948c2f1",
+        "description_hash_now": "6ba1b703ca35",
+        "sentences_removed": [],
+        "sentences_added": [
+          "b8b7e8b6194702a3"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "add_issue_note",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "write"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "add_team_to_project",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "write"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "create_alert_rule",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "write"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "create_dsn",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "write"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "create_metric_monitor",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "write"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "create_monitor",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "write"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "create_project",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "write"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "create_team",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "write"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "create_uptime_monitor",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "write"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "delete_alert_rule",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "irreversible"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "delete_metric_monitor",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "irreversible"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "delete_monitor_environment",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "irreversible"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "delete_uptime_monitor",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "irreversible"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "find_alert_rules",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "find_dashboards",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "find_dropped_events",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "find_dsns",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "find_metric_monitors",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "find_monitors",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "find_releases",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "find_teams",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "find_uptime_monitors",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_agent_conversation_details",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_alert_options",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_alert_rule",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_dashboard_details",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_doc",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_event_attachment",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_event_stacktrace",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_issue_activity",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_issue_breadcrumbs",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_issue_details",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_issue_tag_values",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_issue_user_reports",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_latest_base_snapshot",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_metric_monitor_details",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_monitor_details",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_profile",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_profile_details",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_release_details",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_replay_details",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_sentry_mcp_info",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_snapshot",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_snapshot_image",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_span_details",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_trace_details",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "get_uptime_monitor_details",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "link_issue",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "write"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "onboarding_status_update",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "write"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "remove_team_from_project",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "irreversible"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "search_agent_conversations",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "search_docs",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "search_errors",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "search_issue_events",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "search_logs",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "search_metrics",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "search_profiles",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "search_replays",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "search_traces",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "submit_feedback_to_sentry_team",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "external"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "unlink_issue",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "irreversible"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "update_alert_rule",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "irreversible"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "update_dsn",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "irreversible"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "update_metric_monitor",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "irreversible"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "update_project",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "irreversible"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "update_uptime_monitor",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "irreversible"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "whoami",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "sentry@stdio:npx",
+      "tool": "find_organizations",
+      "detail": "optional parameter 'cursor' added; optional parameter 'fresh' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'cursor' added",
+          "optional parameter 'fresh' added"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "sentry@stdio:npx",
+      "tool": "find_projects",
+      "detail": "optional parameter 'cursor' added; optional parameter 'fresh' added; parameter 'organizationSlug' is no longer required",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'cursor' added",
+          "optional parameter 'fresh' added",
+          "parameter 'organizationSlug' is no longer required"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "sentry@stdio:npx",
+      "tool": "get_sentry_resource",
+      "detail": "optional parameter 'fresh' added; optional parameter 'id' added; optional parameter 'issueId' added; optional parameter 'issueUrl' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'fresh' added",
+          "optional parameter 'id' added",
+          "optional parameter 'issueId' added",
+          "optional parameter 'issueUrl' added",
+          "optional parameter 'packageNames' added",
+          "optional parameter 'resourceUrl' added"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "sentry@stdio:npx",
+      "tool": "search_issues",
+      "detail": "optional parameter 'fresh' added; parameter 'organizationSlug' is no longer required",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'fresh' added",
+          "parameter 'organizationSlug' is no longer required"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "sentry@stdio:npx",
+      "tool": "analyze_issue_with_seer",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "03d9b597dd83",
+        "schema_hash_now": "ca60ffda9f9d"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "sentry@stdio:npx",
+      "tool": "update_issue",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "86bd1a620413",
+        "schema_hash_now": "9d4a6506b960"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-010",
+      "severity": "low",
+      "title": "Tool removed",
+      "server": "sentry@stdio:npx",
+      "tool": "execute_sentry_tool",
+      "detail": "tool no longer advertised",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-010",
+      "severity": "low",
+      "title": "Tool removed",
+      "server": "sentry@stdio:npx",
+      "tool": "search_events",
+      "detail": "tool no longer advertised",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-010",
+      "severity": "low",
+      "title": "Tool removed",
+      "server": "sentry@stdio:npx",
+      "tool": "search_sentry_tools",
+      "detail": "tool no longer advertised",
+      "evidence": {},
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "azure@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.0.0-beta.5 -> 4.0.0-beta.6",
+      "evidence": {
+        "was": "4.0.0-beta.5",
+        "now": "4.0.0-beta.6"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.5.0 -> 4.5.1",
+      "evidence": {
+        "was": "4.5.0",
+        "now": "4.5.1"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "sentry@stdio:npx",
+      "tool": null,
+      "detail": "server version 0.42.0 -> 0.48.0",
+      "evidence": {
+        "was": "0.42.0",
+        "now": "0.48.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
