@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-11-09T16:20:58Z",
+  "approved_at": "2026-11-10T14:55:52Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -7000,10 +7000,10 @@
     },
     "desktop-commander@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "4b8e272e76e9ac6fcf01edf506e1121f6197a2cabdd268431dba0a5861722302",
+      "toolset_hash": "370da2f3bf46951bda16e4eb7358856404f6ec7f21396f365f9a5409a096bd87",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "0.3.1",
+      "server_version": "0.3.2",
       "version_pinned": false,
       "tools": {
         "create_directory": {
@@ -7424,8 +7424,8 @@
         },
         "kill_process": {
           "annotations_hash": "4d859f4ce7a912bc8e27c618ebf66b4a9dbd5dcdc648acd737706e051441753f",
-          "composite_hash": "17a3023bddda01fd77cb0614c391ee468a5d1cc2fa7a3251e47790d4a54c77f3",
-          "description_hash": "fb72da624b49dba795c5b1a608269b51816c0dc71e6364b0815a9e1cea246180",
+          "composite_hash": "c4cc0649f9fd2789448f9007a684a833fddcc1892bce2b73b0d09852c3875250",
+          "description_hash": "defcfb9ce6106d1a9f1e690f4dfbfe4c9e3afa11df63bb38b8550b7973da17c3",
           "schema_hash": "dfac01045230c6c2c4026c408b033e58ff201908e81a0f9fa747de60453257d5",
           "schema_resolution": "resolved",
           "effect": "irreversible",
@@ -7446,14 +7446,20 @@
               ]
             }
           },
-          "description_text_hash": "74e727b83c5d887a79605599839aa7d6da49b3f3a9232ff5c5a898f23762d2fa",
+          "description_text_hash": "1304ad21c0d6db27ae734487b0708b77b2c9ce097bc3322dfdb8959cb20f5192",
           "description_sentences": [
             "0f93834fd538fcbe",
+            "f0eb9d8da649670b",
+            "7f74dfef714aebf0",
+            "36118e1a10bb4b08",
             "c6a5e5ca1f4cd5c1",
             "2da116b702f67d48",
             "b53dcdc0534d173f",
             "c810f73b46f64ef8"
-          ]
+          ],
+          "approved_at": "2026-11-10T14:55:52Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-11-10"
         },
         "list_directory": {
           "annotations_hash": "f983eeebc39f9d73d80985d509a08ebb53725188f738008f331865b655c8a1ed",
@@ -15203,10 +15209,10 @@
     },
     "playwright@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "94ece811048dcfc666238de19d2512335dbe592617034b721fe5b4a1be109f4f",
+      "toolset_hash": "fd47eeb41e5cd15e4e58e16eb5c3b1765587623fd07d6b39a13804106bc4559f",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "1.65.0-alpha-2026-10-30",
+      "server_version": "1.66.0-alpha-2026-11-09",
       "version_pinned": false,
       "tools": {
         "browser_click": {
@@ -15922,8 +15928,8 @@
         },
         "browser_take_screenshot": {
           "annotations_hash": "848c8b5f7c1b76dc35d3d685e766b1312a2cff9c43e84333c605a347c1aa8369",
-          "composite_hash": "d97b7cb9504d27e03eaf0d2db511801d41356e45becf9f7fd27087f5b55e0bcc",
-          "description_hash": "ad95312b4b377f02e693f65767fefa70525c222f032eb714b1af210995a1126c",
+          "composite_hash": "a85fb8841e0877a8150fbeeaef5cf21b3a57a41f077d9440fee7154ce904d793",
+          "description_hash": "7ea194707b6f8ef1abbd78383f9af05ad012f10cd15196a70fe842b0b957be62",
           "schema_hash": "53af63596ce1f74709d21c9c1d6dedef16aac521dbb4dfb23ff8d692fdc66dcd",
           "schema_resolution": "resolved",
           "effect": "read",
@@ -15959,11 +15965,15 @@
               ]
             }
           },
-          "description_text_hash": "3acbdb894f66b008ac4c523815c3cf96d7df5df1d3eac6007f15d0cfd5c6c399",
+          "description_text_hash": "f487c0b67c6dfd2e8a1fd4c59a885cba0fd7516000801a21f62b56792775ae7d",
           "description_sentences": [
             "f8c71a94f0569a13",
-            "879ae81429b70f74"
-          ]
+            "60a924960775d9d1",
+            "8c968c0a52e1b2c0"
+          ],
+          "approved_at": "2026-11-10T14:55:52Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-11-10"
         },
         "browser_type": {
           "annotations_hash": "77770a25e9abd84fa39b10c8ba19481de3da37620305274bfd8a5787b71f88bc",

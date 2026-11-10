@@ -1,0 +1,81 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "desktop-commander@stdio:npx",
+      "tool": "kill_process",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "fb72da624b49",
+        "description_hash_now": "defcfb9ce610",
+        "sentences_removed": [],
+        "sentences_added": [
+          "36118e1a10bb4b08",
+          "7f74dfef714aebf0",
+          "f0eb9d8da649670b"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "playwright@stdio:npx",
+      "tool": "browser_take_screenshot",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "ad95312b4b37",
+        "description_hash_now": "7ea194707b6f",
+        "sentences_removed": [
+          "879ae81429b70f74"
+        ],
+        "sentences_added": [
+          "60a924960775d9d1",
+          "8c968c0a52e1b2c0"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "desktop-commander@stdio:npx",
+      "tool": null,
+      "detail": "server version 0.3.1 -> 0.3.2",
+      "evidence": {
+        "was": "0.3.1",
+        "now": "0.3.2"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "playwright@stdio:npx",
+      "tool": null,
+      "detail": "server version 1.65.0-alpha-2026-10-30 -> 1.66.0-alpha-2026-11-09",
+      "evidence": {
+        "was": "1.65.0-alpha-2026-10-30",
+        "now": "1.66.0-alpha-2026-11-09"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
