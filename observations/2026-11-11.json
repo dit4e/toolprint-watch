@@ -1,0 +1,307 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "press_key",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "aa4ed2a05233",
+        "description_hash_now": "1370118cb14f",
+        "sentences_removed": [],
+        "sentences_added": [
+          "82c2b690fb9d12fc"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-006",
+      "severity": "medium",
+      "title": "Breaking schema change",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_scrape",
+      "detail": "parameter 'jsonOptions' removed",
+      "evidence": {
+        "breaking": [
+          "parameter 'jsonOptions' removed"
+        ],
+        "additive": []
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "set_logpoints",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "write"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_agent",
+      "detail": "optional parameter 'zeroDataRetention' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'zeroDataRetention' added"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_crawl",
+      "detail": "optional parameter 'zeroDataRetention' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'zeroDataRetention' added"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_monitor_update",
+      "detail": "optional parameter 'cron' added; optional parameter 'scheduleText' added; optional parameter 'status' added; optional parameter 'timezone' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'cron' added",
+          "optional parameter 'scheduleText' added",
+          "optional parameter 'status' added",
+          "optional parameter 'timezone' added",
+          "parameter 'body' is no longer required"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "performance_start_trace",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "cf15bdf3461c",
+        "schema_hash_now": "2df09752ea49"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "wait_for",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "8ab76b171dda",
+        "schema_hash_now": "c010aa0fc935"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_find_tools",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "d1e41fc04f87",
+        "schema_hash_now": "abca257c8921"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_interact",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "91ec3200465d",
+        "schema_hash_now": "681f7df9d283"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_search",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "99e1371e3da3",
+        "schema_hash_now": "c0edadb793ac"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "people_company_enrich",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "494ffafab6b7",
+        "schema_hash_now": "34ffb6aafeae"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "people_company_search",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "bd53e2e08f48",
+        "schema_hash_now": "933d84d0c152"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-git@stdio:uvx",
+      "tool": "git_log",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "b41c6d1c56b9",
+        "schema_hash_now": "af3600456c09"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": null,
+      "detail": "server version 1.12.0 -> 1.13.0",
+      "evidence": {
+        "was": "1.12.0",
+        "now": "1.13.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.38.0 -> 3.39.0",
+      "evidence": {
+        "was": "3.38.0",
+        "now": "3.39.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "k8s@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.2.1 -> 4.2.2",
+      "evidence": {
+        "was": "4.2.1",
+        "now": "4.2.2"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-fetch@stdio:uvx",
+      "tool": null,
+      "detail": "server version 2026.11.4 -> 2026.11.11",
+      "evidence": {
+        "was": "2026.11.4",
+        "now": "2026.11.11"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-git@stdio:uvx",
+      "tool": null,
+      "detail": "server version 2026.11.4 -> 2026.11.11",
+      "evidence": {
+        "was": "2026.11.4",
+        "now": "2026.11.11"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-time@stdio:uvx",
+      "tool": null,
+      "detail": "server version 2026.11.4 -> 2026.11.11",
+      "evidence": {
+        "was": "2026.11.4",
+        "now": "2026.11.11"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
