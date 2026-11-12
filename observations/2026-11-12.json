@@ -1,0 +1,187 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-006",
+      "severity": "medium",
+      "title": "Breaking schema change",
+      "server": "firecrawl@stdio:npx",
+      "tool": "people_company_enrich",
+      "detail": "parameter 'apollo' removed; parameter 'datalegion' removed; parameter 'fullenrich' removed; parameter 'people_data_labs' removed",
+      "evidence": {
+        "breaking": [
+          "parameter 'apollo' removed",
+          "parameter 'datalegion' removed",
+          "parameter 'fullenrich' removed",
+          "parameter 'people_data_labs' removed"
+        ],
+        "additive": [
+          "optional parameter 'companies' added",
+          "optional parameter 'people' added",
+          "optional parameter 'profile' added",
+          "optional parameter 'verified_only' added"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-006",
+      "severity": "medium",
+      "title": "Breaking schema change",
+      "server": "firecrawl@stdio:npx",
+      "tool": "people_company_search",
+      "detail": "parameter 'apollo' removed; parameter 'firecrawl_search' removed; parameter 'fullenrich' removed; parameter 'people_data_labs' removed",
+      "evidence": {
+        "breaking": [
+          "parameter 'apollo' removed",
+          "parameter 'firecrawl_search' removed",
+          "parameter 'fullenrich' removed",
+          "parameter 'people_data_labs' removed"
+        ],
+        "additive": [
+          "optional parameter 'count_only' added",
+          "optional parameter 'cursor' added",
+          "optional parameter 'filters' added",
+          "optional parameter 'limit' added",
+          "optional parameter 'options' added",
+          "optional parameter 'provider' added",
+          "optional parameter 'query' added"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "firecrawl@stdio:npx",
+      "tool": "alexandria_library_read",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "firecrawl@stdio:npx",
+      "tool": "alexandria_library_search",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_search",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "c0edadb793ac",
+        "schema_hash_now": "8a22d394ff1e"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "azure@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.0.0-beta.6 -> 4.0.0-beta.7",
+      "evidence": {
+        "was": "4.0.0-beta.6",
+        "now": "4.0.0-beta.7"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7-remote@http:mcp.context7.com",
+      "tool": null,
+      "detail": "server version 4.5.0 -> 4.7.0",
+      "evidence": {
+        "was": "4.5.0",
+        "now": "4.7.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.6.0 -> 4.7.0",
+      "evidence": {
+        "was": "4.6.0",
+        "now": "4.7.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "desktop-commander@stdio:npx",
+      "tool": null,
+      "detail": "server version 0.3.2 -> 0.3.3",
+      "evidence": {
+        "was": "0.3.2",
+        "now": "0.3.3"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.39.0 -> 3.40.0",
+      "evidence": {
+        "was": "3.39.0",
+        "now": "3.40.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "searxng@stdio:npx",
+      "tool": null,
+      "detail": "server version 2.10.0 -> 2.10.1",
+      "evidence": {
+        "was": "2.10.0",
+        "now": "2.10.1"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}

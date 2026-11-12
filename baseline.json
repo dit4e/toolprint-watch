@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-11-11T14:25:14Z",
+  "approved_at": "2026-11-12T15:17:08Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -1928,7 +1928,7 @@
       "toolset_hash": "2f8b873cadf29e11b6237fc81193240e8a280b5a9fa5ecf3ab230791899b8c44",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "4.0.0-beta.6",
+      "server_version": "4.0.0-beta.7",
       "version_pinned": false,
       "tools": {
         "acr": {
@@ -6761,7 +6761,7 @@
       "toolset_hash": "e97265044f816a3c114e90b1c91bbbb1788946506183d574d23b6a3c1b3281e1",
       "transport": "http",
       "auth_method": "none",
-      "server_version": "4.5.0",
+      "server_version": "4.7.0",
       "version_pinned": false,
       "tools": {
         "query-docs": {
@@ -6857,7 +6857,7 @@
       "toolset_hash": "e97265044f816a3c114e90b1c91bbbb1788946506183d574d23b6a3c1b3281e1",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "4.6.0",
+      "server_version": "4.7.0",
       "version_pinned": false,
       "tools": {
         "query-docs": {
@@ -7047,7 +7047,7 @@
       "toolset_hash": "370da2f3bf46951bda16e4eb7358856404f6ec7f21396f365f9a5409a096bd87",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "0.3.2",
+      "server_version": "0.3.3",
       "version_pinned": false,
       "tools": {
         "create_directory": {
@@ -16208,7 +16208,7 @@
       "toolset_hash": "7f70a6291240b30c7962f1a4257d4c3c22ab45ab2819c42211291430e461ae5b",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "2.10.0",
+      "server_version": "2.10.1",
       "version_pinned": false,
       "tools": {
         "searxng_instance_info": {
@@ -17141,10 +17141,10 @@
     },
     "firecrawl@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "c79bcf011715385d4004f3fa99914c534aa8795635fb4859432abb1c8cc64053",
+      "toolset_hash": "e61ff5c2be4429b812785bd5d48313bec5659c1a9aeae49b65e9592f646fc1d6",
       "transport": "stdio",
       "auth_method": "env_var",
-      "server_version": "3.39.0",
+      "server_version": "3.40.0",
       "version_pinned": false,
       "tools": {
         "firecrawl_agent": {
@@ -18388,9 +18388,9 @@
         },
         "firecrawl_search": {
           "annotations_hash": "ec1d294655f59ab34028c1e1baf4d707ce3e92f27208ab5c0e554231a1e0d835",
-          "composite_hash": "5a78268388fd1b2702e90c20e5a0b568dbea44cd35913caa270f73217faa8d0e",
-          "description_hash": "02e45838bb23d527704b6ed5d24fc9f99a8f31b1b155693a6b1c88e3390c86ac",
-          "schema_hash": "c0edadb793ac959d479035cee7969f5e4c3c68f84978110b7aba8ebb2989a547",
+          "composite_hash": "484a980282f8d5010cf804f570ade65023a87b60876c16680f8269efdf6649ee",
+          "description_hash": "e12b0e3eda06b714535fe95c7233bda370ea52a9c45fc1f69e5fd8ab039de20c",
+          "schema_hash": "8a22d394ff1ec699a0c6e488e8a709db99c873bb2e11735d8fe75153c383fc22",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -18449,7 +18449,7 @@
               ]
             }
           },
-          "description_text_hash": "1329f208c35838d82834f375b58af2a6b44672ba38ae53c01ea2ff0d8cdc3c6e",
+          "description_text_hash": "32b937ffd38408247b6ea13382152b2bbcf33b9025e0a0afd15ca1a93464f2d6",
           "description_sentences": [
             "2377bdc847d012f6",
             "028a633e483234b7",
@@ -18461,12 +18461,12 @@
             "b98292de4d428892",
             "d0731050bdfd6bea",
             "326f3966a838d146",
-            "38037775db992ae8",
+            "6ad5a396713b0f54",
             "50546b5058ae320b"
           ],
-          "approved_at": "2026-11-11T14:25:14Z",
+          "approved_at": "2026-11-12T15:17:08Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-11-11"
+          "note": "observed 2026-11-12"
         },
         "firecrawl_search_feedback": {
           "annotations_hash": "39c94365d45a71f9be0a3ae8a824123848b830591a18888e16d762b0774ddcee",
@@ -18706,9 +18706,9 @@
         },
         "people_company_enrich": {
           "annotations_hash": "9e99d97930283a2ed6710067922f7e335516e8fb6eccc9b952c3894726100450",
-          "composite_hash": "2114e7e777689bd0b67800a7c542fdc48d49eae11b2eeacf4ce48f9737103b87",
-          "description_hash": "feb40d003e0cd58378553c7aeaa1cc55f52483f69ad5a879288a99d407f0c9d0",
-          "schema_hash": "34ffb6aafeaee66356358817bdb9d263449064a7e308e74e3da33feee8242ba3",
+          "composite_hash": "137700c00349f214991885f81e7370fab02f8844e6f031d545c89c07cb353f41",
+          "description_hash": "5c452d64fec3f08410f4a2b03bd5978c0f1747781095b185b87fe50295a6bd7e",
+          "schema_hash": "d90c5e9bff3e2dd828c5427176535e412b329b87aee2fec1f5f382633a47334b",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -18721,48 +18721,51 @@
           "schema_shape": {
             "required": [],
             "properties": {
-              "apollo": [
-                "object"
+              "companies": [
+                "array"
               ],
               "contact_fields": [
                 "array"
               ],
-              "datalegion": [
-                "object"
-              ],
-              "fullenrich": [
-                "object"
-              ],
               "max_credits": [
                 "integer"
               ],
-              "people_data_labs": [
-                "object"
+              "people": [
+                "array"
+              ],
+              "profile": [
+                "boolean"
+              ],
+              "verified_only": [
+                "boolean"
               ]
             }
           },
-          "description_text_hash": "ae2a0e51d2d3dca148e9a58c1ca9cc12d4e6d7ab1010609c45703f020e1c13a2",
+          "description_text_hash": "e9eca0048942f504ff59584187ac82e4c0ee501d9e874448d1724a2d6013bd7e",
           "description_sentences": [
-            "fe2bdb47ecf18ae2",
-            "84375bc61970ce3b",
-            "3efff83b8c7ec76a",
-            "3203b51741f63791",
-            "5a63a469826b5cbc",
-            "448fa7783bfa02b4",
-            "edfa8412418455e7",
-            "97b543d1274e5d6a",
-            "f3acd0681d20aa5a",
-            "5db8c9759d72a745"
+            "1cb516fa3a6dc91c",
+            "cc0c12fb4ca74e2a",
+            "4fdb79f543bf9ed7",
+            "c18670f96c44e479",
+            "95d7957f737f77bc",
+            "d2d5ac760901c6b9",
+            "13bbf486b24e902e",
+            "a239eadc9df78593",
+            "8535606020b6fad7",
+            "33070b3a7fd7f6b9",
+            "f7b435fe87c9c31b",
+            "2ab4b77c9334f088",
+            "432911eade725f84"
           ],
-          "approved_at": "2026-11-11T14:25:14Z",
+          "approved_at": "2026-11-12T15:17:08Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-11-11"
+          "note": "observed 2026-11-12"
         },
         "people_company_search": {
           "annotations_hash": "65255e5e5a059c40bf796c1b6b2c6e2fc710ec1758daa5fd63667f70ece6c8bb",
-          "composite_hash": "85e1f96c70c89b67ab177ca59cc4297f0237085646eb0e8c82ed9c7ffeca519f",
-          "description_hash": "e3e68d60790b5174740091a14df4c8151891c633190ab83aad949e30421e1517",
-          "schema_hash": "933d84d0c152db2e7ad2edb06e818cb4cfe2e36a0ec13a16e60c115fc7690b74",
+          "composite_hash": "09390839465c4c4beb5ef6be2013cba4f145b17f566c99c481569e5bb8765b00",
+          "description_hash": "62848c989dbb5a601bc78af405d6e7bae32c56a8c7964820dd6e2b5eccf45f23",
+          "schema_hash": "ecea94fbeedca17dc709c309107335d601d3984b5298dc50231adf14cc1a673e",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -18777,33 +18780,137 @@
               "entity"
             ],
             "properties": {
-              "apollo": [],
+              "count_only": [
+                "boolean"
+              ],
+              "cursor": [
+                "string"
+              ],
               "entity": [
                 "string"
               ],
-              "firecrawl_search": [
+              "filters": [
                 "object"
               ],
-              "fullenrich": [],
+              "limit": [
+                "integer"
+              ],
               "max_credits": [
                 "integer"
               ],
-              "people_data_labs": []
+              "options": [
+                "object"
+              ],
+              "provider": [
+                "string"
+              ],
+              "query": [
+                "string"
+              ]
             }
           },
-          "description_text_hash": "6c895e4e8b90baf38f0ad0d69976e360e15863eb37734dcaba881e4bd67a51db",
+          "description_text_hash": "817775ae52d96e9785fb209557fb9f76729c6f1a361829a8ec24fdb9d2674314",
           "description_sentences": [
-            "135a4737f9c8d5aa",
-            "28f530a0eb16138d",
-            "bba2f8885e017c41",
-            "edfa8412418455e7",
-            "97b543d1274e5d6a",
-            "f3acd0681d20aa5a",
-            "5db8c9759d72a745"
+            "f4214344c7538dec",
+            "b740f4d649bfda3c",
+            "77e53f2beff1a094",
+            "c96f989862706149",
+            "b83c48489cb5f64e",
+            "fdb837c0ed072bf2",
+            "209796feaf7a04df",
+            "3c03bca69e2cf8b1",
+            "615963e430f1a2fb"
           ],
-          "approved_at": "2026-11-11T14:25:14Z",
+          "approved_at": "2026-11-12T15:17:08Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-11-11"
+          "note": "observed 2026-11-12"
+        },
+        "alexandria_library_read": {
+          "annotations_hash": "2f9eb0a8150512deb0d2120f931fc99eec9608aa2dc09c211bb7d5538a27c889",
+          "composite_hash": "80457fd92e623043742e6723dfe28d1a45897703f92ca725350472adb5c12c7c",
+          "description_hash": "7b162fdd6932e4618021ba6cce3abe62495d5cf698f6332a1b49c45a2ac1eb8a",
+          "schema_hash": "752f7fa352c7f48b096e070b8d5fb3b3772ec3575ecd52cb1756cad6343a3e1f",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "destructiveHint": false,
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Alexandria library read"
+          },
+          "schema_shape": {
+            "required": [
+              "calls"
+            ],
+            "properties": {
+              "calls": [
+                "array"
+              ],
+              "requestId": [
+                "string"
+              ],
+              "timeout": [
+                "integer"
+              ]
+            }
+          },
+          "description_text_hash": "e6ee5bf0ffa7e2f71783af6ed3d3ed9b024edab09f50167d89167beb1cffb792",
+          "description_sentences": [
+            "edf6ba9583768bef",
+            "c2a55564e9305360",
+            "aa3d8eb0d1618648",
+            "3e69b61970493f22",
+            "31ad4e6d58afc23d",
+            "a9095384fe3f6f50",
+            "c7905acd709bcfd6",
+            "638deedc9e4f11b2",
+            "4d6814e383622c0a"
+          ],
+          "approved_at": "2026-11-12T15:17:08Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-11-12"
+        },
+        "alexandria_library_search": {
+          "annotations_hash": "fb27629362a05c3a84d2ff7edb54bdae7f03d8ec68ada50f228f0fcb698f3762",
+          "composite_hash": "4d761681e1c72595dcd77217bcdf0c6849349d97cb85dab9693c1ea2dd141c6c",
+          "description_hash": "b206306530b6c35295a3aacce87e9ffaffeef88c18bef21bcddb48f43af79f85",
+          "schema_hash": "401c3f602e38eb71b5ae6236dfe70e56893e9f47b6dc2c3f1bd4255bbfc9fcd5",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "destructiveHint": false,
+            "idempotentHint": true,
+            "openWorldHint": false,
+            "readOnlyHint": true,
+            "title": "Alexandria library search"
+          },
+          "schema_shape": {
+            "required": [
+              "command"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ]
+            }
+          },
+          "description_text_hash": "ef3bd2238c880312495205f2dd242e97c26304a38922369e2eccd4e67597a53a",
+          "description_sentences": [
+            "6633bd29e0ac632e",
+            "0f69b43800730f71",
+            "f5b4897dc765a74f",
+            "2f45120e5efd938b",
+            "2e08b799eef29455",
+            "fa672432d456c623",
+            "3bc146c36d5005b1",
+            "45bafa7c6bfffe06",
+            "5466f67178cf009d"
+          ],
+          "approved_at": "2026-11-12T15:17:08Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-11-12"
         }
       },
       "first_observed": "2026-09-02T01:21:47Z"
