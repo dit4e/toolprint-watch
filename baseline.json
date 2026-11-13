@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-11-12T15:17:08Z",
+  "approved_at": "2026-11-13T14:37:12Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -9351,7 +9351,7 @@
       "toolset_hash": "9f4bcee6a59aff3ccc1a8219c53937359728b37e63b50e7469090812793cff5c",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "4.2.2",
+      "server_version": "4.2.3",
       "version_pinned": false,
       "tools": {
         "cleanup": {
