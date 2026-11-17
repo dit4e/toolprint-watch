@@ -1,0 +1,227 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "searxng@stdio:npx",
+      "tool": "searxng_web_search",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "727b24794e61",
+        "description_hash_now": "c5358de1fea6",
+        "sentences_removed": [],
+        "sentences_added": [
+          "7ba77ea4ee3941dd"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-011",
+      "severity": "medium",
+      "title": "Safety annotation added or relaxed",
+      "server": "brave-search-new@stdio:npx",
+      "tool": "brave_news_search",
+      "detail": "destructiveHint added as false; idempotentHint added as true; readOnlyHint added as true",
+      "evidence": {
+        "hint_changes": [
+          "destructiveHint added as false",
+          "idempotentHint added as true",
+          "readOnlyHint added as true"
+        ],
+        "vendor_changes": [],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-011",
+      "severity": "medium",
+      "title": "Safety annotation added or relaxed",
+      "server": "brave-search-new@stdio:npx",
+      "tool": "brave_summarizer",
+      "detail": "destructiveHint added as false; idempotentHint added as true; readOnlyHint added as true",
+      "evidence": {
+        "hint_changes": [
+          "destructiveHint added as false",
+          "idempotentHint added as true",
+          "readOnlyHint added as true"
+        ],
+        "vendor_changes": [],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-011",
+      "severity": "medium",
+      "title": "Safety annotation added or relaxed",
+      "server": "brave-search-new@stdio:npx",
+      "tool": "brave_video_search",
+      "detail": "destructiveHint added as false; idempotentHint added as true; readOnlyHint added as true",
+      "evidence": {
+        "hint_changes": [
+          "destructiveHint added as false",
+          "idempotentHint added as true",
+          "readOnlyHint added as true"
+        ],
+        "vendor_changes": [],
+        "partial_record": false
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "brave-search-new@stdio:npx",
+      "tool": "brave_image_search",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "199ba539dbab",
+        "schema_hash_now": "1d0d628800e0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "brave-search-new@stdio:npx",
+      "tool": "brave_llm_context",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "1e9dbd2144bd",
+        "schema_hash_now": "6ce3f432fabf"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "brave-search-new@stdio:npx",
+      "tool": "brave_local_search",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "9a6056766dd8",
+        "schema_hash_now": "259703e7cac1"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "brave-search-new@stdio:npx",
+      "tool": "brave_place_search",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "4b788046dfde",
+        "schema_hash_now": "bf18b0481305"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "brave-search-new@stdio:npx",
+      "tool": "brave_web_search",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "9a6056766dd8",
+        "schema_hash_now": "259703e7cac1"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "azure@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.0.0-beta.7 -> 4.0.0-beta.8",
+      "evidence": {
+        "was": "4.0.0-beta.7",
+        "now": "4.0.0-beta.8"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "brave-search-new@stdio:npx",
+      "tool": null,
+      "detail": "server version 2.1.4 -> 2.1.5",
+      "evidence": {
+        "was": "2.1.4",
+        "now": "2.1.5"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7-remote@http:mcp.context7.com",
+      "tool": null,
+      "detail": "server version 4.7.1 -> 4.7.3",
+      "evidence": {
+        "was": "4.7.1",
+        "now": "4.7.3"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.7.1 -> 4.7.3",
+      "evidence": {
+        "was": "4.7.1",
+        "now": "4.7.3"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "searxng@stdio:npx",
+      "tool": null,
+      "detail": "server version 2.10.1 -> 2.11.0",
+      "evidence": {
+        "was": "2.10.1",
+        "now": "2.11.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
