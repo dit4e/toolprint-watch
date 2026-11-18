@@ -1,0 +1,115 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "mcp-git@stdio:uvx",
+      "tool": "git_remote",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "38ec2d158831",
+        "description_hash_now": "211df3e33646",
+        "sentences_removed": [
+          "f59ef841162efa8b"
+        ],
+        "sentences_added": [
+          "f8fd498275d3221c"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "azure@stdio:npx",
+      "tool": "dashboards",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "unknown"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "azure@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.0.0-beta.8 -> 4.0.0-beta.9",
+      "evidence": {
+        "was": "4.0.0-beta.8",
+        "now": "4.0.0-beta.9"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "desktop-commander@stdio:npx",
+      "tool": null,
+      "detail": "server version 0.3.3 -> 0.3.4",
+      "evidence": {
+        "was": "0.3.3",
+        "now": "0.3.4"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-fetch@stdio:uvx",
+      "tool": null,
+      "detail": "server version 2026.11.11 -> 2026.11.18",
+      "evidence": {
+        "was": "2026.11.11",
+        "now": "2026.11.18"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-git@stdio:uvx",
+      "tool": null,
+      "detail": "server version 2026.11.11 -> 2026.11.18",
+      "evidence": {
+        "was": "2026.11.11",
+        "now": "2026.11.18"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-time@stdio:uvx",
+      "tool": null,
+      "detail": "server version 2026.11.11 -> 2026.11.18",
+      "evidence": {
+        "was": "2026.11.11",
+        "now": "2026.11.18"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}

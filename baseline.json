@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-11-17T16:02:28Z",
+  "approved_at": "2026-11-18T15:41:50Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -1925,10 +1925,10 @@
     },
     "azure@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "2f8b873cadf29e11b6237fc81193240e8a280b5a9fa5ecf3ab230791899b8c44",
+      "toolset_hash": "d7e238f53a93c05664cf6b4c759ba063d99939400cf235f201f2254549010de4",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "4.0.0-beta.8",
+      "server_version": "4.0.0-beta.9",
       "version_pinned": false,
       "tools": {
         "acr": {
@@ -4858,6 +4858,48 @@
           "approved_at": "2026-10-30T12:59:02Z",
           "approved_by": "watch workflow",
           "note": "observed 2026-10-30"
+        },
+        "dashboards": {
+          "annotations_hash": "2b7e97407a6a627761d74b325bb9f0a10b596aa2347f6b9ba3be55aacb25e81f",
+          "composite_hash": "1ecf42e77979c1bccfe11a8a9561928ecf779e8e9f7605b94b5e2466467755c2",
+          "description_hash": "fcea679f2be06281e2ad9e7a544d072c332b17329c343a469fd1b6735e899262",
+          "schema_hash": "1ed68ec21a7d3d29232f7e76fce305bf51c516811b19e57be2e0b92adcd8ac31",
+          "schema_resolution": "resolved",
+          "effect": "unknown",
+          "declared_ceiling": null,
+          "annotations": {
+            "title": "Azure Monitor dashboards with Grafana MCP"
+          },
+          "schema_shape": {
+            "required": [
+              "intent"
+            ],
+            "properties": {
+              "command": [
+                "string"
+              ],
+              "intent": [
+                "string"
+              ],
+              "learn": [
+                "boolean"
+              ],
+              "parameters": [
+                "object"
+              ]
+            }
+          },
+          "description_text_hash": "e9a1cd4e31e2d4af18a270f0a807a087a9d7a1468c1b0616e485850a78ef4427",
+          "description_sentences": [
+            "7a0fe84289d3ac5d",
+            "ac49b37ba593564d",
+            "d0f85e7696871ca3",
+            "260d29accf366f16",
+            "2958c1aaa40df2fd"
+          ],
+          "approved_at": "2026-11-18T15:41:50Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-11-18"
         }
       },
       "first_observed": "2026-09-01T21:36:54Z"
@@ -7047,7 +7089,7 @@
       "toolset_hash": "370da2f3bf46951bda16e4eb7358856404f6ec7f21396f365f9a5409a096bd87",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "0.3.3",
+      "server_version": "0.3.4",
       "version_pinned": false,
       "tools": {
         "create_directory": {
@@ -10741,7 +10783,7 @@
       "toolset_hash": "fb5dd921bf22660ae992fb01f3e83b8b4ab04be231751f3473ac10241d67eef9",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "2026.11.11",
+      "server_version": "2026.11.18",
       "version_pinned": false,
       "tools": {
         "fetch": {
@@ -11314,10 +11356,10 @@
     },
     "mcp-git@stdio:uvx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "805d14f0b502ca6b1a05f4f0f22a7372d8a8fc4b7abd33ded343ce51b7c3e527",
+      "toolset_hash": "2fd8ae682aa154d773eda5b185afe0326b2d7d5dccba7fcd0acebe937e9823c6",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "2026.11.11",
+      "server_version": "2026.11.18",
       "version_pinned": false,
       "tools": {
         "git_add": {
@@ -11791,8 +11833,8 @@
         },
         "git_remote": {
           "annotations_hash": "7734bccfe083260cc67f8938d0bcc6766393e5c2f331310794cdcaf3264b8697",
-          "composite_hash": "67e4fd1eb2a43547c16fe478447c2b6cf47df62f060b13ee9946b5678e5e4cb0",
-          "description_hash": "38ec2d158831e487d3d9ac46cd30e5daddb2fb194a5c314089f47b95bd0a9a81",
+          "composite_hash": "6366a51a1e7f421de2f7607d1a9991350afd84010dfe169536174feed440518f",
+          "description_hash": "211df3e33646cb8112e69deee0461f658cb030556806183e5d2cd14f1a372a52",
           "schema_hash": "d739604f72437440104df52e138fd2fedf4190f310c27af6ae3e318a750c45d7",
           "schema_resolution": "resolved",
           "effect": "read",
@@ -11813,14 +11855,14 @@
               ]
             }
           },
-          "description_text_hash": "be487a802979022cc672c9ae5d84088c4da22b4e215331701d3d0ba3282407ce",
+          "description_text_hash": "4119482416fae1c3f21878886122088558d4b890d02bbeeb2f670aef5f3e4ef6",
           "description_sentences": [
             "5e613d6a6daf35fd",
-            "f59ef841162efa8b"
+            "f8fd498275d3221c"
           ],
-          "approved_at": "2026-11-05T14:41:50Z",
+          "approved_at": "2026-11-18T15:41:50Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-11-05"
+          "note": "observed 2026-11-18"
         }
       },
       "first_observed": "2026-09-01T21:36:54Z"
@@ -13425,7 +13467,7 @@
       "toolset_hash": "76d5432b812319bcc3b2fca6cb4fcb83146df0da30a5fe6fc74ec51bf9c72f2e",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "2026.11.11",
+      "server_version": "2026.11.18",
       "version_pinned": false,
       "tools": {
         "convert_time": {
