@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-11-19T15:46:52Z",
+  "approved_at": "2026-11-20T15:30:45Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -16446,10 +16446,10 @@
     },
     "brave-search-new@stdio:npx": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "37054e6b8776f95c57f3b00d08ea6c8af16fa86638e68afb8634cb8818a64b92",
+      "toolset_hash": "92ac6c45c4bd199cd1bc90ff40e9930dfbbce471cc0c48017f34efe90d0bae52",
       "transport": "stdio",
       "auth_method": "env_var",
-      "server_version": "2.1.5",
+      "server_version": "2.2.0",
       "version_pinned": false,
       "tools": {
         "brave_image_search": {
@@ -16609,9 +16609,9 @@
         },
         "brave_local_search": {
           "annotations_hash": "8f916b030c0e9e5687c8ad7718a1cf8d427e9969cecacde03ab262ee3e3563a0",
-          "composite_hash": "26633f978176ea21dd9b01c1c1d90429fdf49453bc046a5bf57040b31092571f",
+          "composite_hash": "453aa8c5d6072c97cdd4a8917c4e0c0e13bf64f7c2cf5d52d42a3f0eb3fcaa0b",
           "description_hash": "cb5a3706c9074e59d45a337d92311ca4cf7f78f3aa95efa95b833a7ae4cf71da",
-          "schema_hash": "259703e7cac11bb6497f1bd90e7524235aa2eed2dca5c28add1fe1d8b0f035f4",
+          "schema_hash": "85648e8dfb65e83e473de2fe28763b2ee64781ab0530ebc2790e616c611066ca",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -16677,9 +16677,9 @@
             "c4f1167c8ce89e01",
             "10add94cd5a99e98"
           ],
-          "approved_at": "2026-11-17T16:02:28Z",
+          "approved_at": "2026-11-20T15:30:45Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-11-17"
+          "note": "observed 2026-11-20"
         },
         "brave_news_search": {
           "annotations_hash": "52fc40b5a8e0163c0e946539acf9e7dff92cd25462765d6ee26fde1efb6910d7",
@@ -16836,9 +16836,9 @@
         },
         "brave_summarizer": {
           "annotations_hash": "d87af6db8f6148a5b91c6d1d2d5259c71e1f9c8e62a5c79454ab115fee95d7ce",
-          "composite_hash": "60c19d8eb06020b938561f7712c1e59c441bdb695fdaac59368679ab63f640f7",
-          "description_hash": "d77a0219ff8899539b33bf48b0e92b92ec986830b0964b249a37c6f4e4e5e06a",
-          "schema_hash": "671ab881956d8019c12495281046ec3d07cea6761131f3f69dab963fecd50c86",
+          "composite_hash": "0d51d4e0c5f66370c4528e43b8d790c3564b24bcc2fba0ace887531b41f6098f",
+          "description_hash": "cad565803e626f57534205eddc09b57291e22e5ab4a3a4f26e5fbb274091a683",
+          "schema_hash": "61ae7fd29d7e8bf3a5b51125cbfc8eabf93c4c6293f9d05b5c03429abfa23650",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -16865,18 +16865,21 @@
               ]
             }
           },
-          "description_text_hash": "ccb5dfd04d34dfa9a508f6ec3d1f9622b0856136b633b179c8596d132a2756cb",
+          "description_text_hash": "aad97dc0d185a2719f891db332670115f4727bde81cbcb41f3a68e3a5d46b787",
           "description_sentences": [
-            "949d66156d057109",
+            "69969680b6b27ed3",
+            "34de8c11dccb2e03",
+            "7bf124bc72621695",
+            "48cd4467a66478aa",
             "bb72c5560f50d566",
             "a39066ef9323f248",
             "caa99b13a6cdfd6b",
             "345100c9f04b11f4",
             "fcda2bc42ae8104f"
           ],
-          "approved_at": "2026-11-17T16:02:28Z",
+          "approved_at": "2026-11-20T15:30:45Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-11-17"
+          "note": "observed 2026-11-20"
         },
         "brave_video_search": {
           "annotations_hash": "094324ebc476a9eea7e185c4bde1ac62e1d458922f0f83b8bf4b08f5077fa792",
@@ -16935,9 +16938,9 @@
         },
         "brave_web_search": {
           "annotations_hash": "e705536dd39065e9b7cefa97645046f49c4f664ec5add80a863b94b313ce3a08",
-          "composite_hash": "f9cfe076e7cea820827433b89bfb7efd9384b5a3bf429b3cf5c36743df34ce50",
+          "composite_hash": "c10b7eebd5c7f5c55dac59e22a323fa97109a36abe777d6d19cb19e9c4fbfae9",
           "description_hash": "8c7cb53d5d3e2387f0b99d6331661de91df4801e9994ebe09177121504e83dde",
-          "schema_hash": "259703e7cac11bb6497f1bd90e7524235aa2eed2dca5c28add1fe1d8b0f035f4",
+          "schema_hash": "85648e8dfb65e83e473de2fe28763b2ee64781ab0530ebc2790e616c611066ca",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -17000,9 +17003,91 @@
             "a1c40a298a60e041",
             "2eddf554a1a29460"
           ],
-          "approved_at": "2026-11-17T16:02:28Z",
+          "approved_at": "2026-11-20T15:30:45Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-11-17"
+          "note": "observed 2026-11-20"
+        },
+        "brave_answers": {
+          "annotations_hash": "4b8d3a5dbb0ebb7b1bbd097b2196dd2a450f418909a594e04ddec67c20d45fc8",
+          "composite_hash": "530f327adf9bebc10ebb545f77feb86460daa8810b295837ee35844eee73d320",
+          "description_hash": "be4459e220cfed66f7a1e6487613b846a37ad10db6673714dc06175d98c2c17c",
+          "schema_hash": "10ca0dece3691475c0b9966455760b3d971ba7f3f1af2cca4e599ec47053f6b9",
+          "schema_resolution": "resolved",
+          "effect": "read",
+          "declared_ceiling": "read",
+          "annotations": {
+            "destructiveHint": false,
+            "idempotentHint": true,
+            "openWorldHint": true,
+            "readOnlyHint": true,
+            "title": "Brave Answers"
+          },
+          "schema_shape": {
+            "required": [
+              "query"
+            ],
+            "properties": {
+              "country": [
+                "string"
+              ],
+              "enable_citations": [
+                "boolean"
+              ],
+              "enable_entities": [
+                "boolean"
+              ],
+              "enable_research": [
+                "boolean"
+              ],
+              "language": [
+                "string"
+              ],
+              "max_completion_tokens": [
+                "integer"
+              ],
+              "model": [
+                "string"
+              ],
+              "query": [
+                "string"
+              ],
+              "research_maximum_number_of_iterations": [
+                "integer"
+              ],
+              "research_maximum_number_of_queries": [
+                "integer"
+              ],
+              "research_maximum_number_of_results_per_query": [
+                "integer"
+              ],
+              "research_maximum_number_of_seconds": [
+                "integer"
+              ],
+              "research_maximum_number_of_tokens_per_query": [
+                "integer"
+              ],
+              "safesearch": [
+                "string"
+              ],
+              "web_search_options": [
+                "object"
+              ]
+            }
+          },
+          "description_text_hash": "9e61c0a9df550c1481f706a8b99505ff4ccc199546d84194eea45272f911cb8a",
+          "description_sentences": [
+            "7553e9a0e9e22017",
+            "2441edfb07bdadeb",
+            "9779dc7935aee9f3",
+            "ea01eead981d61fd",
+            "1222ee35d3c746c2",
+            "de002b479f50b0ea",
+            "f5d43583210ee37d",
+            "29ddfc2693f70b54"
+          ],
+          "approved_at": "2026-11-20T15:30:45Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-11-20"
         }
       },
       "first_observed": "2026-09-02T01:21:47Z"
@@ -17086,7 +17171,7 @@
       "toolset_hash": "ea9bbb4cd46a84e4fb931ad8a5fe05099114edac63281cbf7b1485c3daf5cd0b",
       "transport": "stdio",
       "auth_method": "env_var",
-      "server_version": "3.4.3",
+      "server_version": "3.5.1",
       "version_pinned": false,
       "tools": {
         "web_fetch_exa": {

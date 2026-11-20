@@ -1,0 +1,95 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "brave-search-new@stdio:npx",
+      "tool": "brave_answers",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "brave-search-new@stdio:npx",
+      "tool": "brave_local_search",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "259703e7cac1",
+        "schema_hash_now": "85648e8dfb65"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "brave-search-new@stdio:npx",
+      "tool": "brave_summarizer",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "671ab881956d",
+        "schema_hash_now": "61ae7fd29d7e"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "brave-search-new@stdio:npx",
+      "tool": "brave_web_search",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "259703e7cac1",
+        "schema_hash_now": "85648e8dfb65"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "brave-search-new@stdio:npx",
+      "tool": null,
+      "detail": "server version 2.1.5 -> 2.2.0",
+      "evidence": {
+        "was": "2.1.5",
+        "now": "2.2.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "exa@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.4.3 -> 3.5.1",
+      "evidence": {
+        "was": "3.4.3",
+        "now": "3.5.1"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
