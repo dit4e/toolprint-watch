@@ -1,0 +1,162 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "resize_page",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "34db02a5d68d",
+        "description_hash_now": "96664e4cc9fe",
+        "sentences_removed": [
+          "4a1413681b4cf084"
+        ],
+        "sentences_added": [
+          "0c024711a6362964",
+          "3002b8651ea4cc0f"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "context7@stdio:npx",
+      "tool": "resolve-library-id",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "7bbc3c9a37d3",
+        "description_hash_now": "0b33bdde9568",
+        "sentences_removed": [
+          "11fd1a3de4c7fb21",
+          "715563d0953ce357",
+          "7fcb3cca615670f5",
+          "f8cbcedcec76ca85"
+        ],
+        "sentences_added": [
+          "3d07bc3dca0d123e"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-006",
+      "severity": "medium",
+      "title": "Breaking schema change",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "list_console_messages",
+      "detail": "parameter 'serviceWorkerId' removed",
+      "evidence": {
+        "breaking": [
+          "parameter 'serviceWorkerId' removed"
+        ],
+        "additive": []
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "get_css_styles",
+      "detail": "optional parameter 'computedProperties' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'computedProperties' added"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": "take_screenshot",
+      "detail": "optional parameter 'omitBackground' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'omitBackground' added"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "context7@stdio:npx",
+      "tool": "query-docs",
+      "detail": "optional parameter 'version' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'version' added"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "chrome-devtools@stdio:npx",
+      "tool": null,
+      "detail": "server version 1.13.0 -> 1.14.0",
+      "evidence": {
+        "was": "1.13.0",
+        "now": "1.14.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.7.3 -> 4.8.0",
+      "evidence": {
+        "was": "4.7.3",
+        "now": "4.8.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "searxng@stdio:npx",
+      "tool": null,
+      "detail": "server version 2.11.0 -> 2.12.0",
+      "evidence": {
+        "was": "2.11.0",
+        "now": "2.12.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
