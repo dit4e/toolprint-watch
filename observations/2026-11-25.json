@@ -1,0 +1,100 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "sentry@stdio:npx",
+      "tool": "get_sentry_resource",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "29d8a8086eb5",
+        "description_hash_now": "46a349a0255a",
+        "sentences_removed": [
+          "ac8a0048453a5a00"
+        ],
+        "sentences_added": [
+          "6cccd34c4591d4a4"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "render_issue_chart",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-007",
+      "severity": "medium",
+      "title": "New tool appeared",
+      "server": "sentry@stdio:npx",
+      "tool": "render_sentry_chart",
+      "detail": "tool appeared in an approved server",
+      "evidence": {
+        "effect": "read"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "sentry@stdio:npx",
+      "tool": "get_event_stacktrace",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "d81a0481eb07",
+        "schema_hash_now": "93349d39fd50"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "sentry@stdio:npx",
+      "tool": "get_issue_details",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "48a72e7a19fa",
+        "schema_hash_now": "8023352805d2"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "sentry@stdio:npx",
+      "tool": null,
+      "detail": "server version 0.50.0 -> 0.51.0",
+      "evidence": {
+        "was": "0.50.0",
+        "now": "0.51.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
