@@ -3,7 +3,7 @@
   "generator": "toolprint/0.3.8",
   "heuristics_version": 2,
   "created_at": "2026-09-01T21:36:54Z",
-  "approved_at": "2026-11-25T17:16:18Z",
+  "approved_at": "2026-11-26T16:56:55Z",
   "approved_by": "watch workflow",
   "note": "initial watchlist observation",
   "exceptions": [],
@@ -6807,17 +6807,17 @@
     },
     "context7-remote@http:mcp.context7.com": {
       "instructions_hash": "b531c067f0f4019604742f73558c5db092c7151793a4759fffb9a92fa13326fd",
-      "toolset_hash": "e97265044f816a3c114e90b1c91bbbb1788946506183d574d23b6a3c1b3281e1",
+      "toolset_hash": "829c8b8430bd887c1f5718c25fa8a7a0c91ee1eb07807ddf4770d49057056053",
       "transport": "http",
       "auth_method": "none",
-      "server_version": "4.7.3",
+      "server_version": "4.9.0",
       "version_pinned": false,
       "tools": {
         "query-docs": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
-          "composite_hash": "b526ccd10497e960422f2e15e58bcadf063f1cee0f6028287d3efe7b2f85f9d6",
-          "description_hash": "bf313f39d2a4a7ef0509d27720601ddedcff9f3c1d3159aa5fa6ac1cf3e9f2db",
-          "schema_hash": "a26cc3b45e52830158ce4108e59626e4fd195ca945bf249a5facf8c6b128841a",
+          "composite_hash": "38b694f0e509cb2c4aabb829b707a3b9830db3700053b926e286c19ff0333c1a",
+          "description_hash": "6735062f9f27dc57357a765d6e7f6105776642b7d2503b0f85e71d87550d5a41",
+          "schema_hash": "475760529c8280043d1e9796bd8cf3d5fb331732778038b96778be7f8bf9c5b8",
           "schema_resolution": "resolved",
           "effect": "read",
           "declared_ceiling": "read",
@@ -6841,24 +6841,29 @@
               ],
               "query": [
                 "string"
+              ],
+              "version": [
+                "string"
               ]
             }
           },
-          "description_text_hash": "68edddaacc5a22a57a69773152dba493b96ae312312b8c6c3f6bb9ccade1b176",
+          "description_text_hash": "5ddcdea929e787c37eca7d8b2404abeb9b38842ffa03159d1ef1ccaed4608597",
           "description_sentences": [
             "65508c0a3078a8c4",
             "50c2e75016469e04",
             "c87970bacb739e8f",
-            "4884e71daa3189a4"
+            "4884e71daa3189a4",
+            "1e88d5f81544bc3f",
+            "67ee2a5b35edf2e6"
           ],
-          "approved_at": "2026-10-13T14:15:07Z",
+          "approved_at": "2026-11-26T16:56:55Z",
           "approved_by": "watch workflow",
-          "note": "observed 2026-10-13"
+          "note": "observed 2026-11-26"
         },
         "resolve-library-id": {
           "annotations_hash": "0ca84524cfe6cfd296997763f989db3b6d750d82600fa5e5f9414840014197c1",
-          "composite_hash": "69c4eda0c6ca16c0112b9dacdec9c1df51320846e078e084d0636c505b4e6762",
-          "description_hash": "7bbc3c9a37d30fd239615c454b49b489700cacd5b7e64a150fcbcb30a0572a92",
+          "composite_hash": "a37791447bb001444035669c211db25f12c16aa19f2861c3c8e1b382c14f475b",
+          "description_hash": "0b33bdde9568e94bee2acc40a55f7776f1ec47d54aeec6537f14a6ed2a059132",
           "schema_hash": "e52b12c013e8b597ae73f0fce0c7cc575aa98e80651c35720284746851dd45d5",
           "schema_resolution": "resolved",
           "effect": "read",
@@ -6883,20 +6888,20 @@
               ]
             }
           },
-          "description_text_hash": "b1b55d23fb8c39df21fd9f0e5cb0e8230acf83ca18e3fee9d3cd05f9f33774a7",
+          "description_text_hash": "860e9040ce2563f481bf1b53ecf3e3bdead62793038aa523219849e4484d249e",
           "description_sentences": [
             "07035bcc3e2516b5",
             "8db618bbd88088ae",
-            "11fd1a3de4c7fb21",
-            "f8cbcedcec76ca85",
-            "715563d0953ce357",
-            "7fcb3cca615670f5",
+            "3d07bc3dca0d123e",
             "5893b15d923a5247",
             "273ca03c148c577a",
             "47ad2593e25aac46",
             "ff2d3f0af4bfd2e7",
             "746e8fd634de0d1c"
-          ]
+          ],
+          "approved_at": "2026-11-26T16:56:55Z",
+          "approved_by": "watch workflow",
+          "note": "observed 2026-11-26"
         }
       },
       "first_observed": "2026-09-01T21:36:54Z"
@@ -6906,7 +6911,7 @@
       "toolset_hash": "829c8b8430bd887c1f5718c25fa8a7a0c91ee1eb07807ddf4770d49057056053",
       "transport": "stdio",
       "auth_method": "none",
-      "server_version": "4.8.0",
+      "server_version": "4.9.0",
       "version_pinned": false,
       "tools": {
         "query-docs": {

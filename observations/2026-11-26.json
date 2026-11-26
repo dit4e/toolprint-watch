@@ -1,0 +1,79 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "context7-remote@http:mcp.context7.com",
+      "tool": "resolve-library-id",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "7bbc3c9a37d3",
+        "description_hash_now": "0b33bdde9568",
+        "sentences_removed": [
+          "11fd1a3de4c7fb21",
+          "715563d0953ce357",
+          "7fcb3cca615670f5",
+          "f8cbcedcec76ca85"
+        ],
+        "sentences_added": [
+          "3d07bc3dca0d123e"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-009",
+      "severity": "low",
+      "title": "Additive schema change",
+      "server": "context7-remote@http:mcp.context7.com",
+      "tool": "query-docs",
+      "detail": "optional parameter 'version' added",
+      "evidence": {
+        "breaking": [],
+        "additive": [
+          "optional parameter 'version' added"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7-remote@http:mcp.context7.com",
+      "tool": null,
+      "detail": "server version 4.7.3 -> 4.9.0",
+      "evidence": {
+        "was": "4.7.3",
+        "now": "4.9.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.8.0 -> 4.9.0",
+      "evidence": {
+        "was": "4.8.0",
+        "now": "4.9.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
