@@ -1,0 +1,178 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "alexandria_library_search",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "14318d9a65fb",
+        "description_hash_now": "2726d3558fe1",
+        "sentences_removed": [
+          "94ae5f977e27d5a4"
+        ],
+        "sentences_added": [
+          "763c88256abbfaa6",
+          "9a9e464361b49246",
+          "d6ab31e104f2d815"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "firecrawl@stdio:npx",
+      "tool": "people_company_enrich",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "5c452d64fec3",
+        "description_hash_now": "68b33dc4ee85",
+        "sentences_removed": [
+          "13bbf486b24e902e",
+          "4fdb79f543bf9ed7",
+          "8535606020b6fad7",
+          "95d7957f737f77bc",
+          "a239eadc9df78593",
+          "cc0c12fb4ca74e2a",
+          "d2d5ac760901c6b9",
+          "f7b435fe87c9c31b"
+        ],
+        "sentences_added": [
+          "013dc31e8cde410c",
+          "166baa7e22e2b7a5",
+          "707b419ff383ce49",
+          "a39e7146a855e0d6",
+          "afc436efe83af382",
+          "c6ef4176a0f43000"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "firecrawl@stdio:npx",
+      "tool": "firecrawl_feedback",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "5e93d05a1e98",
+        "schema_hash_now": "83703a2f3aab"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-015",
+      "severity": "low",
+      "title": "Schema changed inside its parameters",
+      "server": "mcp-git@stdio:uvx",
+      "tool": "git_log",
+      "detail": "no parameter was added, removed, retyped or made required; a description, enum, default or constraint inside the schema changed",
+      "evidence": {
+        "schema_hash_was": "af3600456c09",
+        "schema_hash_now": "4b165e7dcb0c"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7-remote@http:mcp.context7.com",
+      "tool": null,
+      "detail": "server version 4.9.0 -> 4.9.1",
+      "evidence": {
+        "was": "4.9.0",
+        "now": "4.9.1"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "context7@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.9.0 -> 4.9.1",
+      "evidence": {
+        "was": "4.9.0",
+        "now": "4.9.1"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "firecrawl@stdio:npx",
+      "tool": null,
+      "detail": "server version 3.41.0 -> 3.42.0",
+      "evidence": {
+        "was": "3.41.0",
+        "now": "3.42.0"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-fetch@stdio:uvx",
+      "tool": null,
+      "detail": "server version 2026.11.18 -> 2026.11.27",
+      "evidence": {
+        "was": "2026.11.18",
+        "now": "2026.11.27"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-git@stdio:uvx",
+      "tool": null,
+      "detail": "server version 2026.11.18 -> 2026.11.27",
+      "evidence": {
+        "was": "2026.11.18",
+        "now": "2026.11.27"
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "mcp-time@stdio:uvx",
+      "tool": null,
+      "detail": "server version 2026.11.18 -> 2026.11.27",
+      "evidence": {
+        "was": "2026.11.18",
+        "now": "2026.11.27"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
