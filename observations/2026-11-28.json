@@ -1,0 +1,47 @@
+{
+  "baseline": "baseline.json",
+  "changes": [
+    {
+      "rule": "DRIFT-003",
+      "severity": "high",
+      "title": "Description changed while schema did not",
+      "server": "azure@stdio:npx",
+      "tool": "resiliencyagent",
+      "detail": "the description or title changed while the schema did not",
+      "evidence": {
+        "description_hash_was": "02f7f2f86e4a",
+        "description_hash_now": "1277ff602c39",
+        "sentences_removed": [],
+        "sentences_added": [
+          "1bfa1d05338bd418",
+          "4e12c3c3f5f799e8",
+          "53e0b13c2b6f9c60",
+          "f86ac1c42e599b27"
+        ]
+      },
+      "excepted": false,
+      "exception_reason": null
+    },
+    {
+      "rule": "DRIFT-013",
+      "severity": "low",
+      "title": "Server version changed",
+      "server": "azure@stdio:npx",
+      "tool": null,
+      "detail": "server version 4.0.0-beta.10 -> 4.0.0-beta.11",
+      "evidence": {
+        "was": "4.0.0-beta.10",
+        "now": "4.0.0-beta.11"
+      },
+      "excepted": false,
+      "exception_reason": null
+    }
+  ],
+  "new_servers": [],
+  "unwatched_or_unreachable": [],
+  "baselined_servers": 36,
+  "servers_reached": 36,
+  "coverage_pct": 100.0,
+  "expired_exceptions": [],
+  "runs": 1
+}
